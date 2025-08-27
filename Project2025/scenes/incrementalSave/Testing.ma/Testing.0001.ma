@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Testing.ma
-//Last modified: Thu, Aug 21, 2025 03:27:09 PM
+//Last modified: Thu, Aug 21, 2025 02:40:13 PM
 //Codeset: UTF-8
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.4.1";
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "40157661-E941-450C-9068-39B80E5F2263";
+fileInfo "UUID" "3447CE81-E64D-7ADD-809B-6592BCC4CF28";
 createNode transform -s -n "persp";
 	rename -uid "65827FB9-5A48-64E7-F441-89BA9CDB3ACD";
 	setAttr ".v" no;
@@ -78,7 +78,6 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".ai_translator" -type "string" "orthographic";
 createNode transform -n "pSphere1";
 	rename -uid "18AA9160-0040-ADB5-E644-C2A6D7503DE2";
-	setAttr ".t" -type "double3" 2.1620669295489918 0.81077509858087282 0 ;
 createNode mesh -n "pSphereShape1" -p "pSphere1";
 	rename -uid "5EF09D65-2741-35C9-925B-2FA790A11A96";
 	setAttr -k off ".v";
@@ -122,6 +121,9 @@ createNode aiAOVDriver -s -n "defaultArnoldDisplayDriver";
 	setAttr ".output_mode" 0;
 createNode polySphere -n "polySphere1";
 	rename -uid "3EED3064-534D-6502-474A-45B867EFC1DD";
+createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
+	rename -uid "ECFA9317-6549-FF8A-D5FB-BF8316AA1BFF";
+	setAttr ".sst" -type "string" "";
 createNode script -n "uiConfigurationScriptNode";
 	rename -uid "D332F578-4044-9C2B-2DD9-E287C3EA79A2";
 	setAttr ".b" -type "string" (
@@ -169,9 +171,6 @@ createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "669D05D4-6748-1CEA-98E7-DAA7114773A3";
 	setAttr ".b" -type "string" "playbackOptions -min 1 -max 120 -ast 1 -aet 200 ";
 	setAttr ".st" 6;
-createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "51434212-5B47-0E8E-755E-75A53C5608EC";
-	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
 	setAttr ".unw" 1;
