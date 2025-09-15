@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: clubInteriorWhiteBox.ma
-//Last modified: Mon, Sep 15, 2025 01:05:24 PM
+//Last modified: Mon, Sep 15, 2025 01:02:10 PM
 //Codeset: UTF-8
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.4.1";
@@ -11,11 +11,11 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "E5DB9D44-184F-D5A2-1FB8-858B90D29C91";
+fileInfo "UUID" "A9776256-8B42-3C77-AEBC-B38E02B6D8DD";
 createNode transform -s -n "persp";
 	rename -uid "29987E56-874B-C4A3-6290-098817F9B473";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 10.504422109749077 31.309443394424459 32.717444076138278 ;
+	setAttr ".t" -type "double3" 4.1001754738295411 12.220968518192439 12.770551332173861 ;
 	setAttr ".r" -type "double3" 137.66164727036073 -197.79999999998512 179.9999999999942 ;
 	setAttr ".rp" -type "double3" 7.1117425738121303e-17 -3.1199513659478845e-16 -3.5527136788005009e-15 ;
 	setAttr ".rpt" -type "double3" 2.5778691107745072e-15 -1.8122303308396176e-15 4.6457414140005386e-15 ;
@@ -23,7 +23,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "C72A7633-964F-E506-2147-C295A5F04902";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 46.487151734686194;
+	setAttr ".coi" 18.145260862456514;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -783,7 +783,7 @@ createNode polyCloseBorder -n "polyCloseBorder2";
 	rename -uid "8E1BE3C4-694E-2B22-10F1-F08D6F6C74AB";
 	setAttr ".ics" -type "componentList" 5 "e[20]" "e[25:26]" "e[31:32]" "e[37:38]" "e[43]";
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "ED359D1E-5A42-424B-B4B6-2BB1FA4FEF9D";
+	rename -uid "27C465BF-564D-4707-0A55-B7BB30B18D44";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
