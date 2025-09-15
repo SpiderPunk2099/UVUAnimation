@@ -1,9 +1,8 @@
 //Maya ASCII 2024 scene
-//Name: squishinBallBounce.ma
-//Last modified: Sun, Sep 14, 2025 10:09:15 PM
+//Name: squishinBallBounce2.ma
+//Last modified: Sun, Sep 14, 2025 08:08:49 PM
 //Codeset: UTF-8
 requires maya "2024";
-requires -nodeType "bluePencil" -dataType "czLayerData" "bluePencil" "2.6.1";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.4.1";
 requires -nodeType "mayaUsdLayerManager" -dataType "pxrUsdStageData" "mayaUsdPlugin" "0.25.0";
 currentUnit -l centimeter -a degree -t film;
@@ -12,31 +11,31 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "7839FB39-6245-1D0C-79A6-14A639292233";
+fileInfo "UUID" "3A2F899B-0240-F4CD-0E79-779AD2ACEDC1";
 createNode transform -s -n "persp";
-	rename -uid "5F8835D6-6B4D-8D83-EAD0-0ABBD3CA05D7";
+	rename -uid "CA9F3B01-8A48-AE8C-A81C-3EB595010CB1";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 35.460451360922399 0.32854780210277923 2.2356000807142689 ;
-	setAttr ".r" -type "double3" 5.6616472703899605 85.000000000001293 -9.123193094323656e-15 ;
+	setAttr ".t" -type "double3" 0.52714963143297688 3.355127717838815 30.20038215847136 ;
+	setAttr ".r" -type "double3" -6.3383527296024909 1.0000000000000315 -3.1064835636100448e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
-	rename -uid "48A8437A-7B44-0B5C-8737-4C9F000EF6A2";
+	rename -uid "23741777-0949-5DD4-E202-26BE2A71D52E";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 35.434863580659815;
+	setAttr ".coi" 30.39075272602885;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
-	rename -uid "3F22DBD4-C44A-FC13-4259-0A97D4D75703";
+	rename -uid "92F3C430-0244-AE99-E587-988761E3608C";
 	setAttr ".v" no;
 	setAttr ".t" -type "double3" 0 1000.1 0 ;
 	setAttr ".r" -type "double3" -89.999999999999986 0 0 ;
 createNode camera -s -n "topShape" -p "top";
-	rename -uid "143078F1-EC46-0A54-6334-24A4BD93B640";
+	rename -uid "ED18EB03-4749-5B64-CAA7-FDABD6BFA597";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
-	setAttr ".coi" 1000.1000000000003;
+	setAttr ".coi" 1000.1;
 	setAttr ".ow" 30;
 	setAttr ".imn" -type "string" "top";
 	setAttr ".den" -type "string" "top_depth";
@@ -45,11 +44,11 @@ createNode camera -s -n "topShape" -p "top";
 	setAttr ".o" yes;
 	setAttr ".ai_translator" -type "string" "orthographic";
 createNode transform -s -n "front";
-	rename -uid "9D67DEA3-6649-2955-9409-1EBD578A741B";
+	rename -uid "AC58BA0D-4940-6D5C-7A92-49A2EB9CC3AE";
 	setAttr ".v" no;
 	setAttr ".t" -type "double3" 0 0 1000.1 ;
 createNode camera -s -n "frontShape" -p "front";
-	rename -uid "0E230E46-704D-C11F-7B03-BEAFB84DC1A6";
+	rename -uid "5A5BD22C-4C42-6EE2-4A0E-3FA907B3BB27";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
 	setAttr ".coi" 1000.1;
@@ -61,12 +60,12 @@ createNode camera -s -n "frontShape" -p "front";
 	setAttr ".o" yes;
 	setAttr ".ai_translator" -type "string" "orthographic";
 createNode transform -s -n "side";
-	rename -uid "3DAD28CD-1F41-D373-12AA-C38A58E522C1";
+	rename -uid "889D7EE7-7449-F24D-AB6B-2597802BDD3B";
 	setAttr ".v" no;
 	setAttr ".t" -type "double3" 1000.1 0 0 ;
 	setAttr ".r" -type "double3" 0 89.999999999999986 0 ;
 createNode camera -s -n "sideShape" -p "side";
-	rename -uid "40E2536B-BC43-9384-7E97-A6BF548E97BF";
+	rename -uid "20B00B3B-0546-737E-24A5-8A9410DFC85E";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
 	setAttr ".coi" 1000.1;
@@ -77,11 +76,14 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".hc" -type "string" "viewSet -s %camera";
 	setAttr ".o" yes;
 	setAttr ".ai_translator" -type "string" "orthographic";
-createNode transform -n "pPlane2";
-	rename -uid "C911B525-AA42-47FD-5083-E3AFB347EFA1";
-	setAttr ".s" -type "double3" 24.254229034736547 24.254229034736547 24.254229034736547 ;
-createNode mesh -n "pPlaneShape2" -p "pPlane2";
-	rename -uid "81E72388-C24B-9071-6D6D-529D23AB647D";
+createNode transform -n "group";
+	rename -uid "53722625-2D42-661E-106F-BB837C364C8F";
+	setAttr ".rp" -type "double3" -1.1920928955078125e-07 1.1683197801571659 -1.7881393432617188e-07 ;
+	setAttr ".sp" -type "double3" -1.1920928955078125e-07 1.1683197801571659 -1.7881393432617188e-07 ;
+createNode transform -n "pasted__pSphere2" -p "group";
+	rename -uid "51E7F552-064C-C179-9231-3D9A58E88C04";
+createNode mesh -n "pasted__pSphereShape2" -p "pasted__pSphere2";
+	rename -uid "8416B0D5-0446-2436-75B0-50BF8DD7BDCE";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
@@ -90,112 +92,39 @@ createNode mesh -n "pPlaneShape2" -p "pPlane2";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-createNode transform -n "pSphere2";
-	rename -uid "CCBB3488-DB4F-B3DB-C0DA-0FBA97DCC5DF";
-createNode mesh -n "pSphereShape1" -p "pSphere2";
-	rename -uid "402CA272-4C42-8D7E-CB2F-CB9FC6247E65";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "map1";
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode transform -n "bluePencil";
-	rename -uid "06EE9F95-9B4D-D836-8324-D9894A8A9C6D";
-	setAttr -l on -k off ".tx";
-	setAttr -l on -k off ".ty";
-	setAttr -l on -k off ".tz";
-	setAttr -l on -k off ".rx";
-	setAttr -l on -k off ".ry";
-	setAttr -l on -k off ".rz";
-	setAttr -l on -k off ".sx";
-	setAttr -l on -k off ".sy";
-	setAttr -l on -k off ".sz";
-createNode bluePencil -n "bluePencilShape" -p "bluePencil";
-	rename -uid "D565AA7E-B640-8FD3-1C9A-8B8BB5A61B59";
-	setAttr -k off ".v";
-	setAttr ".tmp" yes;
-	setAttr -l on -cb off ".lpx";
-	setAttr -l on -cb off ".lpy";
-	setAttr -l on -cb off ".lpz";
-	setAttr -l on -cb off ".lsx";
-	setAttr -l on -cb off ".lsy";
-	setAttr -l on -cb off ".lsz";
-	setAttr ".ld" -type "czLayerData" 3 1 "00000000-0000-0000-0000-000000000000" 0
-		;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "6B5A601E-3E40-1A2A-92C6-BFA38D9E4B45";
+	rename -uid "35827E79-204A-FBE2-70AC-3BAC3A49A5DF";
 	setAttr -s 2 ".lnk";
 	setAttr -s 2 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "FEECB871-6847-9EC9-C2EA-7FB7145CD612";
+	rename -uid "A56DCA21-F749-2BCF-47E1-BEAB9B17C3C8";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "5D8F1AE6-3C40-5631-0A29-3EBE0D056E0E";
+	rename -uid "01EB9CCC-4F44-0976-173E-DFA8F0FFAC0E";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "EFBE4A2F-BE4A-5A50-D41C-C89FA09727F7";
+	rename -uid "AA59D806-5A43-900B-6778-E7995A4137ED";
 createNode displayLayer -n "defaultLayer";
-	rename -uid "9D1F9034-C846-DB6C-B57B-29B44BE4C9E6";
+	rename -uid "61508872-634E-F602-E0D1-00A340B93F86";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "35D5258F-7647-F5FC-3C18-99856C59647F";
+	rename -uid "21A5BEB5-BA49-C1FA-AACE-6E80976BDFC7";
 createNode renderLayer -n "defaultRenderLayer";
-	rename -uid "E45DC953-3740-B297-FFBB-F5BD9B87A27C";
+	rename -uid "C2732512-3E4E-3871-396B-C8A60A20DC17";
 	setAttr ".g" yes;
 createNode aiOptions -s -n "defaultArnoldRenderOptions";
-	rename -uid "3B05694A-FC49-8A8D-A66B-56B36242CEBF";
+	rename -uid "6596AC2A-5243-D5C3-3340-79BB26205F47";
 	setAttr ".version" -type "string" "5.3.4.1";
 createNode aiAOVFilter -s -n "defaultArnoldFilter";
-	rename -uid "39CB19A2-F842-3C0E-706A-79BA2D201A41";
+	rename -uid "0763817C-644D-6F31-BCD5-018CA7087F88";
 	setAttr ".ai_translator" -type "string" "gaussian";
 createNode aiAOVDriver -s -n "defaultArnoldDriver";
-	rename -uid "A60AEA3B-994A-7C9D-BBF0-709A32486471";
+	rename -uid "F4B81A08-124B-E233-6A22-A19FC4FB8721";
 	setAttr ".ai_translator" -type "string" "exr";
 createNode aiAOVDriver -s -n "defaultArnoldDisplayDriver";
-	rename -uid "230F58D6-254B-3A0B-0EE4-7BB416F908C3";
+	rename -uid "A1DF0BAD-074B-81FC-A500-9DB01E82F3E6";
 	setAttr ".ai_translator" -type "string" "maya";
 	setAttr ".output_mode" 0;
-createNode polyPlane -n "polyPlane2";
-	rename -uid "77A9EC68-8241-81D2-86AF-07A62D351B76";
-	setAttr ".cuv" 2;
-createNode timeEditor -s -n "timeEditor";
-	rename -uid "26576089-6A48-D1BA-5898-5E846EA43F83";
-createNode animCurveTL -n "pSphere1_translateY";
-	rename -uid "5E01BEB8-1445-C1F0-5FA9-96A53D5B5EE8";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  1 10 7 0.45137234684920546 12 0.86110897213323856
-		 24 10;
-createNode animCurveTU -n "pSphere1_scaleX";
-	rename -uid "5DAF2EA4-1A45-F916-AA48-91B7787FD348";
-	setAttr ".tan" 1;
-	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  0 1 11 1.1137239738170721 20 0.56514597711204395
-		 24 0.82679543156157687;
-	setAttr -s 4 ".kix[0:3]"  0.98369220417890324 0.17801284249001592 
-		0.1836437664194886 0.25781459144883234;
-	setAttr -s 4 ".kiy[0:3]"  0.17986007738698162 0.98402816418465633 
-		-0.98299286215885839 0.96619440923453481;
-	setAttr -s 4 ".kox[0:3]"  0.98369188194905299 0.17801287626269968 
-		0.18364351302585982 0.25781432105306462;
-	setAttr -s 4 ".koy[0:3]"  0.17986183972018777 0.98402815807510347 
-		-0.98299290949809037 0.96619448138557862;
-createNode animCurveTU -n "pSphere1_scaleZ";
-	rename -uid "BF3E37C8-594E-9A5B-84A9-EFA1E702E4D4";
-	setAttr ".tan" 1;
-	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  2 1 4 1.4127428013851784 13 1 25 1;
-	setAttr -s 4 ".kix[0:3]"  0.076181582154405042 0.85119591633307479 
-		0.076494780236329024 0.077622430968603523;
-	setAttr -s 4 ".kiy[0:3]"  0.99709396073813006 -0.52484808470441902 
-		0.99706998179495698 0.99698282744013422;
-	setAttr -s 4 ".kox[0:3]"  0.076181558552057646 0.85119556636323801 
-		0.076494717226000625 0.077622351209566703;
-	setAttr -s 4 ".koy[0:3]"  0.99709396254143445 -0.5248486522832716 
-		0.9970699866290802 0.99698283364995754;
 createNode script -n "uiConfigurationScriptNode";
-	rename -uid "C848DD05-D143-093E-282C-89B958CD66B0";
+	rename -uid "AC703843-C94B-3D83-A72A-5CBA8306854E";
 	setAttr ".b" -type "string" (
 		"// Maya Mel UI Configuration File.\n//\n//  This script is machine generated.  Edit at your own risk.\n//\n//\n\nglobal string $gMainPane;\nif (`paneLayout -exists $gMainPane`) {\n\n\tglobal int $gUseScenePanelConfig;\n\tint    $useSceneConfig = $gUseScenePanelConfig;\n\tint    $nodeEditorPanelVisible = stringArrayContains(\"nodeEditorPanel1\", `getPanel -vis`);\n\tint    $nodeEditorWorkspaceControlOpen = (`workspaceControl -exists nodeEditorPanel1Window` && `workspaceControl -q -visible nodeEditorPanel1Window`);\n\tint    $menusOkayInPanels = `optionVar -q allowMenusInPanels`;\n\tint    $nVisPanes = `paneLayout -q -nvp $gMainPane`;\n\tint    $nPanes = 0;\n\tstring $editorName;\n\tstring $panelName;\n\tstring $itemFilterName;\n\tstring $panelConfig;\n\n\t//\n\t//  get current state of the UI\n\t//\n\tsceneUIReplacement -update $gMainPane;\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Top View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Top View\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"|top\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n"
@@ -239,13 +168,11 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
-	rename -uid "4F65F44B-BB4B-31EC-7F59-5D9C97919272";
-	setAttr ".b" -type "string" "playbackOptions -min 1 -max 67 -ast 1 -aet 67 ";
+	rename -uid "A9BF5A47-224B-A966-FEBF-8D872332F68B";
+	setAttr ".b" -type "string" "playbackOptions -min 1 -max 68 -ast 1 -aet 68 ";
 	setAttr ".st" 6;
-createNode polySphere -n "polySphere1";
-	rename -uid "06C0A6A6-4F40-4BBF-9A34-E089DA934982";
-createNode animCurveTL -n "pSphere2_translateX";
-	rename -uid "85DEE933-3840-B226-672E-5DB3BCADA053";
+createNode animCurveTL -n "pasted__pSphere2_translateX";
+	rename -uid "48DC45CD-3447-FCE5-1374-C780A39C4E3C";
 	setAttr ".tan" 18;
 	setAttr -s 24 ".ktv[0:23]"  1 0 8 0 9 0 12 0 13 0 22 0 28 0 32 0 33 0
 		 34 0 38 0 39 0 40 0 42 0 46 0 49 0 50 0 53 0 54 0 55 0 57 0 59 0 60 0 77 0;
@@ -268,8 +195,8 @@ createNode animCurveTL -n "pSphere2_translateX";
 		0.70833333333333348 0.70833333333333348;
 	setAttr -s 24 ".koy[2:23]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0;
-createNode animCurveTL -n "pSphere2_translateY";
-	rename -uid "4068E0F8-EE44-4F94-E9EA-8E9BB17CBC5D";
+createNode animCurveTL -n "pasted__pSphere2_translateY";
+	rename -uid "5E2304A8-054A-B624-2EF0-5A9E2B0C8941";
 	setAttr ".tan" 1;
 	setAttr -s 38 ".ktv[0:37]"  0 11.039736151254445 1.0000015306122449 1.1683197800889304
 		 2 10 8 1.2304364394327898 9 0.86275395770172736 10 1.0245296077687449 11 1.4209871979373516
@@ -318,8 +245,8 @@ createNode animCurveTL -n "pSphere2_translateY";
 		0.69355653581454413 0.10655515260907766 -1.7089709195992902 0 1.6184601198077231 
 		0.44139034076754247 0.35812654237263691 -1.4217803501762034 -1.0117816412401273 0 
 		0 0 0 0 0 0 0 0 0 0 0 0;
-createNode animCurveTL -n "pSphere2_translateZ";
-	rename -uid "A8A76015-8B4D-CCCE-E072-37962A4DF29D";
+createNode animCurveTL -n "pasted__pSphere2_translateZ";
+	rename -uid "F486EF4E-3E43-45D4-D229-BC81AE2E96EE";
 	setAttr ".tan" 18;
 	setAttr -s 24 ".ktv[0:23]"  1 0 8 0 9 0 12 0 13 0 22 0 28 0 32 0 33 0
 		 34 0 38 0 39 0 40 0 42 0 46 0 49 0 50 0 53 0 54 0 55 0 57 0 59 0 60 0 77 0;
@@ -342,8 +269,8 @@ createNode animCurveTL -n "pSphere2_translateZ";
 		0.70833333333333348 0.70833333333333348;
 	setAttr -s 24 ".koy[2:23]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0;
-createNode animCurveTU -n "pSphere2_scaleX";
-	rename -uid "F331FAEE-F14B-4891-A09C-7F95A878CCA9";
+createNode animCurveTU -n "pasted__pSphere2_scaleX";
+	rename -uid "7FCD7C03-0443-475E-DDB9-7CB34D5943C7";
 	setAttr ".tan" 18;
 	setAttr -s 45 ".ktv[0:44]"  1 1 3 1 6 1 7 1 8 1 9 1 15 1 16 1 19 1 20 1
 		 29 1.0159469770606533 32 1.0208039706454122 35 1.0233281493001556 38 1 39 1 40 1.0017280110592708
@@ -377,8 +304,8 @@ createNode animCurveTU -n "pSphere2_scaleX";
 	setAttr -s 45 ".koy[7:44]"  0 0 0 0.0052009926613530441 0.0036905861197511491 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0093312597200622422 0 -0.0043200276481769788 
 		-0.0032313806808363589 0 0 0 0 0 0 0 0 0 0 0;
-createNode animCurveTU -n "pSphere2_scaleY";
-	rename -uid "34B8E797-FA42-CC96-0FEF-0B967E1915B3";
+createNode animCurveTU -n "pasted__pSphere2_scaleY";
+	rename -uid "54D86FF1-E54B-3B01-DECF-CB884882C9A2";
 	setAttr ".tan" 18;
 	setAttr -s 45 ".ktv[0:44]"  1 1 3 1 6 1 7 1 8 1 9 0.85733163826568759
 		 15 1 16 1 19 1 20 1 29 1 32 0.83373283157220734 35 1 38 1 39 1 40 1 41 1 47 1 49 0.95458800239407771
@@ -411,8 +338,8 @@ createNode animCurveTU -n "pSphere2_scaleY";
 		0.083333333333333925 0.083333333333333037 0.75 0.75;
 	setAttr -s 45 ".koy[4:44]"  0.088066130876541138 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-createNode animCurveTU -n "pSphere2_scaleZ";
-	rename -uid "B6646F2F-CA4F-730A-3193-1199DBF65310";
+createNode animCurveTU -n "pasted__pSphere2_scaleZ";
+	rename -uid "FC9401EB-AF45-88B7-F3C8-028ECFEC12D8";
 	setAttr ".tan" 18;
 	setAttr -s 45 ".ktv[0:44]"  1 1 3 1 6 1 7 1 8 1 9 1.3269415193541299
 		 15 1 16 1 19 1 20 1 29 1.0159469770606533 32 1.3785127840915987 35 1.0233281493001556
@@ -447,12 +374,14 @@ createNode animCurveTU -n "pSphere2_scaleZ";
 	setAttr -s 45 ".koy[7:44]"  0 0 0 0.015946977060653292 0 -0.069984447900466762 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0093312597200622422 0.014762344479004623 0 -0.0051840331778123527 
 		0 0 0 0 0 0 0 0 0 0 0;
+createNode polySphere -n "pasted__polySphere1";
+	rename -uid "09D06559-7543-6F42-8BAA-5E81CE7D16AF";
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "E6FEF365-1142-3CDD-DB1C-55B440790A20";
+	rename -uid "BD73DC41-BE49-472C-7C21-81B1F86CBD76";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
-	setAttr ".o" 43;
-	setAttr ".unw" 43;
+	setAttr ".o" 52;
+	setAttr ".unw" 52;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -472,15 +401,12 @@ select -ne :standardSurface1;
 	setAttr ".bc" -type "float3" 0.40000001 0.40000001 0.40000001 ;
 	setAttr ".sr" 0.5;
 select -ne :initialShadingGroup;
-	setAttr -s 2 ".dsm";
 	setAttr ".ro" yes;
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
 select -ne :defaultRenderGlobals;
 	addAttr -ci true -h true -sn "dss" -ln "defaultSurfaceShader" -dt "string";
 	setAttr ".ren" -type "string" "arnold";
-	setAttr ".outf" 51;
-	setAttr ".imfkey" -type "string" "exr";
 	setAttr ".dss" -type "string" "standardSurface1";
 select -ne :defaultResolution;
 	setAttr ".pa" 1;
@@ -496,14 +422,13 @@ select -ne :defaultColorMgtGlobals;
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
-connectAttr "polyPlane2.out" "pPlaneShape2.i";
-connectAttr "pSphere2_translateX.o" "pSphere2.tx";
-connectAttr "pSphere2_translateY.o" "pSphere2.ty";
-connectAttr "pSphere2_translateZ.o" "pSphere2.tz";
-connectAttr "pSphere2_scaleX.o" "pSphere2.sx";
-connectAttr "pSphere2_scaleY.o" "pSphere2.sy";
-connectAttr "pSphere2_scaleZ.o" "pSphere2.sz";
-connectAttr "polySphere1.out" "pSphereShape1.i";
+connectAttr "pasted__pSphere2_translateX.o" "pasted__pSphere2.tx";
+connectAttr "pasted__pSphere2_translateY.o" "pasted__pSphere2.ty";
+connectAttr "pasted__pSphere2_translateZ.o" "pasted__pSphere2.tz";
+connectAttr "pasted__pSphere2_scaleX.o" "pasted__pSphere2.sx";
+connectAttr "pasted__pSphere2_scaleY.o" "pasted__pSphere2.sy";
+connectAttr "pasted__pSphere2_scaleZ.o" "pasted__pSphere2.sz";
+connectAttr "pasted__polySphere1.out" "pasted__pSphereShape2.i";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
@@ -515,6 +440,5 @@ connectAttr ":defaultArnoldDisplayDriver.msg" ":defaultArnoldRenderOptions.drive
 connectAttr ":defaultArnoldFilter.msg" ":defaultArnoldRenderOptions.filt";
 connectAttr ":defaultArnoldDriver.msg" ":defaultArnoldRenderOptions.drvr";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
-connectAttr "pPlaneShape2.iog" ":initialShadingGroup.dsm" -na;
-connectAttr "pSphereShape1.iog" ":initialShadingGroup.dsm" -na;
-// End of squishinBallBounce.ma
+connectAttr "pasted__pSphereShape2.iog" ":initialShadingGroup.dsm" -na;
+// End of squishinBallBounce2.ma
