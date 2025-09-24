@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: shieldOnWheels.ma
-//Last modified: Wed, Sep 24, 2025 03:32:27 PM
+//Last modified: Wed, Sep 24, 2025 03:32:17 PM
 //Codeset: UTF-8
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.4.1";
@@ -12,12 +12,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "7CB3EEBE-314A-3B22-D8ED-3DAD91120193";
+fileInfo "UUID" "330321EF-1E4A-2E02-EE51-8689F9EDF8BC";
 createNode transform -s -n "persp";
 	rename -uid "E59FFD69-C64D-BD74-BFAD-DE8A47564435";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 10.539194435696468 3.6839384811314448 3.4809867426713637 ;
-	setAttr ".r" -type "double3" -24.000000000001126 -666.19999999995071 0 ;
+	setAttr ".t" -type "double3" 10.35392294614303 4.7361292578476331 2.7504872695563516 ;
+	setAttr ".r" -type "double3" -32.399999999992964 -662.19999999999709 0 ;
 	setAttr ".rp" -type "double3" 0 -5.6843418860808016e-16 0 ;
 	setAttr ".rpt" -type "double3" -2.9615029124651494e-17 -2.1395865170289443e-17 -3.3603629386476133e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -2828,7 +2828,7 @@ createNode polyTweakUV -n "polyTweakUV9";
 		 0.16959092 -0.49291691 0.16986457 -0.49298534 0.16959092 -0.49291691 0.16959092 -0.49291691
 		 0.16986457 -0.49298534;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "47DC8791-9F46-46B1-8078-01841A4AD82D";
+	rename -uid "5653A192-B14D-34E2-C6AD-23A271233BF5";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
