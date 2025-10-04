@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: lilGuy.ma
-//Last modified: Fri, Oct 03, 2025 08:30:39 PM
+//Last modified: Thu, Oct 02, 2025 10:16:13 AM
 //Codeset: UTF-8
 requires maya "2024";
 requires -nodeType "mayaUsdLayerManager" -dataType "pxrUsdStageData" "mayaUsdPlugin" "0.25.0";
@@ -11,24 +11,23 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "A835E949-C149-0C1C-F319-AA8E0874827D";
+fileInfo "UUID" "569A3DAE-A741-565F-BCA7-CDB9E049B85E";
 createNode transform -s -n "persp";
 	rename -uid "10847B0F-0442-808A-4C79-F781CB405C8E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 9.6715964223951811 1.4747139673892982 9.8064409752774591 ;
-	setAttr ".r" -type "double3" 0 45.000000000000007 0 ;
-	setAttr ".rp" -type "double3" 0 -2.2204460492503131e-16 0 ;
-	setAttr ".rpt" -type "double3" 1.1508467415868416e-13 8.8785708610145662e-14 -1.7327183560653022e-14 ;
+	setAttr ".t" -type "double3" 9.9673909420709403 1.7795670851827659 10.461437569429197 ;
+	setAttr ".r" -type "double3" -1.200000000000027 44.000000000000874 0 ;
+	setAttr ".rpt" -type "double3" 1.1497723261970674e-13 8.8786361213502729e-14 -1.7399132090357673e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "33D5FD35-2E4A-9B21-CEB0-2DBD72AA4C8B";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
 	setAttr ".fl" 62.702612335358985;
-	setAttr ".coi" 13.8790084275665;
+	setAttr ".coi" 14.5567283767313;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -0.14234455288214676 1.474713967389387 -0.0074999999999985079 ;
+	setAttr ".tp" -type "double3" -0.14234455288215087 1.474713967389387 -0.0075000000000002842 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 	setAttr ".ai_translator" -type "string" "perspective";
 createNode transform -s -n "top";
@@ -167,20 +166,20 @@ createNode mesh -n "pCubeShape2" -p "pCube2";
 	setAttr ".dr" 3;
 	setAttr ".dsm" 2;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "D88F9E85-C446-7106-BF92-479EB91D4B68";
+	rename -uid "89FAF63E-9C40-FA88-8ADD-93A74BC342B9";
 	setAttr -s 2 ".lnk";
 	setAttr -s 2 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "4AEE34E9-5B40-F3F5-3F61-D5B90FA9A675";
+	rename -uid "FC0F48B7-474A-7AB4-4B95-B7853015A4C2";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "A5393E48-A748-88DF-543C-BFBC2C175732";
+	rename -uid "04C6F907-9241-0200-5B1C-04BBB2AB0AB4";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "D8527972-D945-9B8C-1BF5-8D9B69AFD1C5";
+	rename -uid "342C23FE-674D-3140-0AE6-FBB0A6511BE5";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "AE0976DD-494C-DF7D-9C95-5C85797F394D";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "94ACD224-924F-92B4-6E7B-C5B9338C8A6D";
+	rename -uid "95F7F747-2847-52C1-0E4F-A7B3780890DF";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "FB15D83C-EE4D-0396-FAEF-40AB240F20F4";
 	setAttr ".g" yes;
@@ -813,7 +812,7 @@ createNode polyTweak -n "polyTweak37";
 		 -0.031324998 -0.048932176 -0.03235136 0.028950674 0.050137818 -0.053777426 0.031799085
 		 -0.05013784;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "3117600C-9D4E-FFA0-1109-48A8AA17DAD5";
+	rename -uid "DD66DDB0-BB4C-3A5D-E2E1-C891BFF128BC";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
