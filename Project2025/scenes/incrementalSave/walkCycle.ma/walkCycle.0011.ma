@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: walkCycle.ma
-//Last modified: Mon, Oct 06, 2025 10:27:03 PM
+//Last modified: Mon, Oct 06, 2025 10:26:14 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "Skeleton" -rfn "SkeletonRN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya/assets/characters/skeleton/Skeleton.ma";
 file -r -ns "Skeleton" -dr 1 -rfn "SkeletonRN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya/assets/characters/skeleton/Skeleton.ma";
@@ -14,7 +14,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "BFC8DCE1-654D-3233-202C-5C851069E0B5";
+fileInfo "UUID" "AF311105-1A4C-6D73-FB15-D9AFB57236CA";
 createNode transform -s -n "persp";
 	rename -uid "8A477307-624B-E82D-EBA2-3A997A9877FE";
 	setAttr ".v" no;
@@ -348,7 +348,7 @@ createNode parentConstraint -n "Skeleton2:Spine_01_Ctrl_Grp_parentConstraint2" -
 	setAttr ".rsrr" -type "double3" 90 9.9403927085141905 90 ;
 	setAttr -k on ".w0";
 createNode fosterParent -n "SkeletonRNfosterParent1";
-	rename -uid "BC2459B5-974C-2FC1-1495-CBA5BAC9015D";
+	rename -uid "BC65CE20-0B4D-6023-0133-CA800CF69849";
 createNode transform -n "Chest_Ctrl" -p "SkeletonRNfosterParent1";
 	rename -uid "8249FBB0-2C43-B083-521A-009D0D91B3A4";
 	addAttr -ci true -sn "Follow_Translate" -ln "Follow_Translate" -dv 1 -min 0 -max 
@@ -12322,7 +12322,7 @@ createNode displayLayer -n "Skeleton2:Ctrl_Layer";
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 3;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "3F9E7205-564E-83C4-AF40-EF87ED220BC5";
+	rename -uid "A0920F75-464F-BFC3-EE39-10AE284D5B48";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
