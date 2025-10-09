@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: lilGuy.ma
-//Last modified: Thu, Oct 09, 2025 05:14:24 PM
+//Last modified: Thu, Oct 09, 2025 05:14:04 PM
 //Codeset: UTF-8
 requires maya "2024";
 requires -nodeType "mayaUsdLayerManager" -dataType "pxrUsdStageData" "mayaUsdPlugin" "0.25.0";
@@ -11,12 +11,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "5D938651-294A-D703-220C-188C12A3CA09";
+fileInfo "UUID" "FC25A449-4E46-D514-4CBA-F69BA713AF6D";
 createNode transform -s -n "persp";
 	rename -uid "10847B0F-0442-808A-4C79-F781CB405C8E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0.74342180938375124 2.4143717577174875 14.901643954337542 ;
-	setAttr ".r" -type "double3" -3.5999999999999877 3.3999999999859694 -1.244594873589385e-17 ;
+	setAttr ".t" -type "double3" -0.29491396643471468 -1.9425483141779509 14.56127322685828 ;
+	setAttr ".r" -type "double3" 13.199999999999875 -0.60000000001427267 0 ;
 	setAttr ".rp" -type "double3" 0 -2.2204460492503131e-16 0 ;
 	setAttr ".rpt" -type "double3" 1.1508467415868416e-13 8.8785708610145662e-14 -1.7327183560653022e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -255,8 +255,7 @@ createNode mesh -n "pCubeShape2" -p "pCube2";
 	setAttr ".pt[323]" -type "float3" 0.012968612 -0.010365066 -0.016191233 ;
 	setAttr ".pt[324]" -type "float3" -0.010704865 0.0095795179 0.016590316 ;
 	setAttr ".pt[325]" -type "float3" -0.017794603 0.010522239 -0.016590176 ;
-	setAttr ".dr" 3;
-	setAttr ".dsm" 2;
+	setAttr ".dr" 1;
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "51AF2425-BD46-1C18-5489-588E81870391";
 	setAttr -s 2 ".lnk";
@@ -904,7 +903,7 @@ createNode polyTweak -n "polyTweak37";
 		 -0.031324998 -0.048932176 -0.03235136 0.028950674 0.050137818 -0.053777426 0.031799085
 		 -0.05013784;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "A884CDDF-F840-0E12-4232-51A05DB7294D";
+	rename -uid "7F722B43-A940-C411-6CF9-71B6245DBB07";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
