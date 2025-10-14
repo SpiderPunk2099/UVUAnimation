@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: lilGuy.ma
-//Last modified: Tue, Oct 14, 2025 04:58:07 PM
+//Last modified: Tue, Oct 14, 2025 04:57:55 PM
 //Codeset: UTF-8
 requires maya "2024";
 requires -nodeType "mayaUsdLayerManager" -dataType "pxrUsdStageData" "mayaUsdPlugin" "0.25.0";
@@ -12,7 +12,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "65C04EF6-D048-1528-D66E-ADAFDA3DDF45";
+fileInfo "UUID" "770847AD-C54D-35D7-6DFF-B9962688C5DB";
 createNode transform -s -n "persp";
 	rename -uid "10847B0F-0442-808A-4C79-F781CB405C8E";
 	setAttr ".v" no;
@@ -1237,8 +1237,8 @@ createNode aiSkyDomeLight -n "aiSkyDomeLightShape1" -p "aiSkyDomeLight1";
 	setAttr ".aal" -type "attributeAlias" {"exposure","aiExposure"} ;
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "4233728D-D14E-1D83-07F0-268379A15811";
-	setAttr -s 5 ".lnk";
-	setAttr -s 5 ".slnk";
+	setAttr -s 4 ".lnk";
+	setAttr -s 4 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
 	rename -uid "22113DF7-E746-A004-71E8-F3AF2C072F47";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
@@ -1408,7 +1408,7 @@ createNode displacementShader -n "displacementShader2";
 createNode multiplyDivide -n "multiplyDivide2";
 	rename -uid "95D4B609-904E-7007-12EA-7A97689083DC";
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "D61DB7A2-984C-3411-F5B6-27A86BF94267";
+	rename -uid "F01DC4FC-3C43-D56F-1459-4284057FF329";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
@@ -1723,6 +1723,7 @@ connectAttr "file8.oa" "aiStandardSurface2.metalness";
 connectAttr "multiplyDivide2.o" "aiStandardSurface2.base_color";
 connectAttr "aiStandardSurface2.out" "set2.ss";
 connectAttr "displacementShader2.d" "set2.ds";
+connectAttr "pCubeShape2.iog" "set2.dsm" -na;
 connectAttr "set2.msg" "materialInfo2.sg";
 connectAttr "aiStandardSurface2.msg" "materialInfo2.m";
 connectAttr "aiStandardSurface2.msg" "materialInfo2.t" -na;
@@ -1751,6 +1752,5 @@ connectAttr "file7.msg" ":defaultTextureList1.tx" -na;
 connectAttr "file8.msg" ":defaultTextureList1.tx" -na;
 connectAttr "file9.msg" ":defaultTextureList1.tx" -na;
 connectAttr "file10.msg" ":defaultTextureList1.tx" -na;
-connectAttr "pCubeShape2.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "aiSkyDomeLight1.iog" ":defaultLightSet.dsm" -na;
 // End of lilGuy.ma
