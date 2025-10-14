@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: chest.ma
-//Last modified: Mon, Oct 13, 2025 07:20:02 PM
+//Last modified: Mon, Oct 13, 2025 07:50:11 PM
 //Codeset: UTF-8
 requires maya "2024";
 requires -nodeType "mayaUsdLayerManager" -dataType "pxrUsdStageData" "mayaUsdPlugin" "0.25.0";
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "02128E5C-F646-403F-7B5B-D09F0FAABA74";
+fileInfo "UUID" "154EE0AF-F548-3CD0-C1CD-A6931517414D";
 createNode transform -s -n "persp";
 	rename -uid "EAC13007-DF45-047A-C0AD-9591EF4E8EA6";
 	setAttr ".v" no;
@@ -6862,7 +6862,7 @@ createNode polyTweakUV -n "polyTweakUV1";
 		 0.35939291 0.26438576 0.35939291 0.26438576 0.37169391 0.26142645 0.40344936 0.26438576
 		 0.40344936 0.26438576 0.41575035 0.26142645 0.41575035;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "93549A54-5E48-B344-CF39-6AB3F8E41D2B";
+	rename -uid "4FF90040-C844-84C3-97E2-39B921EBEE9B";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
