@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Run.ma
-//Last modified: Tue, Oct 21, 2025 01:54:45 PM
+//Last modified: Tue, Oct 21, 2025 01:58:37 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "Ultimate_Bony_v1_0_5" -rfn "Ultimate_Bony_v1_0_5RN" -op "v=0;"
 		 -typ "mayaAscii" "/Users/kierasheppard/Desktop/Ultimate_Bony_v1.0.5.ma";
@@ -15,7 +15,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "FED36105-6F48-5360-D668-04BC58D3E140";
+fileInfo "UUID" "356A2413-EA41-BCA0-F100-41BB49AA2F0C";
 createNode transform -s -n "persp";
 	rename -uid "C0B330F1-4345-EFEA-BE9C-EF83DCC6FE1F";
 	setAttr ".v" no;
@@ -1037,7 +1037,7 @@ createNode animCurveTL -n "Bony_ROOTC_translateX";
 	setAttr ".wgt" no;
 	setAttr ".ktv[0]"  14 0;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "557CB732-8B45-EA80-CA96-B3B695BB0FD7";
+	rename -uid "0ADA9AD1-E74B-4A04-685A-E98CD1D549A8";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 14;
@@ -1086,7 +1086,7 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
 select -ne :ikSystem;
-	setAttr -s 2 ".sol";
+	setAttr -s 4 ".sol";
 connectAttr "Bony_Main_CNT_rotateX.o" "Ultimate_Bony_v1_0_5RN.phl[1]";
 connectAttr "Bony_ROOTC_translateX.o" "Ultimate_Bony_v1_0_5RN.phl[2]";
 connectAttr "Bony_ROOTC_translateY.o" "Ultimate_Bony_v1_0_5RN.phl[3]";
