@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: tahm.ma
-//Last modified: Fri, Oct 24, 2025 06:16:37 PM
+//Last modified: Fri, Oct 24, 2025 06:13:09 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "FrontTahm" -rfn "FrontTahmRN" -typ "image" "/Users/kierasheppard/Desktop/FrontTahm.jpg";
 file -rdi 1 -ns "FrontTahm1" -rfn "FrontTahmRN1" -typ "image" "/Users/kierasheppard/Desktop/FrontTahm.jpg";
@@ -15,12 +15,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "9CC900F5-B744-FE57-0A2B-A7B44A4916A0";
+fileInfo "UUID" "FBC43B56-C247-5833-B6F5-07B239702BD3";
 createNode transform -s -n "persp";
 	rename -uid "308A0771-3741-74FC-D15E-C486A908CF0C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -3.8400066538725848 4.0901157246226303 -6.6682580923130192 ;
-	setAttr ".r" -type "double3" -19.199999999999925 214.59999999986596 0 ;
+	setAttr ".t" -type "double3" -6.2557581812509229 2.8416801902798787 -5.6165580301504532 ;
+	setAttr ".r" -type "double3" -8.3999999999804444 233.79999999997844 0 ;
 	setAttr ".rp" -type "double3" 5.5511151231257827e-17 -2.2204460492503131e-16 0 ;
 	setAttr ".rpt" -type "double3" 4.4963597858632377e-16 -1.0744077429707812e-15 1.2905563471400709e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -28,7 +28,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v" no;
 	setAttr ".pze" yes;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 7.326555213785845;
+	setAttr ".coi" 7.9477001701578827;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -116,7 +116,7 @@ createNode imagePlane -n "imagePlaneShape2" -p "imagePlane2";
 	setAttr ".cs" -type "string" "sRGB";
 createNode transform -n "imagePlane3";
 	rename -uid "F90E497B-4D40-9DEB-1C93-3EACFBB9485C";
-	setAttr ".t" -type "double3" 20.772454160725889 2 -0.67632812803253195 ;
+	setAttr ".t" -type "double3" 4.3942862622251697 2 -0.67632812803253195 ;
 	setAttr ".r" -type "double3" 0 -89.896162744567263 0 ;
 createNode imagePlane -n "imagePlaneShape3" -p "imagePlane3";
 	rename -uid "1F52690B-724A-4FA9-385C-6783F2A8CF24";
@@ -3364,7 +3364,7 @@ createNode polyTweak -n "polyTweak73";
 		 -0.0035087641 -0.0066135987 0.00092575897 0.00077351503 0.0046929889 -0.010668294
 		 -0.010607912 -0.011217939;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "1920F079-414E-3340-2336-1B91F5E25904";
+	rename -uid "853CC722-F041-2D72-19C1-07ACEB1104EE";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 2;
