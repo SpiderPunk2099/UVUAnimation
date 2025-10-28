@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: facial expression.ma
-//Last modified: Tue, Oct 28, 2025 10:44:58 AM
+//Last modified: Tue, Oct 28, 2025 10:36:46 AM
 //Codeset: UTF-8
 file -rdi 1 -ns "Skeleton" -rfn "SkeletonRN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya/assets/characters/skeleton/Skeleton.ma";
 file -r -ns "Skeleton" -dr 1 -rfn "SkeletonRN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya/assets/characters/skeleton/Skeleton.ma";
@@ -14,12 +14,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "30C21317-2440-4C98-DF5F-A8B4B0D99D64";
+fileInfo "UUID" "CADD59F9-6D47-E35A-84F5-06BD7AF9081C";
 createNode transform -s -n "persp";
 	rename -uid "CC3DEA74-D846-ED72-FDD9-53A1B82E6389";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0.031794740825671915 1.4606571501488805 1.1955465195106327 ;
-	setAttr ".r" -type "double3" 0 2.3854160110976376e-15 0 ;
+	setAttr ".t" -type "double3" -0.0019692473350269779 1.4592147865609655 1.2042366730766325 ;
+	setAttr ".r" -type "double3" -2.3999999999999795 -2.4000000000013273 -7.4609695726225632e-17 ;
 	setAttr ".rpt" -type "double3" -2.6864541303589521e-17 -3.0658318326036898e-18 -1.7577097868651219e-18 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "B2933254-3942-A88B-AF86-CB9A04314AA7";
@@ -28,7 +28,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".ncp" 0.001;
 	setAttr ".fcp" 100;
 	setAttr ".fd" 0.05;
-	setAttr ".coi" 1.18673699721269;
+	setAttr ".coi" 1.1954310024060417;
 	setAttr ".ow" 0.1;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
@@ -111,7 +111,7 @@ createNode renderLayer -n "defaultRenderLayer";
 	setAttr ".g" yes;
 createNode reference -n "SkeletonRN";
 	rename -uid "A2F03553-D941-B390-852C-BAA834B21167";
-	setAttr -s 281 ".phl";
+	setAttr -s 278 ".phl";
 	setAttr ".phl[1]" 0;
 	setAttr ".phl[2]" 0;
 	setAttr ".phl[3]" 0;
@@ -390,13 +390,10 @@ createNode reference -n "SkeletonRN";
 	setAttr ".phl[276]" 0;
 	setAttr ".phl[277]" 0;
 	setAttr ".phl[278]" 0;
-	setAttr ".phl[279]" 0;
-	setAttr ".phl[280]" 0;
-	setAttr ".phl[281]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SkeletonRN"
 		"SkeletonRN" 0
-		"SkeletonRN" 303
+		"SkeletonRN" 299
 		2 "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Spine_And_Head|Skeleton:Chest_Ctrl_Grp|Skeleton:Chest_Ctrl" 
 		"translate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Spine_And_Head|Skeleton:Chest_Ctrl_Grp|Skeleton:Chest_Ctrl" 
@@ -439,8 +436,6 @@ createNode reference -n "SkeletonRN";
 		"translate" " -type \"double3\" 0 0 0.032461058494142207"
 		2 "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Chest_Redundancy_Ctrl_Grp|Skeleton:Chest_Redundancy_Ctrl" 
 		"translate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Chest_Redundancy_Ctrl_Grp|Skeleton:Chest_Redundancy_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Spine_And_Head|Skeleton:Neck_01_Ctrl_Grp|Skeleton:Neck_01_Ctrl.translateX" 
 		"SkeletonRN.placeHolderList[1]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Spine_And_Head|Skeleton:Neck_01_Ctrl_Grp|Skeleton:Neck_01_Ctrl.translateY" 
@@ -951,58 +946,52 @@ createNode reference -n "SkeletonRN";
 		"SkeletonRN.placeHolderList[254]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Right_Arm|Skeleton:R_Arm_Reg_Controls|Skeleton:Right_Arm_FK|Skeleton:R_Arm_01_FK_Ctrl_Grp|Skeleton:R_Arm_01_FK_Ctrl.rotateZ" 
 		"SkeletonRN.placeHolderList[255]" ""
-		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Chest_Redundancy_Ctrl_Grp|Skeleton:Chest_Redundancy_Ctrl.translateX" 
-		"SkeletonRN.placeHolderList[256]" ""
-		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Chest_Redundancy_Ctrl_Grp|Skeleton:Chest_Redundancy_Ctrl.translateY" 
-		"SkeletonRN.placeHolderList[257]" ""
-		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Chest_Redundancy_Ctrl_Grp|Skeleton:Chest_Redundancy_Ctrl.rotateZ" 
-		"SkeletonRN.placeHolderList[258]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Chest_Redundancy_Ctrl_Grp|Skeleton:Chest_Redundancy_Ctrl.scaleX" 
-		"SkeletonRN.placeHolderList[259]" ""
+		"SkeletonRN.placeHolderList[256]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Chest_Redundancy_Ctrl_Grp|Skeleton:Chest_Redundancy_Ctrl.scaleY" 
-		"SkeletonRN.placeHolderList[260]" ""
+		"SkeletonRN.placeHolderList[257]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Chest_Redundancy_Ctrl_Grp|Skeleton:Chest_Redundancy_Ctrl.scaleZ" 
-		"SkeletonRN.placeHolderList[261]" ""
+		"SkeletonRN.placeHolderList[258]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_01_Redundancy_Ctrl_Grp|Skeleton:Neck_01_Redundancy_Ctrl.translateX" 
-		"SkeletonRN.placeHolderList[262]" ""
+		"SkeletonRN.placeHolderList[259]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_01_Redundancy_Ctrl_Grp|Skeleton:Neck_01_Redundancy_Ctrl.translateY" 
-		"SkeletonRN.placeHolderList[263]" ""
+		"SkeletonRN.placeHolderList[260]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_01_Redundancy_Ctrl_Grp|Skeleton:Neck_01_Redundancy_Ctrl.translateZ" 
-		"SkeletonRN.placeHolderList[264]" ""
+		"SkeletonRN.placeHolderList[261]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_01_Redundancy_Ctrl_Grp|Skeleton:Neck_01_Redundancy_Ctrl.rotateX" 
-		"SkeletonRN.placeHolderList[265]" ""
+		"SkeletonRN.placeHolderList[262]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_01_Redundancy_Ctrl_Grp|Skeleton:Neck_01_Redundancy_Ctrl.rotateY" 
-		"SkeletonRN.placeHolderList[266]" ""
+		"SkeletonRN.placeHolderList[263]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_01_Redundancy_Ctrl_Grp|Skeleton:Neck_01_Redundancy_Ctrl.rotateZ" 
-		"SkeletonRN.placeHolderList[267]" ""
+		"SkeletonRN.placeHolderList[264]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_01_Redundancy_Ctrl_Grp|Skeleton:Neck_01_Redundancy_Ctrl.scaleX" 
-		"SkeletonRN.placeHolderList[268]" ""
+		"SkeletonRN.placeHolderList[265]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_01_Redundancy_Ctrl_Grp|Skeleton:Neck_01_Redundancy_Ctrl.scaleY" 
-		"SkeletonRN.placeHolderList[269]" ""
+		"SkeletonRN.placeHolderList[266]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_01_Redundancy_Ctrl_Grp|Skeleton:Neck_01_Redundancy_Ctrl.scaleZ" 
-		"SkeletonRN.placeHolderList[270]" ""
+		"SkeletonRN.placeHolderList[267]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_01_Redundancy_Ctrl_Grp|Skeleton:Neck_01_Redundancy_Ctrl.visibility" 
-		"SkeletonRN.placeHolderList[271]" ""
+		"SkeletonRN.placeHolderList[268]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_02_Redundancy_Ctrl_Grp|Skeleton:Neck_02_Redundancy_Ctrl.translateX" 
-		"SkeletonRN.placeHolderList[272]" ""
+		"SkeletonRN.placeHolderList[269]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_02_Redundancy_Ctrl_Grp|Skeleton:Neck_02_Redundancy_Ctrl.translateY" 
-		"SkeletonRN.placeHolderList[273]" ""
+		"SkeletonRN.placeHolderList[270]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_02_Redundancy_Ctrl_Grp|Skeleton:Neck_02_Redundancy_Ctrl.translateZ" 
-		"SkeletonRN.placeHolderList[274]" ""
+		"SkeletonRN.placeHolderList[271]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_02_Redundancy_Ctrl_Grp|Skeleton:Neck_02_Redundancy_Ctrl.rotateX" 
-		"SkeletonRN.placeHolderList[275]" ""
+		"SkeletonRN.placeHolderList[272]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_02_Redundancy_Ctrl_Grp|Skeleton:Neck_02_Redundancy_Ctrl.rotateY" 
-		"SkeletonRN.placeHolderList[276]" ""
+		"SkeletonRN.placeHolderList[273]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_02_Redundancy_Ctrl_Grp|Skeleton:Neck_02_Redundancy_Ctrl.rotateZ" 
-		"SkeletonRN.placeHolderList[277]" ""
+		"SkeletonRN.placeHolderList[274]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_02_Redundancy_Ctrl_Grp|Skeleton:Neck_02_Redundancy_Ctrl.scaleX" 
-		"SkeletonRN.placeHolderList[278]" ""
+		"SkeletonRN.placeHolderList[275]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_02_Redundancy_Ctrl_Grp|Skeleton:Neck_02_Redundancy_Ctrl.scaleY" 
-		"SkeletonRN.placeHolderList[279]" ""
+		"SkeletonRN.placeHolderList[276]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_02_Redundancy_Ctrl_Grp|Skeleton:Neck_02_Redundancy_Ctrl.scaleZ" 
-		"SkeletonRN.placeHolderList[280]" ""
+		"SkeletonRN.placeHolderList[277]" ""
 		5 4 "SkeletonRN" "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Redundancy_Controls|Skeleton:Neck_02_Redundancy_Ctrl_Grp|Skeleton:Neck_02_Redundancy_Ctrl.visibility" 
-		"SkeletonRN.placeHolderList[281]" "";
+		"SkeletonRN.placeHolderList[278]" "";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode aiOptions -s -n "defaultArnoldRenderOptions";
@@ -2771,44 +2760,26 @@ createNode animCurveTU -n "Chest_Redundancy_Ctrl_scaleX";
 	rename -uid "E68F112D-4948-F2F8-759C-37A40F1B5570";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  1 1.0405698387490061 20 1.1634257403603097
-		 22 1.163299595068366 23 1.163 36 1.041;
+	setAttr -s 4 ".ktv[0:3]"  1 1.0405698387490061 20 1.1634257403603097
+		 23 1.163 36 1.041;
 createNode animCurveTU -n "Chest_Redundancy_Ctrl_scaleY";
 	rename -uid "6C4CD4FA-CC41-D32C-2765-D98952EDDF8B";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  1 1.0405698387490061 20 1.1634257403603097
-		 22 1.163299595068366 23 1.163 36 1.041;
+	setAttr -s 4 ".ktv[0:3]"  1 1.0405698387490061 20 1.1634257403603097
+		 23 1.163 36 1.041;
 createNode animCurveTU -n "Chest_Redundancy_Ctrl_scaleZ";
 	rename -uid "EF1E3E44-0A43-29A9-D769-EB8EF749E368";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  1 1.0405698387490061 20 1.1634257403603097
-		 22 1.163299595068366 23 1.163 36 1.041;
-createNode animCurveTA -n "Chest_Redundancy_Ctrl_rotateZ";
-	rename -uid "6F76FE02-3E4B-57EC-DBCA-C48E4D6E3966";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  1 0 20 8.7231202331116453 22 8.7231202331116453
-		 36 0;
-createNode animCurveTL -n "Chest_Redundancy_Ctrl_translateX";
-	rename -uid "9AB89547-DB43-98F1-B62D-939EC3364380";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr -s 6 ".ktv[0:5]"  1 0 55 0 60 0 68 0.042993042995930146 70 0.043
-		 75 0;
-createNode animCurveTL -n "Chest_Redundancy_Ctrl_translateY";
-	rename -uid "E5823F6D-104B-C85E-F535-4F8DBC1C94C8";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr -s 6 ".ktv[0:5]"  1 0 55 0 60 0 68 -0.014284319383212308 70 -0.014000000000000002
-		 75 0;
+	setAttr -s 4 ".ktv[0:3]"  1 1.0405698387490061 20 1.1634257403603097
+		 23 1.163 36 1.041;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "3E0CD227-CE46-ED3F-CAC6-2591010CB9AC";
+	rename -uid "BD0DDE0C-5D4F-31B3-5C31-BAAE1BB3F048";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
-	setAttr ".o" 1;
-	setAttr ".unw" 1;
+	setAttr ".o" 32;
+	setAttr ".unw" 32;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -3110,32 +3081,29 @@ connectAttr "R_Arm_01_FK_Ctrl_translateZ.o" "SkeletonRN.phl[252]";
 connectAttr "R_Arm_01_FK_Ctrl_rotateX.o" "SkeletonRN.phl[253]";
 connectAttr "R_Arm_01_FK_Ctrl_rotateY.o" "SkeletonRN.phl[254]";
 connectAttr "R_Arm_01_FK_Ctrl_rotateZ.o" "SkeletonRN.phl[255]";
-connectAttr "Chest_Redundancy_Ctrl_translateX.o" "SkeletonRN.phl[256]";
-connectAttr "Chest_Redundancy_Ctrl_translateY.o" "SkeletonRN.phl[257]";
-connectAttr "Chest_Redundancy_Ctrl_rotateZ.o" "SkeletonRN.phl[258]";
-connectAttr "Chest_Redundancy_Ctrl_scaleX.o" "SkeletonRN.phl[259]";
-connectAttr "Chest_Redundancy_Ctrl_scaleY.o" "SkeletonRN.phl[260]";
-connectAttr "Chest_Redundancy_Ctrl_scaleZ.o" "SkeletonRN.phl[261]";
-connectAttr "Neck_01_Redundancy_Ctrl_translateX.o" "SkeletonRN.phl[262]";
-connectAttr "Neck_01_Redundancy_Ctrl_translateY.o" "SkeletonRN.phl[263]";
-connectAttr "Neck_01_Redundancy_Ctrl_translateZ.o" "SkeletonRN.phl[264]";
-connectAttr "Neck_01_Redundancy_Ctrl_rotateX.o" "SkeletonRN.phl[265]";
-connectAttr "Neck_01_Redundancy_Ctrl_rotateY.o" "SkeletonRN.phl[266]";
-connectAttr "Neck_01_Redundancy_Ctrl_rotateZ.o" "SkeletonRN.phl[267]";
-connectAttr "Neck_01_Redundancy_Ctrl_scaleX.o" "SkeletonRN.phl[268]";
-connectAttr "Neck_01_Redundancy_Ctrl_scaleY.o" "SkeletonRN.phl[269]";
-connectAttr "Neck_01_Redundancy_Ctrl_scaleZ.o" "SkeletonRN.phl[270]";
-connectAttr "Neck_01_Redundancy_Ctrl_visibility.o" "SkeletonRN.phl[271]";
-connectAttr "Neck_02_Redundancy_Ctrl_translateX.o" "SkeletonRN.phl[272]";
-connectAttr "Neck_02_Redundancy_Ctrl_translateY.o" "SkeletonRN.phl[273]";
-connectAttr "Neck_02_Redundancy_Ctrl_translateZ.o" "SkeletonRN.phl[274]";
-connectAttr "Neck_02_Redundancy_Ctrl_rotateX.o" "SkeletonRN.phl[275]";
-connectAttr "Neck_02_Redundancy_Ctrl_rotateY.o" "SkeletonRN.phl[276]";
-connectAttr "Neck_02_Redundancy_Ctrl_rotateZ.o" "SkeletonRN.phl[277]";
-connectAttr "Neck_02_Redundancy_Ctrl_scaleX.o" "SkeletonRN.phl[278]";
-connectAttr "Neck_02_Redundancy_Ctrl_scaleY.o" "SkeletonRN.phl[279]";
-connectAttr "Neck_02_Redundancy_Ctrl_scaleZ.o" "SkeletonRN.phl[280]";
-connectAttr "Neck_02_Redundancy_Ctrl_visibility.o" "SkeletonRN.phl[281]";
+connectAttr "Chest_Redundancy_Ctrl_scaleX.o" "SkeletonRN.phl[256]";
+connectAttr "Chest_Redundancy_Ctrl_scaleY.o" "SkeletonRN.phl[257]";
+connectAttr "Chest_Redundancy_Ctrl_scaleZ.o" "SkeletonRN.phl[258]";
+connectAttr "Neck_01_Redundancy_Ctrl_translateX.o" "SkeletonRN.phl[259]";
+connectAttr "Neck_01_Redundancy_Ctrl_translateY.o" "SkeletonRN.phl[260]";
+connectAttr "Neck_01_Redundancy_Ctrl_translateZ.o" "SkeletonRN.phl[261]";
+connectAttr "Neck_01_Redundancy_Ctrl_rotateX.o" "SkeletonRN.phl[262]";
+connectAttr "Neck_01_Redundancy_Ctrl_rotateY.o" "SkeletonRN.phl[263]";
+connectAttr "Neck_01_Redundancy_Ctrl_rotateZ.o" "SkeletonRN.phl[264]";
+connectAttr "Neck_01_Redundancy_Ctrl_scaleX.o" "SkeletonRN.phl[265]";
+connectAttr "Neck_01_Redundancy_Ctrl_scaleY.o" "SkeletonRN.phl[266]";
+connectAttr "Neck_01_Redundancy_Ctrl_scaleZ.o" "SkeletonRN.phl[267]";
+connectAttr "Neck_01_Redundancy_Ctrl_visibility.o" "SkeletonRN.phl[268]";
+connectAttr "Neck_02_Redundancy_Ctrl_translateX.o" "SkeletonRN.phl[269]";
+connectAttr "Neck_02_Redundancy_Ctrl_translateY.o" "SkeletonRN.phl[270]";
+connectAttr "Neck_02_Redundancy_Ctrl_translateZ.o" "SkeletonRN.phl[271]";
+connectAttr "Neck_02_Redundancy_Ctrl_rotateX.o" "SkeletonRN.phl[272]";
+connectAttr "Neck_02_Redundancy_Ctrl_rotateY.o" "SkeletonRN.phl[273]";
+connectAttr "Neck_02_Redundancy_Ctrl_rotateZ.o" "SkeletonRN.phl[274]";
+connectAttr "Neck_02_Redundancy_Ctrl_scaleX.o" "SkeletonRN.phl[275]";
+connectAttr "Neck_02_Redundancy_Ctrl_scaleY.o" "SkeletonRN.phl[276]";
+connectAttr "Neck_02_Redundancy_Ctrl_scaleZ.o" "SkeletonRN.phl[277]";
+connectAttr "Neck_02_Redundancy_Ctrl_visibility.o" "SkeletonRN.phl[278]";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
