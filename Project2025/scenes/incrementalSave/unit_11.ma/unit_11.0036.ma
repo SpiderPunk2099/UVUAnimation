@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: unit_11.ma
-//Last modified: Fri, Nov 07, 2025 09:07:35 PM
+//Last modified: Fri, Nov 07, 2025 09:06:33 PM
 //Codeset: UTF-8
 requires maya "2026";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiSkyDomeLight"
@@ -12,12 +12,12 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "D9914B73-AE4E-DD5D-A619-E08BC91AC0C2";
+fileInfo "UUID" "E7BDAA9F-F249-A0F0-836A-64915A44B3F0";
 createNode transform -s -n "persp";
 	rename -uid "4403E3DC-5845-683D-460A-FABB1FDD3E55";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -0.81509714915177411 21.185532778895809 45.325189380580404 ;
-	setAttr ".r" -type "double3" -16.20000000000616 -359.99999999999108 -2.3132164406134295e-17 ;
+	setAttr ".t" -type "double3" -0.76091419606332622 19.875956066729771 44.629145415632209 ;
+	setAttr ".r" -type "double3" -15.000000000006121 -360.79999999999109 3.7275758664905307e-17 ;
 	setAttr ".rp" -type "double3" -2.2737367544323206e-15 0 0 ;
 	setAttr ".rpt" -type "double3" 1.7767296987672095e-16 -1.4898510162864192e-16 8.4522874329976889e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -28,7 +28,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".ncp" 0.001;
 	setAttr ".fcp" 100;
 	setAttr ".fd" 0.05;
-	setAttr ".coi" 57.499759405108563;
+	setAttr ".coi" 56.482091377314667;
 	setAttr ".ow" 0.1;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
