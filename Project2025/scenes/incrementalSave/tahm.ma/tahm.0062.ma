@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: tahm.ma
-//Last modified: Mon, Nov 10, 2025 03:50:26 PM
+//Last modified: Mon, Nov 10, 2025 03:47:23 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "FrontTahm" -rfn "FrontTahmRN" -typ "image" "/Users/kierasheppard/Desktop/FrontTahm.jpg";
 file -rdi 1 -ns "FrontTahm1" -rfn "FrontTahmRN1" -typ "image" "/Users/kierasheppard/Desktop/FrontTahm.jpg";
@@ -14,12 +14,12 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "7D20F514-2349-C881-3591-07B681F72E9C";
+fileInfo "UUID" "79344020-D343-6B03-C0E9-0DA3557F6530";
 createNode transform -s -n "persp";
 	rename -uid "308A0771-3741-74FC-D15E-C486A908CF0C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 9.0851465099912811 3.6686672729197358 -1.8453316412046579 ;
-	setAttr ".r" -type "double3" -9.6000000000003194 95.399999998772529 0 ;
+	setAttr ".t" -type "double3" -0.1251720275075261 2.7279304640272537 -9.8735675781224845 ;
+	setAttr ".r" -type "double3" -1.1999999999999762 178.59999999877365 0 ;
 	setAttr ".rp" -type "double3" 2.2204460492503131e-16 -2.2204460492503131e-16 -1.1102230246251565e-16 ;
 	setAttr ".rpt" -type "double3" 2.369833540488425e-16 -1.0860127336351552e-15 1.2071623716945285e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -27,7 +27,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v" no;
 	setAttr ".pze" yes;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 9.3945733745612401;
+	setAttr ".coi" 7.8327529651118137;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
