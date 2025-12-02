@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: swingingPendulum.ma
-//Last modified: Sun, Nov 30, 2025 05:24:11 PM
+//Last modified: Sun, Nov 30, 2025 05:18:31 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "Ultimate_Pendulum_v1_0_0" -rfn "Ultimate_Pendulum_v1_0_0RN"
 		 -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Desktop/Ultimate_Pendulum_v1.0.0.ma";
@@ -14,7 +14,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "93350E12-9D4B-F17F-CD95-E69507DD0605";
+fileInfo "UUID" "A364D9FC-7D4E-4F56-E840-79BAF9DB9A20";
 createNode transform -s -n "persp";
 	rename -uid "D0D8E44D-4F41-0558-FFAA-AC92862F027C";
 	setAttr ".v" no;
@@ -122,18 +122,18 @@ createNode animCurveTA -n "CTRL_Pend_01_rotateX";
 	rename -uid "86B7307E-9E4F-38FB-D2CB-AFA031F7651D";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 14 ".ktv[0:13]"  1 -18.362635598331998 5 -18.879 6 3.4699016286236124
-		 12 20.0809304423904 19 13.520156761332688 23 -14.679016548521462 26 -18.362635598331998
-		 28 -18.879 29 -18.363 33 3.4699016286236124 38 20.0809304423904 45 13.520156761332688
-		 48 -14.679016548521462 51 -18.362635598331998;
+	setAttr -s 14 ".ktv[0:13]"  1 -18.362635598331998 7 3.4699016286236124
+		 15 20.0809304423904 22 13.520156761332688 28 -14.679016548521462 31 -18.362635598331998
+		 33 -18.879 34 -18.363 40 3.4699016286236124 48 20.0809304423904 55 13.520156761332688
+		 61 -14.679016548521462 64 -18.362635598331998 66 -18.879;
 createNode animCurveTA -n "CTRL_Pend_02_rotateX";
 	rename -uid "62200C41-F940-DBA9-AEFF-3ABAD3652173";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 13 ".ktv[0:12]"  1 -17.807320579335329 5 -18.879 14 12.664247393936911
-		 17 21.110429531405568 19 13.903324762825125 26 -17.807320579335329 28 -18.879 29 -17.807000000000002
-		 31 -8.0955447299345753 40 12.664247393936911 43 21.110429531405568 45 13.903324762825125
-		 51 -17.807320579335329;
+	setAttr -s 14 ".ktv[0:13]"  1 -17.807320579335329 3 -8.0955447299345753
+		 17 12.664247393936911 20 21.110429531405568 22 13.903324762825125 31 -17.807320579335329
+		 33 -18.879 34 -17.807000000000002 36 -8.0955447299345753 50 12.664247393936911 53 21.110429531405568
+		 55 13.903324762825125 64 -17.807320579335329 66 -18.879;
 createNode script -n "uiConfigurationScriptNode";
 	rename -uid "98190D60-984E-0468-37B9-6F935EA03198";
 	setAttr ".b" -type "string" (
@@ -179,20 +179,20 @@ createNode script -n "uiConfigurationScriptNode";
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "34886234-9C48-8A45-18B2-F3A1A09B8BB8";
-	setAttr ".b" -type "string" "playbackOptions -min 1 -max 52 -ast 1 -aet 52 ";
+	setAttr ".b" -type "string" "playbackOptions -min 1 -max 68 -ast 1 -aet 68 ";
 	setAttr ".st" 6;
 createNode animCurveTA -n "CTRL_Pend_03_rotateX";
 	rename -uid "0C54E87E-2F49-E3E6-E358-82ACD57ED6E1";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 20 ".ktv[0:19]"  1 -18.879 5 -18.879 6 -6.9152959776640248
-		 9 -3.1936172976169699 12 6.0144814630604788 17 16.223649114152483 19 16.526359195581687
-		 20 4.5038879747058402 21 4.0758746794579439 26 -18.878655126055378 28 -18.879 29 -18.879
-		 33 -6.9152959776640248 36 -3.1936172976169699 38 6.0144814630604788 43 16.223649114152483
-		 45 16.526359195581687 46 4.5038879747058402 47 4.0758746794579439 51 -18.878655126055378;
+	setAttr -s 20 ".ktv[0:19]"  1 -18.879 7 -6.9152959776640248 10 -3.1936172976169699
+		 15 6.0144814630604788 20 16.223649114152483 22 16.526359195581687 23 4.5038879747058402
+		 24 4.0758746794579439 31 -18.878655126055378 33 -18.879 34 -18.879 40 -6.9152959776640248
+		 43 -3.1936172976169699 48 6.0144814630604788 53 16.223649114152483 55 16.526359195581687
+		 56 4.5038879747058402 57 4.0758746794579439 64 -18.878655126055378 66 -18.879;
 select -ne :time1;
-	setAttr ".o" 52;
-	setAttr ".unw" 52;
+	setAttr ".o" 51;
+	setAttr ".unw" 51;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1

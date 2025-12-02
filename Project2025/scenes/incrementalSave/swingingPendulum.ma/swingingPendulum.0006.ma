@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: swingingPendulum.ma
-//Last modified: Sun, Nov 30, 2025 05:24:11 PM
+//Last modified: Sun, Nov 30, 2025 05:21:11 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "Ultimate_Pendulum_v1_0_0" -rfn "Ultimate_Pendulum_v1_0_0RN"
 		 -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Desktop/Ultimate_Pendulum_v1.0.0.ma";
@@ -14,7 +14,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "93350E12-9D4B-F17F-CD95-E69507DD0605";
+fileInfo "UUID" "524FEC78-D949-B739-3F53-25B09021FBF2";
 createNode transform -s -n "persp";
 	rename -uid "D0D8E44D-4F41-0558-FFAA-AC92862F027C";
 	setAttr ".v" no;
@@ -179,7 +179,7 @@ createNode script -n "uiConfigurationScriptNode";
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "34886234-9C48-8A45-18B2-F3A1A09B8BB8";
-	setAttr ".b" -type "string" "playbackOptions -min 1 -max 52 -ast 1 -aet 52 ";
+	setAttr ".b" -type "string" "playbackOptions -min 1 -max 51 -ast 1 -aet 68 ";
 	setAttr ".st" 6;
 createNode animCurveTA -n "CTRL_Pend_03_rotateX";
 	rename -uid "0C54E87E-2F49-E3E6-E358-82ACD57ED6E1";
@@ -191,8 +191,8 @@ createNode animCurveTA -n "CTRL_Pend_03_rotateX";
 		 33 -6.9152959776640248 36 -3.1936172976169699 38 6.0144814630604788 43 16.223649114152483
 		 45 16.526359195581687 46 4.5038879747058402 47 4.0758746794579439 51 -18.878655126055378;
 select -ne :time1;
-	setAttr ".o" 52;
-	setAttr ".unw" 52;
+	setAttr ".o" 22;
+	setAttr ".unw" 22;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
