@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: expression.ma
-//Last modified: Wed, Jan 07, 2026 03:37:31 PM
+//Last modified: Thu, Jan 08, 2026 12:21:07 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "Skeleton" -rfn "SkeletonRN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya/assets/characters/skeleton/Skeleton.ma";
 file -r -ns "Skeleton" -dr 1 -rfn "SkeletonRN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya/assets/characters/skeleton/Skeleton.ma";
@@ -14,12 +14,12 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "4C1AB89B-0040-B47C-D187-2DB448F7D9D2";
+fileInfo "UUID" "DD54A9B1-6540-501F-A62A-FE8F3FE654AB";
 createNode transform -s -n "persp";
 	rename -uid "92501D3D-A946-A0B2-7205-519DB64AE978";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0.0051170180701504368 1.289902556984871 1.9144846448901274 ;
-	setAttr ".r" -type "double3" 2.0616472702475375 -1.3999999999995512 3.4176316722066943e-17 ;
+	setAttr ".t" -type "double3" -0.032190429434758687 1.3748884958881964 1.8372627391082108 ;
+	setAttr ".r" -type "double3" -0.33835272975029113 -2.1999999999992315 7.7707537728748764e-19 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "51072F1A-864A-14F8-E793-CCB28A95DDB5";
 	setAttr -k off ".v" no;
@@ -27,7 +27,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".ncp" 0.001;
 	setAttr ".fcp" 100;
 	setAttr ".fd" 0.05;
-	setAttr ".coi" 1.8337015555711786;
+	setAttr ".coi" 1.7566848200401359;
 	setAttr ".ow" 0.1;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
@@ -113,20 +113,20 @@ createNode bluePencil -n "bluePencilShape" -p "bluePencil";
 	setAttr ".ld" -type "czLayerData" 3 1 "92501D3D-A946-A0B2-7205-519DB64AE978" 0
 		;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "27FD3954-224A-CADD-9F34-AA8814E04E97";
+	rename -uid "26E188D8-7A49-BBD8-A361-1FB41A08C55F";
 	setAttr -s 7 ".lnk";
 	setAttr -s 7 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "82C5D16B-114A-D8A2-4286-7EAE49240784";
+	rename -uid "8974E133-D14D-DD00-7A14-68A6BAE8C6F5";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "12870BAE-064C-2152-A348-64B15D0A468D";
+	rename -uid "10930957-C643-E90D-07BE-35AD33E77AED";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "F265FC8C-7643-8929-53EA-58B921A05747";
+	rename -uid "92293332-7B46-E172-1E10-1E9AC2FA336F";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "E4FDA20C-394B-D07D-1FAB-A49ECD89AA1A";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "B7EC9ADE-1D48-2EBE-6423-F4B320468CAD";
+	rename -uid "DABACB07-FE4A-B7F9-7F97-618F8F742FC3";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "1BE755CF-0C4E-597A-F979-0FA161CDCAEE";
 	setAttr ".g" yes;
@@ -331,11 +331,11 @@ createNode reference -n "SkeletonRN";
 		2 "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Spine_And_Head|Skeleton:Chest_Ctrl_Grp|Skeleton:Chest_Ctrl" 
 		"translate" " -type \"double3\" 0.033029020912337705 0.049396735981280283 0"
 		2 "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Spine_And_Head|Skeleton:Chest_Ctrl_Grp|Skeleton:Chest_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -19.81958142080974028"
+		"rotate" " -type \"double3\" 0 0 -26.02913794186212826"
 		2 "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Spine_And_Head|Skeleton:Chest_Ctrl_Grp|Skeleton:Chest_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Spine_And_Head|Skeleton:Neck_01_Ctrl_Grp|Skeleton:Neck_01_Ctrl" 
-		"translate" " -type \"double3\" 0.01074509788550432 0.112801901248591 0"
+		"translate" " -type \"double3\" 0.0011546460875784864 0.014869849263086068 0"
 		2 "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Spine_And_Head|Skeleton:Neck_01_Ctrl_Grp|Skeleton:Neck_01_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl|Skeleton:Spine_And_Head|Skeleton:Neck_02_Ctrl_Grp|Skeleton:Neck_02_Ctrl" 
@@ -2160,8 +2160,8 @@ createNode animCurveTA -n "Chest_Redundancy_Ctrl_rotateZ";
 	setAttr ".ktv[0]"  76 13.722577804721265;
 	setAttr ".kot[0]"  5;
 select -ne :time1;
-	setAttr ".o" 87;
-	setAttr ".unw" 87;
+	setAttr ".o" 61;
+	setAttr ".unw" 61;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
