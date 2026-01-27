@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: handRIg.ma
-//Last modified: Wed, Jan 21, 2026 12:41:12 PM
+//Last modified: Wed, Jan 21, 2026 12:38:01 PM
 //Codeset: UTF-8
 requires maya "2026";
 requires "mtoa" "5.5.3";
@@ -10,22 +10,23 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "5E353218-FD42-89FA-7558-009A282AECC3";
+fileInfo "UUID" "FFADFB2C-0948-832E-039D-DB9D5BBDF9D1";
 createNode transform -s -n "persp";
 	rename -uid "1B97BC4F-9A42-6749-0813-089FBA276094";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 4.9026933908462489 14.332797777786958 9.3934464454650843 ;
-	setAttr ".r" -type "double3" -89.999999999999986 -90 0 ;
-	setAttr ".rpt" -type "double3" 8.0229090840071399e-16 -1.5993745249675922e-16 -7.5602077459481369e-16 ;
+	setAttr ".t" -type "double3" 5.719293158715625 16.406956035567472 7.8195744989209155 ;
+	setAttr ".r" -type "double3" -89.999999999999986 0 0 ;
+	setAttr ".rp" -type "double3" 8.8817841970012523e-16 0 0 ;
+	setAttr ".rpt" -type "double3" 7.7552028598568365e-17 -1.5782671023914323e-16 1.1353671849558907e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "41BC261B-0F41-FC89-6FD8-EDAE6A198F9A";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 14.98380864872049;
+	setAttr ".coi" 16.713637549353791;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 4.9026933908462551 -0.65101087093353271 9.3934464454650879 ;
+	setAttr ".tp" -type "double3" 5.719293158715625 -0.30668151378631947 7.8195744989209119 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "9B0D354B-BB49-D7EC-E54C-EFB5AD9B481D";
@@ -376,8 +377,10 @@ createNode transform -n "finger_03_knuckle_01_grp";
 	setAttr ".sp" -type "double3" 1.1345658671671575 0.080223500728607178 0.50310517968710311 ;
 createNode transform -n "finger_03_knuckle_01" -p "finger_03_knuckle_01_grp";
 	rename -uid "7D3F8C7E-EE4A-01B7-A892-9BA87CE3855E";
-	setAttr ".rp" -type "double3" 1.1565148202204416 -0.30668151854305625 0.56755236162424971 ;
-	setAttr ".sp" -type "double3" 1.1565148202204416 -0.30668151854305625 0.56755236162424971 ;
+	setAttr ".r" -type "double3" 0 -2.5096693032546495 0 ;
+	setAttr ".rp" -type "double3" 1.1582712571824305 -0.30668151854305625 0.56571986754507331 ;
+	setAttr ".rpt" -type "double3" -0.0017564369619886729 0 0.0018324940791767108 ;
+	setAttr ".sp" -type "double3" 1.1582712571824305 -0.30668151854305625 0.56571986754507331 ;
 createNode mesh -n "finger_03_knuckle_Shape1" -p "finger_03_knuckle_01";
 	rename -uid "6CEFBA90-964C-A143-A248-FE9DDD490033";
 	setAttr -k off ".v";
@@ -404,10 +407,10 @@ createNode mesh -n "finger_03_knuckle_Shape1" -p "finger_03_knuckle_01";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  1.6012639 -0.19358653 0.41318396 
-		2.9585104 -0.19358653 0.50036764 1.6012639 -0.4197765 0.41318396 2.9585104 -0.4197765 
-		0.50036764 1.629864 -0.4197765 0.63990235 2.9871104 -0.4197765 0.72708553 1.629864 
-		-0.19358653 0.63990235 2.9871104 -0.19358653 0.72708553;
+	setAttr -s 8 ".pt[0:7]" -type "float3"  1.6182078 -0.19358653 0.41343927 
+		2.977011 -0.19358653 0.39732027 1.6182078 -0.4197765 0.41343927 2.977011 -0.4197765 
+		0.39732027 1.61292 -0.4197765 0.63964701 2.9717231 -0.4197765 0.62352753 1.61292 
+		-0.19358653 0.63964701 2.9717231 -0.19358653 0.62352753;
 	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
 		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
 	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
@@ -432,8 +435,8 @@ createNode mesh -n "finger_03_knuckle_Shape1" -p "finger_03_knuckle_01";
 	setAttr ".dr" 1;
 createNode transform -n "finger_03_knuckle_02" -p "finger_03_knuckle_01";
 	rename -uid "B8A379D0-A241-822D-FBA5-33A848969D5B";
-	setAttr ".rp" -type "double3" 3.3527795447082429 -0.59392742336338178 0.51035014710771875 ;
-	setAttr ".sp" -type "double3" 3.3527795447082429 -0.59392742336338178 0.51035014710771875 ;
+	setAttr ".rp" -type "double3" 3.3499246559430027 -0.59392742336338178 0.41240250689631441 ;
+	setAttr ".sp" -type "double3" 3.3499246559430027 -0.59392742336338178 0.41240250689631441 ;
 createNode mesh -n "finger_03_knuckle_Shape2" -p "finger_03_knuckle_02";
 	rename -uid "6FB4C183-A149-4D01-4336-C78DFC0A869B";
 	setAttr -k off ".v";
@@ -460,10 +463,10 @@ createNode mesh -n "finger_03_knuckle_Shape2" -p "finger_03_knuckle_02";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  4.0425777 -0.13719405 0.47005796 
-		5.1746616 -0.13719405 0.54891348 4.0425777 -0.43729776 0.47005796 5.1746616 -0.43729776 
-		0.54891348 4.0684457 -0.43729776 0.77063966 5.2005301 -0.43729776 0.84949523 4.0684457 
-		-0.13719405 0.77063966 5.2005301 -0.13719405 0.84949523;
+	setAttr -s 8 ".pt[0:7]" -type "float3"  4.0596704 -0.13719405 0.3633585 
+		5.1931624 -0.13719405 0.34877872 4.0596704 -0.43729776 0.3633585 5.1931624 -0.43729776 
+		0.34877872 4.0548873 -0.43729776 0.66347837 5.1883798 -0.43729776 0.6488986 4.0548873 
+		-0.13719405 0.66347837 5.1883798 -0.13719405 0.6488986;
 	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
 		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
 	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
@@ -487,8 +490,8 @@ createNode mesh -n "finger_03_knuckle_Shape2" -p "finger_03_knuckle_02";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "finger_03_knuckle_03" -p "finger_03_knuckle_02";
 	rename -uid "BB393018-7741-A00C-BD93-CC8984A4B9E6";
-	setAttr ".rp" -type "double3" 5.5509458988608813 -0.62146087462027144 0.58914904267482093 ;
-	setAttr ".sp" -type "double3" 5.5509458988608813 -0.62146087462027144 0.58914904267482093 ;
+	setAttr ".rp" -type "double3" 5.549433075293793 -0.62146087462027144 0.39487254179990305 ;
+	setAttr ".sp" -type "double3" 5.549433075293793 -0.62146087462027144 0.39487254179990305 ;
 createNode mesh -n "finger_03_knuckle_Shape3" -p "finger_03_knuckle_03";
 	rename -uid "FFB70B0D-E04C-4B54-F4A1-778A91DB11B8";
 	setAttr -k off ".v";
@@ -515,10 +518,10 @@ createNode mesh -n "finger_03_knuckle_Shape3" -p "finger_03_knuckle_03";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  6.2440739 -0.074629873 0.45882028 
-		6.8272328 -0.074629873 0.51737416 6.2440739 -0.55492884 0.45882028 6.8272328 -0.55492884 
-		0.51737416 6.2632818 -0.55492884 0.93947417 6.8464408 -0.55492884 0.99802852 6.2632818 
-		-0.074629873 0.93947417 6.8464408 -0.074629873 0.99802852;
+	setAttr -s 8 ".pt[0:7]" -type "float3"  6.258563 -0.074629873 0.25573254 
+		6.8427672 -0.074629873 0.2449069 6.258563 -0.55492884 0.25573254 6.8427672 -0.55492884 
+		0.2449069 6.2550116 -0.55492884 0.73604345 6.8392158 -0.55492884 0.7252183 6.2550116 
+		-0.074629873 0.73604345 6.8392158 -0.074629873 0.7252183;
 	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
 		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
 	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
@@ -714,10 +717,6 @@ createNode mesh -n "finger_01_knuckle_Shape3" -p "finger_01_knuckle_03";
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "null1";
-	rename -uid "63416557-8F4A-2A5C-ED8F-42BC5613BCC5";
-	setAttr ".t" -type "double3" 2.1807037025062681 0 8.9901405321806287 ;
-	setAttr ".r" -type "double3" 0 -8.5210270277832567 0 ;
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "8A898CCD-5546-F2E2-C5E3-52B28558E363";
 	setAttr -s 2 ".lnk";
@@ -797,7 +796,7 @@ createNode transformGeometry -n "transformGeometry2";
 	rename -uid "B0B6BA30-8644-7ACB-6110-2A824A42B913";
 	setAttr ".txf" -type "matrix" 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.061576127398061509 1;
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "428D59F3-3644-4F45-FA9E-5283B4B9EEF0";
+	rename -uid "20E19BFD-0443-E8EB-0319-66874E76D9FC";
 	setAttr ".pee" yes;
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -44.047617297323995 -548.80950200179359 ;

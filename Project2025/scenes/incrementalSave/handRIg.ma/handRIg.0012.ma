@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: handRIg.ma
-//Last modified: Wed, Jan 21, 2026 12:41:12 PM
+//Last modified: Wed, Jan 21, 2026 12:28:24 PM
 //Codeset: UTF-8
 requires maya "2026";
 requires "mtoa" "5.5.3";
@@ -10,22 +10,22 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "5E353218-FD42-89FA-7558-009A282AECC3";
+fileInfo "UUID" "45067CD8-5941-8ACE-56C5-83AF7F21C92A";
 createNode transform -s -n "persp";
 	rename -uid "1B97BC4F-9A42-6749-0813-089FBA276094";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 4.9026933908462489 14.332797777786958 9.3934464454650843 ;
-	setAttr ".r" -type "double3" -89.999999999999986 -90 0 ;
-	setAttr ".rpt" -type "double3" 8.0229090840071399e-16 -1.5993745249675922e-16 -7.5602077459481369e-16 ;
+	setAttr ".t" -type "double3" 4.062313388063175 16.089886154678759 4.8174017350144602 ;
+	setAttr ".r" -type "double3" -89.999999999999957 -89.999999999999929 0 ;
+	setAttr ".rpt" -type "double3" 1.1304513047812941e-16 -1.759589470209228e-16 6.6219715787036044e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "41BC261B-0F41-FC89-6FD8-EDAE6A198F9A";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 14.98380864872049;
+	setAttr ".coi" 16.361770491746668;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 4.9026933908462551 -0.65101087093353271 9.3934464454650879 ;
+	setAttr ".tp" -type "double3" 6.194803595542913 -0.27188433706760051 6.8498702049255371 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "9B0D354B-BB49-D7EC-E54C-EFB5AD9B481D";
@@ -77,9 +77,298 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".hc" -type "string" "viewSet -s %camera";
 	setAttr ".o" yes;
 	setAttr ".ai_translator" -type "string" "orthographic";
+createNode transform -n "finger_02_knucle_01";
+	rename -uid "BFE934E5-654F-C8E9-EB4C-22B826D69193";
+	setAttr ".rp" -type "double3" 2.9720697402954102 0 6.2187163329829582 ;
+	setAttr ".sp" -type "double3" 2.9720697402954102 0 6.2187163329829582 ;
+createNode mesh -n "finger_02_knucle_Shape1" -p "finger_02_knucle_01";
+	rename -uid "467A7C8A-5A4D-461E-35EE-BCB927C85D4C";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode transform -n "finger_02_knuckle_02" -p "finger_02_knucle_01";
+	rename -uid "507130EC-A94B-B8A1-E30E-0D970747B2FE";
+	setAttr ".rp" -type "double3" 5.716850757598877 -6.4705384192453917e-05 6.2187163329829618 ;
+	setAttr ".sp" -type "double3" 5.716850757598877 -6.4705384192453917e-05 6.2187163329829618 ;
+createNode mesh -n "finger_02_knuckle_Shape2" -p "finger_02_knuckle_02";
+	rename -uid "A2FEB515-354F-3653-3CA9-3780FF02EFC6";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr -s 6 ".gtag";
+	setAttr ".gtag[0].gtagnm" -type "string" "back";
+	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[2]";
+	setAttr ".gtag[1].gtagnm" -type "string" "bottom";
+	setAttr ".gtag[1].gtagcmp" -type "componentList" 1 "f[3]";
+	setAttr ".gtag[2].gtagnm" -type "string" "front";
+	setAttr ".gtag[2].gtagcmp" -type "componentList" 1 "f[0]";
+	setAttr ".gtag[3].gtagnm" -type "string" "left";
+	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "f[5]";
+	setAttr ".gtag[4].gtagnm" -type "string" "right";
+	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "f[4]";
+	setAttr ".gtag[5].gtagnm" -type "string" "top";
+	setAttr ".gtag[5].gtagcmp" -type "componentList" 1 "f[1]";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.375
+		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
+		 0.875 0.25 0.125 0 0.125 0.25;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 8 ".pt[0:7]" -type "float3"  6.2168508 0.10778411 6.1108675 
+		7.6076937 0.10778411 6.1108675 6.2168508 -0.10791352 6.1108675 7.6076937 -0.10791352 
+		6.1108675 6.2168508 -0.10791352 6.3265648 7.6076937 -0.10791352 6.3265648 6.2168508 
+		0.10778411 6.3265648 7.6076937 0.10778411 6.3265648;
+	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
+		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
+	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
+		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
+	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
+		f 4 0 5 -2 -5
+		mu 0 4 0 1 3 2
+		f 4 1 7 -3 -7
+		mu 0 4 2 3 5 4
+		f 4 2 9 -4 -9
+		mu 0 4 4 5 7 6
+		f 4 3 11 -1 -11
+		mu 0 4 6 7 9 8
+		f 4 -12 -10 -8 -6
+		mu 0 4 1 10 11 3
+		f 4 10 4 6 8
+		mu 0 4 12 0 2 13;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "finger_02_knuckle_03" -p "finger_02_knuckle_02";
+	rename -uid "D7F997BB-E741-AB10-89AF-298246DABC4D";
+	setAttr ".rp" -type "double3" 8.1877307891845703 -0.027598156641082148 6.2187163329829662 ;
+	setAttr ".sp" -type "double3" 8.1877307891845703 -0.027598156641082148 6.2187163329829662 ;
+createNode mesh -n "finger_02_knuckle_Shape3" -p "finger_02_knuckle_03";
+	rename -uid "7D500928-6F42-719C-597C-10928BBA244E";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr -s 6 ".gtag";
+	setAttr ".gtag[0].gtagnm" -type "string" "back";
+	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[2]";
+	setAttr ".gtag[1].gtagnm" -type "string" "bottom";
+	setAttr ".gtag[1].gtagcmp" -type "componentList" 1 "f[3]";
+	setAttr ".gtag[2].gtagnm" -type "string" "front";
+	setAttr ".gtag[2].gtagcmp" -type "componentList" 1 "f[0]";
+	setAttr ".gtag[3].gtagnm" -type "string" "left";
+	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "f[5]";
+	setAttr ".gtag[4].gtagnm" -type "string" "right";
+	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "f[4]";
+	setAttr ".gtag[5].gtagnm" -type "string" "top";
+	setAttr ".gtag[5].gtagcmp" -type "componentList" 1 "f[1]";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.375
+		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
+		 0.875 0.25 0.125 0 0.125 0.25;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 8 ".pt[0:7]" -type "float3"  8.6877308 0.12715448 6.0639639 
+		9.792613 0.12715448 6.0639639 8.6877308 -0.1823508 6.0639639 9.792613 -0.1823508 
+		6.0639639 8.6877308 -0.1823508 6.3734694 9.792613 -0.1823508 6.3734694 8.6877308 
+		0.12715448 6.3734694 9.792613 0.12715448 6.3734694;
+	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
+		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
+	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
+		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
+	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
+		f 4 0 5 -2 -5
+		mu 0 4 0 1 3 2
+		f 4 1 7 -3 -7
+		mu 0 4 2 3 5 4
+		f 4 2 9 -4 -9
+		mu 0 4 4 5 7 6
+		f 4 3 11 -1 -11
+		mu 0 4 6 7 9 8
+		f 4 -12 -10 -8 -6
+		mu 0 4 1 10 11 3
+		f 4 10 4 6 8
+		mu 0 4 12 0 2 13;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "finger_03_knuckle_01";
+	rename -uid "7D3F8C7E-EE4A-01B7-A892-9BA87CE3855E";
+	setAttr ".rp" -type "double3" 2.6078161930652048 -0.30668151854305625 7.6920385607702002 ;
+	setAttr ".sp" -type "double3" 2.6078161930652048 -0.30668151854305625 7.6920385607702002 ;
+createNode mesh -n "finger_03_knuckle_Shape1" -p "finger_03_knuckle_01";
+	rename -uid "6CEFBA90-964C-A143-A248-FE9DDD490033";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr -s 6 ".gtag";
+	setAttr ".gtag[0].gtagnm" -type "string" "back";
+	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[2]";
+	setAttr ".gtag[1].gtagnm" -type "string" "bottom";
+	setAttr ".gtag[1].gtagcmp" -type "componentList" 1 "f[3]";
+	setAttr ".gtag[2].gtagnm" -type "string" "front";
+	setAttr ".gtag[2].gtagcmp" -type "componentList" 1 "f[0]";
+	setAttr ".gtag[3].gtagnm" -type "string" "left";
+	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "f[5]";
+	setAttr ".gtag[4].gtagnm" -type "string" "right";
+	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "f[4]";
+	setAttr ".gtag[5].gtagnm" -type "string" "top";
+	setAttr ".gtag[5].gtagcmp" -type "componentList" 1 "f[1]";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.375
+		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
+		 0.875 0.25 0.125 0 0.125 0.25;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 8 ".pt[0:7]" -type "float3"  3.0811205 -0.19358653 7.5780215 
+		4.4343572 -0.19358653 7.7407784 3.0811205 -0.4197765 7.5780215 4.4343572 -0.4197765 
+		7.7407784 3.1345119 -0.4197765 7.8060555 4.4877486 -0.4197765 7.968812 3.1345119 
+		-0.19358653 7.8060555 4.4877486 -0.19358653 7.968812;
+	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
+		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
+	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
+		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
+	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
+		f 4 0 5 -2 -5
+		mu 0 4 0 1 3 2
+		f 4 1 7 -3 -7
+		mu 0 4 2 3 5 4
+		f 4 2 9 -4 -9
+		mu 0 4 4 5 7 6
+		f 4 3 11 -1 -11
+		mu 0 4 6 7 9 8
+		f 4 -12 -10 -8 -6
+		mu 0 4 1 10 11 3
+		f 4 10 4 6 8
+		mu 0 4 12 0 2 13;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+	setAttr ".dr" 1;
+createNode transform -n "finger_03_knuckle_02" -p "finger_03_knuckle_01";
+	rename -uid "B8A379D0-A241-822D-FBA5-33A848969D5B";
+	setAttr ".rp" -type "double3" 4.8443999144420165 -0.59392742336338178 7.7476214520196818 ;
+	setAttr ".sp" -type "double3" 4.8443999144420165 -0.59392742336338178 7.7476214520196818 ;
+createNode mesh -n "finger_03_knuckle_Shape2" -p "finger_03_knuckle_02";
+	rename -uid "6FB4C183-A149-4D01-4336-C78DFC0A869B";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr -s 6 ".gtag";
+	setAttr ".gtag[0].gtagnm" -type "string" "back";
+	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[2]";
+	setAttr ".gtag[1].gtagnm" -type "string" "bottom";
+	setAttr ".gtag[1].gtagcmp" -type "componentList" 1 "f[3]";
+	setAttr ".gtag[2].gtagnm" -type "string" "front";
+	setAttr ".gtag[2].gtagcmp" -type "componentList" 1 "f[0]";
+	setAttr ".gtag[3].gtagnm" -type "string" "left";
+	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "f[5]";
+	setAttr ".gtag[4].gtagnm" -type "string" "right";
+	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "f[4]";
+	setAttr ".gtag[5].gtagnm" -type "string" "top";
+	setAttr ".gtag[5].gtagcmp" -type "componentList" 1 "f[1]";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.375
+		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
+		 0.875 0.25 0.125 0 0.125 0.25;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 8 ".pt[0:7]" -type "float3"  5.5193534 -0.13719405 7.713181 
+		6.6478105 -0.13719405 7.8603911 5.5193534 -0.43729776 7.713181 6.6478105 -0.43729776 
+		7.8603911 5.5676446 -0.43729776 8.0149527 6.6961021 -0.43729776 8.1621628 5.5676446 
+		-0.13719405 8.0149527 6.6961021 -0.13719405 8.1621628;
+	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
+		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
+	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
+		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
+	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
+		f 4 0 5 -2 -5
+		mu 0 4 0 1 3 2
+		f 4 1 7 -3 -7
+		mu 0 4 2 3 5 4
+		f 4 2 9 -4 -9
+		mu 0 4 4 5 7 6
+		f 4 3 11 -1 -11
+		mu 0 4 6 7 9 8
+		f 4 -12 -10 -8 -6
+		mu 0 4 1 10 11 3
+		f 4 10 4 6 8
+		mu 0 4 12 0 2 13;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "finger_03_knuckle_03" -p "finger_03_knuckle_02";
+	rename -uid "BB393018-7741-A00C-BD93-CC8984A4B9E6";
+	setAttr ".rp" -type "double3" 7.0389071748351713 -0.62146087462027144 7.8968945927819423 ;
+	setAttr ".sp" -type "double3" 7.0389071748351713 -0.62146087462027144 7.8968945927819423 ;
+createNode mesh -n "finger_03_knuckle_Shape3" -p "finger_03_knuckle_03";
+	rename -uid "FFB70B0D-E04C-4B54-F4A1-778A91DB11B8";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr -s 6 ".gtag";
+	setAttr ".gtag[0].gtagnm" -type "string" "back";
+	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[2]";
+	setAttr ".gtag[1].gtagnm" -type "string" "bottom";
+	setAttr ".gtag[1].gtagcmp" -type "componentList" 1 "f[3]";
+	setAttr ".gtag[2].gtagnm" -type "string" "front";
+	setAttr ".gtag[2].gtagcmp" -type "componentList" 1 "f[0]";
+	setAttr ".gtag[3].gtagnm" -type "string" "left";
+	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "f[5]";
+	setAttr ".gtag[4].gtagnm" -type "string" "right";
+	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "f[4]";
+	setAttr ".gtag[5].gtagnm" -type "string" "top";
+	setAttr ".gtag[5].gtagcmp" -type "componentList" 1 "f[1]";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.375
+		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
+		 0.875 0.25 0.125 0 0.125 0.25;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 8 ".pt[0:7]" -type "float3"  7.720077 -0.074629873 7.7725711 
+		8.3005428 -0.074629873 7.8818808 7.720077 -0.55492884 7.7725711 8.3005428 -0.55492884 
+		7.8818808 7.7559357 -0.55492884 8.2541084 8.336401 -0.55492884 8.3634186 7.7559357 
+		-0.074629873 8.2541084 8.336401 -0.074629873 8.3634186;
+	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
+		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
+	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
+		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
+	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
+		f 4 0 5 -2 -5
+		mu 0 4 0 1 3 2
+		f 4 1 7 -3 -7
+		mu 0 4 2 3 5 4
+		f 4 2 9 -4 -9
+		mu 0 4 4 5 7 6
+		f 4 3 11 -1 -11
+		mu 0 4 6 7 9 8
+		f 4 -12 -10 -8 -6
+		mu 0 4 1 10 11 3
+		f 4 10 4 6 8
+		mu 0 4 12 0 2 13;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "finger_04_knuckle_01";
 	rename -uid "186524CA-4242-EBF0-7D7F-8E988BCABC99";
-	setAttr ".t" -type "double3" 1.1102230246251565e-15 0 -3.5527136788005009e-15 ;
 	setAttr ".rp" -type "double3" 2.2388462151251529 -0.65101088832292398 9.0306242562858312 ;
 	setAttr ".sp" -type "double3" 2.2388462151251529 -0.65101088832292398 9.0306242562858312 ;
 createNode mesh -n "finger_04_knuckle_Shape1" -p "finger_04_knuckle_01";
@@ -243,312 +532,19 @@ createNode mesh -n "finger_04_knuckle_Shape3" -p "finger_04_knuckle_03";
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "finger_02_knucle_01";
-	rename -uid "BFE934E5-654F-C8E9-EB4C-22B826D69193";
-	setAttr ".rp" -type "double3" 2.9720697402954102 0 6.2187163329829582 ;
-	setAttr ".sp" -type "double3" 2.9720697402954102 0 6.2187163329829582 ;
-createNode mesh -n "finger_02_knucle_Shape1" -p "finger_02_knucle_01";
-	rename -uid "467A7C8A-5A4D-461E-35EE-BCB927C85D4C";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "map1";
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode transform -n "finger_02_knuckle_02" -p "finger_02_knucle_01";
-	rename -uid "507130EC-A94B-B8A1-E30E-0D970747B2FE";
-	setAttr ".rp" -type "double3" 5.716850757598877 -6.4705384192453917e-05 6.2187163329829618 ;
-	setAttr ".sp" -type "double3" 5.716850757598877 -6.4705384192453917e-05 6.2187163329829618 ;
-createNode mesh -n "finger_02_knuckle_Shape2" -p "finger_02_knuckle_02";
-	rename -uid "A2FEB515-354F-3653-3CA9-3780FF02EFC6";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 6 ".gtag";
-	setAttr ".gtag[0].gtagnm" -type "string" "back";
-	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[2]";
-	setAttr ".gtag[1].gtagnm" -type "string" "bottom";
-	setAttr ".gtag[1].gtagcmp" -type "componentList" 1 "f[3]";
-	setAttr ".gtag[2].gtagnm" -type "string" "front";
-	setAttr ".gtag[2].gtagcmp" -type "componentList" 1 "f[0]";
-	setAttr ".gtag[3].gtagnm" -type "string" "left";
-	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "f[5]";
-	setAttr ".gtag[4].gtagnm" -type "string" "right";
-	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "f[4]";
-	setAttr ".gtag[5].gtagnm" -type "string" "top";
-	setAttr ".gtag[5].gtagcmp" -type "componentList" 1 "f[1]";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.375
-		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
-		 0.875 0.25 0.125 0 0.125 0.25;
-	setAttr ".cuvs" -type "string" "map1";
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  6.2168508 0.10778411 6.1108675 
-		7.6076937 0.10778411 6.1108675 6.2168508 -0.10791352 6.1108675 7.6076937 -0.10791352 
-		6.1108675 6.2168508 -0.10791352 6.3265648 7.6076937 -0.10791352 6.3265648 6.2168508 
-		0.10778411 6.3265648 7.6076937 0.10778411 6.3265648;
-	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
-		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
-	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
-		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
-	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
-		f 4 0 5 -2 -5
-		mu 0 4 0 1 3 2
-		f 4 1 7 -3 -7
-		mu 0 4 2 3 5 4
-		f 4 2 9 -4 -9
-		mu 0 4 4 5 7 6
-		f 4 3 11 -1 -11
-		mu 0 4 6 7 9 8
-		f 4 -12 -10 -8 -6
-		mu 0 4 1 10 11 3
-		f 4 10 4 6 8
-		mu 0 4 12 0 2 13;
-	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
-	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
-	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
-	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "finger_02_knuckle_03" -p "finger_02_knuckle_02";
-	rename -uid "D7F997BB-E741-AB10-89AF-298246DABC4D";
-	setAttr ".rp" -type "double3" 8.1877307891845703 -0.027598156641082148 6.2187163329829662 ;
-	setAttr ".sp" -type "double3" 8.1877307891845703 -0.027598156641082148 6.2187163329829662 ;
-createNode mesh -n "finger_02_knuckle_Shape3" -p "finger_02_knuckle_03";
-	rename -uid "7D500928-6F42-719C-597C-10928BBA244E";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 6 ".gtag";
-	setAttr ".gtag[0].gtagnm" -type "string" "back";
-	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[2]";
-	setAttr ".gtag[1].gtagnm" -type "string" "bottom";
-	setAttr ".gtag[1].gtagcmp" -type "componentList" 1 "f[3]";
-	setAttr ".gtag[2].gtagnm" -type "string" "front";
-	setAttr ".gtag[2].gtagcmp" -type "componentList" 1 "f[0]";
-	setAttr ".gtag[3].gtagnm" -type "string" "left";
-	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "f[5]";
-	setAttr ".gtag[4].gtagnm" -type "string" "right";
-	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "f[4]";
-	setAttr ".gtag[5].gtagnm" -type "string" "top";
-	setAttr ".gtag[5].gtagcmp" -type "componentList" 1 "f[1]";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.375
-		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
-		 0.875 0.25 0.125 0 0.125 0.25;
-	setAttr ".cuvs" -type "string" "map1";
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  8.6877308 0.12715448 6.0639639 
-		9.792613 0.12715448 6.0639639 8.6877308 -0.1823508 6.0639639 9.792613 -0.1823508 
-		6.0639639 8.6877308 -0.1823508 6.3734694 9.792613 -0.1823508 6.3734694 8.6877308 
-		0.12715448 6.3734694 9.792613 0.12715448 6.3734694;
-	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
-		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
-	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
-		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
-	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
-		f 4 0 5 -2 -5
-		mu 0 4 0 1 3 2
-		f 4 1 7 -3 -7
-		mu 0 4 2 3 5 4
-		f 4 2 9 -4 -9
-		mu 0 4 4 5 7 6
-		f 4 3 11 -1 -11
-		mu 0 4 6 7 9 8
-		f 4 -12 -10 -8 -6
-		mu 0 4 1 10 11 3
-		f 4 10 4 6 8
-		mu 0 4 12 0 2 13;
-	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
-	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
-	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
-	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "finger_03_knuckle_01_grp";
-	rename -uid "02B0F287-514F-55E9-40C1-789F850DB61A";
-	setAttr ".t" -type "double3" 1.4939745482009026 0 7.1670035751695309 ;
-	setAttr ".r" -type "double3" 0 0.040796382871147029 0 ;
-	setAttr ".rp" -type "double3" 1.1345658671671575 0.080223500728607178 0.50310517968710311 ;
-	setAttr ".rpt" -type "double3" -5.1857389909981677e-16 1.2490009027033011e-16 -5.1596097186412671e-15 ;
-	setAttr ".sp" -type "double3" 1.1345658671671575 0.080223500728607178 0.50310517968710311 ;
-createNode transform -n "finger_03_knuckle_01" -p "finger_03_knuckle_01_grp";
-	rename -uid "7D3F8C7E-EE4A-01B7-A892-9BA87CE3855E";
-	setAttr ".rp" -type "double3" 1.1565148202204416 -0.30668151854305625 0.56755236162424971 ;
-	setAttr ".sp" -type "double3" 1.1565148202204416 -0.30668151854305625 0.56755236162424971 ;
-createNode mesh -n "finger_03_knuckle_Shape1" -p "finger_03_knuckle_01";
-	rename -uid "6CEFBA90-964C-A143-A248-FE9DDD490033";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 6 ".gtag";
-	setAttr ".gtag[0].gtagnm" -type "string" "back";
-	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[2]";
-	setAttr ".gtag[1].gtagnm" -type "string" "bottom";
-	setAttr ".gtag[1].gtagcmp" -type "componentList" 1 "f[3]";
-	setAttr ".gtag[2].gtagnm" -type "string" "front";
-	setAttr ".gtag[2].gtagcmp" -type "componentList" 1 "f[0]";
-	setAttr ".gtag[3].gtagnm" -type "string" "left";
-	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "f[5]";
-	setAttr ".gtag[4].gtagnm" -type "string" "right";
-	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "f[4]";
-	setAttr ".gtag[5].gtagnm" -type "string" "top";
-	setAttr ".gtag[5].gtagcmp" -type "componentList" 1 "f[1]";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.375
-		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
-		 0.875 0.25 0.125 0 0.125 0.25;
-	setAttr ".cuvs" -type "string" "map1";
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  1.6012639 -0.19358653 0.41318396 
-		2.9585104 -0.19358653 0.50036764 1.6012639 -0.4197765 0.41318396 2.9585104 -0.4197765 
-		0.50036764 1.629864 -0.4197765 0.63990235 2.9871104 -0.4197765 0.72708553 1.629864 
-		-0.19358653 0.63990235 2.9871104 -0.19358653 0.72708553;
-	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
-		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
-	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
-		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
-	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
-		f 4 0 5 -2 -5
-		mu 0 4 0 1 3 2
-		f 4 1 7 -3 -7
-		mu 0 4 2 3 5 4
-		f 4 2 9 -4 -9
-		mu 0 4 4 5 7 6
-		f 4 3 11 -1 -11
-		mu 0 4 6 7 9 8
-		f 4 -12 -10 -8 -6
-		mu 0 4 1 10 11 3
-		f 4 10 4 6 8
-		mu 0 4 12 0 2 13;
-	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
-	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
-	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
-	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-	setAttr ".dr" 1;
-createNode transform -n "finger_03_knuckle_02" -p "finger_03_knuckle_01";
-	rename -uid "B8A379D0-A241-822D-FBA5-33A848969D5B";
-	setAttr ".rp" -type "double3" 3.3527795447082429 -0.59392742336338178 0.51035014710771875 ;
-	setAttr ".sp" -type "double3" 3.3527795447082429 -0.59392742336338178 0.51035014710771875 ;
-createNode mesh -n "finger_03_knuckle_Shape2" -p "finger_03_knuckle_02";
-	rename -uid "6FB4C183-A149-4D01-4336-C78DFC0A869B";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 6 ".gtag";
-	setAttr ".gtag[0].gtagnm" -type "string" "back";
-	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[2]";
-	setAttr ".gtag[1].gtagnm" -type "string" "bottom";
-	setAttr ".gtag[1].gtagcmp" -type "componentList" 1 "f[3]";
-	setAttr ".gtag[2].gtagnm" -type "string" "front";
-	setAttr ".gtag[2].gtagcmp" -type "componentList" 1 "f[0]";
-	setAttr ".gtag[3].gtagnm" -type "string" "left";
-	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "f[5]";
-	setAttr ".gtag[4].gtagnm" -type "string" "right";
-	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "f[4]";
-	setAttr ".gtag[5].gtagnm" -type "string" "top";
-	setAttr ".gtag[5].gtagcmp" -type "componentList" 1 "f[1]";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.375
-		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
-		 0.875 0.25 0.125 0 0.125 0.25;
-	setAttr ".cuvs" -type "string" "map1";
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  4.0425777 -0.13719405 0.47005796 
-		5.1746616 -0.13719405 0.54891348 4.0425777 -0.43729776 0.47005796 5.1746616 -0.43729776 
-		0.54891348 4.0684457 -0.43729776 0.77063966 5.2005301 -0.43729776 0.84949523 4.0684457 
-		-0.13719405 0.77063966 5.2005301 -0.13719405 0.84949523;
-	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
-		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
-	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
-		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
-	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
-		f 4 0 5 -2 -5
-		mu 0 4 0 1 3 2
-		f 4 1 7 -3 -7
-		mu 0 4 2 3 5 4
-		f 4 2 9 -4 -9
-		mu 0 4 4 5 7 6
-		f 4 3 11 -1 -11
-		mu 0 4 6 7 9 8
-		f 4 -12 -10 -8 -6
-		mu 0 4 1 10 11 3
-		f 4 10 4 6 8
-		mu 0 4 12 0 2 13;
-	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
-	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
-	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
-	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "finger_03_knuckle_03" -p "finger_03_knuckle_02";
-	rename -uid "BB393018-7741-A00C-BD93-CC8984A4B9E6";
-	setAttr ".rp" -type "double3" 5.5509458988608813 -0.62146087462027144 0.58914904267482093 ;
-	setAttr ".sp" -type "double3" 5.5509458988608813 -0.62146087462027144 0.58914904267482093 ;
-createNode mesh -n "finger_03_knuckle_Shape3" -p "finger_03_knuckle_03";
-	rename -uid "FFB70B0D-E04C-4B54-F4A1-778A91DB11B8";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 6 ".gtag";
-	setAttr ".gtag[0].gtagnm" -type "string" "back";
-	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[2]";
-	setAttr ".gtag[1].gtagnm" -type "string" "bottom";
-	setAttr ".gtag[1].gtagcmp" -type "componentList" 1 "f[3]";
-	setAttr ".gtag[2].gtagnm" -type "string" "front";
-	setAttr ".gtag[2].gtagcmp" -type "componentList" 1 "f[0]";
-	setAttr ".gtag[3].gtagnm" -type "string" "left";
-	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "f[5]";
-	setAttr ".gtag[4].gtagnm" -type "string" "right";
-	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "f[4]";
-	setAttr ".gtag[5].gtagnm" -type "string" "top";
-	setAttr ".gtag[5].gtagcmp" -type "componentList" 1 "f[1]";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 14 ".uvst[0].uvsp[0:13]" -type "float2" 0.375 0 0.625 0 0.375
-		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
-		 0.875 0.25 0.125 0 0.125 0.25;
-	setAttr ".cuvs" -type "string" "map1";
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  6.2440739 -0.074629873 0.45882028 
-		6.8272328 -0.074629873 0.51737416 6.2440739 -0.55492884 0.45882028 6.8272328 -0.55492884 
-		0.51737416 6.2632818 -0.55492884 0.93947417 6.8464408 -0.55492884 0.99802852 6.2632818 
-		-0.074629873 0.93947417 6.8464408 -0.074629873 0.99802852;
-	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
-		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
-	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
-		 3 5 0 4 6 0 5 7 0 6 0 0 7 1 0;
-	setAttr -s 6 -ch 24 ".fc[0:5]" -type "polyFaces" 
-		f 4 0 5 -2 -5
-		mu 0 4 0 1 3 2
-		f 4 1 7 -3 -7
-		mu 0 4 2 3 5 4
-		f 4 2 9 -4 -9
-		mu 0 4 4 5 7 6
-		f 4 3 11 -1 -11
-		mu 0 4 6 7 9 8
-		f 4 -12 -10 -8 -6
-		mu 0 4 1 10 11 3
-		f 4 10 4 6 8
-		mu 0 4 12 0 2 13;
-	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
-	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
-	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
-	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "finger_01_knuckle_01";
-	rename -uid "3731A343-1F4B-440A-047A-1382FDE597EA";
-	setAttr ".t" -type "double3" 1.3876621023893749 -0.041094675280412093 4.2908844771077055 ;
-	setAttr ".r" -type "double3" 0 8.3211675863037211 0 ;
-	setAttr ".rp" -type "double3" 1.1155638665867635 -0.30668151854305625 0.52654304971421073 ;
-	setAttr ".rpt" -type "double3" -1.0269562977782698e-15 0 1.8596235662471372e-15 ;
-	setAttr ".sp" -type "double3" 1.1155638665867635 -0.30668151854305625 0.52654304971421073 ;
-createNode mesh -n "finger_01_knuckle_Shape1" -p "finger_01_knuckle_01";
-	rename -uid "A84A67B8-C948-055C-8DC5-63A4D24A414A";
+	rename -uid "30865F52-B341-00C7-8DEC-C59418DC4BB0";
+	setAttr ".t" -type "double3" 2.3065828958646017 -0.38034830413508575 4.8504581074032131 ;
+	setAttr ".rp" -type "double3" 0.15962076526714553 -1.7763568394002505e-15 -0.043320177860222131 ;
+	setAttr ".sp" -type "double3" 0.15962076526714553 -1.7763568394002505e-15 -0.043320177860222131 ;
+createNode transform -n "finger_01_knuckle_01" -p "|finger_01_knuckle_01";
+	rename -uid "6204C115-CC49-02DA-1E89-1EA976C229C3";
+	setAttr ".t" -type "double3" -2.3065828958646017 0.38034830413508575 -4.8504581074032131 ;
+	setAttr ".rp" -type "double3" 2.4990040952327144 -0.37337205763693593 4.8189856467901642 ;
+	setAttr ".rpt" -type "double3" -1.2212453270876722e-15 0 -1.3877787807814457e-15 ;
+	setAttr ".sp" -type "double3" 2.4990040952327144 -0.37337205763693593 4.8189856467901642 ;
+createNode mesh -n "finger_01_knuckle_Shape1" -p "|finger_01_knuckle_01|finger_01_knuckle_01";
+	rename -uid "A1522C50-AD4F-619B-E259-918537A56CE7";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
@@ -573,10 +569,10 @@ createNode mesh -n "finger_01_knuckle_Shape1" -p "finger_01_knuckle_01";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  1.6182078 -0.19358653 0.41343927 
-		2.977011 -0.19358653 0.39732027 1.6182078 -0.4197765 0.41343927 2.977011 -0.4197765 
-		0.39732027 1.61292 -0.4197765 0.63964701 2.9717231 -0.4197765 0.62352753 1.61292 
-		-0.19358653 0.63964701 2.9717231 -0.19358653 0.62352753;
+	setAttr -s 8 ".pt[0:7]" -type "float3"  3.0585601 -0.26470885 4.7044291 
+		4.3897543 -0.26470885 4.3442287 3.0585601 -0.49089882 4.7044291 4.3897543 -0.49089882 
+		4.3442287 2.9403985 -0.49089882 4.9396935 4.2715926 -0.49089882 4.5794935 2.9403985 
+		-0.26470885 4.9396935 4.2715926 -0.26470885 4.5794935;
 	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
 		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
 	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
@@ -598,16 +594,11 @@ createNode mesh -n "finger_01_knuckle_Shape1" -p "finger_01_knuckle_01";
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-	setAttr ".dr" 1;
-createNode transform -n "finger_01_knuckle_02" -p "finger_01_knuckle_01";
+createNode transform -n "finger_01_knuckle_02" -p "|finger_01_knuckle_01|finger_01_knuckle_01";
 	rename -uid "62D4A248-7D49-67F2-CA97-E9A30C87C3A3";
-	setAttr ".t" -type "double3" -0.66412249839590232 0.041094675280412114 -4.6024397607690579 ;
-	setAttr ".r" -type "double3" 0 -8.3211675863037211 0 ;
-	setAttr ".s" -type "double3" 1.0000000000000002 1 1.0000000000000002 ;
-	setAttr ".rp" -type "double3" 4.9475123302828905 -0.37786853059165759 4.4438079307594149 ;
-	setAttr ".rpt" -type "double3" -0.69520120994220846 0 0.66923004285357857 ;
+	setAttr ".rp" -type "double3" 4.9475123302828896 -0.37786853059165759 4.443807930759414 ;
+	setAttr ".rpt" -type "double3" 1.5959455978986625e-16 0 2.3696322681843185e-15 ;
 	setAttr ".sp" -type "double3" 4.9475123302828896 -0.37786853059165759 4.443807930759414 ;
-	setAttr ".spt" -type "double3" 8.8817841970012563e-16 0 8.8817841970012563e-16 ;
 createNode mesh -n "finger_01_knuckle_Shape2" -p "finger_01_knuckle_02";
 	rename -uid "77D66F56-C040-7C8E-D115-14AA0B97B9B5";
 	setAttr -k off ".v";
@@ -715,9 +706,10 @@ createNode mesh -n "finger_01_knuckle_Shape3" -p "finger_01_knuckle_03";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "null1";
-	rename -uid "63416557-8F4A-2A5C-ED8F-42BC5613BCC5";
-	setAttr ".t" -type "double3" 2.1807037025062681 0 8.9901405321806287 ;
-	setAttr ".r" -type "double3" 0 -8.5210270277832567 0 ;
+	rename -uid "02B0F287-514F-55E9-40C1-789F850DB61A";
+	setAttr ".t" -type "double3" 1.493972440720055 0 7.1670035751695309 ;
+	setAttr ".rp" -type "double3" 1.1345658671671575 0.080223500728607178 0.50310517968710311 ;
+	setAttr ".sp" -type "double3" 1.1345658671671575 0.080223500728607178 0.50310517968710311 ;
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "8A898CCD-5546-F2E2-C5E3-52B28558E363";
 	setAttr -s 2 ".lnk";
@@ -797,7 +789,7 @@ createNode transformGeometry -n "transformGeometry2";
 	rename -uid "B0B6BA30-8644-7ACB-6110-2A824A42B913";
 	setAttr ".txf" -type "matrix" 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.061576127398061509 1;
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "428D59F3-3644-4F45-FA9E-5283B4B9EEF0";
+	rename -uid "589D5023-7D46-E0F1-672C-C49C27C3712A";
 	setAttr ".pee" yes;
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -44.047617297323995 -548.80950200179359 ;
@@ -865,6 +857,7 @@ connectAttr "finger_02_knucle_Shape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "finger_02_knuckle_Shape2.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "finger_02_knuckle_Shape3.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "finger_03_knuckle_Shape1.iog" ":initialShadingGroup.dsm" -na;
+connectAttr "finger_01_knuckle_Shape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "finger_01_knuckle_Shape2.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "finger_04_knuckle_Shape3.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "finger_04_knuckle_Shape1.iog" ":initialShadingGroup.dsm" -na;
@@ -872,5 +865,4 @@ connectAttr "finger_04_knuckle_Shape2.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "finger_01_knuckle_Shape3.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "finger_03_knuckle_Shape3.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "finger_03_knuckle_Shape2.iog" ":initialShadingGroup.dsm" -na;
-connectAttr "finger_01_knuckle_Shape1.iog" ":initialShadingGroup.dsm" -na;
 // End of handRIg.ma

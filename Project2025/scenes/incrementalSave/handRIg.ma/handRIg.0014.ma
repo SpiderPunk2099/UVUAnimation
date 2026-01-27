@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: handRIg.ma
-//Last modified: Wed, Jan 21, 2026 12:41:12 PM
+//Last modified: Wed, Jan 21, 2026 12:39:35 PM
 //Codeset: UTF-8
 requires maya "2026";
 requires "mtoa" "5.5.3";
@@ -10,22 +10,22 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "5E353218-FD42-89FA-7558-009A282AECC3";
+fileInfo "UUID" "2FDC2EED-864B-E8D8-1B58-97BE9396C210";
 createNode transform -s -n "persp";
 	rename -uid "1B97BC4F-9A42-6749-0813-089FBA276094";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 4.9026933908462489 14.332797777786958 9.3934464454650843 ;
+	setAttr ".t" -type "double3" 5.6364799924641646 17.057751887218082 4.3698616917237896 ;
 	setAttr ".r" -type "double3" -89.999999999999986 -90 0 ;
-	setAttr ".rpt" -type "double3" 8.0229090840071399e-16 -1.5993745249675922e-16 -7.5602077459481369e-16 ;
+	setAttr ".rpt" -type "double3" 8.0229090840072819e-16 -1.5993745249676213e-16 -7.5602077459481941e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "41BC261B-0F41-FC89-6FD8-EDAE6A198F9A";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 14.98380864872049;
+	setAttr ".coi" 17.40552807628481;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 4.9026933908462551 -0.65101087093353271 9.3934464454650879 ;
+	setAttr ".tp" -type "double3" 5.6364799924641718 -0.34777618906672814 4.3698616917237922 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "9B0D354B-BB49-D7EC-E54C-EFB5AD9B481D";
@@ -716,8 +716,7 @@ createNode mesh -n "finger_01_knuckle_Shape3" -p "finger_01_knuckle_03";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "null1";
 	rename -uid "63416557-8F4A-2A5C-ED8F-42BC5613BCC5";
-	setAttr ".t" -type "double3" 2.1807037025062681 0 8.9901405321806287 ;
-	setAttr ".r" -type "double3" 0 -8.5210270277832567 0 ;
+	setAttr ".t" -type "double3" 2.5153099314182827 0 4.8319093664941164 ;
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "8A898CCD-5546-F2E2-C5E3-52B28558E363";
 	setAttr -s 2 ".lnk";
@@ -797,7 +796,7 @@ createNode transformGeometry -n "transformGeometry2";
 	rename -uid "B0B6BA30-8644-7ACB-6110-2A824A42B913";
 	setAttr ".txf" -type "matrix" 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.061576127398061509 1;
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "428D59F3-3644-4F45-FA9E-5283B4B9EEF0";
+	rename -uid "3B94D36C-5B42-2918-BD49-3DA8DDD71A6D";
 	setAttr ".pee" yes;
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -44.047617297323995 -548.80950200179359 ;
