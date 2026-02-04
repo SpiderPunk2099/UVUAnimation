@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: newBallExpression.ma
-//Last modified: Mon, Feb 02, 2026 07:31:56 PM
+//Last modified: Mon, Feb 02, 2026 07:26:34 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "Ultimate_Ball_v1_0_1" -rfn "Ultimate_Ball_v1_0_1RN" -op "v=0;"
 		 -typ "mayaAscii" "/Users/kierasheppard/Desktop/Ultimate_Ball_v1.0.1.ma";
@@ -14,17 +14,17 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "7C1B4B6A-DF43-2C4A-EFAC-A0A81707B8DA";
+fileInfo "UUID" "4BD6DA6A-4040-B883-A35C-6F8FCE6DD961";
 createNode transform -s -n "persp";
 	rename -uid "BEF3ED4B-C145-D9C8-D984-8887B9622330";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0.061653730654684935 14.551617997875667 66.690094673517976 ;
-	setAttr ".r" -type "double3" -9.6000000000002945 -2.001667358171342e-16 -8.1270654513123165e-18 ;
+	setAttr ".t" -type "double3" -1.0013409203712964 14.873967849467688 67.816984048865947 ;
+	setAttr ".r" -type "double3" -7.1999999999999913 8.2855769772900467e-14 -3.4223003944161237e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "020769EC-CD45-02FB-C381-93AB74B04498";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 63.368433856019202;
+	setAttr ".coi" 64.58995656089462;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -1364,20 +1364,6 @@ createNode mesh -n "pPlaneShape5" -p "pPlane5";
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "directionalLight1";
-	rename -uid "8775E71C-0C41-7CEF-03B5-96BA26AC95B9";
-	setAttr ".t" -type "double3" -12.467556073673551 14.137574793406646 22.588552324054746 ;
-	setAttr ".r" -type "double3" 0 -84.488814788294263 -35.856032933364226 ;
-createNode directionalLight -n "directionalLightShape1" -p "directionalLight1";
-	rename -uid "675D7911-1D40-51B5-ACCF-DC9A488B71F3";
-	setAttr -k off ".v";
-createNode transform -n "directionalLight2";
-	rename -uid "E11642A2-A549-DFCB-97F1-BC8D809AA85D";
-	setAttr ".t" -type "double3" 12.823680539367414 14.137574793406646 22.588552324054746 ;
-	setAttr ".r" -type "double3" 88.929620807941617 -2.1037295950938111 -222.32338125212593 ;
-createNode directionalLight -n "directionalLightShape2" -p "directionalLight2";
-	rename -uid "F1C1D3FA-C14A-E21B-D5AA-539255B3AE06";
-	setAttr -k off ".v";
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "1D52460B-C440-C4B6-EFD3-DFAD9B979F95";
 	setAttr -s 8 ".lnk";
@@ -1670,8 +1656,6 @@ select -ne :defaultRenderUtilityList1;
 	setAttr -s 2 ".u";
 select -ne :defaultRenderingList1;
 	setAttr -s 2 ".r";
-select -ne :lightList1;
-	setAttr -s 2 ".l";
 select -ne :standardSurface1;
 	setAttr ".bc" -type "float3" 0.40000001 0.40000001 0.40000001 ;
 	setAttr ".sr" 0.5;
@@ -1685,8 +1669,6 @@ select -ne :defaultRenderGlobals;
 	setAttr ".dss" -type "string" "standardSurface1";
 select -ne :defaultResolution;
 	setAttr ".pa" 1;
-select -ne :defaultLightSet;
-	setAttr -s 2 ".dsm";
 select -ne :defaultColorMgtGlobals;
 	setAttr ".cfe" yes;
 	setAttr ".cfp" -type "string" "<MAYA_RESOURCES>/OCIO-configs/Maya2022-default/config.ocio";
@@ -1700,7 +1682,6 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
 select -ne :ikSystem;
-	setAttr -s 4 ".sol";
 connectAttr "CTRL_Top_translateY.o" "Ultimate_Ball_v1_0_1RN.phl[1]";
 connectAttr "CTRL_Top_translateZ.o" "Ultimate_Ball_v1_0_1RN.phl[2]";
 connectAttr "CTRL_Top_translateX.o" "Ultimate_Ball_v1_0_1RN.phl[3]";
@@ -1727,13 +1708,9 @@ relationship "shadowLink" ":lightLinker1" ":initialParticleSE.message" ":default
 connectAttr "layerManager.dli[0]" "defaultLayer.id";
 connectAttr "renderLayerManager.rlmi[0]" "defaultRenderLayer.rlid";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
-connectAttr "directionalLightShape1.ltd" ":lightList1.l" -na;
-connectAttr "directionalLightShape2.ltd" ":lightList1.l" -na;
 connectAttr "pPlaneShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pPlaneShape2.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pPlaneShape3.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pPlaneShape4.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pPlaneShape5.iog" ":initialShadingGroup.dsm" -na;
-connectAttr "directionalLight1.iog" ":defaultLightSet.dsm" -na;
-connectAttr "directionalLight2.iog" ":defaultLightSet.dsm" -na;
 // End of newBallExpression.ma
