@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: rk rig.ma
-//Last modified: Mon, Feb 23, 2026 05:10:42 PM
+//Last modified: Mon, Feb 23, 2026 04:11:44 PM
 //Codeset: UTF-8
 requires "fbxmaya" "2020.3.9";
 file -rdi 1 -ns "lamp_model" -rfn "lamp_modelRN" -op "fbx" -typ "FBX" "/Users/kierasheppard/Desktop/lamp_model.fbx";
@@ -12,19 +12,19 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "038522A2-FF4B-D1FE-9219-85954E20B3C5";
+fileInfo "UUID" "17F43056-1242-3E90-769E-52BFEEC03C64";
 createNode transform -s -n "persp";
 	rename -uid "A6ECE5BE-6B42-7C10-7A6A-F7AB4DB0E03C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 12.920049380675405 6.4332557202600551 -4.1728208653391867 ;
-	setAttr ".r" -type "double3" -14.465885928904306 98.519115611753037 0 ;
+	setAttr ".t" -type "double3" 36.875495411442657 14.386574398825974 2.8158038578649771 ;
+	setAttr ".r" -type "double3" -10.865885928898622 84.119115611752761 7.7604283263954737e-15 ;
 	setAttr ".rp" -type "double3" -1.7763568394002505e-15 7.1054273576010019e-15 7.1054273576010019e-15 ;
 	setAttr ".rpt" -type "double3" 1.8992834663561447e-15 -1.3655818005737067e-15 -1.4007177257000782e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7D1C8280-CE45-427E-C24B-C78DB126FD9C";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 12.957574286682176;
+	setAttr ".coi" 38.095197499777541;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -263,10 +263,6 @@ createNode joint -n "base_base_Fk_jnt_01" -p "COG_jnt";
 	rename -uid "58647564-FC43-0D63-B1BF-26A59749F1DE";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 6;
-	setAttr ".t" -type "double3" 0 -0.028544684776091511 -0.0010200917018520009 ;
-	setAttr -av ".tx";
-	setAttr -av ".ty";
-	setAttr -av ".tz";
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".radi" 0.6;
@@ -556,6 +552,10 @@ createNode joint -n "base_Rk_jnt_01" -p "COG_jnt";
 	rename -uid "97B9862E-C240-DC3A-4919-BBBB7B1F29EC";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 14;
+	setAttr ".t" -type "double3" 0 0 0 ;
+	setAttr -av ".tx";
+	setAttr -av ".ty";
+	setAttr -av ".tz";
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".jot" -type "string" "none";
@@ -564,6 +564,10 @@ createNode joint -n "elbow_Rk_jnt_02" -p "base_Rk_jnt_01";
 	rename -uid "53EA93FA-254B-B567-97C6-1C96F23CACCC";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 14;
+	setAttr ".t" -type "double3" 5.076668252446126e-15 9.9472567397515448 -11.541016106894062 ;
+	setAttr -av ".tx";
+	setAttr -av ".ty";
+	setAttr -av ".tz";
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".jot" -type "string" "yzx";
@@ -871,7 +875,7 @@ createNode nurbsCurve -n "arm_Ik_base_ctrlShape" -p "arm_Ik_base_ctrl";
 		-0.91412346277024692 5.5973918635353881e-17 -0.91412346277024692
 		;
 createNode fosterParent -n "lamp_modelRNfosterParent1";
-	rename -uid "066B1077-824C-6159-BEFD-729B7648C93A";
+	rename -uid "8A6BC824-544B-8AD3-2CB8-3392A0C4786A";
 createNode scaleConstraint -n "upper_arm_geo_scaleConstraint1" -p "lamp_modelRNfosterParent1";
 	rename -uid "E0522269-7F43-1B3A-C792-659EB700DE1B";
 	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "elbow_Fk_jnt_02W0" -dv 1 -min 0 -at "double";
@@ -941,8 +945,8 @@ createNode parentConstraint -n "lower_arm_geo_parentConstraint1" -p "lamp_modelR
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".tg[0].tot" -type "double3" -0.0088138314227734389 4.836909287948326 -5.7121355187112375 ;
-	setAttr ".rst" -type "double3" 0 0 -1.7763568394002505e-15 ;
+	setAttr ".tg[0].tot" -type "double3" -0.0088138314227734389 4.836909287948326 -5.7121355187112366 ;
+	setAttr ".rst" -type "double3" 0 0 -8.8817841970012523e-16 ;
 	setAttr -k on ".w0";
 createNode mesh -n "lower_arm_geoShapeDeformed" -p "lamp_modelRNfosterParent1";
 	rename -uid "C9A60105-3340-986A-5391-419D228AFB2E";
@@ -2240,7 +2244,7 @@ createNode reference -n "lamp_modelRN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"lamp_modelRN"
 		"lamp_modelRN" 0
-		"lamp_modelRN" 66
+		"lamp_modelRN" 63
 		0 "|lamp_modelRNfosterParent1|base_geoShapeDeformed" "|lamp_model:Geometry|lamp_model:base_geo" 
 		"-s -r "
 		0 "|lamp_modelRNfosterParent1|lower_arm_geoShapeDeformed" "|lamp_model:Geometry|lamp_model:lower_arm_geo" 
@@ -2258,8 +2262,6 @@ createNode reference -n "lamp_modelRN";
 		
 		2 "|lamp_model:Geometry|lamp_model:base_geo" "rotate" " -type \"double3\" 0 0 0"
 		
-		2 "|lamp_model:Geometry|lamp_model:base_geo" "scale" " -type \"double3\" 1 1 1"
-		
 		2 "|lamp_model:Geometry|lamp_model:base_geo" "rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		
 		2 "|lamp_model:Geometry|lamp_model:base_geo|lamp_model:base_geoShape" "intermediateObject" 
@@ -2268,9 +2270,6 @@ createNode reference -n "lamp_modelRN";
 		" -type \"double3\" 0 0 0"
 		2 "|lamp_model:Geometry|lamp_model:lower_arm_geo|lamp_model:lower_arm_geoShape" 
 		"intermediateObject" " 1"
-		2 "|lamp_model:Geometry|lamp_model:upper_arm_geo" "translate" " -type \"double3\" 0 0 0"
-		
-		2 "|lamp_model:Geometry|lamp_model:upper_arm_geo" "translateY" " -av"
 		2 "|lamp_model:Geometry|lamp_model:upper_arm_geo" "rotatePivotTranslate" 
 		" -type \"double3\" 0 0 0"
 		2 "|lamp_model:Geometry|lamp_model:upper_arm_geo|lamp_model:upper_arm_geoShape" 
@@ -2435,7 +2434,7 @@ createNode displayLayer -n "control_layer";
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 3;
 createNode nodeGraphEditorInfo -n "MayaNodeEditorSavedTabsInfo";
-	rename -uid "03FE6817-7A49-AD68-F0EC-BCA5E8FE0618";
+	rename -uid "F3ECCC9D-B348-EBCA-7388-07B012881102";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -1458.3944365809994 -1050.0675572820173 ;
 	setAttr ".tgi[0].vh" -type "double2" 1316.0751412461434 345.26393273416249 ;
@@ -2447,51 +2446,51 @@ createNode nodeGraphEditorInfo -n "MayaNodeEditorSavedTabsInfo";
 	setAttr ".tgi[0].ni[1].y" 70;
 	setAttr ".tgi[0].ni[1].nvs" 18304;
 	setAttr ".tgi[0].ni[2].x" 595.71429443359375;
-	setAttr ".tgi[0].ni[2].y" -360;
+	setAttr ".tgi[0].ni[2].y" -41.428569793701172;
 	setAttr ".tgi[0].ni[2].nvs" 18304;
-	setAttr ".tgi[0].ni[3].x" 595.71429443359375;
-	setAttr ".tgi[0].ni[3].y" -41.428569793701172;
+	setAttr ".tgi[0].ni[3].x" -525.71429443359375;
+	setAttr ".tgi[0].ni[3].y" -737.14288330078125;
 	setAttr ".tgi[0].ni[3].nvs" 18304;
-	setAttr ".tgi[0].ni[4].x" -525.71429443359375;
-	setAttr ".tgi[0].ni[4].y" -737.14288330078125;
-	setAttr ".tgi[0].ni[4].nvs" 18304;
-	setAttr ".tgi[0].ni[5].x" -1000;
-	setAttr ".tgi[0].ni[5].y" 375.71429443359375;
+	setAttr ".tgi[0].ni[4].x" -1000;
+	setAttr ".tgi[0].ni[4].y" 375.71429443359375;
+	setAttr ".tgi[0].ni[4].nvs" 18306;
+	setAttr ".tgi[0].ni[5].x" -692.85711669921875;
+	setAttr ".tgi[0].ni[5].y" -47.142856597900391;
 	setAttr ".tgi[0].ni[5].nvs" 18306;
-	setAttr ".tgi[0].ni[6].x" -692.85711669921875;
-	setAttr ".tgi[0].ni[6].y" -47.142856597900391;
-	setAttr ".tgi[0].ni[6].nvs" 18306;
-	setAttr ".tgi[0].ni[7].x" 595.71429443359375;
-	setAttr ".tgi[0].ni[7].y" -458.57144165039062;
+	setAttr ".tgi[0].ni[6].x" 595.71429443359375;
+	setAttr ".tgi[0].ni[6].y" -458.57144165039062;
+	setAttr ".tgi[0].ni[6].nvs" 18304;
+	setAttr ".tgi[0].ni[7].x" -317.88641357421875;
+	setAttr ".tgi[0].ni[7].y" -395.50979614257812;
 	setAttr ".tgi[0].ni[7].nvs" 18304;
-	setAttr ".tgi[0].ni[8].x" -317.88641357421875;
-	setAttr ".tgi[0].ni[8].y" -395.50979614257812;
+	setAttr ".tgi[0].ni[8].x" 595.71429443359375;
+	setAttr ".tgi[0].ni[8].y" -924.28570556640625;
 	setAttr ".tgi[0].ni[8].nvs" 18304;
-	setAttr ".tgi[0].ni[9].x" 595.71429443359375;
-	setAttr ".tgi[0].ni[9].y" -162.85714721679688;
+	setAttr ".tgi[0].ni[9].x" 654.28570556640625;
 	setAttr ".tgi[0].ni[9].nvs" 18304;
-	setAttr ".tgi[0].ni[10].x" 595.71429443359375;
-	setAttr ".tgi[0].ni[10].y" -924.28570556640625;
+	setAttr ".tgi[0].ni[10].x" 288.57144165039062;
+	setAttr ".tgi[0].ni[10].y" -412.85714721679688;
 	setAttr ".tgi[0].ni[10].nvs" 18304;
-	setAttr ".tgi[0].ni[11].x" 654.28570556640625;
+	setAttr ".tgi[0].ni[11].x" 595.71429443359375;
+	setAttr ".tgi[0].ni[11].y" -727.14288330078125;
 	setAttr ".tgi[0].ni[11].nvs" 18304;
-	setAttr ".tgi[0].ni[12].x" 288.57144165039062;
-	setAttr ".tgi[0].ni[12].y" -412.85714721679688;
+	setAttr ".tgi[0].ni[12].x" 595.71429443359375;
+	setAttr ".tgi[0].ni[12].y" -825.71429443359375;
 	setAttr ".tgi[0].ni[12].nvs" 18304;
 	setAttr ".tgi[0].ni[13].x" 595.71429443359375;
-	setAttr ".tgi[0].ni[13].y" -727.14288330078125;
+	setAttr ".tgi[0].ni[13].y" -1022.8571166992188;
 	setAttr ".tgi[0].ni[13].nvs" 18304;
-	setAttr ".tgi[0].ni[14].x" 595.71429443359375;
-	setAttr ".tgi[0].ni[14].y" -825.71429443359375;
+	setAttr ".tgi[0].ni[14].x" -692.85711669921875;
+	setAttr ".tgi[0].ni[14].y" 165.71427917480469;
 	setAttr ".tgi[0].ni[14].nvs" 18304;
-	setAttr ".tgi[0].ni[15].x" 595.71429443359375;
-	setAttr ".tgi[0].ni[15].y" -1022.8571166992188;
+	setAttr ".tgi[0].ni[15].x" -18.571428298950195;
+	setAttr ".tgi[0].ni[15].y" -41.428569793701172;
 	setAttr ".tgi[0].ni[15].nvs" 18304;
-	setAttr ".tgi[0].ni[16].x" -692.85711669921875;
-	setAttr ".tgi[0].ni[16].y" 165.71427917480469;
+	setAttr ".tgi[0].ni[16].x" 595.71429443359375;
+	setAttr ".tgi[0].ni[16].y" -360;
 	setAttr ".tgi[0].ni[16].nvs" 18304;
-	setAttr ".tgi[0].ni[17].x" -18.571428298950195;
-	setAttr ".tgi[0].ni[17].y" -41.428569793701172;
+	setAttr ".tgi[0].ni[17].x" 595.71429443359375;
+	setAttr ".tgi[0].ni[17].y" -162.85714721679688;
 	setAttr ".tgi[0].ni[17].nvs" 18304;
 select -ne :time1;
 	setAttr ".o" 1;
@@ -3038,31 +3037,31 @@ connectAttr "lower_arm_geo_scaleConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tg
 		;
 connectAttr "base_Rk_jnt_01_scaleConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[1].dn"
 		;
-connectAttr "upper_arm_geo_parentConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[2].dn"
+connectAttr "lower_arm_geo_parentConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[2].dn"
 		;
-connectAttr "lower_arm_geo_parentConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[3].dn"
+connectAttr "joint_layer.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[3].dn";
+connectAttr "COG_ctrl.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[4].dn";
+connectAttr "armIKFK_Reverse.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[5].dn";
+connectAttr "base_Rk_jnt_01_parentConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[6].dn"
 		;
-connectAttr "joint_layer.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[4].dn";
-connectAttr "COG_ctrl.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[5].dn";
-connectAttr "armIKFK_Reverse.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[6].dn";
-connectAttr "base_Rk_jnt_01_parentConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[7].dn"
+connectAttr "COG_ctrlShape.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[7].dn";
+connectAttr "elbow_Rk_jnt_02_scaleConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[8].dn"
 		;
-connectAttr "COG_ctrlShape.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[8].dn";
-connectAttr "upper_arm_geo_scaleConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[9].dn"
+connectAttr "control_layer.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[9].dn";
+connectAttr "elbow_Rk_jnt_02.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[10].dn"
 		;
-connectAttr "elbow_Rk_jnt_02_scaleConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[10].dn"
+connectAttr "head_Rk_jnt_03_scaleConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[11].dn"
 		;
-connectAttr "control_layer.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[11].dn";
-connectAttr "elbow_Rk_jnt_02.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[12].dn"
+connectAttr "head_Rk_jnt_03_parentConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[12].dn"
 		;
-connectAttr "head_Rk_jnt_03_scaleConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[13].dn"
+connectAttr "elbow_Rk_jnt_02_parentConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[13].dn"
 		;
-connectAttr "head_Rk_jnt_03_parentConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[14].dn"
+connectAttr "base_Ik_jnt_01.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[14].dn";
+connectAttr "base_Rk_jnt_01.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[15].dn";
+connectAttr "upper_arm_geo_parentConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[16].dn"
 		;
-connectAttr "elbow_Rk_jnt_02_parentConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[15].dn"
+connectAttr "upper_arm_geo_scaleConstraint1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[17].dn"
 		;
-connectAttr "base_Ik_jnt_01.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[16].dn";
-connectAttr "base_Rk_jnt_01.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[17].dn";
 connectAttr "armIKFK_Reverse.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "ikRPsolver.msg" ":ikSystem.sol" -na;
