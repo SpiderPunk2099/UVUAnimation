@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: bar.ma
-//Last modified: Sun, Mar 22, 2026 06:25:15 PM
+//Last modified: Sun, Mar 22, 2026 06:22:30 PM
 //Codeset: UTF-8
 requires "fbxmaya" "2020.3.9";
 file -rdi 1 -ns "Skeleton" -rfn "SkeletonRN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya/assets/characters/skeleton/Skeleton.ma";
@@ -44,12 +44,12 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "FF97C542-334E-2483-1449-37BEB72556BD";
+fileInfo "UUID" "7BF3570F-E94F-30F6-B083-38A3FCBCE20D";
 createNode transform -s -n "persp";
 	rename -uid "F57985F6-C245-220A-C279-DA892A0F5C7B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -4.3326013884397057 3.7857932264529706 2.7868045239435406 ;
-	setAttr ".r" -type "double3" 153.33053759580034 -4672.9777411845071 -180.00000000041433 ;
+	setAttr ".t" -type "double3" -4.6181971705751428 3.204330958920997 2.7808721672484746 ;
+	setAttr ".r" -type "double3" 155.7305375958351 -4677.7777411845009 -180.00000000041254 ;
 	setAttr ".rp" -type "double3" -2.2737367544323206e-15 0 -2.2737367544323206e-15 ;
 	setAttr ".rpt" -type "double3" 1.7812418253441723e-15 -2.3394836603674242e-15 4.8648239775645759e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -59,7 +59,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".ncp" 0.001;
 	setAttr ".fcp" 100;
 	setAttr ".fd" 0.05;
-	setAttr ".coi" 10.150820233762698;
+	setAttr ".coi" 9.9126477936360704;
 	setAttr ".ow" 0.1;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
@@ -12879,12 +12879,12 @@ createNode reference -n "SkeletonRN3";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SkeletonRN3"
 		"SkeletonRN3" 0
-		"SkeletonRN3" 103
+		"SkeletonRN3" 71
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl" 
 		"translate" " -type \"double3\" -4.27623543450552202 4.1335529386880568e-05 8.49853286808117758"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl" 
-		"rotate" " -type \"double3\" 0 542.15399318402421613 0"
+		"rotate" " -type \"double3\" 0 663.13314563782194 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl" 
 		"translate" " -type \"double3\" 0.036896517314173531 0 -0.060012515679556649"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl" 
@@ -12893,14 +12893,14 @@ createNode reference -n "SkeletonRN3";
 		"translate" " -type \"double3\" 0.0055811296589291202 -0.021859324365434335 0.062196783032457743"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Hip_Ctrl_Grp|Skeleton3:Hip_Ctrl" 
-		"rotate" " -type \"double3\" -9.61769474670786906 0.79792943239306457 8.83942835968043461"
+		"rotate" " -type \"double3\" 6.48932001741274433 0.79792943239306457 8.83942835968043994"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Hip_Ctrl_Grp|Skeleton3:Hip_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Spine_01_Ctrl_Grp|Skeleton3:Spine_01_Ctrl" 
 		"rotate" " -type \"double3\" 0 0 11.1924379424180227"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Chest_Ctrl_Grp|Skeleton3:Chest_Ctrl" 
-		"rotate" " -type \"double3\" -4.18415057849338723 1.46953887008126372 -4.88661790057414613"
+		"rotate" " -type \"double3\" -25.1863497062200743 -13.11601028812838798 14.99312752033723939"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Chest_Ctrl_Grp|Skeleton3:Chest_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
@@ -12909,7 +12909,7 @@ createNode reference -n "SkeletonRN3";
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Neck_01_Ctrl_Grp|Skeleton3:Neck_01_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Head_Ctrl_Grp|Skeleton3:Head_Ctrl" 
-		"rotate" " -type \"double3\" -0.91346108371896673 6.18961163916159851 -2.48988873120320475"
+		"rotate" " -type \"double3\" 25.33644906540859765 16.396396422391458 21.75913784931972828"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Head_COG_Ctrl_Grp|Skeleton3:Head_COG_Ctrl" 
 		"rotate" " -type \"double3\" 1.33772445364021841 0 0"
@@ -12950,80 +12950,23 @@ createNode reference -n "SkeletonRN3";
 		"translate" " -type \"double3\" 0.00079701027585805527 0.026786997557543525 0.0036486128272891416"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Arm_FK|Skeleton3:L_Arm_01_FK_Ctrl_Grp|Skeleton3:L_Arm_01_FK_Ctrl" 
-		"rotate" " -type \"double3\" -62.77926740331863442 -10.09745852714507031 69.38418773224589131"
+		"rotate" " -type \"double3\" 101.29931481640866764 20.07537392808930932 -69.07088139930634441"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Arm_FK|Skeleton3:L_Arm_02_FK_Ctrl_Grp|Skeleton3:L_Arm_02_FK_Ctrl" 
-		"rotate" " -type \"double3\" -17.71928303839850116 16.2976750846202485 29.03642857788545584"
+		"rotate" " -type \"double3\" 13.27185656454622098 19.51413993209820674 132.60642031867990909"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Arm_FK|Skeleton3:L_Arm_02_FK_Ctrl_Grp|Skeleton3:L_Arm_02_FK_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Arm_FK|Skeleton3:L_Arm_03_FK_Ctrl_Grp|Skeleton3:L_Arm_03_FK_Ctrl" 
 		"translate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Arm_FK|Skeleton3:L_Arm_03_FK_Ctrl_Grp|Skeleton3:L_Arm_03_FK_Ctrl" 
-		"rotate" " -type \"double3\" 75.63072891901397554 -21.25977389733379042 10.00234121281488342"
+		"rotate" " -type \"double3\" 67.41512808408447199 6.72970397172003132 64.11515818472797434"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Arm_FK|Skeleton3:L_Arm_03_FK_Ctrl_Grp|Skeleton3:L_Arm_03_FK_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_01|Skeleton3:L_MetCarp_01_Ctrl_Grp|Skeleton3:L_MetCarp_01_Ctrl" 
-		"rotate" " -type \"double3\" 15.93644127068600902 -30.98298844993186663 -8.56702143599168409"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_01|Skeleton3:L_MetCarp_01_Ctrl_Grp|Skeleton3:L_MetCarp_01_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_01|Skeleton3:L_Finger_01_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_01_Knuckle_02_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_01|Skeleton3:L_Finger_01_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_01_Knuckle_02_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_02|Skeleton3:L_Finger_02_Knuckle_01_Ctrl_Grp|Skeleton3:L_Finger_02_Knuckle_01_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_02|Skeleton3:L_Finger_02_Knuckle_01_Ctrl_Grp|Skeleton3:L_Finger_02_Knuckle_01_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_02|Skeleton3:L_Finger_02_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_02_Knuckle_02_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_02|Skeleton3:L_Finger_02_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_02_Knuckle_02_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_02|Skeleton3:L_Finger_02_Knuckle_03_Ctrl_Grp|Skeleton3:L_Finger_02_Knuckle_03_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_02|Skeleton3:L_Finger_02_Knuckle_03_Ctrl_Grp|Skeleton3:L_Finger_02_Knuckle_03_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_03|Skeleton3:L_Finger_03_Knuckle_01_Ctrl_Grp|Skeleton3:L_Finger_03_Knuckle_01_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_03|Skeleton3:L_Finger_03_Knuckle_01_Ctrl_Grp|Skeleton3:L_Finger_03_Knuckle_01_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_03|Skeleton3:L_Finger_03_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_03_Knuckle_02_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_03|Skeleton3:L_Finger_03_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_03_Knuckle_02_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_03|Skeleton3:L_Finger_03_Knuckle_03_Ctrl_Grp|Skeleton3:L_Finger_03_Knuckle_03_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_03|Skeleton3:L_Finger_03_Knuckle_03_Ctrl_Grp|Skeleton3:L_Finger_03_Knuckle_03_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_04|Skeleton3:L_Finger_04_Knuckle_01_Ctrl_Grp|Skeleton3:L_Finger_04_Knuckle_01_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_04|Skeleton3:L_Finger_04_Knuckle_01_Ctrl_Grp|Skeleton3:L_Finger_04_Knuckle_01_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_04|Skeleton3:L_Finger_04_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_04_Knuckle_02_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_04|Skeleton3:L_Finger_04_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_04_Knuckle_02_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_04|Skeleton3:L_Finger_04_Knuckle_03_Ctrl_Grp|Skeleton3:L_Finger_04_Knuckle_03_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_05|Skeleton3:L_Finger_05_Knuckle_01_Ctrl_Grp|Skeleton3:L_Finger_05_Knuckle_01_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_05|Skeleton3:L_Finger_05_Knuckle_01_Ctrl_Grp|Skeleton3:L_Finger_05_Knuckle_01_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_05|Skeleton3:L_Finger_05_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_05_Knuckle_02_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_05|Skeleton3:L_Finger_05_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_05_Knuckle_02_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_05|Skeleton3:L_Finger_05_Knuckle_03_Ctrl_Grp|Skeleton3:L_Finger_05_Knuckle_03_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_05|Skeleton3:L_Finger_05_Knuckle_03_Ctrl_Grp|Skeleton3:L_Finger_05_Knuckle_03_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Leg|Skeleton3:Left_Leg_IK|Skeleton3:L_Leg_IK_End_Ctrl_Grp|Skeleton3:L_Leg_IK_End_Ctrl" 
-		"translate" " -type \"double3\" 0.11767772454196573 0.040398852619367924 0.14039337280262562"
+		"translate" " -type \"double3\" 0.13656770552746206 0.040398852619367959 -0.098528863148896681"
 		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Leg|Skeleton3:Left_Leg_IK|Skeleton3:Left_Toes_IK|Skeleton3:Left_Toe_01_IK|Skeleton3:L_Toe_01_Knuckle_01_IK_Ctrl_Grp|Skeleton3:L_Toe_01_Knuckle_01_IK_Ctrl" 
-		"translate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Scap_Ctrl_Grp|Skeleton3:R_Scap_Ctrl" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Scap_Ctrl_Grp|Skeleton3:R_Scap_Ctrl" 
@@ -13033,7 +12976,7 @@ createNode reference -n "SkeletonRN3";
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Clav_Ctrl_Grp|Skeleton3:R_Clav_Ctrl_Offset_Grp|Skeleton3:R_Clav_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Arm_FK|Skeleton3:R_Arm_01_FK_Ctrl_Grp|Skeleton3:R_Arm_01_FK_Ctrl" 
-		"rotate" " -type \"double3\" -27.11837010989987107 -7.12229682162249311 77.90866311723380022"
+		"rotate" " -type \"double3\" -1.71229860595817862 -49.84921430175270274 50.64970203065814047"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Arm_FK|Skeleton3:R_Arm_01_FK_Ctrl_Grp|Skeleton3:R_Arm_01_FK_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
@@ -13043,21 +12986,12 @@ createNode reference -n "SkeletonRN3";
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Arm_FK|Skeleton3:R_Arm_02_FK_Ctrl_Grp|Skeleton3:R_Arm_02_FK_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Arm_FK|Skeleton3:R_Arm_03_FK_Ctrl_Grp|Skeleton3:R_Arm_03_FK_Ctrl" 
-		"rotate" " -type \"double3\" -72.28520985821167244 10.70049778759393 12.11665374408539719"
+		"rotate" " -type \"double3\" -27.05500256040266294 2.86137545201744414 -4.4020152879862362"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Arm_FK|Skeleton3:R_Arm_03_FK_Ctrl_Grp|Skeleton3:R_Arm_03_FK_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_01|Skeleton3:R_MetCarp_01_Ctrl_Grp|Skeleton3:R_MetCarp_01_Ctrl" 
-		"rotate" " -type \"double3\" 0.16848673752225277 -26.40569718872561111 -0.0073646704267022424"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_01|Skeleton3:R_MetCarp_01_Ctrl_Grp|Skeleton3:R_MetCarp_01_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_02|Skeleton3:R_Finger_02_Knuckle_02_Ctrl_Grp|Skeleton3:R_Finger_02_Knuckle_02_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 85.74906707758158575"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_02|Skeleton3:R_Finger_02_Knuckle_02_Ctrl_Grp|Skeleton3:R_Finger_02_Knuckle_02_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_02|Skeleton3:R_Finger_02_Knuckle_03_Ctrl_Grp|Skeleton3:R_Finger_02_Knuckle_03_Ctrl" 
-		"rotate" " -type \"double3\" 3.44530081887470097 -16.70568139030629951 60.27999159358462578"
+		"rotate" " -type \"double3\" 16.92507742600701448 2.0684435456427277 -24.65528461033474272"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_02|Skeleton3:R_Finger_02_Knuckle_03_Ctrl_Grp|Skeleton3:R_Finger_02_Knuckle_03_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
@@ -13066,8 +13000,7 @@ createNode reference -n "SkeletonRN3";
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_03|Skeleton3:R_Finger_03_Knuckle_01_Ctrl_Grp|Skeleton3:R_Finger_03_Knuckle_01_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_03|Skeleton3:R_Finger_03_Knuckle_02_Ctrl_Grp|Skeleton3:R_Finger_03_Knuckle_02_Ctrl" 
-		"rotate" " -type \"double3\" -5.89553580190344917 -2.57853808286328512 98.43175250117130304"
-		
+		"rotate" " -type \"double3\" 0 0 59.22984353299157334"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_03|Skeleton3:R_Finger_03_Knuckle_02_Ctrl_Grp|Skeleton3:R_Finger_03_Knuckle_02_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_03|Skeleton3:R_Finger_03_Knuckle_03_Ctrl_Grp|Skeleton3:R_Finger_03_Knuckle_03_Ctrl" 

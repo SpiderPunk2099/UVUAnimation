@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: bar.ma
-//Last modified: Sun, Mar 22, 2026 06:25:15 PM
+//Last modified: Sun, Mar 22, 2026 05:54:56 PM
 //Codeset: UTF-8
 requires "fbxmaya" "2020.3.9";
 file -rdi 1 -ns "Skeleton" -rfn "SkeletonRN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya/assets/characters/skeleton/Skeleton.ma";
@@ -44,12 +44,12 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "FF97C542-334E-2483-1449-37BEB72556BD";
+fileInfo "UUID" "6DA723B6-AA45-8CDA-9F3D-7D968C84A8BB";
 createNode transform -s -n "persp";
 	rename -uid "F57985F6-C245-220A-C279-DA892A0F5C7B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -4.3326013884397057 3.7857932264529706 2.7868045239435406 ;
-	setAttr ".r" -type "double3" 153.33053759580034 -4672.9777411845071 -180.00000000041433 ;
+	setAttr ".t" -type "double3" -9.4883470433033619 1.3211165497429451 -9.3934447680083402 ;
+	setAttr ".r" -type "double3" 179.73053759622181 -1656.1777411875335 -179.99999999996797 ;
 	setAttr ".rp" -type "double3" -2.2737367544323206e-15 0 -2.2737367544323206e-15 ;
 	setAttr ".rpt" -type "double3" 1.7812418253441723e-15 -2.3394836603674242e-15 4.8648239775645759e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -59,7 +59,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".ncp" 0.001;
 	setAttr ".fcp" 100;
 	setAttr ".fd" 0.05;
-	setAttr ".coi" 10.150820233762698;
+	setAttr ".coi" 1.9188459609444326;
 	setAttr ".ow" 0.1;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
@@ -454,7 +454,7 @@ createNode mesh -n "polySurfaceShape1" -p "pCube4";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "pCube5";
 	rename -uid "0524584F-E348-E346-578F-CAB6DC6BE862";
-	setAttr ".t" -type "double3" -6.306828683224194 2.7191236701371873 0.72260322699265944 ;
+	setAttr ".t" -type "double3" -6.306828683224194 2.7191236701371873 2.8481685636686898 ;
 	setAttr ".r" -type "double3" 0 89.999999999999972 0 ;
 	setAttr ".s" -type "double3" 0.34660837346245893 5.2698396892737902 5.9639414661609313 ;
 createNode mesh -n "pCubeShape5" -p "pCube5";
@@ -8459,7 +8459,7 @@ createNode mesh -n "pCubeShape47" -p "pCube47";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "pCube48";
 	rename -uid "A08C227A-D343-2EBF-23B5-559D40FF47FF";
-	setAttr ".t" -type "double3" -6.3344054442446556 2.7191236701371873 5.6252729577550893 ;
+	setAttr ".t" -type "double3" -4.346946823594207 2.7191236701371873 5.6252729577550893 ;
 	setAttr ".r" -type "double3" 0 270.00000000000006 0 ;
 	setAttr ".s" -type "double3" 0.088860426684750138 5.2698396892737902 3.8214395832392833 ;
 createNode mesh -n "pCubeShape48" -p "pCube48";
@@ -10128,15 +10128,6 @@ createNode mesh -n "pCubeShape44" -p "|group4|pCube44";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt";
-	setAttr ".pt[26]" -type "float3" -0.011826955 0 -0.3695913 ;
-	setAttr ".pt[27]" -type "float3" -0.011826955 0 -0.3695913 ;
-	setAttr ".pt[28]" -type "float3" -0.011826955 0 -0.3695913 ;
-	setAttr ".pt[29]" -type "float3" -0.011826955 0 -0.3695913 ;
-	setAttr ".pt[34]" -type "float3" -0.011826955 0 -0.3695913 ;
-	setAttr ".pt[35]" -type "float3" -0.011826955 0 -0.3695913 ;
-	setAttr ".pt[36]" -type "float3" -0.011826955 0 -0.3695913 ;
-	setAttr ".pt[37]" -type "float3" -0.011826955 0 -0.3695913 ;
 	setAttr -s 66 ".vt[0:65]"  -0.5 -0.82755858 0.5 4.84647322 -0.82755858 0.5
 		 -0.5 0.5 0.5 4.84647322 0.5 0.5 2.17207098 -0.82755876 0.5 2.17207098 0.5 0.5 -0.33149597 -0.77188951 0.16787109
 		 2.0035684109 -0.77188951 0.16787109 2.0035684109 0.4443309 0.16787109 -0.33149597 0.4443309 0.16787109
@@ -10386,10 +10377,13 @@ createNode mesh -n "pCubeShape45" -p "|group4|pCube45";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 8 ".pt[0:7]" -type "float3"  0 -0.32755867 0 4.3464727 
-		-0.32755867 2.6290082e-15 -5.9604646e-09 -3.0994414e-08 0 4.3464723 -3.0994414e-08 
-		2.6290082e-15 -5.9604646e-09 -3.0994414e-08 0 4.3464723 -3.0994414e-08 2.6290082e-15 
-		0 -0.32755867 0 4.3464727 -0.32755867 2.6290082e-15;
+	setAttr -s 7 ".pt";
+	setAttr ".pt[0]" -type "float3" 0 -0.32755867 0 ;
+	setAttr ".pt[1]" -type "float3" 4.3464727 -0.32755867 2.6290082e-15 ;
+	setAttr ".pt[3]" -type "float3" 4.3464727 0 2.6290082e-15 ;
+	setAttr ".pt[5]" -type "float3" 4.3464727 0 2.6290082e-15 ;
+	setAttr ".pt[6]" -type "float3" 0 -0.32755867 0 ;
+	setAttr ".pt[7]" -type "float3" 4.3464727 -0.32755867 2.6290082e-15 ;
 	setAttr -s 8 ".vt[0:7]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
 		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5;
 	setAttr -s 12 ".ed[0:11]"  0 1 0 2 3 0 4 5 0 6 7 0 0 2 0 1 3 0 2 4 0
@@ -11004,7 +10998,7 @@ createNode reference -n "SkeletonRN";
 		"SkeletonRN" 0
 		"SkeletonRN" 159
 		2 "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl" 
-		"translate" " -type \"double3\" -8.09390324966734376 0 5.00285033175179183"
+		"translate" " -type \"double3\" -6.67056692724570599 0 5.00285033175179183"
 		2 "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl" 
 		"rotate" " -type \"double3\" 0 -20.79647064749472207 0"
 		2 "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl|Skeleton:COG_Ctrl_Grp|Skeleton:COG_Ctrl" 
@@ -11385,8 +11379,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n"
 		+ "            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 914\n            -height 510\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"|persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 1\n"
 		+ "            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n"
-		+ "            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 0\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n"
-		+ "            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 2864\n            -height 1310\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n"
+		+ "            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n"
+		+ "            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1278\n            -height 1170\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n"
 		+ "            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n"
 		+ "            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -showUfeItems 1\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -selectCommand \"print(\\\"\\\")\" \n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
 		+ "\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n"
@@ -11409,8 +11403,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"relationshipPanel\" (localizedPanelLabel(\"Relationship Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Relationship Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"referenceEditorPanel\" (localizedPanelLabel(\"Reference Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Reference Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"dynPaintScriptedPanelType\" (localizedPanelLabel(\"Paint Effects\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Paint Effects\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"scriptEditorPanel\" (localizedPanelLabel(\"Script Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Script Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"profilerPanel\" (localizedPanelLabel(\"Profiler Tool\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Profiler Tool\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"contentBrowserPanel\" (localizedPanelLabel(\"Content Browser\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Content Browser\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 1\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 2864\\n    -height 1310\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 1\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 2864\\n    -height 1310\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 1\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1278\\n    -height 1170\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 1\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1278\\n    -height 1170\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -12879,28 +12873,23 @@ createNode reference -n "SkeletonRN3";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SkeletonRN3"
 		"SkeletonRN3" 0
-		"SkeletonRN3" 103
+		"SkeletonRN3" 27
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl" 
-		"translate" " -type \"double3\" -4.27623543450552202 4.1335529386880568e-05 8.49853286808117758"
-		
+		"translate" " -type \"double3\" -11.07149464894049729 0 -11.22887228583335251"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl" 
-		"rotate" " -type \"double3\" 0 542.15399318402421613 0"
+		"rotate" " -type \"double3\" 0 51.81599688377053781 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl" 
-		"translate" " -type \"double3\" 0.036896517314173531 0 -0.060012515679556649"
+		"translate" " -type \"double3\" 0.10888266916083325 0 0.13844471132289068"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl" 
-		"rotate" " -type \"double3\" -15.76605996824318012 0 0"
+		"rotate" " -type \"double3\" 36.07763669783057026 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Hip_Ctrl_Grp|Skeleton3:Hip_Ctrl" 
-		"translate" " -type \"double3\" 0.0055811296589291202 -0.021859324365434335 0.062196783032457743"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Hip_Ctrl_Grp|Skeleton3:Hip_Ctrl" 
-		"rotate" " -type \"double3\" -9.61769474670786906 0.79792943239306457 8.83942835968043461"
-		
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Hip_Ctrl_Grp|Skeleton3:Hip_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Spine_01_Ctrl_Grp|Skeleton3:Spine_01_Ctrl" 
 		"rotate" " -type \"double3\" 0 0 11.1924379424180227"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Chest_Ctrl_Grp|Skeleton3:Chest_Ctrl" 
-		"rotate" " -type \"double3\" -4.18415057849338723 1.46953887008126372 -4.88661790057414613"
+		"rotate" " -type \"double3\" 1.41182049396701648 -2.46575345120959755 14.90002384614488662"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Chest_Ctrl_Grp|Skeleton3:Chest_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
@@ -12909,121 +12898,10 @@ createNode reference -n "SkeletonRN3";
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Neck_01_Ctrl_Grp|Skeleton3:Neck_01_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Head_Ctrl_Grp|Skeleton3:Head_Ctrl" 
-		"rotate" " -type \"double3\" -0.91346108371896673 6.18961163916159851 -2.48988873120320475"
+		"rotate" " -type \"double3\" 8.39445847795501798 28.78367470882549739 -20.39902807842947752"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Head_COG_Ctrl_Grp|Skeleton3:Head_COG_Ctrl" 
-		"rotate" " -type \"double3\" 1.33772445364021841 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Face_Controls|Skeleton3:L_Brow_Ctrl_Grp|Skeleton3:L_Brow_Ctrl" 
-		"translate" " -type \"double3\" 0.014045339974277156 0.03792916222720448 0.031331379245491557"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Face_Controls|Skeleton3:L_Brow_Ctrl_Grp|Skeleton3:L_Brow_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 -28.45407449795121124"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Face_Controls|Skeleton3:L_Brow_Mid_Ctrl_Grp|Skeleton3:L_Brow_Mid_Ctrl_Offset_Grp|Skeleton3:L_Brow_Mid_Ctrl" 
-		"translate" " -type \"double3\" 0.011484824664233586 0.01962064015143257 -0.0003843682577807006"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Face_Controls|Skeleton3:L_Socket_Lower_Ctrl_Grp|Skeleton3:L_Socket_Lower_Ctrl_Offset_Grp|Skeleton3:L_Socket_Lower_Ctrl" 
-		"translate" " -type \"double3\" 0.0016421535691726835 0.033743231906591079 0.013017384370320509"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Face_Controls|Skeleton3:L_Mouth_Ctrl_Grp|Skeleton3:L_Mouth_Ctrl_Offset_Grp|Skeleton3:L_Mouth_Ctrl" 
-		"translate" " -type \"double3\" 0.00079701027585805148 0.02678699757685413 0.0036486126855166043"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Face_Controls|Skeleton3:Brow_Furrow_Ctrl_Grp|Skeleton3:Brow_Furrow_Ctrl_Offset_01_Grp|Skeleton3:Brow_Furrow_Ctrl_Offset_02_Grp|Skeleton3:Brow_Furrow_Ctrl" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Face_Controls|Skeleton3:Mouth_Ctrl_Grp|Skeleton3:Mouth_Ctrl" 
-		"translate" " -type \"double3\" -0.0053686048082058884 -0.0089982883971941856 0.0023669405052107193"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Face_Controls|Skeleton3:Mid_Mouth_Ctrl_Grp|Skeleton3:Mid_Mouth_Ctrl_Offset_Grp|Skeleton3:Mid_Mouth_Ctrl" 
-		"translate" " -type \"double3\" 0.0014436187411579701 -0.018332533702155249 -0.0038979664641651817"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Face_Controls|Skeleton3:R_Brow_Ctrl_Grp|Skeleton3:R_Brow_Ctrl" 
-		"translate" " -type \"double3\" -0.010493313817340106 0.044851307838582946 0.026877206352075893"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Face_Controls|Skeleton3:R_Brow_Ctrl_Grp|Skeleton3:R_Brow_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 21.47850378464093168"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Face_Controls|Skeleton3:R_Brow_Mid_Ctrl_Grp|Skeleton3:R_Brow_Mid_Ctrl_Offset_Grp|Skeleton3:R_Brow_Mid_Ctrl" 
-		"translate" " -type \"double3\" -0.0015303062457049333 0.0072692366465148999 0.0042274006985359904"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Face_Controls|Skeleton3:R_Socket_Lower_Ctrl_Grp|Skeleton3:R_Socket_Lower_Ctrl_Offset_Grp|Skeleton3:R_Socket_Lower_Ctrl" 
-		"translate" " -type \"double3\" 0.0016421535691727013 0.033743231906591079 0.013017384370320474"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Spine_And_Head|Skeleton3:Head_Controls|Skeleton3:Face_Controls|Skeleton3:R_Mouth_Ctrl_Grp|Skeleton3:R_Mouth_Ctrl_Offset_Grp|Skeleton3:R_Mouth_Ctrl" 
-		"translate" " -type \"double3\" 0.00079701027585805527 0.026786997557543525 0.0036486128272891416"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Arm_FK|Skeleton3:L_Arm_01_FK_Ctrl_Grp|Skeleton3:L_Arm_01_FK_Ctrl" 
-		"rotate" " -type \"double3\" -62.77926740331863442 -10.09745852714507031 69.38418773224589131"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Arm_FK|Skeleton3:L_Arm_02_FK_Ctrl_Grp|Skeleton3:L_Arm_02_FK_Ctrl" 
-		"rotate" " -type \"double3\" -17.71928303839850116 16.2976750846202485 29.03642857788545584"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Arm_FK|Skeleton3:L_Arm_02_FK_Ctrl_Grp|Skeleton3:L_Arm_02_FK_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Arm_FK|Skeleton3:L_Arm_03_FK_Ctrl_Grp|Skeleton3:L_Arm_03_FK_Ctrl" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Arm_FK|Skeleton3:L_Arm_03_FK_Ctrl_Grp|Skeleton3:L_Arm_03_FK_Ctrl" 
-		"rotate" " -type \"double3\" 75.63072891901397554 -21.25977389733379042 10.00234121281488342"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Arm_FK|Skeleton3:L_Arm_03_FK_Ctrl_Grp|Skeleton3:L_Arm_03_FK_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_01|Skeleton3:L_MetCarp_01_Ctrl_Grp|Skeleton3:L_MetCarp_01_Ctrl" 
-		"rotate" " -type \"double3\" 15.93644127068600902 -30.98298844993186663 -8.56702143599168409"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_01|Skeleton3:L_MetCarp_01_Ctrl_Grp|Skeleton3:L_MetCarp_01_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_01|Skeleton3:L_Finger_01_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_01_Knuckle_02_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_01|Skeleton3:L_Finger_01_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_01_Knuckle_02_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_02|Skeleton3:L_Finger_02_Knuckle_01_Ctrl_Grp|Skeleton3:L_Finger_02_Knuckle_01_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_02|Skeleton3:L_Finger_02_Knuckle_01_Ctrl_Grp|Skeleton3:L_Finger_02_Knuckle_01_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_02|Skeleton3:L_Finger_02_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_02_Knuckle_02_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_02|Skeleton3:L_Finger_02_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_02_Knuckle_02_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_02|Skeleton3:L_Finger_02_Knuckle_03_Ctrl_Grp|Skeleton3:L_Finger_02_Knuckle_03_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_02|Skeleton3:L_Finger_02_Knuckle_03_Ctrl_Grp|Skeleton3:L_Finger_02_Knuckle_03_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_03|Skeleton3:L_Finger_03_Knuckle_01_Ctrl_Grp|Skeleton3:L_Finger_03_Knuckle_01_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_03|Skeleton3:L_Finger_03_Knuckle_01_Ctrl_Grp|Skeleton3:L_Finger_03_Knuckle_01_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_03|Skeleton3:L_Finger_03_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_03_Knuckle_02_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_03|Skeleton3:L_Finger_03_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_03_Knuckle_02_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_03|Skeleton3:L_Finger_03_Knuckle_03_Ctrl_Grp|Skeleton3:L_Finger_03_Knuckle_03_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_03|Skeleton3:L_Finger_03_Knuckle_03_Ctrl_Grp|Skeleton3:L_Finger_03_Knuckle_03_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_04|Skeleton3:L_Finger_04_Knuckle_01_Ctrl_Grp|Skeleton3:L_Finger_04_Knuckle_01_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_04|Skeleton3:L_Finger_04_Knuckle_01_Ctrl_Grp|Skeleton3:L_Finger_04_Knuckle_01_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_04|Skeleton3:L_Finger_04_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_04_Knuckle_02_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_04|Skeleton3:L_Finger_04_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_04_Knuckle_02_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_04|Skeleton3:L_Finger_04_Knuckle_03_Ctrl_Grp|Skeleton3:L_Finger_04_Knuckle_03_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_05|Skeleton3:L_Finger_05_Knuckle_01_Ctrl_Grp|Skeleton3:L_Finger_05_Knuckle_01_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_05|Skeleton3:L_Finger_05_Knuckle_01_Ctrl_Grp|Skeleton3:L_Finger_05_Knuckle_01_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_05|Skeleton3:L_Finger_05_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_05_Knuckle_02_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_05|Skeleton3:L_Finger_05_Knuckle_02_Ctrl_Grp|Skeleton3:L_Finger_05_Knuckle_02_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_05|Skeleton3:L_Finger_05_Knuckle_03_Ctrl_Grp|Skeleton3:L_Finger_05_Knuckle_03_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 70.5286128326172701"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Arm|Skeleton3:Left_Arm_Reg_Controls|Skeleton3:Left_Hand|Skeleton3:Left_Finger_05|Skeleton3:L_Finger_05_Knuckle_03_Ctrl_Grp|Skeleton3:L_Finger_05_Knuckle_03_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Leg|Skeleton3:Left_Leg_IK|Skeleton3:L_Leg_IK_End_Ctrl_Grp|Skeleton3:L_Leg_IK_End_Ctrl" 
-		"translate" " -type \"double3\" 0.11767772454196573 0.040398852619367924 0.14039337280262562"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Left_Leg|Skeleton3:Left_Leg_IK|Skeleton3:Left_Toes_IK|Skeleton3:Left_Toe_01_IK|Skeleton3:L_Toe_01_Knuckle_01_IK_Ctrl_Grp|Skeleton3:L_Toe_01_Knuckle_01_IK_Ctrl" 
-		"translate" " -type \"double3\" 0 0 0"
+		"rotate" " -type \"double3\" -25.69052678288228009 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Scap_Ctrl_Grp|Skeleton3:R_Scap_Ctrl" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Scap_Ctrl_Grp|Skeleton3:R_Scap_Ctrl" 
@@ -13033,77 +12911,20 @@ createNode reference -n "SkeletonRN3";
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Clav_Ctrl_Grp|Skeleton3:R_Clav_Ctrl_Offset_Grp|Skeleton3:R_Clav_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Arm_FK|Skeleton3:R_Arm_01_FK_Ctrl_Grp|Skeleton3:R_Arm_01_FK_Ctrl" 
-		"rotate" " -type \"double3\" -27.11837010989987107 -7.12229682162249311 77.90866311723380022"
+		"rotate" " -type \"double3\" -118.04463975053178615 -6.52256204906473158 72.00770134821743795"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Arm_FK|Skeleton3:R_Arm_01_FK_Ctrl_Grp|Skeleton3:R_Arm_01_FK_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Arm_FK|Skeleton3:R_Arm_02_FK_Ctrl_Grp|Skeleton3:R_Arm_02_FK_Ctrl" 
-		"rotate" " -type \"double3\" 103.22839972825882171 29.22958907000345263 25.28066669656674392"
+		"rotate" " -type \"double3\" 1.50284194583148523 11.31504014178454298 139.27694526915470874"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Arm_FK|Skeleton3:R_Arm_02_FK_Ctrl_Grp|Skeleton3:R_Arm_02_FK_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Arm_FK|Skeleton3:R_Arm_03_FK_Ctrl_Grp|Skeleton3:R_Arm_03_FK_Ctrl" 
-		"rotate" " -type \"double3\" -72.28520985821167244 10.70049778759393 12.11665374408539719"
+		"rotate" " -type \"double3\" -37.84660454459526591 -45.45509564174243167 150.4708970075871548"
 		
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Arm_FK|Skeleton3:R_Arm_03_FK_Ctrl_Grp|Skeleton3:R_Arm_03_FK_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_01|Skeleton3:R_MetCarp_01_Ctrl_Grp|Skeleton3:R_MetCarp_01_Ctrl" 
-		"rotate" " -type \"double3\" 0.16848673752225277 -26.40569718872561111 -0.0073646704267022424"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_01|Skeleton3:R_MetCarp_01_Ctrl_Grp|Skeleton3:R_MetCarp_01_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_02|Skeleton3:R_Finger_02_Knuckle_02_Ctrl_Grp|Skeleton3:R_Finger_02_Knuckle_02_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 85.74906707758158575"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_02|Skeleton3:R_Finger_02_Knuckle_02_Ctrl_Grp|Skeleton3:R_Finger_02_Knuckle_02_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_02|Skeleton3:R_Finger_02_Knuckle_03_Ctrl_Grp|Skeleton3:R_Finger_02_Knuckle_03_Ctrl" 
-		"rotate" " -type \"double3\" 3.44530081887470097 -16.70568139030629951 60.27999159358462578"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_02|Skeleton3:R_Finger_02_Knuckle_03_Ctrl_Grp|Skeleton3:R_Finger_02_Knuckle_03_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_03|Skeleton3:R_Finger_03_Knuckle_01_Ctrl_Grp|Skeleton3:R_Finger_03_Knuckle_01_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 52.04543572828150388"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_03|Skeleton3:R_Finger_03_Knuckle_01_Ctrl_Grp|Skeleton3:R_Finger_03_Knuckle_01_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_03|Skeleton3:R_Finger_03_Knuckle_02_Ctrl_Grp|Skeleton3:R_Finger_03_Knuckle_02_Ctrl" 
-		"rotate" " -type \"double3\" -5.89553580190344917 -2.57853808286328512 98.43175250117130304"
-		
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_03|Skeleton3:R_Finger_03_Knuckle_02_Ctrl_Grp|Skeleton3:R_Finger_03_Knuckle_02_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_03|Skeleton3:R_Finger_03_Knuckle_03_Ctrl_Grp|Skeleton3:R_Finger_03_Knuckle_03_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 59.22984353299157334"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_03|Skeleton3:R_Finger_03_Knuckle_03_Ctrl_Grp|Skeleton3:R_Finger_03_Knuckle_03_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_04|Skeleton3:R_Finger_04_Knuckle_01_Ctrl_Grp|Skeleton3:R_Finger_04_Knuckle_01_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 52.04543572828150388"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_04|Skeleton3:R_Finger_04_Knuckle_01_Ctrl_Grp|Skeleton3:R_Finger_04_Knuckle_01_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_04|Skeleton3:R_Finger_04_Knuckle_02_Ctrl_Grp|Skeleton3:R_Finger_04_Knuckle_02_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 111.27527926127298485"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_04|Skeleton3:R_Finger_04_Knuckle_02_Ctrl_Grp|Skeleton3:R_Finger_04_Knuckle_02_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_04|Skeleton3:R_Finger_04_Knuckle_03_Ctrl_Grp|Skeleton3:R_Finger_04_Knuckle_03_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 59.22984353299157334"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_04|Skeleton3:R_Finger_04_Knuckle_03_Ctrl_Grp|Skeleton3:R_Finger_04_Knuckle_03_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_05|Skeleton3:R_Finger_05_Knuckle_01_Ctrl_Grp|Skeleton3:R_Finger_05_Knuckle_01_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 52.04543572828150388"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_05|Skeleton3:R_Finger_05_Knuckle_01_Ctrl_Grp|Skeleton3:R_Finger_05_Knuckle_01_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_05|Skeleton3:R_Finger_05_Knuckle_02_Ctrl_Grp|Skeleton3:R_Finger_05_Knuckle_02_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 111.27527926127298485"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_05|Skeleton3:R_Finger_05_Knuckle_02_Ctrl_Grp|Skeleton3:R_Finger_05_Knuckle_02_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_05|Skeleton3:R_Finger_05_Knuckle_03_Ctrl_Grp|Skeleton3:R_Finger_05_Knuckle_03_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 111.27527926127298485"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Arm|Skeleton3:R_Arm_Reg_Controls|Skeleton3:Right_Hand|Skeleton3:Right_Finger_05|Skeleton3:R_Finger_05_Knuckle_03_Ctrl_Grp|Skeleton3:R_Finger_05_Knuckle_03_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Leg|Skeleton3:R_Leg_Pivot_Ctrl_Grp|Skeleton3:R_Leg_Pivot_Ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Leg|Skeleton3:R_Leg_Pivot_Ctrl_Grp|Skeleton3:R_Leg_Pivot_Ctrl" 
-		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Right_Leg|Skeleton3:Right_Leg_IK|Skeleton3:R_Leg_IK_End_Ctrl_Grp|Skeleton3:R_Leg_IK_End_Ctrl" 
-		"translate" " -type \"double3\" 0.054660678150008288 0 -0.036849910297604892"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Redundancy_Controls|Skeleton3:Neck_01_Redundancy_Ctrl_Grp|Skeleton3:Neck_01_Redundancy_Ctrl" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl|Skeleton3:COG_Ctrl_Grp|Skeleton3:COG_Ctrl|Skeleton3:Redundancy_Controls|Skeleton3:Neck_01_Redundancy_Ctrl_Grp|Skeleton3:Neck_01_Redundancy_Ctrl" 
@@ -13167,7 +12988,7 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
 select -ne :ikSystem;
-	setAttr -s 20 ".sol";
+	setAttr -s 18 ".sol";
 connectAttr "pCylinder5Shape.iog" "ashTrayRN.phl[1]";
 connectAttr "whiskeyShape.iog" "bottle1RN.phl[1]";
 connectAttr "polyCube1.out" "pCubeShape1.i";
