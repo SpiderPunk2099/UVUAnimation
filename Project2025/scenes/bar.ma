@@ -1,29 +1,42 @@
 //Maya ASCII 2026 scene
 //Name: bar.ma
-//Last modified: Thu, Apr 23, 2026 01:16:22 PM
+//Last modified: Wed, Apr 29, 2026 01:27:53 PM
 //Codeset: UTF-8
 requires "fbxmaya" "2020.3.9";
-file -rdi 1 -ns "Skeleton" -rfn "SkeletonRN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
+file -rdi 1 -ns "Skeleton" -dr 1 -rfn "SkeletonRN" -op "v=0;" -typ "mayaAscii"
+		 "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
 file -rdi 1 -ns "tableprop" -rfn "tablepropRN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/UVUAnimation/Project2025//scenes/tableprop.ma";
-file -rdi 2 -ns "Skeleton" -rfn "tableprop:SkeletonRN" -op "v=0;" -typ "mayaAscii"
-		 "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
-file -rdi 2 -ns "Skeleton2" -rfn "tableprop:SkeletonRN1" -op "v=0;" -typ "mayaAscii"
-		 "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
+file -rdi 2 -ns "Skeleton" -dr 1 -rfn "tableprop:SkeletonRN" -op "v=0;" -typ
+		 "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
+file -rdi 2 -ns "Skeleton2" -dr 1 -rfn "tableprop:SkeletonRN1" -op "v=0;" -typ
+		 "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
 file -rdi 1 -ns "stool" -rfn "stoolRN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/UVUAnimation/Project2025//scenes/stool.ma";
-file -rdi 2 -ns "Skeleton" -rfn "stool:SkeletonRN" -op "v=0;" -typ "mayaAscii"
+file -rdi 2 -ns "Skeleton" -dr 1 -rfn "stool:SkeletonRN" -op "v=0;" -typ "mayaAscii"
 		 "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
 file -rdi 1 -ns "stool2" -rfn "stool2RN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/UVUAnimation/Project2025//scenes/stool2.ma";
 file -rdi 2 -ns "Skeleton" -rfn "stool2:SkeletonRN" -op "v=0;" -typ "mayaAscii"
 		 "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
 file -rdi 1 -ns "ashTray" -rfn "ashTrayRN" -op "fbx" -typ "FBX" "/Users/kierasheppard/Documents/UVU/UVUAnimation/Project2025//scenes/ashTray.fbx";
 file -rdi 1 -ns "bottle1" -rfn "bottle1RN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/UVUAnimation/Project2025//scenes/bottle1.ma";
-file -rdi 1 -ns "Skeleton1" -rfn "SkeletonRN1" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
-file -rdi 1 -ns "Skeleton2" -rfn "SkeletonRN2" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
+file -rdi 1 -ns "Skeleton1" -dr 1 -rfn "SkeletonRN1" -op "v=0;" -typ "mayaAscii"
+		 "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
+file -rdi 1 -ns "Skeleton2" -dr 1 -rfn "SkeletonRN2" -op "v=0;" -typ "mayaAscii"
+		 "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
 file -rdi 1 -ns "chairToWall" -rfn "chairToWallRN" -op "v=0;" -typ "mayaAscii"
 		 "/Users/kierasheppard/Documents/UVU/UVUAnimation/Project2025//scenes/chairToWall.ma";
-file -rdi 2 -ns "Skeleton" -rfn "chairToWall:SkeletonRN" -op "v=0;" -typ "mayaAscii"
+file -rdi 2 -ns "Skeleton" -dr 1 -rfn "chairToWall:SkeletonRN" -op "v=0;" -typ
+		 "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
+file -rdi 1 -ns "Skeleton3" -dr 1 -rfn "SkeletonRN3" -op "v=0;" -typ "mayaAscii"
 		 "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
-file -rdi 1 -ns "Skeleton3" -rfn "SkeletonRN3" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
+file -rdi 1 -ns "Grateful_Dead_uvs" -dr 1 -rfn "Grateful_Dead_uvsRN" -op "mo=1"
+		 -typ "OBJ" "/Users/kierasheppard/Desktop/Grateful Dead uvs.obj";
+file -rdi 1 -ns "GDEAD" -rfn "GDEADRN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/UVUAnimation/Project2025/scenes/GDEAD.ma";
+file -rdi 2 -ns "Grateful_Dead_uvs" -dr 1 -rfn "GDEAD:Grateful_Dead_uvsRN" 
+		-op "mo=1" -typ "OBJ" "/Users/kierasheppard/Desktop/Grateful Dead uvs.obj";
+file -rdi 1 -ns "gdeadJoints" -rfn "gdeadJointsRN" -op "v=0;" -typ "mayaAscii"
+		 "/Users/kierasheppard/Documents/UVU/UVUAnimation/Project2025/scenes/gdeadJoints.ma";
+file -rdi 2 -ns "Grateful_Dead_uvs" -rfn "gdeadJoints:Grateful_Dead_uvsRN" 
+		-op "mo=1" -typ "OBJ" "/Users/kierasheppard/Desktop/Grateful Dead uvs.obj";
 file -r -ns "Skeleton" -dr 1 -rfn "SkeletonRN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
 file -r -ns "tableprop" -dr 1 -rfn "tablepropRN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/UVUAnimation/Project2025//scenes/tableprop.ma";
 file -r -ns "stool" -dr 1 -rfn "stoolRN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/UVUAnimation/Project2025//scenes/stool.ma";
@@ -35,9 +48,14 @@ file -r -ns "Skeleton2" -dr 1 -rfn "SkeletonRN2" -op "v=0;" -typ "mayaAscii" "/U
 file -r -ns "chairToWall" -dr 1 -rfn "chairToWallRN" -op "v=0;" -typ "mayaAscii"
 		 "/Users/kierasheppard/Documents/UVU/UVUAnimation/Project2025//scenes/chairToWall.ma";
 file -r -ns "Skeleton3" -dr 1 -rfn "SkeletonRN3" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/characters/skeleton/Skeleton.ma";
+file -r -ns "Grateful_Dead_uvs" -dr 1 -rfn "Grateful_Dead_uvsRN" -op "mo=1" -typ
+		 "OBJ" "/Users/kierasheppard/Desktop/Grateful Dead uvs.obj";
+file -r -ns "GDEAD" -dr 1 -rfn "GDEADRN" -op "v=0;" -typ "mayaAscii" "/Users/kierasheppard/Documents/UVU/UVUAnimation/Project2025/scenes/GDEAD.ma";
+file -r -ns "gdeadJoints" -dr 1 -rfn "gdeadJointsRN" -op "v=0;" -typ "mayaAscii"
+		 "/Users/kierasheppard/Documents/UVU/UVUAnimation/Project2025/scenes/gdeadJoints.ma";
 requires maya "2026";
-requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiStandardSurface"
-		 "mtoa" "5.5.6.1";
+requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
+		 -nodeType "aiStandardSurface" "mtoa" "5.5.6.1";
 requires "stereoCamera" "10.0";
 currentUnit -l meter -a degree -t film;
 fileInfo "application" "maya";
@@ -45,12 +63,12 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "24CB9122-1E43-2EF7-4684-4BB6D8B42569";
+fileInfo "UUID" "8C2A080D-BE48-3BA0-19F1-6C8A935ACFCF";
 createNode transform -s -n "persp";
 	rename -uid "F57985F6-C245-220A-C279-DA892A0F5C7B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -2.1723680387481865 2.0579188442670056 -8.5369007312603511 ;
-	setAttr ".r" -type "double3" 161.20853906784095 -11.377741184182156 -179.99999999999886 ;
+	setAttr ".t" -type "double3" -1.7657924598320529 1.9666918331870833 -8.3904558793790081 ;
+	setAttr ".r" -type "double3" 166.00853906784496 359.82225881581644 -180 ;
 	setAttr ".rp" -type "double3" 0 1.4210854715202004e-16 -2.8421709430404008e-16 ;
 	setAttr ".rpt" -type "double3" 1.0053634968132589e-15 -1.7458386510263067e-15 -4.3651538062789478e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -60,7 +78,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".ncp" 0.001;
 	setAttr ".fcp" 100;
 	setAttr ".fd" 0.05;
-	setAttr ".coi" 12.019879409484195;
+	setAttr ".coi" 6.8670160937896538;
 	setAttr ".ow" 0.1;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
@@ -26644,20 +26662,20 @@ createNode directionalLight -n "directionalLightShape1" -p "directionalLight1";
 	setAttr -k off ".v";
 	setAttr ".in" 25;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "7FF03657-5E40-8679-B959-EABB5614F89F";
-	setAttr -s 75 ".lnk";
-	setAttr -s 75 ".slnk";
+	rename -uid "CCF8589A-0D49-0608-7601-298D40B7D25E";
+	setAttr -s 61 ".lnk";
+	setAttr -s 61 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "E12CEE5D-FE4D-5001-1586-9A9CD41BCCA2";
+	rename -uid "ADC1CD0E-5D46-F508-1F8E-078CA32D35E1";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "C0A8D3C3-C946-9DC4-1656-F68A56BF52EE";
+	rename -uid "6F209804-3147-C4E0-7663-90B474DB4111";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "238B98F1-7047-04D4-CCAF-AD899E69D0F6";
+	rename -uid "1C9A068C-BE46-865D-5814-28883A5FA2A8";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "456DD82F-BD48-9798-0D19-8F9689F24163";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "23711624-014D-D858-EE95-B7B877C8D3B7";
+	rename -uid "AC3A4111-B04A-FA12-31A1-5987A20FBF0E";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "D2091EDA-A04A-BA9A-69BB-D689284654DF";
 	setAttr ".g" yes;
@@ -26665,7 +26683,6 @@ createNode reference -n "SkeletonRN";
 	rename -uid "D94E4D43-BE45-D27B-494B-718A4567F6C3";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SkeletonRN"
-		"SkeletonRN" 0
 		"SkeletonRN" 159
 		2 "|Skeleton:Skeleton_Asset|Skeleton:Controls|Skeleton:Transform_Ctrl_Grp|Skeleton:Transform_Ctrl" 
 		"translate" " -type \"double3\" -4.15398125262660045 0 5.00285033175179183"
@@ -26995,7 +27012,7 @@ createNode aiOptions -s -n "defaultArnoldRenderOptions";
 	rename -uid "BE85E3F0-4013-A695-6F39-CCAB8A13F760";
 	addAttr -ci true -sn "ARV_options" -ln "ARV_options" -dt "string";
 	setAttr ".version" -type "string" "5.3.4.1";
-	setAttr ".ARV_options" -type "string" "Test Resolution=100%;Camera=perspShape;Color Management.Gamma=1;Color Management.Exposure=0;Background.BG=BG Color;Background.Color=0 0 0;Background.Image=;Background.Scale=1  1;Background.Offset=0  0;Background.Apply Color Management=1;Foreground.Enable FG=0;Foreground.Image=;Foreground.Scale=1  1;Foreground.Offset=0  0;Foreground.Apply Color Management=1;Interactive.FPS=16";
+	setAttr ".ARV_options" -type "string" "Test Resolution=100%;Camera=perspShape;Color Management.Gamma=1;Color Management.Exposure=0;Background.BG=BG Color;Background.Color=0 0 0;Background.Image=;Background.Scale=1    1;Background.Offset=0    0;Background.Apply Color Management=1;Foreground.Enable FG=0;Foreground.Image=;Foreground.Scale=1    1;Foreground.Offset=0    0;Foreground.Apply Color Management=1;Interactive.FPS=16";
 createNode aiAOVFilter -s -n "defaultArnoldFilter";
 	rename -uid "4C51DBE0-4ADF-F5E5-BB99-7199A0392397";
 	setAttr ".ai_translator" -type "string" "gaussian";
@@ -27051,8 +27068,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n"
 		+ "            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -docTag \"RADRENDER\" \n            -camera \"|persp\" \n"
 		+ "            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 1\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n"
-		+ "            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 0\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n"
-		+ "            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 2240\n            -height 1112\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n"
+		+ "            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n"
+		+ "            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1088\n            -height 936\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n"
 		+ "\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n"
 		+ "            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -showUfeItems 1\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -selectCommand \"print(\\\"\\\")\" \n            -showNamespace 1\n"
 		+ "            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n"
@@ -27074,12 +27091,9 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"renderWindowPanel\" (localizedPanelLabel(\"Render View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Render View\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"shapePanel\" (localizedPanelLabel(\"Shape Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tshapePanel -edit -l (localizedPanelLabel(\"Shape Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"posePanel\" (localizedPanelLabel(\"Pose Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tposePanel -edit -l (localizedPanelLabel(\"Pose Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n"
 		+ "\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"dynRelEdPanel\" (localizedPanelLabel(\"Dynamic Relationships\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Dynamic Relationships\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"relationshipPanel\" (localizedPanelLabel(\"Relationship Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Relationship Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"referenceEditorPanel\" (localizedPanelLabel(\"Reference Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Reference Editor\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"dynPaintScriptedPanelType\" (localizedPanelLabel(\"Paint Effects\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Paint Effects\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"scriptEditorPanel\" (localizedPanelLabel(\"Script Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Script Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"profilerPanel\" (localizedPanelLabel(\"Profiler Tool\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Profiler Tool\")) -mbv $menusOkayInPanels  $panelName;\n"
-		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"contentBrowserPanel\" (localizedPanelLabel(\"Content Browser\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Content Browser\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"|persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"wireframe\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n"
-		+ "            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 1\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 4 4 \n            -bumpResolution 4 4 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n"
-		+ "            -lowQualityLighting 0\n            -maximumNumHardwareLights 0\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n"
-		+ "            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 0\n            -height 0\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -docTag \\\"RADRENDER\\\" \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 1\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 2240\\n    -height 1112\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -docTag \\\"RADRENDER\\\" \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 1\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 2240\\n    -height 1112\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"contentBrowserPanel\" (localizedPanelLabel(\"Content Browser\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Content Browser\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -docTag \\\"RADRENDER\\\" \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 1\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1088\\n    -height 936\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -docTag \\\"RADRENDER\\\" \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 1\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1088\\n    -height 936\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -27307,9 +27321,6 @@ createNode reference -n "tablepropRN";
 	rename -uid "FBD506A8-9E45-D1F4-90CC-E18EC68CF9E5";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"tablepropRN"
-		"tableprop:SkeletonRN1" 0
-		"tableprop:SkeletonRN" 0
-		"tablepropRN" 0
 		"tableprop:SkeletonRN1" 144
 		2 "|tableprop:Skeleton2:Skeleton_Asset|tableprop:Skeleton2:Controls|tableprop:Skeleton2:Transform_Ctrl_Grp|tableprop:Skeleton2:Transform_Ctrl" 
 		"translate" " -type \"double3\" 5.5326829355110867 0.46469826794763808 6.36685248195009468"
@@ -27611,13 +27622,6 @@ createNode reference -n "tablepropRN";
 		"translate" " -type \"double3\" 0 0 0"
 		2 "|tableprop:Skeleton2:Skeleton_Asset|tableprop:Skeleton2:Controls|tableprop:Skeleton2:Transform_Ctrl_Grp|tableprop:Skeleton2:Transform_Ctrl|tableprop:Skeleton2:COG_Ctrl_Grp|tableprop:Skeleton2:COG_Ctrl|tableprop:Skeleton2:Redundancy_Controls|tableprop:Skeleton2:Neck_02_Redundancy_Ctrl_Grp|tableprop:Skeleton2:Neck_02_Redundancy_Ctrl" 
 		"translate" " -type \"double3\" 0 0 0"
-		"tablepropRN" 3
-		2 "|tableprop:pCylinder6" "translate" " -type \"double3\" -1.95278595440870006 0.013153724783237605 -2.17550712690609105"
-		
-		2 "|tableprop:pCylinder6" "rotate" " -type \"double3\" 0 270.00000000000005684 0"
-		
-		2 "|tableprop:pCylinder6" "rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		
 		"tableprop:SkeletonRN" 142
 		2 "|tableprop:Skeleton:Skeleton_Asset|tableprop:Skeleton:Controls|tableprop:Skeleton:Transform_Ctrl_Grp|tableprop:Skeleton:Transform_Ctrl" 
 		"translate" " -type \"double3\" 6.44166947624533126 0.47385312518418121 6.08779994801797386"
@@ -27913,7 +27917,623 @@ createNode reference -n "tablepropRN";
 		2 "|tableprop:Skeleton:Skeleton_Asset|tableprop:Skeleton:Controls|tableprop:Skeleton:Transform_Ctrl_Grp|tableprop:Skeleton:Transform_Ctrl|tableprop:Skeleton:COG_Ctrl_Grp|tableprop:Skeleton:COG_Ctrl|tableprop:Skeleton:Redundancy_Controls|tableprop:Skeleton:Neck_01_Redundancy_Ctrl_Grp|tableprop:Skeleton:Neck_01_Redundancy_Ctrl" 
 		"translate" " -type \"double3\" 0 0 0"
 		2 "|tableprop:Skeleton:Skeleton_Asset|tableprop:Skeleton:Controls|tableprop:Skeleton:Transform_Ctrl_Grp|tableprop:Skeleton:Transform_Ctrl|tableprop:Skeleton:COG_Ctrl_Grp|tableprop:Skeleton:COG_Ctrl|tableprop:Skeleton:Redundancy_Controls|tableprop:Skeleton:Neck_02_Redundancy_Ctrl_Grp|tableprop:Skeleton:Neck_02_Redundancy_Ctrl" 
-		"translate" " -type \"double3\" 0 0 0";
+		"translate" " -type \"double3\" 0 0 0"
+		"tablepropRN" 0
+		"tablepropRN" 307
+		2 "|tableprop:pCylinder6" "translate" " -type \"double3\" -1.95278595440870006 0.013153724783237605 -2.17550712690609105"
+		
+		2 "|tableprop:pCylinder6" "rotate" " -type \"double3\" 0 270.00000000000005684 0"
+		
+		2 "|tableprop:pCylinder6" "rotatePivotTranslate" " -type \"double3\" 0 0 0"
+		
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:L_Brow_Inner_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:L_Brow_Mid_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:L_Brow_Outer_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:L_Brow_Side_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:L_Socket_Lower_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:Brow_Furrow_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:Nose_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:Mid_Mouth_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:L_Mouth_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:R_Brow_Inner_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:R_Brow_Mid_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:R_Brow_Outer_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:R_Brow_Side_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:R_Socket_Lower_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:R_Mouth_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:Head_Lattice_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:Head_Lattice_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:Head_Lattice_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:Hat_Base_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:Hat_Base_Jnt|tableprop:Skeleton1:Hat_Dangle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:Hat_Base_Jnt|tableprop:Skeleton1:Hat_Dangle_01_Jnt|tableprop:Skeleton1:Hat_Dangle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:Neck_01_Jnt|tableprop:Skeleton1:Neck_02_Jnt|tableprop:Skeleton1:Head_Jnt|tableprop:Skeleton1:Head_COG_Jnt|tableprop:Skeleton1:Hat_Base_Jnt|tableprop:Skeleton1:Hat_Dangle_01_Jnt|tableprop:Skeleton1:Hat_Dangle_02_Jnt|tableprop:Skeleton1:Hat_Dangle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Clav_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Clav_Skin_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_FK_Jnt|tableprop:Skeleton1:L_Arm_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_FK_Jnt|tableprop:Skeleton1:L_Arm_02_FK_Jnt|tableprop:Skeleton1:L_Arm_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_IK_Jnt|tableprop:Skeleton1:L_Arm_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_IK_Jnt|tableprop:Skeleton1:L_Arm_02_IK_Jnt|tableprop:Skeleton1:L_Arm_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_01_Jnt|tableprop:Skeleton1:L_Finger_01_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_01_Jnt|tableprop:Skeleton1:L_Finger_01_Knuckle_01_Jnt|tableprop:Skeleton1:L_Finger_01_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_02_Jnt|tableprop:Skeleton1:L_Finger_02_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_02_Jnt|tableprop:Skeleton1:L_Finger_02_Knuckle_01_Jnt|tableprop:Skeleton1:L_Finger_02_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_02_Jnt|tableprop:Skeleton1:L_Finger_02_Knuckle_01_Jnt|tableprop:Skeleton1:L_Finger_02_Knuckle_02_Jnt|tableprop:Skeleton1:L_Finger_02_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_03_Jnt|tableprop:Skeleton1:L_Finger_03_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_03_Jnt|tableprop:Skeleton1:L_Finger_03_Knuckle_01_Jnt|tableprop:Skeleton1:L_Finger_03_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_03_Jnt|tableprop:Skeleton1:L_Finger_03_Knuckle_01_Jnt|tableprop:Skeleton1:L_Finger_03_Knuckle_02_Jnt|tableprop:Skeleton1:L_Finger_03_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_04_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_04_Jnt|tableprop:Skeleton1:L_Finger_04_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_04_Jnt|tableprop:Skeleton1:L_Finger_04_Knuckle_01_Jnt|tableprop:Skeleton1:L_Finger_04_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_04_Jnt|tableprop:Skeleton1:L_Finger_04_Knuckle_01_Jnt|tableprop:Skeleton1:L_Finger_04_Knuckle_02_Jnt|tableprop:Skeleton1:L_Finger_04_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_05_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_05_Jnt|tableprop:Skeleton1:L_Finger_05_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_05_Jnt|tableprop:Skeleton1:L_Finger_05_Knuckle_01_Jnt|tableprop:Skeleton1:L_Finger_05_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_03_RK_Jnt|tableprop:Skeleton1:L_Arm_Wrist_Jnt|tableprop:Skeleton1:L_MetCarp_05_Jnt|tableprop:Skeleton1:L_Finger_05_Knuckle_01_Jnt|tableprop:Skeleton1:L_Finger_05_Knuckle_02_Jnt|tableprop:Skeleton1:L_Finger_05_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_Lower_Twist_End_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_01_RK_Jnt|tableprop:Skeleton1:L_Arm_02_RK_Jnt|tableprop:Skeleton1:L_Arm_Lower_Twist_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Arm_02_Rev_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Arm_02_Rev_FK_Jnt|tableprop:Skeleton1:L_Arm_01_Rev_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Arm_02_Rev_FK_Jnt|tableprop:Skeleton1:L_Arm_Rev_FK_Lower_Twist_End_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Arm_02_Rev_FK_Jnt|tableprop:Skeleton1:L_Arm_Rev_FK_Lower_Twist_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_01_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_01_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_01_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_01_Knuckle_01_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_01_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_02_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_02_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_02_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_02_Knuckle_01_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_02_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_02_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_02_Knuckle_01_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_02_Knuckle_02_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_02_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_03_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_03_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_03_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_03_Knuckle_01_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_03_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_03_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_03_Knuckle_01_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_03_Knuckle_02_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_03_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_04_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_04_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_04_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_04_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_04_Knuckle_01_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_04_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_04_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_04_Knuckle_01_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_04_Knuckle_02_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_04_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_05_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_05_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_05_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_05_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_05_Knuckle_01_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_05_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:L_Scap_Jnt|tableprop:Skeleton1:L_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:L_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:L_Rev_FK_MetCarp_05_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_05_Knuckle_01_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_05_Knuckle_02_Jnt|tableprop:Skeleton1:L_Rev_FK_Finger_05_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Clav_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Clav_Skin_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_FK_Jnt|tableprop:Skeleton1:R_Arm_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_FK_Jnt|tableprop:Skeleton1:R_Arm_02_FK_Jnt|tableprop:Skeleton1:R_Arm_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_IK_Jnt|tableprop:Skeleton1:R_Arm_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_IK_Jnt|tableprop:Skeleton1:R_Arm_02_IK_Jnt|tableprop:Skeleton1:R_Arm_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_01_Jnt|tableprop:Skeleton1:R_Finger_01_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_01_Jnt|tableprop:Skeleton1:R_Finger_01_Knuckle_01_Jnt|tableprop:Skeleton1:R_Finger_01_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_02_Jnt|tableprop:Skeleton1:R_Finger_02_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_02_Jnt|tableprop:Skeleton1:R_Finger_02_Knuckle_01_Jnt|tableprop:Skeleton1:R_Finger_02_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_02_Jnt|tableprop:Skeleton1:R_Finger_02_Knuckle_01_Jnt|tableprop:Skeleton1:R_Finger_02_Knuckle_02_Jnt|tableprop:Skeleton1:R_Finger_02_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_03_Jnt|tableprop:Skeleton1:R_Finger_03_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_03_Jnt|tableprop:Skeleton1:R_Finger_03_Knuckle_01_Jnt|tableprop:Skeleton1:R_Finger_03_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_03_Jnt|tableprop:Skeleton1:R_Finger_03_Knuckle_01_Jnt|tableprop:Skeleton1:R_Finger_03_Knuckle_02_Jnt|tableprop:Skeleton1:R_Finger_03_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_04_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_04_Jnt|tableprop:Skeleton1:R_Finger_04_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_04_Jnt|tableprop:Skeleton1:R_Finger_04_Knuckle_01_Jnt|tableprop:Skeleton1:R_Finger_04_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_04_Jnt|tableprop:Skeleton1:R_Finger_04_Knuckle_01_Jnt|tableprop:Skeleton1:R_Finger_04_Knuckle_02_Jnt|tableprop:Skeleton1:R_Finger_04_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_05_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_05_Jnt|tableprop:Skeleton1:R_Finger_05_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_05_Jnt|tableprop:Skeleton1:R_Finger_05_Knuckle_01_Jnt|tableprop:Skeleton1:R_Finger_05_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_03_RK_Jnt|tableprop:Skeleton1:R_Arm_Wrist_Jnt|tableprop:Skeleton1:R_MetCarp_05_Jnt|tableprop:Skeleton1:R_Finger_05_Knuckle_01_Jnt|tableprop:Skeleton1:R_Finger_05_Knuckle_02_Jnt|tableprop:Skeleton1:R_Finger_05_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_Lower_Twist_End_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_01_RK_Jnt|tableprop:Skeleton1:R_Arm_02_RK_Jnt|tableprop:Skeleton1:R_Arm_Lower_Twist_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Arm_02_Rev_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Arm_02_Rev_FK_Jnt|tableprop:Skeleton1:R_Arm_01_Rev_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Arm_02_Rev_FK_Jnt|tableprop:Skeleton1:R_Arm_Rev_FK_Lower_Twist_End_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Arm_02_Rev_FK_Jnt|tableprop:Skeleton1:R_Arm_Rev_FK_Lower_Twist_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_01_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_01_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_01_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_01_Knuckle_01_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_01_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_02_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_02_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_02_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_02_Knuckle_01_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_02_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_02_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_02_Knuckle_01_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_02_Knuckle_02_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_02_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_03_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_03_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_03_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_03_Knuckle_01_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_03_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_03_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_03_Knuckle_01_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_03_Knuckle_02_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_03_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_04_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_04_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_04_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_04_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_04_Knuckle_01_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_04_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_04_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_04_Knuckle_01_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_04_Knuckle_02_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_04_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_05_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_05_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_05_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_05_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_05_Knuckle_01_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_05_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:Spine_01_Jnt|tableprop:Skeleton1:Spine_02_Jnt|tableprop:Skeleton1:Spine_03_Jnt|tableprop:Skeleton1:Chest_Jnt|tableprop:Skeleton1:R_Scap_Jnt|tableprop:Skeleton1:R_Arm_03_Rev_FK_Jnt|tableprop:Skeleton1:R_Rev_FK_Arm_Wrist_Jnt|tableprop:Skeleton1:R_Rev_FK_MetCarp_05_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_05_Knuckle_01_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_05_Knuckle_02_Jnt|tableprop:Skeleton1:R_Rev_FK_Finger_05_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:L_Foot_FK_Ball_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_01_FK_Jnt|tableprop:Skeleton1:L_Toe_01_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_01_FK_Jnt|tableprop:Skeleton1:L_Toe_01_Knuckle_01_FK_Jnt|tableprop:Skeleton1:L_Toe_01_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_02_FK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_02_FK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_01_FK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_02_FK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_01_FK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_02_FK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_03_FK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_03_FK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_01_FK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_03_FK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_01_FK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_02_FK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_04_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_04_FK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_04_FK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_01_FK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_04_FK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_01_FK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_02_FK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_05_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_05_FK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_05_FK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_01_FK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_FK_Jnt|tableprop:Skeleton1:L_Leg_02_FK_Jnt|tableprop:Skeleton1:L_Leg_03_FK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:L_MetTars_05_FK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_01_FK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_02_FK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:L_Foot_IK_Ball_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_01_IK_Jnt|tableprop:Skeleton1:L_Toe_01_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_01_IK_Jnt|tableprop:Skeleton1:L_Toe_01_Knuckle_01_IK_Jnt|tableprop:Skeleton1:L_Toe_01_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_01_IK_Jnt|tableprop:Skeleton1:L_Toe_01_Knuckle_01_IK_Jnt|tableprop:Skeleton1:L_Toe_01_Knuckle_02_IK_Jnt|tableprop:Skeleton1:L_Toe_01_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_02_IK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_02_IK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_01_IK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_02_IK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_01_IK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_02_IK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_02_IK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_01_IK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_02_IK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_03_IK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_03_IK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_03_IK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_01_IK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_03_IK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_01_IK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_02_IK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_03_IK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_01_IK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_02_IK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_03_IK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_04_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_04_IK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_04_IK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_01_IK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_04_IK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_01_IK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_02_IK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_04_IK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_01_IK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_02_IK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_03_IK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_05_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_05_IK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_05_IK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_01_IK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_05_IK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_01_IK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_02_IK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_IK_Jnt|tableprop:Skeleton1:L_Leg_02_IK_Jnt|tableprop:Skeleton1:L_Leg_03_IK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:L_MetTars_05_IK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_01_IK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_02_IK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_03_IK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:L_Foot_RK_Ball_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_01_RK_Jnt|tableprop:Skeleton1:L_Toe_01_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_01_RK_Jnt|tableprop:Skeleton1:L_Toe_01_Knuckle_01_RK_Jnt|tableprop:Skeleton1:L_Toe_01_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_02_RK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_02_RK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_01_RK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_02_RK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_01_RK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_02_RK_Jnt|tableprop:Skeleton1:L_Toe_02_Knuckle_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_03_RK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_03_RK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_01_RK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_03_RK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_01_RK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_02_RK_Jnt|tableprop:Skeleton1:L_Toe_03_Knuckle_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_04_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_04_RK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_04_RK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_01_RK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_04_RK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_01_RK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_02_RK_Jnt|tableprop:Skeleton1:L_Toe_04_Knuckle_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_05_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_05_RK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_05_RK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_01_RK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:L_Leg_Pivot_Jnt|tableprop:Skeleton1:L_Leg_01_RK_Jnt|tableprop:Skeleton1:L_Leg_02_RK_Jnt|tableprop:Skeleton1:L_Leg_03_RK_Jnt|tableprop:Skeleton1:L_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:L_MetTars_05_RK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_01_RK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_02_RK_Jnt|tableprop:Skeleton1:L_Toe_05_Knuckle_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_01_FK_Jnt|tableprop:Skeleton1:R_Toe_01_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_01_FK_Jnt|tableprop:Skeleton1:R_Toe_01_Knuckle_01_FK_Jnt|tableprop:Skeleton1:R_Toe_01_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_02_FK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_02_FK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_01_FK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_02_FK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_01_FK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_02_FK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_03_FK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_03_FK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_01_FK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_03_FK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_01_FK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_02_FK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_04_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_04_FK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_04_FK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_01_FK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_04_FK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_01_FK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_02_FK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_05_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_05_FK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_05_FK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_01_FK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_FK_Jnt|tableprop:Skeleton1:R_Leg_02_FK_Jnt|tableprop:Skeleton1:R_Leg_03_FK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_FK_Jnt|tableprop:Skeleton1:Left_Toes_FK_Joints|tableprop:Skeleton1:R_MetTars_05_FK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_01_FK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_02_FK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:R_Foot_IK_Ball_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_01_IK_Jnt|tableprop:Skeleton1:R_Toe_01_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_01_IK_Jnt|tableprop:Skeleton1:R_Toe_01_Knuckle_01_IK_Jnt|tableprop:Skeleton1:R_Toe_01_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_01_IK_Jnt|tableprop:Skeleton1:R_Toe_01_Knuckle_01_IK_Jnt|tableprop:Skeleton1:R_Toe_01_Knuckle_02_IK_Jnt|tableprop:Skeleton1:R_Toe_01_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_02_IK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_02_IK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_01_IK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_02_IK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_01_IK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_02_IK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_02_IK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_01_IK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_02_IK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_03_IK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_03_IK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_03_IK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_01_IK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_03_IK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_01_IK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_02_IK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_03_IK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_01_IK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_02_IK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_03_IK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_04_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_04_IK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_04_IK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_01_IK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_04_IK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_01_IK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_02_IK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_04_IK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_01_IK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_02_IK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_03_IK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_05_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_05_IK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_05_IK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_01_IK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_05_IK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_01_IK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_02_IK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_IK_Jnt|tableprop:Skeleton1:R_Leg_02_IK_Jnt|tableprop:Skeleton1:R_Leg_03_IK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_IK_Jnt|tableprop:Skeleton1:Left_Toes_IK_Joints|tableprop:Skeleton1:R_MetTars_05_IK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_01_IK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_02_IK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_03_IK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_01_RK_Jnt|tableprop:Skeleton1:R_Toe_01_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_01_RK_Jnt|tableprop:Skeleton1:R_Toe_01_Knuckle_01_RK_Jnt|tableprop:Skeleton1:R_Toe_01_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_02_RK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_02_RK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_01_RK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_02_RK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_01_RK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_02_RK_Jnt|tableprop:Skeleton1:R_Toe_02_Knuckle_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_03_RK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_03_RK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_01_RK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_03_RK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_01_RK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_02_RK_Jnt|tableprop:Skeleton1:R_Toe_03_Knuckle_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_04_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_04_RK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_04_RK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_01_RK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_04_RK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_01_RK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_02_RK_Jnt|tableprop:Skeleton1:R_Toe_04_Knuckle_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_05_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_05_RK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_05_RK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_01_RK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|tableprop:group|tableprop:Skeleton1:Skeleton_Asset|tableprop:Skeleton1:Skeleton|tableprop:Skeleton1:root|tableprop:Skeleton1:Hip_Jnt|tableprop:Skeleton1:R_Leg_Pivot_Jnt|tableprop:Skeleton1:R_Leg_01_RK_Jnt|tableprop:Skeleton1:R_Leg_02_RK_Jnt|tableprop:Skeleton1:R_Leg_03_RK_Jnt|tableprop:Skeleton1:R_Leg_Ankle_RK_Jnt|tableprop:Skeleton1:Left_Toes_RK_Joints|tableprop:Skeleton1:R_MetTars_05_RK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_01_RK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_02_RK_Jnt|tableprop:Skeleton1:R_Toe_05_Knuckle_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode groupId -n "groupId1";
@@ -27929,8 +28549,6 @@ createNode reference -n "stoolRN";
 	rename -uid "4250CCF3-1E44-CB98-87B1-6287DBE85135";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"stoolRN"
-		"stool:SkeletonRN" 0
-		"stoolRN" 0
 		"stool:SkeletonRN" 60
 		2 "|stool:Skeleton:Skeleton_Asset|stool:Skeleton:Controls|stool:Skeleton:Transform_Ctrl_Grp|stool:Skeleton:Transform_Ctrl" 
 		"translate" " -type \"double3\" 4.66198892245796337 0.034314930079672477 -4.47168831695052749"
@@ -28061,6 +28679,7 @@ createNode reference -n "stoolRN";
 		"rotate" " -type \"double3\" 0 0 18.17770654482211157"
 		2 "|stool:Skeleton:Skeleton_Asset|stool:Skeleton:Controls|stool:Skeleton:Transform_Ctrl_Grp|stool:Skeleton:Transform_Ctrl|stool:Skeleton:COG_Ctrl_Grp|stool:Skeleton:COG_Ctrl|stool:Skeleton:Right_Arm|stool:Skeleton:R_Arm_Reg_Controls|stool:Skeleton:Right_Hand|stool:Skeleton:Right_Finger_05|stool:Skeleton:R_Finger_05_Knuckle_03_Ctrl_Grp|stool:Skeleton:R_Finger_05_Knuckle_03_Ctrl" 
 		"rotatePivotTranslate" " -type \"double3\" 0 0 0"
+		"stoolRN" 0
 		"stoolRN" 1
 		2 "|stool:pCylinder3" "translate" " -type \"double3\" 4.74901135609670533 -1.69913593028916554 -4.46845793454444085";
 	setAttr ".ptag" -type "string" "";
@@ -28079,7 +28698,615 @@ createNode reference -n "stool2RN";
 		"stool2RN"
 		"stool2:SkeletonRN" 0
 		"stool2RN" 0
-		"stool2:SkeletonRN" 55
+		"stool2:SkeletonRN" 359
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:L_Brow_Inner_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:L_Brow_Mid_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:L_Brow_Outer_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:L_Brow_Side_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:L_Socket_Lower_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:Brow_Furrow_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:Nose_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:Mid_Mouth_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:L_Mouth_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:R_Brow_Inner_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:R_Brow_Mid_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:R_Brow_Outer_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:R_Brow_Side_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:R_Socket_Lower_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:R_Mouth_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:Head_Lattice_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:Head_Lattice_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:Head_Lattice_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:Hat_Base_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:Hat_Base_Jnt|stool2:Skeleton:Hat_Dangle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:Hat_Base_Jnt|stool2:Skeleton:Hat_Dangle_01_Jnt|stool2:Skeleton:Hat_Dangle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:Neck_01_Jnt|stool2:Skeleton:Neck_02_Jnt|stool2:Skeleton:Head_Jnt|stool2:Skeleton:Head_COG_Jnt|stool2:Skeleton:Hat_Base_Jnt|stool2:Skeleton:Hat_Dangle_01_Jnt|stool2:Skeleton:Hat_Dangle_02_Jnt|stool2:Skeleton:Hat_Dangle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Clav_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Clav_Skin_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_FK_Jnt|stool2:Skeleton:L_Arm_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_FK_Jnt|stool2:Skeleton:L_Arm_02_FK_Jnt|stool2:Skeleton:L_Arm_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_IK_Jnt|stool2:Skeleton:L_Arm_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_IK_Jnt|stool2:Skeleton:L_Arm_02_IK_Jnt|stool2:Skeleton:L_Arm_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_01_Jnt|stool2:Skeleton:L_Finger_01_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_01_Jnt|stool2:Skeleton:L_Finger_01_Knuckle_01_Jnt|stool2:Skeleton:L_Finger_01_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_02_Jnt|stool2:Skeleton:L_Finger_02_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_02_Jnt|stool2:Skeleton:L_Finger_02_Knuckle_01_Jnt|stool2:Skeleton:L_Finger_02_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_02_Jnt|stool2:Skeleton:L_Finger_02_Knuckle_01_Jnt|stool2:Skeleton:L_Finger_02_Knuckle_02_Jnt|stool2:Skeleton:L_Finger_02_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_03_Jnt|stool2:Skeleton:L_Finger_03_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_03_Jnt|stool2:Skeleton:L_Finger_03_Knuckle_01_Jnt|stool2:Skeleton:L_Finger_03_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_03_Jnt|stool2:Skeleton:L_Finger_03_Knuckle_01_Jnt|stool2:Skeleton:L_Finger_03_Knuckle_02_Jnt|stool2:Skeleton:L_Finger_03_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_04_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_04_Jnt|stool2:Skeleton:L_Finger_04_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_04_Jnt|stool2:Skeleton:L_Finger_04_Knuckle_01_Jnt|stool2:Skeleton:L_Finger_04_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_04_Jnt|stool2:Skeleton:L_Finger_04_Knuckle_01_Jnt|stool2:Skeleton:L_Finger_04_Knuckle_02_Jnt|stool2:Skeleton:L_Finger_04_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_05_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_05_Jnt|stool2:Skeleton:L_Finger_05_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_05_Jnt|stool2:Skeleton:L_Finger_05_Knuckle_01_Jnt|stool2:Skeleton:L_Finger_05_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_03_RK_Jnt|stool2:Skeleton:L_Arm_Wrist_Jnt|stool2:Skeleton:L_MetCarp_05_Jnt|stool2:Skeleton:L_Finger_05_Knuckle_01_Jnt|stool2:Skeleton:L_Finger_05_Knuckle_02_Jnt|stool2:Skeleton:L_Finger_05_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_Lower_Twist_End_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_01_RK_Jnt|stool2:Skeleton:L_Arm_02_RK_Jnt|stool2:Skeleton:L_Arm_Lower_Twist_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Arm_02_Rev_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Arm_02_Rev_FK_Jnt|stool2:Skeleton:L_Arm_01_Rev_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Arm_02_Rev_FK_Jnt|stool2:Skeleton:L_Arm_Rev_FK_Lower_Twist_End_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Arm_02_Rev_FK_Jnt|stool2:Skeleton:L_Arm_Rev_FK_Lower_Twist_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_01_Jnt|stool2:Skeleton:L_Rev_FK_Finger_01_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_01_Jnt|stool2:Skeleton:L_Rev_FK_Finger_01_Knuckle_01_Jnt|stool2:Skeleton:L_Rev_FK_Finger_01_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_02_Jnt|stool2:Skeleton:L_Rev_FK_Finger_02_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_02_Jnt|stool2:Skeleton:L_Rev_FK_Finger_02_Knuckle_01_Jnt|stool2:Skeleton:L_Rev_FK_Finger_02_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_02_Jnt|stool2:Skeleton:L_Rev_FK_Finger_02_Knuckle_01_Jnt|stool2:Skeleton:L_Rev_FK_Finger_02_Knuckle_02_Jnt|stool2:Skeleton:L_Rev_FK_Finger_02_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_03_Jnt|stool2:Skeleton:L_Rev_FK_Finger_03_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_03_Jnt|stool2:Skeleton:L_Rev_FK_Finger_03_Knuckle_01_Jnt|stool2:Skeleton:L_Rev_FK_Finger_03_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_03_Jnt|stool2:Skeleton:L_Rev_FK_Finger_03_Knuckle_01_Jnt|stool2:Skeleton:L_Rev_FK_Finger_03_Knuckle_02_Jnt|stool2:Skeleton:L_Rev_FK_Finger_03_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_04_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_04_Jnt|stool2:Skeleton:L_Rev_FK_Finger_04_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_04_Jnt|stool2:Skeleton:L_Rev_FK_Finger_04_Knuckle_01_Jnt|stool2:Skeleton:L_Rev_FK_Finger_04_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_04_Jnt|stool2:Skeleton:L_Rev_FK_Finger_04_Knuckle_01_Jnt|stool2:Skeleton:L_Rev_FK_Finger_04_Knuckle_02_Jnt|stool2:Skeleton:L_Rev_FK_Finger_04_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_05_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_05_Jnt|stool2:Skeleton:L_Rev_FK_Finger_05_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_05_Jnt|stool2:Skeleton:L_Rev_FK_Finger_05_Knuckle_01_Jnt|stool2:Skeleton:L_Rev_FK_Finger_05_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:L_Scap_Jnt|stool2:Skeleton:L_Arm_03_Rev_FK_Jnt|stool2:Skeleton:L_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:L_Rev_FK_MetCarp_05_Jnt|stool2:Skeleton:L_Rev_FK_Finger_05_Knuckle_01_Jnt|stool2:Skeleton:L_Rev_FK_Finger_05_Knuckle_02_Jnt|stool2:Skeleton:L_Rev_FK_Finger_05_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Clav_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Clav_Skin_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_FK_Jnt|stool2:Skeleton:R_Arm_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_FK_Jnt|stool2:Skeleton:R_Arm_02_FK_Jnt|stool2:Skeleton:R_Arm_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_IK_Jnt|stool2:Skeleton:R_Arm_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_IK_Jnt|stool2:Skeleton:R_Arm_02_IK_Jnt|stool2:Skeleton:R_Arm_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_01_Jnt|stool2:Skeleton:R_Finger_01_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_01_Jnt|stool2:Skeleton:R_Finger_01_Knuckle_01_Jnt|stool2:Skeleton:R_Finger_01_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_02_Jnt|stool2:Skeleton:R_Finger_02_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_02_Jnt|stool2:Skeleton:R_Finger_02_Knuckle_01_Jnt|stool2:Skeleton:R_Finger_02_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_02_Jnt|stool2:Skeleton:R_Finger_02_Knuckle_01_Jnt|stool2:Skeleton:R_Finger_02_Knuckle_02_Jnt|stool2:Skeleton:R_Finger_02_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_03_Jnt|stool2:Skeleton:R_Finger_03_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_03_Jnt|stool2:Skeleton:R_Finger_03_Knuckle_01_Jnt|stool2:Skeleton:R_Finger_03_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_03_Jnt|stool2:Skeleton:R_Finger_03_Knuckle_01_Jnt|stool2:Skeleton:R_Finger_03_Knuckle_02_Jnt|stool2:Skeleton:R_Finger_03_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_04_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_04_Jnt|stool2:Skeleton:R_Finger_04_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_04_Jnt|stool2:Skeleton:R_Finger_04_Knuckle_01_Jnt|stool2:Skeleton:R_Finger_04_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_04_Jnt|stool2:Skeleton:R_Finger_04_Knuckle_01_Jnt|stool2:Skeleton:R_Finger_04_Knuckle_02_Jnt|stool2:Skeleton:R_Finger_04_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_05_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_05_Jnt|stool2:Skeleton:R_Finger_05_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_05_Jnt|stool2:Skeleton:R_Finger_05_Knuckle_01_Jnt|stool2:Skeleton:R_Finger_05_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_03_RK_Jnt|stool2:Skeleton:R_Arm_Wrist_Jnt|stool2:Skeleton:R_MetCarp_05_Jnt|stool2:Skeleton:R_Finger_05_Knuckle_01_Jnt|stool2:Skeleton:R_Finger_05_Knuckle_02_Jnt|stool2:Skeleton:R_Finger_05_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_Lower_Twist_End_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_01_RK_Jnt|stool2:Skeleton:R_Arm_02_RK_Jnt|stool2:Skeleton:R_Arm_Lower_Twist_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Arm_02_Rev_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Arm_02_Rev_FK_Jnt|stool2:Skeleton:R_Arm_01_Rev_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Arm_02_Rev_FK_Jnt|stool2:Skeleton:R_Arm_Rev_FK_Lower_Twist_End_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Arm_02_Rev_FK_Jnt|stool2:Skeleton:R_Arm_Rev_FK_Lower_Twist_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_01_Jnt|stool2:Skeleton:R_Rev_FK_Finger_01_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_01_Jnt|stool2:Skeleton:R_Rev_FK_Finger_01_Knuckle_01_Jnt|stool2:Skeleton:R_Rev_FK_Finger_01_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_02_Jnt|stool2:Skeleton:R_Rev_FK_Finger_02_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_02_Jnt|stool2:Skeleton:R_Rev_FK_Finger_02_Knuckle_01_Jnt|stool2:Skeleton:R_Rev_FK_Finger_02_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_02_Jnt|stool2:Skeleton:R_Rev_FK_Finger_02_Knuckle_01_Jnt|stool2:Skeleton:R_Rev_FK_Finger_02_Knuckle_02_Jnt|stool2:Skeleton:R_Rev_FK_Finger_02_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_03_Jnt|stool2:Skeleton:R_Rev_FK_Finger_03_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_03_Jnt|stool2:Skeleton:R_Rev_FK_Finger_03_Knuckle_01_Jnt|stool2:Skeleton:R_Rev_FK_Finger_03_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_03_Jnt|stool2:Skeleton:R_Rev_FK_Finger_03_Knuckle_01_Jnt|stool2:Skeleton:R_Rev_FK_Finger_03_Knuckle_02_Jnt|stool2:Skeleton:R_Rev_FK_Finger_03_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_04_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_04_Jnt|stool2:Skeleton:R_Rev_FK_Finger_04_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_04_Jnt|stool2:Skeleton:R_Rev_FK_Finger_04_Knuckle_01_Jnt|stool2:Skeleton:R_Rev_FK_Finger_04_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_04_Jnt|stool2:Skeleton:R_Rev_FK_Finger_04_Knuckle_01_Jnt|stool2:Skeleton:R_Rev_FK_Finger_04_Knuckle_02_Jnt|stool2:Skeleton:R_Rev_FK_Finger_04_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_05_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_05_Jnt|stool2:Skeleton:R_Rev_FK_Finger_05_Knuckle_01_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_05_Jnt|stool2:Skeleton:R_Rev_FK_Finger_05_Knuckle_01_Jnt|stool2:Skeleton:R_Rev_FK_Finger_05_Knuckle_02_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:Spine_01_Jnt|stool2:Skeleton:Spine_02_Jnt|stool2:Skeleton:Spine_03_Jnt|stool2:Skeleton:Chest_Jnt|stool2:Skeleton:R_Scap_Jnt|stool2:Skeleton:R_Arm_03_Rev_FK_Jnt|stool2:Skeleton:R_Rev_FK_Arm_Wrist_Jnt|stool2:Skeleton:R_Rev_FK_MetCarp_05_Jnt|stool2:Skeleton:R_Rev_FK_Finger_05_Knuckle_01_Jnt|stool2:Skeleton:R_Rev_FK_Finger_05_Knuckle_02_Jnt|stool2:Skeleton:R_Rev_FK_Finger_05_Knuckle_03_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:L_Foot_FK_Ball_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_01_FK_Jnt|stool2:Skeleton:L_Toe_01_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_01_FK_Jnt|stool2:Skeleton:L_Toe_01_Knuckle_01_FK_Jnt|stool2:Skeleton:L_Toe_01_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_02_FK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_02_FK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_01_FK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_02_FK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_01_FK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_02_FK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_03_FK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_03_FK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_01_FK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_03_FK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_01_FK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_02_FK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_04_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_04_FK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_04_FK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_01_FK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_04_FK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_01_FK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_02_FK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_05_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_05_FK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_05_FK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_01_FK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_FK_Jnt|stool2:Skeleton:L_Leg_02_FK_Jnt|stool2:Skeleton:L_Leg_03_FK_Jnt|stool2:Skeleton:L_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:L_MetTars_05_FK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_01_FK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_02_FK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:L_Foot_IK_Ball_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_01_IK_Jnt|stool2:Skeleton:L_Toe_01_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_01_IK_Jnt|stool2:Skeleton:L_Toe_01_Knuckle_01_IK_Jnt|stool2:Skeleton:L_Toe_01_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_01_IK_Jnt|stool2:Skeleton:L_Toe_01_Knuckle_01_IK_Jnt|stool2:Skeleton:L_Toe_01_Knuckle_02_IK_Jnt|stool2:Skeleton:L_Toe_01_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_02_IK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_02_IK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_01_IK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_02_IK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_01_IK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_02_IK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_02_IK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_01_IK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_02_IK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_03_IK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_03_IK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_03_IK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_01_IK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_03_IK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_01_IK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_02_IK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_03_IK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_01_IK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_02_IK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_03_IK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_04_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_04_IK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_04_IK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_01_IK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_04_IK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_01_IK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_02_IK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_04_IK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_01_IK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_02_IK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_03_IK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_05_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_05_IK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_05_IK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_01_IK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_05_IK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_01_IK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_02_IK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_IK_Jnt|stool2:Skeleton:L_Leg_02_IK_Jnt|stool2:Skeleton:L_Leg_03_IK_Jnt|stool2:Skeleton:L_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:L_MetTars_05_IK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_01_IK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_02_IK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_03_IK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:L_Foot_RK_Ball_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_01_RK_Jnt|stool2:Skeleton:L_Toe_01_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_01_RK_Jnt|stool2:Skeleton:L_Toe_01_Knuckle_01_RK_Jnt|stool2:Skeleton:L_Toe_01_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_02_RK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_02_RK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_01_RK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_02_RK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_01_RK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_02_RK_Jnt|stool2:Skeleton:L_Toe_02_Knuckle_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_03_RK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_03_RK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_01_RK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_03_RK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_01_RK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_02_RK_Jnt|stool2:Skeleton:L_Toe_03_Knuckle_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_04_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_04_RK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_04_RK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_01_RK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_04_RK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_01_RK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_02_RK_Jnt|stool2:Skeleton:L_Toe_04_Knuckle_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_05_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_05_RK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_05_RK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_01_RK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:L_Leg_Pivot_Jnt|stool2:Skeleton:L_Leg_01_RK_Jnt|stool2:Skeleton:L_Leg_02_RK_Jnt|stool2:Skeleton:L_Leg_03_RK_Jnt|stool2:Skeleton:L_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:L_MetTars_05_RK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_01_RK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_02_RK_Jnt|stool2:Skeleton:L_Toe_05_Knuckle_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_01_FK_Jnt|stool2:Skeleton:R_Toe_01_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_01_FK_Jnt|stool2:Skeleton:R_Toe_01_Knuckle_01_FK_Jnt|stool2:Skeleton:R_Toe_01_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_02_FK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_02_FK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_01_FK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_02_FK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_01_FK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_02_FK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_03_FK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_03_FK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_01_FK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_03_FK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_01_FK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_02_FK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_04_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_04_FK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_04_FK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_01_FK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_04_FK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_01_FK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_02_FK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_05_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_05_FK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_01_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_05_FK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_01_FK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_02_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_FK_Jnt|stool2:Skeleton:R_Leg_02_FK_Jnt|stool2:Skeleton:R_Leg_03_FK_Jnt|stool2:Skeleton:R_Leg_Ankle_FK_Jnt|stool2:Skeleton:Left_Toes_FK_Joints|stool2:Skeleton:R_MetTars_05_FK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_01_FK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_02_FK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_03_FK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:R_Foot_IK_Ball_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_01_IK_Jnt|stool2:Skeleton:R_Toe_01_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_01_IK_Jnt|stool2:Skeleton:R_Toe_01_Knuckle_01_IK_Jnt|stool2:Skeleton:R_Toe_01_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_01_IK_Jnt|stool2:Skeleton:R_Toe_01_Knuckle_01_IK_Jnt|stool2:Skeleton:R_Toe_01_Knuckle_02_IK_Jnt|stool2:Skeleton:R_Toe_01_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_02_IK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_02_IK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_01_IK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_02_IK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_01_IK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_02_IK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_02_IK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_01_IK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_02_IK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_03_IK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_03_IK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_03_IK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_01_IK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_03_IK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_01_IK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_02_IK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_03_IK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_01_IK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_02_IK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_03_IK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_04_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_04_IK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_04_IK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_01_IK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_04_IK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_01_IK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_02_IK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_04_IK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_01_IK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_02_IK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_03_IK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_05_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_05_IK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_01_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_05_IK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_01_IK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_02_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_05_IK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_01_IK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_02_IK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_03_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_IK_Jnt|stool2:Skeleton:R_Leg_02_IK_Jnt|stool2:Skeleton:R_Leg_03_IK_Jnt|stool2:Skeleton:R_Leg_Ankle_IK_Jnt|stool2:Skeleton:Left_Toes_IK_Joints|stool2:Skeleton:R_MetTars_05_IK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_01_IK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_02_IK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_03_IK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_End_IK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_01_RK_Jnt|stool2:Skeleton:R_Toe_01_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_01_RK_Jnt|stool2:Skeleton:R_Toe_01_Knuckle_01_RK_Jnt|stool2:Skeleton:R_Toe_01_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_02_RK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_02_RK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_01_RK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_02_RK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_01_RK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_02_RK_Jnt|stool2:Skeleton:R_Toe_02_Knuckle_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_03_RK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_03_RK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_01_RK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_03_RK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_01_RK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_02_RK_Jnt|stool2:Skeleton:R_Toe_03_Knuckle_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_04_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_04_RK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_04_RK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_01_RK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_04_RK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_01_RK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_02_RK_Jnt|stool2:Skeleton:R_Toe_04_Knuckle_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_05_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_05_RK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_01_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_05_RK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_01_RK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_02_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
+		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Skeleton|stool2:Skeleton:root|stool2:Skeleton:Hip_Jnt|stool2:Skeleton:R_Leg_Pivot_Jnt|stool2:Skeleton:R_Leg_01_RK_Jnt|stool2:Skeleton:R_Leg_02_RK_Jnt|stool2:Skeleton:R_Leg_03_RK_Jnt|stool2:Skeleton:R_Leg_Ankle_RK_Jnt|stool2:Skeleton:Left_Toes_RK_Joints|stool2:Skeleton:R_MetTars_05_RK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_01_RK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_02_RK_Jnt|stool2:Skeleton:R_Toe_05_Knuckle_03_RK_Jnt" 
+		"segmentScaleCompensate" " 0"
 		2 "|stool2:Skeleton:Skeleton_Asset|stool2:Skeleton:Controls|stool2:Skeleton:Transform_Ctrl_Grp|stool2:Skeleton:Transform_Ctrl" 
 		"translate" " -type \"double3\" -0.85170166523629587 0.22007587510832316 -5.01288321871568421"
 		
@@ -28239,12 +29466,6 @@ createNode reference -n "stool2RN";
 		
 		2 "|stool2:group2|stool2:pSphere1" "rotate" " -type \"double3\" 0 179.99999999999994316 0"
 		
-		3 "|stool2:group2|stool2:pSphere1|stool2:pSphereShape1.instObjGroups" ":initialShadingGroup.dagSetMembers" 
-		"-na"
-		3 "|stool2:group2|stool2:group1|stool2:pCylinder1|stool2:pCylinderShape1.instObjGroups" 
-		"stool2:lambert4SG.dagSetMembers" "-na"
-		3 "|stool2:group2|stool2:group1|stool2:pTorus1|stool2:pTorusShape1.instObjGroups" 
-		"stool2:lambert3SG.dagSetMembers" "-na"
 		3 "|stool2:group2|stool2:group1|stool2:pCylinder2|stool2:pCylinderShape2.instObjGroups" 
 		"stool2:lambert2SG.dagSetMembers" "-na"
 		3 "|stool2:group2|stool2:group1|stool2:pCylinder3|stool2:pCylinderShape3.instObjGroups" 
@@ -28253,6 +29474,12 @@ createNode reference -n "stool2RN";
 		"stool2:lambert2SG.dagSetMembers" "-na"
 		3 "|stool2:group2|stool2:group1|stool2:pCylinder4|stool2:pCylinderShape4.instObjGroups" 
 		"stool2:lambert2SG.dagSetMembers" "-na"
+		3 "|stool2:group2|stool2:pSphere1|stool2:pSphereShape1.instObjGroups" ":initialShadingGroup.dagSetMembers" 
+		"-na"
+		3 "|stool2:group2|stool2:group1|stool2:pTorus1|stool2:pTorusShape1.instObjGroups" 
+		"stool2:lambert3SG.dagSetMembers" "-na"
+		3 "|stool2:group2|stool2:group1|stool2:pCylinder1|stool2:pCylinderShape1.instObjGroups" 
+		"stool2:lambert4SG.dagSetMembers" "-na"
 		5 3 "stool2RN" "|stool2:group2|stool2:group1|stool2:pCylinder4|stool2:pCylinderShape4.instObjGroups" 
 		"stool2RN.placeHolderList[1]" "stool2:lambert2SG.dsm"
 		5 3 "stool2RN" "|stool2:group2|stool2:group1|stool2:pCylinder1|stool2:pCylinderShape1.instObjGroups" 
@@ -28280,7 +29507,7 @@ createNode reference -n "ashTrayRN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"ashTrayRN"
 		"ashTrayRN" 0
-		"ashTrayRN" 13
+		"ashTrayRN" 14
 		2 "|ashTray:polySurface2" "translate" " -type \"double3\" -1.80273218096633925 0.99323828766171729 -5.03642847492493484"
 		
 		2 "|ashTray:polySurface2" "scale" " -type \"double3\" 4.03658470805483827 4.03658470805483827 4.03658470805483827"
@@ -28293,16 +29520,18 @@ createNode reference -n "ashTrayRN";
 		
 		2 "|ashTray:pCylinder5" "scale" " -type \"double3\" -0.45890002591564055 4.17099610846863733 -0.45890002591564055"
 		
+		3 "|ashTray:polySurface2|ashTray:polySurface2Shape.instObjGroups" "ashTray:polySurface2SG.dagSetMembers" 
+		"-na"
 		3 "|ashTray:pCylinder4|ashTray:pCylinder4Shape.instObjGroups" "ashTray:pCylinder4SG.dagSetMembers" 
 		"-na"
 		3 "|ashTray:pCylinder5|ashTray:pCylinder5Shape.instObjGroups" "ashTray:pCylinder5SG.dagSetMembers" 
 		"-na"
+		5 3 "ashTrayRN" "|ashTray:polySurface2|ashTray:polySurface2Shape.instObjGroups" 
+		"ashTrayRN.placeHolderList[1]" "ashTray:polySurface2SG.dsm"
 		5 3 "ashTrayRN" "|ashTray:pCylinder4|ashTray:pCylinder4Shape.instObjGroups" 
-		"ashTrayRN.placeHolderList[1]" "ashTray:pCylinder4SG.dsm"
+		"ashTrayRN.placeHolderList[2]" "ashTray:pCylinder4SG.dsm"
 		5 3 "ashTrayRN" "|ashTray:pCylinder5|ashTray:pCylinder5Shape.instObjGroups" 
-		"ashTrayRN.placeHolderList[2]" "ashTray:pCylinder5SG.dsm"
-		5 4 "ashTrayRN" "ashTray:polySurface2SG.dagSetMembers" "ashTrayRN.placeHolderList[3]" 
-		""
+		"ashTrayRN.placeHolderList[3]" "ashTray:pCylinder5SG.dsm"
 		5 4 "ashTrayRN" "ashTray:pCylinder5SG.dagSetMembers" "ashTrayRN.placeHolderList[4]" 
 		""
 		5 4 "ashTrayRN" "ashTray:pCylinder5SG.dagSetMembers" "ashTrayRN.placeHolderList[5]" 
@@ -28348,7 +29577,6 @@ createNode reference -n "SkeletonRN1";
 	rename -uid "CD59B938-7343-2904-211F-EAB52C26A4AC";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SkeletonRN1"
-		"SkeletonRN1" 0
 		"SkeletonRN1" 74
 		2 "|Skeleton1:Skeleton_Asset|Skeleton1:Controls|Skeleton1:Transform_Ctrl_Grp|Skeleton1:Transform_Ctrl" 
 		"translate" " -type \"double3\" 6.14946417156874681 0.18707472455752552 -3.76721857584102526"
@@ -28522,7 +29750,6 @@ createNode reference -n "SkeletonRN2";
 	rename -uid "D11CD0D1-EB4D-302C-7499-F5AD3675DFBC";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SkeletonRN2"
-		"SkeletonRN2" 0
 		"SkeletonRN2" 85
 		2 "|Skeleton2:Skeleton_Asset|Skeleton2:Controls|Skeleton2:Transform_Ctrl_Grp|Skeleton2:Transform_Ctrl" 
 		"translate" " -type \"double3\" 2.75696585510442205 0.071828369679265716 2.25055717386452514"
@@ -28718,14 +29945,13 @@ createNode reference -n "chairToWallRN";
 	rename -uid "09AE9C19-A04A-C412-B785-CD806DCEFB06";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"chairToWallRN"
-		"chairToWall:SkeletonRN" 0
-		"chairToWallRN" 0
 		"chairToWall:SkeletonRN" 2
 		2 "|chairToWall:Skeleton:Skeleton_Asset|chairToWall:Skeleton:Controls|chairToWall:Skeleton:Transform_Ctrl_Grp|chairToWall:Skeleton:Transform_Ctrl" 
 		"translate" " -type \"double3\" 1.9556773241100609 0.065714745936718458 1.03862098091779664"
 		
 		2 "|chairToWall:Skeleton:Skeleton_Asset|chairToWall:Skeleton:Controls|chairToWall:Skeleton:Transform_Ctrl_Grp|chairToWall:Skeleton:Transform_Ctrl" 
 		"rotate" " -type \"double3\" 0 89.99999999999997158 0"
+		"chairToWallRN" 0
 		"chairToWallRN" 14
 		0 "|chairToWall:group1" "|group1" "-s -r "
 		0 "|chairToWall:pCube1" "|group1" "-s -r "
@@ -28755,37 +29981,8 @@ lockNode -l 1 ;
 createNode reference -n "SkeletonRN3";
 	rename -uid "603F130D-744A-B232-FBCA-969749A03543";
 	setAttr -s 28 ".phl";
-	setAttr ".phl[1]" 0;
-	setAttr ".phl[2]" 0;
-	setAttr ".phl[3]" 0;
-	setAttr ".phl[4]" 0;
-	setAttr ".phl[5]" 0;
-	setAttr ".phl[6]" 0;
-	setAttr ".phl[7]" 0;
-	setAttr ".phl[8]" 0;
-	setAttr ".phl[9]" 0;
-	setAttr ".phl[10]" 0;
-	setAttr ".phl[11]" 0;
-	setAttr ".phl[12]" 0;
-	setAttr ".phl[13]" 0;
-	setAttr ".phl[14]" 0;
-	setAttr ".phl[15]" 0;
-	setAttr ".phl[16]" 0;
-	setAttr ".phl[17]" 0;
-	setAttr ".phl[18]" 0;
-	setAttr ".phl[19]" 0;
-	setAttr ".phl[20]" 0;
-	setAttr ".phl[21]" 0;
-	setAttr ".phl[22]" 0;
-	setAttr ".phl[23]" 0;
-	setAttr ".phl[24]" 0;
-	setAttr ".phl[25]" 0;
-	setAttr ".phl[26]" 0;
-	setAttr ".phl[27]" 0;
-	setAttr ".phl[28]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SkeletonRN3"
-		"SkeletonRN3" 0
 		"SkeletonRN3" 191
 		2 "|Skeleton3:Skeleton_Asset|Skeleton3:Controls|Skeleton3:Transform_Ctrl_Grp|Skeleton3:Transform_Ctrl" 
 		"translate" " -type \"double3\" -0.79264670345484678 4.1335529387449001e-05 8.36202801717129063"
@@ -29404,27 +30601,6 @@ createNode polyBevel3 -n "polyBevel5";
 	setAttr ".mv" yes;
 	setAttr ".mvt" 0.0001;
 	setAttr ".sa" 30;
-createNode nodeGraphEditorInfo -n "MayaNodeEditorSavedTabsInfo";
-	rename -uid "674F6587-ED42-30BB-7BFD-9B90587D7579";
-	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
-	setAttr ".tgi[0].vl" -type "double2" -77.380949306109727 -538.09521671325535 ;
-	setAttr ".tgi[0].vh" -type "double2" 1265.4761401906867 44.047617297323995 ;
-	setAttr -s 5 ".tgi[0].ni";
-	setAttr ".tgi[0].ni[0].x" 677.14288330078125;
-	setAttr ".tgi[0].ni[0].y" 30;
-	setAttr ".tgi[0].ni[0].nvs" 18304;
-	setAttr ".tgi[0].ni[1].x" 17.142856597900391;
-	setAttr ".tgi[0].ni[1].y" 30;
-	setAttr ".tgi[0].ni[1].nvs" 18304;
-	setAttr ".tgi[0].ni[2].x" 347.14285278320312;
-	setAttr ".tgi[0].ni[2].y" 30;
-	setAttr ".tgi[0].ni[2].nvs" 18304;
-	setAttr ".tgi[0].ni[3].x" 347.14285278320312;
-	setAttr ".tgi[0].ni[3].y" 157.14285278320312;
-	setAttr ".tgi[0].ni[3].nvs" 18304;
-	setAttr ".tgi[0].ni[4].x" 347.14285278320312;
-	setAttr ".tgi[0].ni[4].y" 284.28570556640625;
-	setAttr ".tgi[0].ni[4].nvs" 18304;
 createNode polyUnite -n "polyUnite1";
 	rename -uid "92618225-B74B-9311-000A-3E8CC3C533DF";
 	setAttr -s 2 ".ip";
@@ -30954,7 +32130,6 @@ createNode displacementShader -n "displacementShader2";
 createNode bump2d -n "bump2d2";
 	rename -uid "9DEAAE5B-0949-4404-8377-23B6B0868954";
 	setAttr ".bi" 1;
-	setAttr ".vc1" -type "float3" 0 9.9999997e-06 0 ;
 	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
 createNode shadingEngine -n "standardSurface1SG";
 	rename -uid "8786CBE4-6A4E-9FE5-FC38-A985305DBB96";
@@ -31001,7 +32176,6 @@ createNode aiStandardSurface -n "aiStandardSurface3";
 createNode shadingEngine -n "set3";
 	rename -uid "526A0E2C-C74D-1AEE-981C-A482E3302A6E";
 	setAttr ".ihi" 0;
-	setAttr -s 2 ".dsm";
 	setAttr ".ro" yes;
 createNode materialInfo -n "materialInfo5";
 	rename -uid "C78F6507-CC49-C3B9-D6BB-C4BDD7D8DC2C";
@@ -31010,7 +32184,6 @@ createNode displacementShader -n "displacementShader3";
 createNode bump2d -n "bump2d3";
 	rename -uid "9B4CAF67-2548-7168-0098-58978B341D58";
 	setAttr ".bi" 1;
-	setAttr ".vc1" -type "float3" 0 9.9999997e-06 0 ;
 	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
 createNode lambert -n "lambert3";
 	rename -uid "5C60F193-864D-FE64-D572-BE8CA609297C";
@@ -31067,16 +32240,7 @@ createNode displacementShader -n "displacementShader4";
 createNode bump2d -n "tableProp";
 	rename -uid "4A2BEB79-714B-6F1D-BB3B-FEA0BBE4DAB8";
 	setAttr ".bi" 1;
-	setAttr ".vc1" -type "float3" 0 9.9999997e-06 0 ;
 	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
-createNode groupId -n "groupId19";
-	rename -uid "3B5BF2E6-D448-741C-A8E6-ED9DE32E77B6";
-	setAttr ".ihi" 0;
-createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "3532B3DB-4945-5538-8077-DEB69868903A";
-	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
-	setAttr ".tgi[0].vl" -type "double2" -44.047617297323995 -66.666664017571449 ;
-	setAttr ".tgi[0].vh" -type "double2" 702.38092447084216 44.047617297323995 ;
 createNode place2dTexture -n "place2dTexture5";
 	rename -uid "F21DEE3E-FA43-800F-5050-31807222B883";
 createNode file -n "file25";
@@ -31116,7 +32280,6 @@ createNode aiStandardSurface -n "aiStandardSurface5";
 createNode shadingEngine -n "set5";
 	rename -uid "BCEB89E4-B94E-DCDA-4D7D-8DB5C594833A";
 	setAttr ".ihi" 0;
-	setAttr -s 2 ".dsm";
 	setAttr ".ro" yes;
 createNode materialInfo -n "materialInfo8";
 	rename -uid "6B2E55E0-BF40-4219-1DAF-F99523A07764";
@@ -31125,7 +32288,6 @@ createNode displacementShader -n "displacementShader5";
 createNode bump2d -n "bump2d4";
 	rename -uid "5D919B5C-2C49-DC43-7DC0-D6AE47393F25";
 	setAttr ".bi" 1;
-	setAttr ".vc1" -type "float3" 0 9.9999997e-06 0 ;
 	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
 createNode place2dTexture -n "place2dTexture6";
 	rename -uid "D0C2E09A-A044-488B-B370-17912521F357";
@@ -31222,7 +32384,6 @@ createNode displacementShader -n "displacementShader7";
 createNode bump2d -n "bump2d6";
 	rename -uid "F45EFD86-9E48-94C4-4190-AFB395AE20BB";
 	setAttr ".bi" 1;
-	setAttr ".vc1" -type "float3" 0 9.9999997e-06 0 ;
 	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
 createNode place2dTexture -n "place2dTexture8";
 	rename -uid "11DE183F-F84D-6589-5492-26928DEF71DE";
@@ -31263,7 +32424,6 @@ createNode aiStandardSurface -n "aiStandardSurface8";
 createNode shadingEngine -n "set8";
 	rename -uid "81DAE2D0-984B-42B6-83DA-F28BB912603E";
 	setAttr ".ihi" 0;
-	setAttr -s 4 ".dsm";
 	setAttr ".ro" yes;
 createNode materialInfo -n "materialInfo11";
 	rename -uid "62A1E723-9A4A-E803-D549-838D895AD397";
@@ -31272,7 +32432,6 @@ createNode displacementShader -n "displacementShader8";
 createNode bump2d -n "bump2d7";
 	rename -uid "EB0F6AA5-E845-02F3-230B-8BA44A8EABF7";
 	setAttr ".bi" 1;
-	setAttr ".vc1" -type "float3" 0 9.9999997e-06 0 ;
 	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
 createNode place2dTexture -n "place2dTexture9";
 	rename -uid "9F5C5EE3-FE4D-204D-CE25-4EBD95FCCF06";
@@ -31313,7 +32472,6 @@ createNode aiStandardSurface -n "aiStandardSurface9";
 createNode shadingEngine -n "set9";
 	rename -uid "52A5DA29-DC46-9D9B-C9F2-AAADC6434290";
 	setAttr ".ihi" 0;
-	setAttr -s 2 ".dsm";
 	setAttr ".ro" yes;
 createNode materialInfo -n "materialInfo12";
 	rename -uid "6BACEFFD-0B48-3279-9433-1D830CD7E2CF";
@@ -31322,7 +32480,6 @@ createNode displacementShader -n "displacementShader9";
 createNode bump2d -n "bump2d8";
 	rename -uid "7D04C7E7-184C-E3EE-2A06-FF9FADC53CAF";
 	setAttr ".bi" 1;
-	setAttr ".vc1" -type "float3" 0 9.9999997e-06 0 ;
 	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
 createNode place2dTexture -n "place2dTexture10";
 	rename -uid "22850CF2-5746-52EE-AC8B-E7BD5895FF37";
@@ -31365,7 +32522,6 @@ createNode displacementShader -n "displacementShader10";
 createNode bump2d -n "bump2d9";
 	rename -uid "5EBA15E6-104C-4DDB-FD8C-2D8A8184DB3E";
 	setAttr ".bi" 1;
-	setAttr ".vc1" -type "float3" 0 9.9999997e-06 0 ;
 	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
 createNode place2dTexture -n "place2dTexture11";
 	rename -uid "CF249C2A-0742-29A5-AB82-D6B04AC9C111";
@@ -31414,8 +32570,897 @@ createNode displacementShader -n "displacementShader11";
 createNode bump2d -n "bump2d10";
 	rename -uid "6F0D1200-9145-C69F-083A-50B620F1C88A";
 	setAttr ".bi" 1;
-	setAttr ".vc1" -type "float3" 0 9.9999997e-06 0 ;
 	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
+createNode reference -n "sharedReferenceNode";
+	rename -uid "E86F4ECE-3342-761B-C0B4-D9885783C5E2";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"sharedReferenceNode";
+createNode standardSurface -n "Table";
+	rename -uid "A084B464-3044-D3DB-0B2C-F3B97030A139";
+createNode shadingEngine -n "standardSurface2SG";
+	rename -uid "2D9F9728-0C4E-E855-75B4-A09CCAE5E2FC";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo15";
+	rename -uid "21D8C2E4-FB40-875D-8DE3-29997E83D794";
+createNode place2dTexture -n "place2dTexture12";
+	rename -uid "1EF86AF8-D648-0C21-6CC6-2AA20E3859C6";
+createNode file -n "file66";
+	rename -uid "F9C498D8-C344-B262-03B0-179D4A47ADF3";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/tableProp/tableProp_openPBR_shader1_BaseColor_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file67";
+	rename -uid "D8E1BB0A-EB41-0C98-5EAE-758FA324D3FD";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/tableProp/tableProp_openPBR_shader1_Emissive_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file68";
+	rename -uid "94ED6BF1-FC4B-6AF2-2D47-67BE133B5955";
+	setAttr ".ail" yes;
+	setAttr ".ao" -0.5;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/tableProp/tableProp_openPBR_shader1_Height_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file69";
+	rename -uid "5221969C-FE47-3A20-AE34-5F9851EFF5B6";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/tableProp/tableProp_openPBR_shader1_Metallic_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file70";
+	rename -uid "E26F70F4-9545-3552-428B-379B87DE5F20";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/tableProp/tableProp_openPBR_shader1_Normal_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file71";
+	rename -uid "C66023D8-4848-E768-F16D-11896A46970D";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/tableProp/tableProp_openPBR_shader1_Roughness_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode multiplyDivide -n "multiplyDivide11";
+	rename -uid "82FA01C8-074F-F6D3-08FC-60B464283FEC";
+createNode aiStandardSurface -n "tableColor";
+	rename -uid "D4C3BAA1-DC4B-7744-5E6D-4E874C75C119";
+	setAttr ".emission" 1;
+createNode shadingEngine -n "set12";
+	rename -uid "F3A07428-494D-B77A-DBFC-C99410469B9A";
+	setAttr ".ihi" 0;
+	setAttr -s 3 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo16";
+	rename -uid "4D8E92FE-1945-A5F0-641E-ABB5F5A7FD48";
+createNode displacementShader -n "displacementShader12";
+	rename -uid "A32DA939-1F45-5184-20B1-73902A127FFA";
+createNode bump2d -n "bump2d11";
+	rename -uid "9B1DF81F-E245-7DF0-D111-48AF2E834E60";
+	setAttr ".bi" 1;
+	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
+createNode standardSurface -n "standardSurface3";
+	rename -uid "057588FE-B841-5ED7-9825-10899D750A55";
+createNode shadingEngine -n "standardSurface3SG";
+	rename -uid "BB04744C-DC4C-EE95-2BB6-1B982D808142";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo17";
+	rename -uid "2184B495-5846-D1EF-6070-5BBA1B2D4F6B";
+createNode place2dTexture -n "place2dTexture13";
+	rename -uid "8400F052-7244-03BD-9D3A-919F13E789AB";
+createNode file -n "file72";
+	rename -uid "E80C61C3-F846-1BCA-704F-2AA27D7C285C";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_tray_Metallic_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file73";
+	rename -uid "D7F7B951-FD46-098E-25B3-AF848908CCA9";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_tray_Normal_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file74";
+	rename -uid "16FA104E-2A43-295C-C312-EFA8B60E65C3";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_tray_Roughness_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file75";
+	rename -uid "03DBF9F5-1A43-BA45-2BFB-DC819575F2D6";
+	setAttr ".ail" yes;
+	setAttr ".ao" -0.5;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_tray_Height_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode aiStandardSurface -n "aiStandardSurface13";
+	rename -uid "C1756292-CC44-F01C-6A2F-149C999E9252";
+	setAttr ".emission" 1;
+	setAttr ".emission_color" -type "float3" 0 0 0 ;
+createNode shadingEngine -n "set13";
+	rename -uid "8AB549BC-9B47-90D8-9EED-0DB210C2B5E2";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo18";
+	rename -uid "79CE1570-7C42-5879-C5DF-A9911017FFEB";
+createNode bump2d -n "bump2d12";
+	rename -uid "258E8399-5B4D-4817-11B1-6BAAB641555D";
+	setAttr ".bi" 1;
+	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
+createNode displacementShader -n "displacementShader13";
+	rename -uid "FF0A00F6-AC45-724A-F697-1AA05D57EE7B";
+createNode standardSurface -n "standardSurface4";
+	rename -uid "CEA6E10F-E242-CE5F-C087-EB9C2276CAB1";
+createNode shadingEngine -n "standardSurface4SG";
+	rename -uid "0ACA694D-5142-9D6D-CC7F-71B146C7BC7A";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo19";
+	rename -uid "D2364273-A04B-6FEE-3A4B-EE828400C533";
+createNode place2dTexture -n "place2dTexture14";
+	rename -uid "9246E2BB-254D-13FF-DD8D-C6A7ADB0AEAE";
+createNode file -n "file76";
+	rename -uid "FB6B70E2-BD40-54CD-656F-4D80C215C4B3";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_upCig_BaseColor.png";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file77";
+	rename -uid "A8F15692-7845-B2DF-36E2-93A763606FAF";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_upCig_Emissive_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file78";
+	rename -uid "D8274AC8-7243-1ED4-45F4-1AB4B85308DB";
+	setAttr ".ail" yes;
+	setAttr ".ao" -0.5;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_upCig_Height_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file79";
+	rename -uid "A26FDE93-104D-97F3-E27E-5C8FE1321465";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_upCig_Metallic_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file80";
+	rename -uid "4602B4F2-044D-B31A-C210-A9AE278E69F8";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_upCig_Normal_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file81";
+	rename -uid "6D64674B-7F4E-2DBD-1F6D-21B7B757BBD3";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_upCig_Roughness_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode multiplyDivide -n "multiplyDivide12";
+	rename -uid "E2FDF2E2-A94B-36E7-A1E1-42B35AFD9EDA";
+createNode aiStandardSurface -n "aiStandardSurface14";
+	rename -uid "4C6B09BF-4742-3C24-762A-A28FC193F281";
+	setAttr ".emission" 1;
+createNode shadingEngine -n "set14";
+	rename -uid "14AFA238-9A42-D24D-7DF6-7F8A5B129844";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo20";
+	rename -uid "565DE240-6948-B4C8-C066-C385BA5F1A54";
+createNode displacementShader -n "displacementShader14";
+	rename -uid "7FDBC216-1F45-212A-1BC3-E29F22BD9A4B";
+createNode bump2d -n "bump2d13";
+	rename -uid "CC16B667-434A-DE21-805D-40A43C4BA074";
+	setAttr ".bi" 1;
+createNode place2dTexture -n "place2dTexture15";
+	rename -uid "55D23685-6645-BBFD-2E74-9FAF7519C549";
+createNode file -n "file82";
+	rename -uid "209E57F7-CF46-53D6-0771-038C0E5E7804";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_upCig_BaseColor.png";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file83";
+	rename -uid "093DF476-A34D-B0EA-1BC6-7493C8EF6444";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_upCig_Emissive_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file84";
+	rename -uid "5273CAED-FB43-0422-C936-1DA8E629BF67";
+	setAttr ".ail" yes;
+	setAttr ".ao" -0.5;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_upCig_Height_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file85";
+	rename -uid "2332D3DF-DC4A-F9C9-EAD9-2D9F8DC74D1E";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_upCig_Metallic_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file86";
+	rename -uid "4FC1919F-554C-83A1-33A8-0589AAA32777";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_upCig_Normal_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file87";
+	rename -uid "4DF736B5-4643-2B68-9201-ECBA64EF9267";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_upCig_Roughness_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode multiplyDivide -n "multiplyDivide13";
+	rename -uid "4142F474-954E-B2B8-72E9-D38D6D18A035";
+createNode aiStandardSurface -n "upCig";
+	rename -uid "C83A1F40-0B4F-3083-1854-00B2A39A0FF8";
+	setAttr ".emission" 1;
+createNode shadingEngine -n "set15";
+	rename -uid "8D1A44D3-E94B-1CDD-EC4E-C2AB0A8C7BA3";
+	setAttr ".ihi" 0;
+	setAttr -s 2 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo21";
+	rename -uid "B05EB766-0D44-CCE6-16E6-94B33DDA2CE4";
+createNode displacementShader -n "displacementShader15";
+	rename -uid "9A8A205B-764B-D7BD-007B-B3B38728A7B2";
+createNode bump2d -n "bump2d14";
+	rename -uid "252D2E05-2B49-D000-33F7-A995669B8EC5";
+	setAttr ".bi" 1;
+	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
+createNode standardSurface -n "standardSurface5";
+	rename -uid "1DDC35D7-E04D-2485-36ED-1680C85AC117";
+createNode shadingEngine -n "standardSurface5SG";
+	rename -uid "39DCFDDA-1A45-F0DD-69C2-CDA20A26D206";
+	setAttr ".ihi" 0;
+	setAttr -s 2 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo22";
+	rename -uid "39D2FE54-7548-280D-0CF6-C792F3826B46";
+createNode place2dTexture -n "place2dTexture16";
+	rename -uid "35BEA9CD-0A4E-05C9-EBF9-97B91DF8BD69";
+createNode file -n "file88";
+	rename -uid "45DDE0B9-A849-E29D-FD9F-BBB85322D39D";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_tray_BaseColor_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file89";
+	rename -uid "333A2A9A-C544-65DC-6251-9396B9782F4C";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_tray_Emissive_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file90";
+	rename -uid "B7CD4D74-FD44-EC8B-B99A-399B3716302B";
+	setAttr ".ail" yes;
+	setAttr ".ao" -0.5;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_tray_Height_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file91";
+	rename -uid "8DE39DD0-B745-14A1-F2F0-02BF946DE1CF";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_tray_Metallic_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file92";
+	rename -uid "512E6021-3F45-19FB-EB4B-749274AF7CA1";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_tray_Normal_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file93";
+	rename -uid "F258B679-F640-BF5C-0A18-E192A8166CA3";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_tray_Roughness.png";
+	setAttr ".cs" -type "string" "Raw";
+createNode multiplyDivide -n "multiplyDivide14";
+	rename -uid "77AA9A13-5342-469F-BE43-34AC7E2D2E85";
+createNode aiStandardSurface -n "ashTray1";
+	rename -uid "0DDAC2CB-6C4A-87B0-EE13-53A8DB9A1590";
+	setAttr ".emission" 1;
+createNode shadingEngine -n "set16";
+	rename -uid "01A65C42-1E4F-CF4E-2FF6-C78FE8F63806";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo23";
+	rename -uid "1B3A84B4-1A4C-9270-629F-DBB639F52AD2";
+createNode displacementShader -n "displacementShader16";
+	rename -uid "C836BE8B-9D43-99C3-4D9E-3A87127D5D95";
+createNode bump2d -n "bump2d15";
+	rename -uid "0716AC7A-BB43-A4F3-6176-D699371F9E76";
+	setAttr ".bi" 1;
+	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
+createNode standardSurface -n "standardSurface6";
+	rename -uid "9E2523D8-B74B-E41A-F3C1-EC880BACADE2";
+createNode shadingEngine -n "standardSurface6SG";
+	rename -uid "B3485B93-4941-0F0F-8843-2C9C07BC4652";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo24";
+	rename -uid "2471DCDB-2F4D-99C0-CB51-CF8A92836DAC";
+createNode place2dTexture -n "place2dTexture17";
+	rename -uid "7FF45953-9A4F-1C10-D208-65BBF83CED5D";
+createNode file -n "file94";
+	rename -uid "62DA136A-7E42-6B75-15D3-9D8C048D48D1";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_downCig1_BaseColor_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file95";
+	rename -uid "FCF5C35B-644B-2CA2-C488-47BD5BC2EC77";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_downCig1_Emissive_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file96";
+	rename -uid "8A200206-FE4D-E087-315E-44A08E814EA8";
+	setAttr ".ail" yes;
+	setAttr ".ao" -0.5;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_downCig1_Height_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file97";
+	rename -uid "81BC89E3-194A-8A53-9F5D-3281C64F6846";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_downCig1_Metallic_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file98";
+	rename -uid "E432BCA7-694C-B9BD-0ED6-D8A2A8CD3338";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_downCig1_Normal_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file99";
+	rename -uid "859C2C5B-534A-115A-8098-E5951098CEF4";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/ashtray/ashTrayTextures/ashTray_downCig1_Roughness_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode multiplyDivide -n "multiplyDivide15";
+	rename -uid "30252912-A34A-F3B1-7F3B-228062142EEB";
+createNode aiStandardSurface -n "DownCig";
+	rename -uid "F8DF2269-4F43-D013-7071-A7879C0F2CA1";
+	setAttr ".emission" 1;
+createNode shadingEngine -n "set17";
+	rename -uid "2A1C3EA5-E642-5939-7D57-9287C73C1BC0";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo25";
+	rename -uid "A508FC82-0C4C-FF66-452F-408AF9B3EA53";
+createNode displacementShader -n "displacementShader17";
+	rename -uid "F6C24515-3742-6938-33E9-CA82AFDB3E73";
+createNode bump2d -n "bump2d16";
+	rename -uid "0F5DF3E8-2244-5A40-E0A9-FEBE74FA8D80";
+	setAttr ".bi" 1;
+	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
+createNode standardSurface -n "standardSurface7";
+	rename -uid "239F236F-594E-8D2E-4C8A-7CBD06B267CE";
+createNode shadingEngine -n "standardSurface7SG";
+	rename -uid "0F7FC2EA-7A4B-4A7F-63B3-6C952838294B";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo26";
+	rename -uid "87FF3170-2944-4F42-BA6C-3097E7E5EA89";
+createNode place2dTexture -n "place2dTexture18";
+	rename -uid "CEBA8D27-DF40-A13F-7723-72821E963F13";
+createNode file -n "file100";
+	rename -uid "52C49F08-EE44-B57B-F385-9589BA6DFDBF";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_cushion_BaseColor_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file101";
+	rename -uid "0D9B3403-9C4D-952A-D68A-9297212FE97B";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_cushion_Emissive_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file102";
+	rename -uid "F895B019-B94A-980D-6462-E8A88B47A447";
+	setAttr ".ail" yes;
+	setAttr ".ao" -0.5;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_cushion_Height_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file103";
+	rename -uid "44AD15DC-1E45-8344-F794-05BF387A4D20";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_cushion_Metallic_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file104";
+	rename -uid "23DD8B82-BF4A-9C21-D5BF-D2AA0A35DBBB";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_cushion_Normal_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file105";
+	rename -uid "68F92218-9248-850B-3B65-6FB691192872";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_cushion_Roughness_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode multiplyDivide -n "multiplyDivide16";
+	rename -uid "6AF52A97-1F4F-0220-225B-8E8CAF30D689";
+createNode aiStandardSurface -n "stoolCushion";
+	rename -uid "5C82DA59-294C-7E14-E994-99B03BF7E8E8";
+	setAttr ".emission" 1;
+createNode shadingEngine -n "set18";
+	rename -uid "BD2C39B2-824C-16C5-5F72-BBA953439F54";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo27";
+	rename -uid "A2B81200-9344-9A96-8DD2-52B4C02C7135";
+createNode displacementShader -n "displacementShader18";
+	rename -uid "453DF2E5-D04A-9BA5-D9AD-1F88DC334CE6";
+createNode bump2d -n "bump2d17";
+	rename -uid "F4CBE5C6-E943-8CCC-C56D-5EA149D25346";
+	setAttr ".bi" 1;
+	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
+createNode standardSurface -n "standardSurface8";
+	rename -uid "9CF26B3E-C943-4153-2F83-12A7F1F88DCF";
+createNode shadingEngine -n "standardSurface8SG";
+	rename -uid "32C8A440-9642-E864-58E9-E3A6AE12C174";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo28";
+	rename -uid "30EC93FF-C243-5A81-609B-08B5AC438E0A";
+createNode place2dTexture -n "place2dTexture19";
+	rename -uid "7E4F5831-E942-5B0A-E2E7-928842D7E6FC";
+createNode file -n "file106";
+	rename -uid "FE05F025-1044-6CB7-AEC0-348BABE05229";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_ring_BaseColor_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file107";
+	rename -uid "5FD66B39-ED45-62AE-C2E9-9D9DF10EA5FD";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_ring_Emissive_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file108";
+	rename -uid "3A101FA0-B14B-8209-DCC5-79AB07F4774E";
+	setAttr ".ail" yes;
+	setAttr ".ao" -0.5;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_ring_Height_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file109";
+	rename -uid "8B30269B-BF46-A0DB-FC13-19879C14C045";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_ring_Metallic_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file110";
+	rename -uid "9A95E7F2-114D-F8B4-4EFE-09B684D75B85";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_ring_Normal_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "RingStool";
+	rename -uid "525708C7-084F-6F1F-F80D-50BFB5950992";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_ring_Roughness_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode multiplyDivide -n "multiplyDivide17";
+	rename -uid "F8BF823C-6942-77A7-E1DB-74897D1FD833";
+createNode aiStandardSurface -n "Ring";
+	rename -uid "1DFF5194-4249-7C3D-4A5D-1E968949C266";
+	setAttr ".emission" 1;
+createNode shadingEngine -n "set19";
+	rename -uid "00CC110A-2240-97B0-3654-BA97113C0DC5";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo29";
+	rename -uid "AFA3E272-E946-37F1-2BD4-1D90C8727E8C";
+createNode displacementShader -n "displacementShader19";
+	rename -uid "A487AC12-5E4F-033E-A2B0-2095C1D28F2C";
+createNode bump2d -n "bump2d18";
+	rename -uid "AF48A9FF-9445-BE53-6E22-D19D4A6AC3E7";
+	setAttr ".bi" 1;
+	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
+createNode standardSurface -n "standardSurface9";
+	rename -uid "22161526-D64B-3CD3-AA69-7F933F9C0FB2";
+createNode shadingEngine -n "standardSurface9SG";
+	rename -uid "5D051845-694B-8129-647A-31BB6C059B92";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo30";
+	rename -uid "8DE1C85A-0B40-C2E1-BF01-06BBB5D3C6CF";
+createNode place2dTexture -n "place2dTexture20";
+	rename -uid "F5F63F96-3D4F-025A-528E-718E9BD61D2B";
+createNode file -n "file111";
+	rename -uid "4A798C63-2E43-AF99-D768-2BBD674C8615";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_legs_BaseColor_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file112";
+	rename -uid "D62660DE-1C4E-4A16-422C-7FA878CC9EFB";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_legs_Emissive_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file113";
+	rename -uid "2DA1251B-814F-DA8E-67C4-4393A74CA435";
+	setAttr ".ail" yes;
+	setAttr ".ao" -0.5;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_legs_Height_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file114";
+	rename -uid "EC27BED0-2A4E-2E12-2ACB-F0B7795E6597";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_legs_Metallic_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file115";
+	rename -uid "E5B27D1A-C348-981D-3700-2D8E16656B56";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_legs_Normal_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file116";
+	rename -uid "D6AE328B-BE45-A12D-271E-CD9EBD018D7D";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/stool1/barStool1_legs_Roughness_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode multiplyDivide -n "multiplyDivide18";
+	rename -uid "6BF2EECC-AE4D-6C55-3A97-33AA7ED678C2";
+createNode aiStandardSurface -n "aiStandardSurface15";
+	rename -uid "151A11EC-C14D-931E-53BA-FDAECE40A64C";
+	setAttr ".emission" 1;
+createNode shadingEngine -n "set20";
+	rename -uid "F3942AF1-4046-0349-61FF-1E90177F8BD3";
+	setAttr ".ihi" 0;
+	setAttr -s 4 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo31";
+	rename -uid "9DDE2563-204F-E959-A6A9-4D96CB2ADFC9";
+createNode displacementShader -n "displacementShader20";
+	rename -uid "536C7AC0-AA4B-5A11-C7F8-8AAE17EC125A";
+createNode bump2d -n "bump2d19";
+	rename -uid "04DE4934-C045-69C3-6700-E6AF8A7500A0";
+	setAttr ".bi" 1;
+	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
+createNode standardSurface -n "stoolLegs_";
+	rename -uid "C9AF49AD-B049-1940-2C0F-0A954F253564";
+createNode shadingEngine -n "standardSurface10SG";
+	rename -uid "6AD483C5-2C41-963E-1EA0-ADA25CD96F1B";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo32";
+	rename -uid "C4E3D784-0243-3A1C-DD90-DB9D2E57C57B";
+createNode standardSurface -n "standardSurface11";
+	rename -uid "DA9FD003-1B44-09ED-3192-F19161363EC1";
+createNode shadingEngine -n "standardSurface11SG";
+	rename -uid "74269F20-9049-9A75-FEE9-B9AA4782780E";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo33";
+	rename -uid "5F8A5312-854D-2DFC-88E4-C3A4E1B76804";
+createNode place2dTexture -n "place2dTexture21";
+	rename -uid "970EA867-C04E-D124-DACD-2184DE696619";
+createNode file -n "file117";
+	rename -uid "907F6636-0143-2E18-86DB-52A4DE221176";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/brickWall/brickWall_openPBR_shader1_BaseColor_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file118";
+	rename -uid "2DD4E0C7-5A49-7894-83CA-07803EFF3D49";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/brickWall/brickWall_openPBR_shader1_Emissive_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file119";
+	rename -uid "9738AF61-D946-448D-4E94-1C96AD9A3070";
+	setAttr ".ail" yes;
+	setAttr ".ao" -0.5;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/brickWall/brickWall_openPBR_shader1_Height_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file120";
+	rename -uid "DB705BC1-7049-1427-79D9-3DA8E15BEA95";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/brickWall/brickWall_openPBR_shader1_Metallic_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file121";
+	rename -uid "860583C6-9F4E-5D72-33BB-69BAC8427399";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/brickWall/brickWall_openPBR_shader1_Normal_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file122";
+	rename -uid "676EF2EB-3442-B315-F6DB-1B85E2C73F59";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/bar/barTextures/brickWall/brickWall_openPBR_shader1_Roughness_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode multiplyDivide -n "multiplyDivide19";
+	rename -uid "3B405D0D-EB4C-BEB9-73BA-A083337795CE";
+createNode aiStandardSurface -n "Wall";
+	rename -uid "9E3ABC12-B44A-F469-BE95-539C852DB0C7";
+	setAttr ".emission" 1;
+createNode shadingEngine -n "set21";
+	rename -uid "94390265-8A44-DE3F-2230-8A8B05B9739B";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo34";
+	rename -uid "6D5F9846-4646-C8B7-193B-3B80C0FB7E10";
+createNode displacementShader -n "displacementShader21";
+	rename -uid "0FE6AF8C-9846-A859-24E2-3BBE66CF086A";
+createNode bump2d -n "bump2d20";
+	rename -uid "4FFC34A2-A74C-6C12-D111-80A60AF9FA63";
+	setAttr ".bi" 1;
+	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
+createNode reference -n "Grateful_Dead_uvsRN";
+	rename -uid "E1C6D25A-9A4B-FF58-C990-78B423F24526";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Grateful_Dead_uvsRN"
+		"Grateful_Dead_uvsRN" 3
+		2 "|Grateful_Dead_uvs:ZBrushPolyMesh3D" "translate" " -type \"double3\" -3.7803121013776706 1.21192299826533056 -5.25612271759485239"
+		
+		2 "|Grateful_Dead_uvs:ZBrushPolyMesh3D" "rotate" " -type \"double3\" 0 108.02425905287159935 0"
+		
+		2 "|Grateful_Dead_uvs:ZBrushPolyMesh3D" "scale" " -type \"double3\" 12.01976729627093121 12.01976729627093121 12.01976729627093121";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "GDEADRN";
+	rename -uid "CDA35711-EC4B-314A-CB43-989BAE909041";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"GDEADRN"
+		"GDEAD:Grateful_Dead_uvsRN" 3
+		2 "|GDEAD:Grateful_Dead_uvs:ZBrushPolyMesh3D" "translate" " -type \"double3\" -3.58177346967600663 2.38069033346134429 -6.26073783300880837"
+		
+		2 "|GDEAD:Grateful_Dead_uvs:ZBrushPolyMesh3D" "rotate" " -type \"double3\" 0 85.76642799050192423 0"
+		
+		2 "|GDEAD:Grateful_Dead_uvs:ZBrushPolyMesh3D" "scale" " -type \"double3\" 19.86460400385089997 19.86460400385089997 19.86460400385089997"
+		
+		"GDEADRN" 0
+		"GDEADRN" 1
+		2 "|GDEAD:Grateful_Dead_uvsRNfosterParent1" "translate" " -type \"double3\" 0 0 0";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode nodeGraphEditorInfo -n "MayaNodeEditorSavedTabsInfo";
+	rename -uid "47ACEE37-894F-7470-2ABB-B0807CF681E8";
+	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
+	setAttr ".tgi[0].vl" -type "double2" -2101.4952707333373 -3014.8953505820978 ;
+	setAttr ".tgi[0].vh" -type "double2" 5922.8946543084949 463.76304777380284 ;
+	setAttr -s 5 ".tgi[0].ni";
+	setAttr ".tgi[0].ni[0].x" 347.14285278320312;
+	setAttr ".tgi[0].ni[0].y" 157.14285278320312;
+	setAttr ".tgi[0].ni[0].nvs" 18304;
+	setAttr ".tgi[0].ni[1].x" 677.14288330078125;
+	setAttr ".tgi[0].ni[1].y" 30;
+	setAttr ".tgi[0].ni[1].nvs" 18304;
+	setAttr ".tgi[0].ni[2].x" 347.14285278320312;
+	setAttr ".tgi[0].ni[2].y" 30;
+	setAttr ".tgi[0].ni[2].nvs" 18304;
+	setAttr ".tgi[0].ni[3].x" 17.142856597900391;
+	setAttr ".tgi[0].ni[3].y" 30;
+	setAttr ".tgi[0].ni[3].nvs" 18304;
+	setAttr ".tgi[0].ni[4].x" 347.14285278320312;
+	setAttr ".tgi[0].ni[4].y" 284.28570556640625;
+	setAttr ".tgi[0].ni[4].nvs" 18304;
+createNode reference -n "gdeadJointsRN";
+	rename -uid "769DEB31-CC4A-203A-F440-78BAC1416179";
+	setAttr ".phl[1]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"gdeadJointsRN"
+		"gdeadJoints:Grateful_Dead_uvsRN" 0
+		"gdeadJointsRN" 0
+		"gdeadJointsRN" 49
+		2 "|gdeadJoints:Controls" "translate" " -type \"double3\" -1.79694346015156414 0.98442743467771454 -5.04357896832899577"
+		
+		2 "|gdeadJoints:Controls" "rotate" " -type \"double3\" 0 -198.38866138432672415 0"
+		
+		2 "|gdeadJoints:Controls" "scale" " -type \"double3\" 3.11896680966144402 3.11896680966144402 3.11896680966144402"
+		
+		2 "|gdeadJoints:Controls|gdeadJoints:Transform_Ctrl_Grp|gdeadJoints:Transform_Ctrl" 
+		"translate" " -type \"double3\" 0.014018334950568232 0.0013388555616604767 0.0071969451738740243"
+		
+		2 "|gdeadJoints:Controls|gdeadJoints:Transform_Ctrl_Grp|gdeadJoints:Transform_Ctrl" 
+		"scale" " -type \"double3\" 0.64389635634414244 0.64389635634414244 0.64389635634414244"
+		
+		2 "|gdeadJoints:Controls|gdeadJoints:Transform_Ctrl_Grp|gdeadJoints:Transform_Ctrl|gdeadJoints:COG_Ctrl_Grp|gdeadJoints:COG_Ctrl|gdeadJoints:spine_01_FK_Ctrl_Grp|gdeadJoints:spine_01_FK_Ctrl|gdeadJoints:arms_FK_Ctrl_Grp|gdeadJoints:armL_01_FK_Ctrl_Grp|gdeadJoints:armL_01_FK_Ctrl|gdeadJoints:armL_02_FK_Ctrl_Grp|gdeadJoints:armL_02_FK_Ctrl" 
+		"rotate" " -type \"double3\" 0 0 83.95470838868978092"
+		2 "|gdeadJoints:Skeleton" "translate" " -type \"double3\" -1.79694346015156414 0.98442743467771454 -5.04357896832899577"
+		
+		2 "|gdeadJoints:Skeleton" "rotate" " -type \"double3\" 0 -198.38866138432672415 0"
+		
+		2 "|gdeadJoints:Skeleton" "scale" " -type \"double3\" 3.11896680966144402 3.11896680966144402 3.11896680966144402"
+		
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG" "segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1" "segmentScaleCompensate" 
+		" 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:spine_2" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:spine_2|gdeadJoints:spine_3" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_L_FK" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_L_FK|gdeadJoints:elbow_L_FK" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_L_FK|gdeadJoints:elbow_L_FK|gdeadJoints:hand_L_FK_Wrist_Joint" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_L_FK|gdeadJoints:elbow_L_FK|gdeadJoints:hand_L_FK_Wrist_Joint|gdeadJoints:hand_L" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_L_FK|gdeadJoints:elbow_L_FK|gdeadJoints:hand_L_FK_Wrist_Joint|gdeadJoints:hand_L|gdeadJoints:handL_F1_J1" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_L_FK|gdeadJoints:elbow_L_FK|gdeadJoints:hand_L_FK_Wrist_Joint|gdeadJoints:hand_L|gdeadJoints:handL_F1_J1|gdeadJoints:handL_F1_J2" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_L_FK|gdeadJoints:elbow_L_FK|gdeadJoints:hand_L_FK_Wrist_Joint|gdeadJoints:hand_L|gdeadJoints:handL_F2_J1" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_L_FK|gdeadJoints:elbow_L_FK|gdeadJoints:hand_L_FK_Wrist_Joint|gdeadJoints:hand_L|gdeadJoints:handL_F2_J1|gdeadJoints:handL_F2_J2" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_L_FK|gdeadJoints:elbow_L_FK|gdeadJoints:hand_L_FK_Wrist_Joint|gdeadJoints:hand_L|gdeadJoints:handL_F3_J1" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_L_FK|gdeadJoints:elbow_L_FK|gdeadJoints:hand_L_FK_Wrist_Joint|gdeadJoints:hand_L|gdeadJoints:handL_F3_J1|gdeadJoints:handL_F3_J2" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_R_FK" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_R_FK|gdeadJoints:elbow_R_FK" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_R_FK|gdeadJoints:elbow_R_FK|gdeadJoints:hand_R_FK_Wrist_Joint" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_R_FK|gdeadJoints:elbow_R_FK|gdeadJoints:hand_R_FK_Wrist_Joint|gdeadJoints:hand_L" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_R_FK|gdeadJoints:elbow_R_FK|gdeadJoints:hand_R_FK_Wrist_Joint|gdeadJoints:hand_L|gdeadJoints:handR_F1_J1" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_R_FK|gdeadJoints:elbow_R_FK|gdeadJoints:hand_R_FK_Wrist_Joint|gdeadJoints:hand_L|gdeadJoints:handR_F1_J1|gdeadJoints:handR_F1_J2" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_R_FK|gdeadJoints:elbow_R_FK|gdeadJoints:hand_R_FK_Wrist_Joint|gdeadJoints:hand_L|gdeadJoints:handR_F2_J1" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_R_FK|gdeadJoints:elbow_R_FK|gdeadJoints:hand_R_FK_Wrist_Joint|gdeadJoints:hand_L|gdeadJoints:handR_F2_J1|gdeadJoints:handR_F2_J2" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_R_FK|gdeadJoints:elbow_R_FK|gdeadJoints:hand_R_FK_Wrist_Joint|gdeadJoints:hand_L|gdeadJoints:handR_F3_J1" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_R_FK|gdeadJoints:elbow_R_FK|gdeadJoints:hand_R_FK_Wrist_Joint|gdeadJoints:hand_L|gdeadJoints:handR_F3_J1|gdeadJoints:handR_F3_J2" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_L_IK" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_L_IK|gdeadJoints:elbow_L_IK" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_L_IK|gdeadJoints:elbow_L_IK|gdeadJoints:hand_L_IK_Wrist_Joint" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_R_IK" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_R_IK|gdeadJoints:elbow_R_IK" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_R_IK|gdeadJoints:elbow_R_IK|gdeadJoints:hand_R_IK_Wrist_Joint" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_L_RK" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_L_RK|gdeadJoints:elbow_L_RK" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_L_RK|gdeadJoints:elbow_L_RK|gdeadJoints:hand_L_RK_Wrist_Joint" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_R_RK" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_R_RK|gdeadJoints:elbow_R_RK" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:shoulder_R_RK|gdeadJoints:elbow_R_RK|gdeadJoints:hand_R_RK_Wrist_Joint" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:neck" 
+		"segmentScaleCompensate" " 0"
+		2 "|gdeadJoints:Skeleton|gdeadJoints:COG|gdeadJoints:spine_1|gdeadJoints:neck|gdeadJoints:head" 
+		"segmentScaleCompensate" " 0"
+		3 "|gdeadJoints:Grateful_Dead_uvsRNfosterParent1|gdeadJoints:ZBrushPolyMesh3DShapeDeformed.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "gdeadJointsRN" "|gdeadJoints:Grateful_Dead_uvsRNfosterParent1|gdeadJoints:ZBrushPolyMesh3DShapeDeformed.instObjGroups" 
+		"gdeadJointsRN.placeHolderList[1]" ":initialShadingGroup.dsm";
+lockNode -l 1 ;
+createNode aiImagerDenoiserOidn -s -n "defaultArnoldDenoiser";
+	rename -uid "20BDCDBB-7142-A8CF-2302-0F910D1D06D5";
+createNode standardSurface -n "standardSurface12";
+	rename -uid "5AF08129-4A4D-0024-6256-EABA75666943";
+createNode shadingEngine -n "standardSurface12SG";
+	rename -uid "071FCAA9-5F45-5606-BDF0-B4B70C7378F8";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo35";
+	rename -uid "2D3996D7-524F-5BEE-4C81-65958ED59156";
+createNode place2dTexture -n "place2dTexture22";
+	rename -uid "E311908F-9F4C-6E58-7B05-73B234A8B8D8";
+createNode file -n "file123";
+	rename -uid "DDA97E8E-7F4C-5DB7-8FB5-46BDDDE052BD";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_BaseColor_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file124";
+	rename -uid "284CE1F9-2F46-53E2-615C-6890915988C7";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_Emissive_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file125";
+	rename -uid "3C75436F-684E-6793-B1E8-758E05A0ED6D";
+	setAttr ".ail" yes;
+	setAttr ".ao" -0.5;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_Height_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file126";
+	rename -uid "DE996F57-9241-38B7-E933-21A36AE7095A";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_Metallic_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file127";
+	rename -uid "A086F4A8-A142-C771-4875-D0ABB1C60E85";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_Normal_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file128";
+	rename -uid "B7B610F0-4948-8B47-C2E3-3A82B9A10C94";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_Roughness_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode multiplyDivide -n "multiplyDivide20";
+	rename -uid "F08FDBD2-434D-5C66-E3D5-17B7B509ADFE";
+createNode aiStandardSurface -n "aiStandardSurface16";
+	rename -uid "BD849B48-834D-020C-2F82-5296108DE82A";
+	setAttr ".emission" 1;
+createNode shadingEngine -n "set22";
+	rename -uid "5758AE18-5240-05E9-073D-2F9507D602B7";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo36";
+	rename -uid "50EC4405-B345-5D03-089C-D58BFE4F2F87";
+createNode displacementShader -n "displacementShader22";
+	rename -uid "DDE334BD-E34D-AB58-8CC7-ADA8E6FE8105";
+createNode bump2d -n "bump2d21";
+	rename -uid "5CD8F74D-024A-A749-8DE1-31931619F99C";
+	setAttr ".bi" 1;
+	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
+createNode lambert -n "lambert4";
+	rename -uid "5476086C-7B41-B4EE-8308-DBBD06102CA8";
+createNode shadingEngine -n "lambert4SG";
+	rename -uid "9A836697-7D4D-3CAB-838E-B7B516AB8455";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo37";
+	rename -uid "8564C8EB-4A4C-03E8-7DC2-C190A8DDB918";
+createNode place2dTexture -n "place2dTexture23";
+	rename -uid "A8DC8208-8241-E6D8-3E8A-E5A1F433396C";
+createNode file -n "file129";
+	rename -uid "75A7EB9F-FD43-5F9D-5508-199844F0AED1";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_BaseColor_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file130";
+	rename -uid "33F165A7-2D43-7AB6-DE4D-0D8E7B9473FF";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_Emissive_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file131";
+	rename -uid "A6603DA3-2D42-A596-0DEE-57AAD0C0AEFB";
+	setAttr ".ail" yes;
+	setAttr ".ao" -0.5;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_Height_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file132";
+	rename -uid "ADC733C2-294A-1906-E3AE-7BB73DBD1DAC";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_Metallic_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file133";
+	rename -uid "4357EB8F-A04A-52DF-3F1A-3EAF124FF153";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_Normal_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file134";
+	rename -uid "7B45F1BC-7D49-A37C-94DF-A99B20F1D5F0";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_Roughness_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode multiplyDivide -n "multiplyDivide21";
+	rename -uid "0E4638CB-3C4A-DC91-9CF9-85A28C1298C8";
+createNode aiStandardSurface -n "aiStandardSurface17";
+	rename -uid "87B54817-1844-E8A5-39B7-21BBF6462846";
+	setAttr ".emission" 1;
+createNode shadingEngine -n "set23";
+	rename -uid "27F3536A-774C-F8AB-0032-2D95F736D5CA";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo38";
+	rename -uid "738F10E4-F544-0005-30BE-5C8E2146A8A8";
+createNode displacementShader -n "displacementShader23";
+	rename -uid "EC4EA934-3A4C-DBA1-F00E-4F91E11958A0";
+createNode bump2d -n "bump2d22";
+	rename -uid "2F894F2B-1846-A4BF-918B-67B26F557E50";
+	setAttr ".bi" 1;
+	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
+createNode standardSurface -n "standardSurface13";
+	rename -uid "E9F088BD-CB43-8C43-964F-4FA76305E200";
+createNode shadingEngine -n "standardSurface13SG";
+	rename -uid "48077EE9-2746-89AE-F471-15876A50ED46";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo39";
+	rename -uid "59AB21BC-264B-90F8-9BEB-F39DABB9C051";
+createNode place2dTexture -n "place2dTexture24";
+	rename -uid "D2B63AF9-AC4A-8163-C710-EB89F0CC99CA";
+createNode file -n "file135";
+	rename -uid "50B7A791-7F43-430F-6CD8-EBACCDCA055C";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_BaseColor_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file136";
+	rename -uid "71FFFCB5-174C-6E72-3DAF-81A8840FE972";
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_Emissive_sRGB_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "sRGB";
+createNode file -n "file137";
+	rename -uid "C8CDB1D5-9844-B5DA-2207-048339E55E7F";
+	setAttr ".ail" yes;
+	setAttr ".ao" -0.5;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_Height_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file138";
+	rename -uid "312078A5-6240-B3FD-107D-BC9F1CDFCC69";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_Metallic_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file139";
+	rename -uid "A2FF99E2-D044-ADA3-88D2-E9BD49F40493";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_Normal_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode file -n "file140";
+	rename -uid "6EE9E3A8-3745-AB59-E008-B995D91EBF2D";
+	setAttr ".ail" yes;
+	setAttr ".ftn" -type "string" "/Users/kierasheppard/Desktop/NEWgdeadTextures/Grateful Dead uvs_DefaultMaterial_Roughness_Raw_ACEScg.png.tx";
+	setAttr ".cs" -type "string" "Raw";
+createNode multiplyDivide -n "multiplyDivide22";
+	rename -uid "E8F7B20C-F94E-AB9F-1987-2CAA781B2259";
+createNode aiStandardSurface -n "aiStandardSurface18";
+	rename -uid "8F7C0AC0-894E-146F-C4C5-1886C8DCFC2C";
+	setAttr ".emission" 1;
+createNode shadingEngine -n "set24";
+	rename -uid "86056C27-8E4A-2364-966E-AE8C985A326C";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo40";
+	rename -uid "D9B83605-DD4A-5E94-1CDD-20B1239CCA01";
+createNode displacementShader -n "displacementShader24";
+	rename -uid "2E8B601E-2F4E-905E-9F7E-BFB1CCF6F76B";
+createNode bump2d -n "bump2d23";
+	rename -uid "FF4C8A41-F64C-AB68-2F68-97BA78153A09";
+	setAttr ".bi" 1;
+	setAttr ".vc2" -type "float3" 9.9999997e-06 9.9999997e-06 0 ;
+createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
+	rename -uid "D9DC50BD-FA41-1146-21BC-BF8FB82C03F6";
+	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
+	setAttr ".tgi[0].vl" -type "double2" -44.047617297324031 804.47790599709663 ;
+	setAttr ".tgi[0].vh" -type "double2" 1096.8238970015429 973.69808275912965 ;
 select -ne :time1;
 	setAttr -av -k on ".cch";
 	setAttr -k on ".fzn";
@@ -31465,7 +33510,7 @@ select -ne :renderPartition;
 	setAttr -cb on ".ihi";
 	setAttr -av -k on ".nds";
 	setAttr -cb on ".bnm";
-	setAttr -s 75 ".st";
+	setAttr -s 61 ".st";
 	setAttr -cb on ".an";
 	setAttr -cb on ".pt";
 select -ne :renderGlobalsList1;
@@ -31478,7 +33523,7 @@ select -ne :defaultShaderList1;
 	setAttr -cb on ".ihi";
 	setAttr -k on ".nds";
 	setAttr -cb on ".bnm";
-	setAttr -s 71 ".s";
+	setAttr -s 86 ".s";
 select -ne :postProcessList1;
 	setAttr -k on ".cch";
 	setAttr -cb on ".ihi";
@@ -31486,13 +33531,13 @@ select -ne :postProcessList1;
 	setAttr -cb on ".bnm";
 	setAttr -s 2 ".p";
 select -ne :defaultRenderUtilityList1;
-	setAttr -s 49 ".u";
+	setAttr -s 53 ".u";
 select -ne :defaultRenderingList1;
 	setAttr -k on ".ihi";
-	setAttr -s 15 ".r";
+	setAttr -s 9 ".r";
 select -ne :lightList1;
 select -ne :defaultTextureList1;
-	setAttr -s 92 ".tx";
+	setAttr -s 144 ".tx";
 select -ne :standardSurface1;
 	setAttr ".bc" -type "float3" 0.40000001 0.40000001 0.40000001 ;
 	setAttr ".sr" 0.5;
@@ -31509,7 +33554,7 @@ select -ne :initialShadingGroup;
 	setAttr -k on ".vwm";
 	setAttr -k on ".tpv";
 	setAttr -k on ".uit";
-	setAttr -s 130 ".dsm";
+	setAttr -s 121 ".dsm";
 	setAttr -k on ".mwc";
 	setAttr -cb on ".an";
 	setAttr -cb on ".il";
@@ -31518,7 +33563,7 @@ select -ne :initialShadingGroup;
 	setAttr -cb on ".fo";
 	setAttr -cb on ".epo";
 	setAttr -k on ".ro" yes;
-	setAttr -s 40 ".gn";
+	setAttr -s 30 ".gn";
 select -ne :initialParticleSE;
 	setAttr -av -k on ".cch";
 	setAttr -cb on ".ihi";
@@ -31700,48 +33745,21 @@ select -ne :hardwareRenderGlobals;
 	setAttr -k on ".shml";
 	setAttr -k on ".hwel";
 select -ne :ikSystem;
-	setAttr -s 18 ".sol";
-connectAttr "stool2RN.phl[1]" "set8.dsm" -na;
-connectAttr "stool2RN.phl[2]" "set7.dsm" -na;
-connectAttr "stool2RN.phl[3]" "set8.dsm" -na;
-connectAttr "stool2RN.phl[4]" "set8.dsm" -na;
-connectAttr "stool2RN.phl[5]" "set8.dsm" -na;
-connectAttr "stool2RN.phl[6]" "set3.dsm" -na;
+	setAttr -s 3 ".sol";
+connectAttr "stool2RN.phl[1]" "set20.dsm" -na;
+connectAttr "stool2RN.phl[2]" "set18.dsm" -na;
+connectAttr "stool2RN.phl[3]" "set20.dsm" -na;
+connectAttr "stool2RN.phl[4]" "set20.dsm" -na;
+connectAttr "stool2RN.phl[5]" "set20.dsm" -na;
+connectAttr "stool2RN.phl[6]" "set19.dsm" -na;
 connectAttr "stool2RN.phl[7]" "set3.dsm" -na;
-connectAttr "ashTrayRN.phl[1]" "set9.dsm" -na;
-connectAttr "ashTrayRN.phl[2]" "set10.dsm" -na;
-connectAttr "polySurface3Shape.iog" "ashTrayRN.phl[3]";
+connectAttr "ashTrayRN.phl[1]" "set16.dsm" -na;
+connectAttr "ashTrayRN.phl[2]" "set17.dsm" -na;
+connectAttr "ashTrayRN.phl[3]" "set15.dsm" -na;
 connectAttr "pCylinder5Shape.iog" "ashTrayRN.phl[4]";
 connectAttr "pCylinder23Shape.iog" "ashTrayRN.phl[5]";
 connectAttr "whiskeyShape.iog" "bottle1RN.phl[1]";
-connectAttr "Chest_Ctrl_rotateX.o" "SkeletonRN3.phl[1]";
-connectAttr "Chest_Ctrl_rotateY.o" "SkeletonRN3.phl[2]";
-connectAttr "Chest_Ctrl_rotateZ.o" "SkeletonRN3.phl[3]";
-connectAttr "Chest_Ctrl_scaleX.o" "SkeletonRN3.phl[4]";
-connectAttr "Chest_Ctrl_scaleY.o" "SkeletonRN3.phl[5]";
-connectAttr "Chest_Ctrl_scaleZ.o" "SkeletonRN3.phl[6]";
-connectAttr "Head_Ctrl_rotateX.o" "SkeletonRN3.phl[7]";
-connectAttr "Head_Ctrl_rotateY.o" "SkeletonRN3.phl[8]";
-connectAttr "Head_Ctrl_rotateZ.o" "SkeletonRN3.phl[9]";
-connectAttr "L_Arm_01_FK_Ctrl_rotateX.o" "SkeletonRN3.phl[10]";
-connectAttr "L_Arm_01_FK_Ctrl_rotateY.o" "SkeletonRN3.phl[11]";
-connectAttr "L_Arm_01_FK_Ctrl_rotateZ.o" "SkeletonRN3.phl[12]";
-connectAttr "L_Arm_02_FK_Ctrl_rotateX.o" "SkeletonRN3.phl[13]";
-connectAttr "L_Arm_02_FK_Ctrl_rotateY.o" "SkeletonRN3.phl[14]";
-connectAttr "L_Arm_02_FK_Ctrl_rotateZ.o" "SkeletonRN3.phl[15]";
-connectAttr "L_Arm_03_FK_Ctrl_rotateX.o" "SkeletonRN3.phl[16]";
-connectAttr "L_Arm_03_FK_Ctrl_rotateY.o" "SkeletonRN3.phl[17]";
-connectAttr "L_Arm_03_FK_Ctrl_rotateZ.o" "SkeletonRN3.phl[18]";
-connectAttr "L_MetCarp_02_Ctrl_rotateX.o" "SkeletonRN3.phl[19]";
-connectAttr "R_Arm_01_FK_Ctrl_rotateX.o" "SkeletonRN3.phl[20]";
-connectAttr "R_Arm_01_FK_Ctrl_rotateY.o" "SkeletonRN3.phl[21]";
-connectAttr "R_Arm_01_FK_Ctrl_rotateZ.o" "SkeletonRN3.phl[22]";
-connectAttr "R_Arm_02_FK_Ctrl_rotateX.o" "SkeletonRN3.phl[23]";
-connectAttr "R_Arm_02_FK_Ctrl_rotateY.o" "SkeletonRN3.phl[24]";
-connectAttr "R_Arm_02_FK_Ctrl_rotateZ.o" "SkeletonRN3.phl[25]";
-connectAttr "R_Arm_03_FK_Ctrl_rotateX.o" "SkeletonRN3.phl[26]";
-connectAttr "R_Arm_03_FK_Ctrl_rotateY.o" "SkeletonRN3.phl[27]";
-connectAttr "R_Arm_03_FK_Ctrl_rotateZ.o" "SkeletonRN3.phl[28]";
+connectAttr "gdeadJointsRN.phl[1]" "set24.dsm" -na;
 connectAttr "polyCube1.out" "pCubeShape1.i";
 connectAttr "polyCloseBorder1.out" "pCylinderShape1.i";
 connectAttr "polyDuplicateEdge1.out" "pCubeShape4.i";
@@ -31779,9 +33797,6 @@ connectAttr "groupId15.id" "pCylinder18Shape.iog.og[0].gid";
 connectAttr ":initialShadingGroup.mwc" "pCylinder18Shape.iog.og[0].gco";
 connectAttr "groupId16.id" "pCylinder18Shape.ciog.cog[2].cgid";
 connectAttr "deleteComponent10.og" "pCylinderShape20.i";
-connectAttr "groupId19.id" "pCylinder26Shape.iog.og[0].gid";
-connectAttr ":initialShadingGroup.mwc" "pCylinder26Shape.iog.og[0].gco";
-connectAttr "groupId20.id" "pCylinder26Shape.ciog.cog[3].cgid";
 connectAttr "deleteComponent24.og" "polySurfaceShape7.i";
 connectAttr "groupId24.id" "polySurfaceShape7.iog.og[0].gid";
 connectAttr ":initialShadingGroup.mwc" "polySurfaceShape7.iog.og[0].gco";
@@ -31819,6 +33834,32 @@ relationship "link" ":lightLinker1" "set8.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "set9.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "set10.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "set11.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "standardSurface2SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "set12.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "standardSurface3SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "set13.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "standardSurface4SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "set14.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "set15.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "standardSurface5SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "set16.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "standardSurface6SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "set17.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "standardSurface7SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "set18.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "standardSurface8SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "set19.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "standardSurface9SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "set20.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "standardSurface10SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "standardSurface11SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "set21.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "standardSurface12SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "set22.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "lambert4SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "set23.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "standardSurface13SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "set24.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" "set1.message" ":defaultLightSet.message";
@@ -31835,8 +33876,35 @@ relationship "shadowLink" ":lightLinker1" "set8.message" ":defaultLightSet.messa
 relationship "shadowLink" ":lightLinker1" "set9.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" "set10.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" "set11.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "standardSurface2SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "set12.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "standardSurface3SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "set13.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "standardSurface4SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "set14.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "set15.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "standardSurface5SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "set16.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "standardSurface6SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "set17.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "standardSurface7SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "set18.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "standardSurface8SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "set19.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "standardSurface9SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "set20.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "standardSurface10SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "standardSurface11SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "set21.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "standardSurface12SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "set22.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "lambert4SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "set23.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "standardSurface13SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "set24.message" ":defaultLightSet.message";
 connectAttr "layerManager.dli[0]" "defaultLayer.id";
 connectAttr "renderLayerManager.rlmi[0]" "defaultRenderLayer.rlid";
+connectAttr "sharedReferenceNode.sr" "SkeletonRN.sr";
 connectAttr "polyCylinder1.out" "deleteComponent1.ig";
 connectAttr "deleteComponent1.og" "deleteComponent2.ig";
 connectAttr "deleteComponent2.og" "polyCloseBorder1.ip";
@@ -31875,6 +33943,40 @@ connectAttr "polyCube2.out" "polyExtrudeFace5.ip";
 connectAttr "pCubeShape11.wm" "polyExtrudeFace5.mp";
 connectAttr "polyExtrudeFace5.out" "polyExtrudeFace6.ip";
 connectAttr "pCubeShape11.wm" "polyExtrudeFace6.mp";
+connectAttr "sharedReferenceNode.sr" "tablepropRN.sr";
+connectAttr "sharedReferenceNode.sr" "stoolRN.sr";
+connectAttr "sharedReferenceNode.sr" "SkeletonRN1.sr";
+connectAttr "sharedReferenceNode.sr" "SkeletonRN2.sr";
+connectAttr "sharedReferenceNode.sr" "chairToWallRN.sr";
+connectAttr "Chest_Ctrl_rotateX.o" "SkeletonRN3.phl[1]";
+connectAttr "Chest_Ctrl_rotateY.o" "SkeletonRN3.phl[2]";
+connectAttr "Chest_Ctrl_rotateZ.o" "SkeletonRN3.phl[3]";
+connectAttr "Chest_Ctrl_scaleX.o" "SkeletonRN3.phl[4]";
+connectAttr "Chest_Ctrl_scaleY.o" "SkeletonRN3.phl[5]";
+connectAttr "Chest_Ctrl_scaleZ.o" "SkeletonRN3.phl[6]";
+connectAttr "Head_Ctrl_rotateX.o" "SkeletonRN3.phl[7]";
+connectAttr "Head_Ctrl_rotateY.o" "SkeletonRN3.phl[8]";
+connectAttr "Head_Ctrl_rotateZ.o" "SkeletonRN3.phl[9]";
+connectAttr "L_Arm_01_FK_Ctrl_rotateX.o" "SkeletonRN3.phl[10]";
+connectAttr "L_Arm_01_FK_Ctrl_rotateY.o" "SkeletonRN3.phl[11]";
+connectAttr "L_Arm_01_FK_Ctrl_rotateZ.o" "SkeletonRN3.phl[12]";
+connectAttr "L_Arm_02_FK_Ctrl_rotateX.o" "SkeletonRN3.phl[13]";
+connectAttr "L_Arm_02_FK_Ctrl_rotateY.o" "SkeletonRN3.phl[14]";
+connectAttr "L_Arm_02_FK_Ctrl_rotateZ.o" "SkeletonRN3.phl[15]";
+connectAttr "L_Arm_03_FK_Ctrl_rotateX.o" "SkeletonRN3.phl[16]";
+connectAttr "L_Arm_03_FK_Ctrl_rotateY.o" "SkeletonRN3.phl[17]";
+connectAttr "L_Arm_03_FK_Ctrl_rotateZ.o" "SkeletonRN3.phl[18]";
+connectAttr "L_MetCarp_02_Ctrl_rotateX.o" "SkeletonRN3.phl[19]";
+connectAttr "R_Arm_01_FK_Ctrl_rotateX.o" "SkeletonRN3.phl[20]";
+connectAttr "R_Arm_01_FK_Ctrl_rotateY.o" "SkeletonRN3.phl[21]";
+connectAttr "R_Arm_01_FK_Ctrl_rotateZ.o" "SkeletonRN3.phl[22]";
+connectAttr "R_Arm_02_FK_Ctrl_rotateX.o" "SkeletonRN3.phl[23]";
+connectAttr "R_Arm_02_FK_Ctrl_rotateY.o" "SkeletonRN3.phl[24]";
+connectAttr "R_Arm_02_FK_Ctrl_rotateZ.o" "SkeletonRN3.phl[25]";
+connectAttr "R_Arm_03_FK_Ctrl_rotateX.o" "SkeletonRN3.phl[26]";
+connectAttr "R_Arm_03_FK_Ctrl_rotateY.o" "SkeletonRN3.phl[27]";
+connectAttr "R_Arm_03_FK_Ctrl_rotateZ.o" "SkeletonRN3.phl[28]";
+connectAttr "sharedReferenceNode.sr" "SkeletonRN3.sr";
 connectAttr "polyCylinder3.out" "polySplit3.ip";
 connectAttr "polySplit3.out" "polySplit4.ip";
 connectAttr "polyTweak6.out" "polyExtrudeFace15.ip";
@@ -31894,12 +33996,6 @@ connectAttr "polyExtrudeFace20.out" "polyExtrudeFace21.ip";
 connectAttr "pCubeShape52.wm" "polyExtrudeFace21.mp";
 connectAttr "polyExtrudeFace21.out" "polyBevel5.ip";
 connectAttr "pCubeShape52.wm" "polyBevel5.mp";
-connectAttr "pCylinder11.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[0].dn";
-connectAttr "pCube52.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[1].dn";
-connectAttr "pCylinderShape6.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[2].dn";
-connectAttr "pCubeShape52.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[3].dn";
-connectAttr "polySurfaceShape5.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[4].dn"
-		;
 connectAttr "pCylinderShape6.o" "polyUnite1.ip[0]";
 connectAttr "pCubeShape52.o" "polyUnite1.ip[1]";
 connectAttr "pCylinderShape6.wm" "polyUnite1.im[0]";
@@ -32479,7 +34575,6 @@ connectAttr "aiStandardSurface3.msg" "materialInfo5.t" -na;
 connectAttr "file15.oa" "displacementShader3.d";
 connectAttr "file17.oa" "bump2d3.bv";
 connectAttr "lambert3.oc" "lambert3SG.ss";
-connectAttr "pCylinder24Shape.iog" "lambert3SG.dsm" -na;
 connectAttr "lambert3SG.msg" "materialInfo6.sg";
 connectAttr "lambert3.msg" "materialInfo6.m";
 connectAttr ":defaultColorMgtGlobals.cme" "file19.cme";
@@ -32767,8 +34862,6 @@ connectAttr "bump2d4.o" "aiStandardSurface5.n";
 connectAttr "file30.oa" "aiStandardSurface5.specular_roughness";
 connectAttr "aiStandardSurface5.out" "set5.ss";
 connectAttr "displacementShader5.d" "set5.ds";
-connectAttr "pCubeShape5.iog" "set5.dsm" -na;
-connectAttr "pCubeShape1.iog" "set5.dsm" -na;
 connectAttr "set5.msg" "materialInfo8.sg";
 connectAttr "aiStandardSurface5.msg" "materialInfo8.m";
 connectAttr "aiStandardSurface5.msg" "materialInfo8.t" -na;
@@ -32914,7 +35007,6 @@ connectAttr "bump2d5.o" "aiStandardSurface6.n";
 connectAttr "file36.oa" "aiStandardSurface6.specular_roughness";
 connectAttr "aiStandardSurface6.out" "set6.ss";
 connectAttr "displacementShader6.d" "set6.ds";
-connectAttr "pCylinder7Shape.iog" "set6.dsm" -na;
 connectAttr "set6.msg" "materialInfo9.sg";
 connectAttr "aiStandardSurface6.msg" "materialInfo9.m";
 connectAttr "aiStandardSurface6.msg" "materialInfo9.t" -na;
@@ -33350,7 +35442,6 @@ connectAttr "bump2d8.o" "aiStandardSurface9.n";
 connectAttr "file54.oa" "aiStandardSurface9.specular_roughness";
 connectAttr "aiStandardSurface9.out" "set9.ss";
 connectAttr "displacementShader9.d" "set9.ds";
-connectAttr "pCylinder25Shape.iog" "set9.dsm" -na;
 connectAttr "set9.msg" "materialInfo12.sg";
 connectAttr "aiStandardSurface9.msg" "materialInfo12.m";
 connectAttr "aiStandardSurface9.msg" "materialInfo12.t" -na;
@@ -33617,12 +35708,1904 @@ connectAttr "bump2d10.o" "aiStandardSurface11.n";
 connectAttr "file65.oa" "aiStandardSurface11.specular_roughness";
 connectAttr "aiStandardSurface11.out" "set11.ss";
 connectAttr "displacementShader11.d" "set11.ds";
-connectAttr "polySurface2Shape.iog" "set11.dsm" -na;
 connectAttr "set11.msg" "materialInfo14.sg";
 connectAttr "aiStandardSurface11.msg" "materialInfo14.m";
 connectAttr "aiStandardSurface11.msg" "materialInfo14.t" -na;
 connectAttr "file62.oa" "displacementShader11.d";
 connectAttr "file64.oa" "bump2d10.bv";
+connectAttr "Table.oc" "standardSurface2SG.ss";
+connectAttr "standardSurface2SG.msg" "materialInfo15.sg";
+connectAttr "Table.msg" "materialInfo15.m";
+connectAttr ":defaultColorMgtGlobals.cme" "file66.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file66.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file66.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file66.ws";
+connectAttr "place2dTexture12.o" "file66.uv";
+connectAttr "place2dTexture12.ofs" "file66.fs";
+connectAttr "place2dTexture12.c" "file66.c";
+connectAttr "place2dTexture12.tf" "file66.tf";
+connectAttr "place2dTexture12.rf" "file66.rf";
+connectAttr "place2dTexture12.mu" "file66.mu";
+connectAttr "place2dTexture12.mv" "file66.mv";
+connectAttr "place2dTexture12.s" "file66.s";
+connectAttr "place2dTexture12.wu" "file66.wu";
+connectAttr "place2dTexture12.wv" "file66.wv";
+connectAttr "place2dTexture12.re" "file66.re";
+connectAttr "place2dTexture12.of" "file66.of";
+connectAttr "place2dTexture12.r" "file66.ro";
+connectAttr "place2dTexture12.n" "file66.n";
+connectAttr "place2dTexture12.vt1" "file66.vt1";
+connectAttr "place2dTexture12.vt2" "file66.vt2";
+connectAttr "place2dTexture12.vt3" "file66.vt3";
+connectAttr "place2dTexture12.vc1" "file66.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file67.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file67.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file67.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file67.ws";
+connectAttr "place2dTexture12.o" "file67.uv";
+connectAttr "place2dTexture12.ofs" "file67.fs";
+connectAttr "place2dTexture12.c" "file67.c";
+connectAttr "place2dTexture12.tf" "file67.tf";
+connectAttr "place2dTexture12.rf" "file67.rf";
+connectAttr "place2dTexture12.mu" "file67.mu";
+connectAttr "place2dTexture12.mv" "file67.mv";
+connectAttr "place2dTexture12.s" "file67.s";
+connectAttr "place2dTexture12.wu" "file67.wu";
+connectAttr "place2dTexture12.wv" "file67.wv";
+connectAttr "place2dTexture12.re" "file67.re";
+connectAttr "place2dTexture12.of" "file67.of";
+connectAttr "place2dTexture12.r" "file67.ro";
+connectAttr "place2dTexture12.n" "file67.n";
+connectAttr "place2dTexture12.vt1" "file67.vt1";
+connectAttr "place2dTexture12.vt2" "file67.vt2";
+connectAttr "place2dTexture12.vt3" "file67.vt3";
+connectAttr "place2dTexture12.vc1" "file67.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file68.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file68.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file68.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file68.ws";
+connectAttr "place2dTexture12.o" "file68.uv";
+connectAttr "place2dTexture12.ofs" "file68.fs";
+connectAttr "place2dTexture12.c" "file68.c";
+connectAttr "place2dTexture12.tf" "file68.tf";
+connectAttr "place2dTexture12.rf" "file68.rf";
+connectAttr "place2dTexture12.mu" "file68.mu";
+connectAttr "place2dTexture12.mv" "file68.mv";
+connectAttr "place2dTexture12.s" "file68.s";
+connectAttr "place2dTexture12.wu" "file68.wu";
+connectAttr "place2dTexture12.wv" "file68.wv";
+connectAttr "place2dTexture12.re" "file68.re";
+connectAttr "place2dTexture12.of" "file68.of";
+connectAttr "place2dTexture12.r" "file68.ro";
+connectAttr "place2dTexture12.n" "file68.n";
+connectAttr "place2dTexture12.vt1" "file68.vt1";
+connectAttr "place2dTexture12.vt2" "file68.vt2";
+connectAttr "place2dTexture12.vt3" "file68.vt3";
+connectAttr "place2dTexture12.vc1" "file68.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file69.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file69.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file69.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file69.ws";
+connectAttr "place2dTexture12.o" "file69.uv";
+connectAttr "place2dTexture12.ofs" "file69.fs";
+connectAttr "place2dTexture12.c" "file69.c";
+connectAttr "place2dTexture12.tf" "file69.tf";
+connectAttr "place2dTexture12.rf" "file69.rf";
+connectAttr "place2dTexture12.mu" "file69.mu";
+connectAttr "place2dTexture12.mv" "file69.mv";
+connectAttr "place2dTexture12.s" "file69.s";
+connectAttr "place2dTexture12.wu" "file69.wu";
+connectAttr "place2dTexture12.wv" "file69.wv";
+connectAttr "place2dTexture12.re" "file69.re";
+connectAttr "place2dTexture12.of" "file69.of";
+connectAttr "place2dTexture12.r" "file69.ro";
+connectAttr "place2dTexture12.n" "file69.n";
+connectAttr "place2dTexture12.vt1" "file69.vt1";
+connectAttr "place2dTexture12.vt2" "file69.vt2";
+connectAttr "place2dTexture12.vt3" "file69.vt3";
+connectAttr "place2dTexture12.vc1" "file69.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file70.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file70.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file70.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file70.ws";
+connectAttr "place2dTexture12.o" "file70.uv";
+connectAttr "place2dTexture12.ofs" "file70.fs";
+connectAttr "place2dTexture12.c" "file70.c";
+connectAttr "place2dTexture12.tf" "file70.tf";
+connectAttr "place2dTexture12.rf" "file70.rf";
+connectAttr "place2dTexture12.mu" "file70.mu";
+connectAttr "place2dTexture12.mv" "file70.mv";
+connectAttr "place2dTexture12.s" "file70.s";
+connectAttr "place2dTexture12.wu" "file70.wu";
+connectAttr "place2dTexture12.wv" "file70.wv";
+connectAttr "place2dTexture12.re" "file70.re";
+connectAttr "place2dTexture12.of" "file70.of";
+connectAttr "place2dTexture12.r" "file70.ro";
+connectAttr "place2dTexture12.n" "file70.n";
+connectAttr "place2dTexture12.vt1" "file70.vt1";
+connectAttr "place2dTexture12.vt2" "file70.vt2";
+connectAttr "place2dTexture12.vt3" "file70.vt3";
+connectAttr "place2dTexture12.vc1" "file70.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file71.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file71.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file71.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file71.ws";
+connectAttr "place2dTexture12.o" "file71.uv";
+connectAttr "place2dTexture12.ofs" "file71.fs";
+connectAttr "place2dTexture12.c" "file71.c";
+connectAttr "place2dTexture12.tf" "file71.tf";
+connectAttr "place2dTexture12.rf" "file71.rf";
+connectAttr "place2dTexture12.mu" "file71.mu";
+connectAttr "place2dTexture12.mv" "file71.mv";
+connectAttr "place2dTexture12.s" "file71.s";
+connectAttr "place2dTexture12.wu" "file71.wu";
+connectAttr "place2dTexture12.wv" "file71.wv";
+connectAttr "place2dTexture12.re" "file71.re";
+connectAttr "place2dTexture12.of" "file71.of";
+connectAttr "place2dTexture12.r" "file71.ro";
+connectAttr "place2dTexture12.n" "file71.n";
+connectAttr "place2dTexture12.vt1" "file71.vt1";
+connectAttr "place2dTexture12.vt2" "file71.vt2";
+connectAttr "place2dTexture12.vt3" "file71.vt3";
+connectAttr "place2dTexture12.vc1" "file71.vc1";
+connectAttr "file66.oc" "multiplyDivide11.i1";
+connectAttr "multiplyDivide11.o" "tableColor.base_color";
+connectAttr "file67.oc" "tableColor.emission_color";
+connectAttr "file69.oa" "tableColor.metalness";
+connectAttr "bump2d11.o" "tableColor.n";
+connectAttr "file71.oa" "tableColor.specular_roughness";
+connectAttr "tableColor.out" "set12.ss";
+connectAttr "displacementShader12.d" "set12.ds";
+connectAttr "pCylinder7Shape.iog" "set12.dsm" -na;
+connectAttr "pCylinder26Shape.iog" "set12.dsm" -na;
+connectAttr "pCylinder24Shape.iog" "set12.dsm" -na;
+connectAttr "set12.msg" "materialInfo16.sg";
+connectAttr "tableColor.msg" "materialInfo16.m";
+connectAttr "tableColor.msg" "materialInfo16.t" -na;
+connectAttr "file68.oa" "displacementShader12.d";
+connectAttr "file70.oa" "bump2d11.bv";
+connectAttr "standardSurface3.oc" "standardSurface3SG.ss";
+connectAttr "standardSurface3SG.msg" "materialInfo17.sg";
+connectAttr "standardSurface3.msg" "materialInfo17.m";
+connectAttr ":defaultColorMgtGlobals.cme" "file72.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file72.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file72.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file72.ws";
+connectAttr "place2dTexture13.o" "file72.uv";
+connectAttr "place2dTexture13.ofs" "file72.fs";
+connectAttr "place2dTexture13.c" "file72.c";
+connectAttr "place2dTexture13.tf" "file72.tf";
+connectAttr "place2dTexture13.rf" "file72.rf";
+connectAttr "place2dTexture13.mu" "file72.mu";
+connectAttr "place2dTexture13.mv" "file72.mv";
+connectAttr "place2dTexture13.s" "file72.s";
+connectAttr "place2dTexture13.wu" "file72.wu";
+connectAttr "place2dTexture13.wv" "file72.wv";
+connectAttr "place2dTexture13.re" "file72.re";
+connectAttr "place2dTexture13.of" "file72.of";
+connectAttr "place2dTexture13.r" "file72.ro";
+connectAttr "place2dTexture13.n" "file72.n";
+connectAttr "place2dTexture13.vt1" "file72.vt1";
+connectAttr "place2dTexture13.vt2" "file72.vt2";
+connectAttr "place2dTexture13.vt3" "file72.vt3";
+connectAttr "place2dTexture13.vc1" "file72.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file73.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file73.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file73.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file73.ws";
+connectAttr "place2dTexture13.o" "file73.uv";
+connectAttr "place2dTexture13.ofs" "file73.fs";
+connectAttr "place2dTexture13.c" "file73.c";
+connectAttr "place2dTexture13.tf" "file73.tf";
+connectAttr "place2dTexture13.rf" "file73.rf";
+connectAttr "place2dTexture13.mu" "file73.mu";
+connectAttr "place2dTexture13.mv" "file73.mv";
+connectAttr "place2dTexture13.s" "file73.s";
+connectAttr "place2dTexture13.wu" "file73.wu";
+connectAttr "place2dTexture13.wv" "file73.wv";
+connectAttr "place2dTexture13.re" "file73.re";
+connectAttr "place2dTexture13.of" "file73.of";
+connectAttr "place2dTexture13.r" "file73.ro";
+connectAttr "place2dTexture13.n" "file73.n";
+connectAttr "place2dTexture13.vt1" "file73.vt1";
+connectAttr "place2dTexture13.vt2" "file73.vt2";
+connectAttr "place2dTexture13.vt3" "file73.vt3";
+connectAttr "place2dTexture13.vc1" "file73.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file74.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file74.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file74.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file74.ws";
+connectAttr "place2dTexture13.o" "file74.uv";
+connectAttr "place2dTexture13.ofs" "file74.fs";
+connectAttr "place2dTexture13.c" "file74.c";
+connectAttr "place2dTexture13.tf" "file74.tf";
+connectAttr "place2dTexture13.rf" "file74.rf";
+connectAttr "place2dTexture13.mu" "file74.mu";
+connectAttr "place2dTexture13.mv" "file74.mv";
+connectAttr "place2dTexture13.s" "file74.s";
+connectAttr "place2dTexture13.wu" "file74.wu";
+connectAttr "place2dTexture13.wv" "file74.wv";
+connectAttr "place2dTexture13.re" "file74.re";
+connectAttr "place2dTexture13.of" "file74.of";
+connectAttr "place2dTexture13.r" "file74.ro";
+connectAttr "place2dTexture13.n" "file74.n";
+connectAttr "place2dTexture13.vt1" "file74.vt1";
+connectAttr "place2dTexture13.vt2" "file74.vt2";
+connectAttr "place2dTexture13.vt3" "file74.vt3";
+connectAttr "place2dTexture13.vc1" "file74.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file75.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file75.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file75.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file75.ws";
+connectAttr "place2dTexture13.o" "file75.uv";
+connectAttr "place2dTexture13.ofs" "file75.fs";
+connectAttr "place2dTexture13.c" "file75.c";
+connectAttr "place2dTexture13.tf" "file75.tf";
+connectAttr "place2dTexture13.rf" "file75.rf";
+connectAttr "place2dTexture13.mu" "file75.mu";
+connectAttr "place2dTexture13.mv" "file75.mv";
+connectAttr "place2dTexture13.s" "file75.s";
+connectAttr "place2dTexture13.wu" "file75.wu";
+connectAttr "place2dTexture13.wv" "file75.wv";
+connectAttr "place2dTexture13.re" "file75.re";
+connectAttr "place2dTexture13.of" "file75.of";
+connectAttr "place2dTexture13.r" "file75.ro";
+connectAttr "place2dTexture13.n" "file75.n";
+connectAttr "place2dTexture13.vt1" "file75.vt1";
+connectAttr "place2dTexture13.vt2" "file75.vt2";
+connectAttr "place2dTexture13.vt3" "file75.vt3";
+connectAttr "place2dTexture13.vc1" "file75.vc1";
+connectAttr "file72.oa" "aiStandardSurface13.metalness";
+connectAttr "bump2d12.o" "aiStandardSurface13.n";
+connectAttr "file74.oa" "aiStandardSurface13.specular_roughness";
+connectAttr "aiStandardSurface13.out" "set13.ss";
+connectAttr "displacementShader13.d" "set13.ds";
+connectAttr "polySurface3Shape.iog" "set13.dsm" -na;
+connectAttr "set13.msg" "materialInfo18.sg";
+connectAttr "aiStandardSurface13.msg" "materialInfo18.m";
+connectAttr "aiStandardSurface13.msg" "materialInfo18.t" -na;
+connectAttr "file73.oa" "bump2d12.bv";
+connectAttr "file75.oa" "displacementShader13.d";
+connectAttr "standardSurface4.oc" "standardSurface4SG.ss";
+connectAttr "standardSurface4SG.msg" "materialInfo19.sg";
+connectAttr "standardSurface4.msg" "materialInfo19.m";
+connectAttr ":defaultColorMgtGlobals.cme" "file76.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file76.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file76.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file76.ws";
+connectAttr "place2dTexture14.o" "file76.uv";
+connectAttr "place2dTexture14.ofs" "file76.fs";
+connectAttr "place2dTexture14.c" "file76.c";
+connectAttr "place2dTexture14.tf" "file76.tf";
+connectAttr "place2dTexture14.rf" "file76.rf";
+connectAttr "place2dTexture14.mu" "file76.mu";
+connectAttr "place2dTexture14.mv" "file76.mv";
+connectAttr "place2dTexture14.s" "file76.s";
+connectAttr "place2dTexture14.wu" "file76.wu";
+connectAttr "place2dTexture14.wv" "file76.wv";
+connectAttr "place2dTexture14.re" "file76.re";
+connectAttr "place2dTexture14.of" "file76.of";
+connectAttr "place2dTexture14.r" "file76.ro";
+connectAttr "place2dTexture14.n" "file76.n";
+connectAttr "place2dTexture14.vt1" "file76.vt1";
+connectAttr "place2dTexture14.vt2" "file76.vt2";
+connectAttr "place2dTexture14.vt3" "file76.vt3";
+connectAttr "place2dTexture14.vc1" "file76.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file77.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file77.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file77.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file77.ws";
+connectAttr "place2dTexture14.o" "file77.uv";
+connectAttr "place2dTexture14.ofs" "file77.fs";
+connectAttr "place2dTexture14.c" "file77.c";
+connectAttr "place2dTexture14.tf" "file77.tf";
+connectAttr "place2dTexture14.rf" "file77.rf";
+connectAttr "place2dTexture14.mu" "file77.mu";
+connectAttr "place2dTexture14.mv" "file77.mv";
+connectAttr "place2dTexture14.s" "file77.s";
+connectAttr "place2dTexture14.wu" "file77.wu";
+connectAttr "place2dTexture14.wv" "file77.wv";
+connectAttr "place2dTexture14.re" "file77.re";
+connectAttr "place2dTexture14.of" "file77.of";
+connectAttr "place2dTexture14.r" "file77.ro";
+connectAttr "place2dTexture14.n" "file77.n";
+connectAttr "place2dTexture14.vt1" "file77.vt1";
+connectAttr "place2dTexture14.vt2" "file77.vt2";
+connectAttr "place2dTexture14.vt3" "file77.vt3";
+connectAttr "place2dTexture14.vc1" "file77.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file78.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file78.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file78.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file78.ws";
+connectAttr "place2dTexture14.o" "file78.uv";
+connectAttr "place2dTexture14.ofs" "file78.fs";
+connectAttr "place2dTexture14.c" "file78.c";
+connectAttr "place2dTexture14.tf" "file78.tf";
+connectAttr "place2dTexture14.rf" "file78.rf";
+connectAttr "place2dTexture14.mu" "file78.mu";
+connectAttr "place2dTexture14.mv" "file78.mv";
+connectAttr "place2dTexture14.s" "file78.s";
+connectAttr "place2dTexture14.wu" "file78.wu";
+connectAttr "place2dTexture14.wv" "file78.wv";
+connectAttr "place2dTexture14.re" "file78.re";
+connectAttr "place2dTexture14.of" "file78.of";
+connectAttr "place2dTexture14.r" "file78.ro";
+connectAttr "place2dTexture14.n" "file78.n";
+connectAttr "place2dTexture14.vt1" "file78.vt1";
+connectAttr "place2dTexture14.vt2" "file78.vt2";
+connectAttr "place2dTexture14.vt3" "file78.vt3";
+connectAttr "place2dTexture14.vc1" "file78.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file79.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file79.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file79.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file79.ws";
+connectAttr "place2dTexture14.o" "file79.uv";
+connectAttr "place2dTexture14.ofs" "file79.fs";
+connectAttr "place2dTexture14.c" "file79.c";
+connectAttr "place2dTexture14.tf" "file79.tf";
+connectAttr "place2dTexture14.rf" "file79.rf";
+connectAttr "place2dTexture14.mu" "file79.mu";
+connectAttr "place2dTexture14.mv" "file79.mv";
+connectAttr "place2dTexture14.s" "file79.s";
+connectAttr "place2dTexture14.wu" "file79.wu";
+connectAttr "place2dTexture14.wv" "file79.wv";
+connectAttr "place2dTexture14.re" "file79.re";
+connectAttr "place2dTexture14.of" "file79.of";
+connectAttr "place2dTexture14.r" "file79.ro";
+connectAttr "place2dTexture14.n" "file79.n";
+connectAttr "place2dTexture14.vt1" "file79.vt1";
+connectAttr "place2dTexture14.vt2" "file79.vt2";
+connectAttr "place2dTexture14.vt3" "file79.vt3";
+connectAttr "place2dTexture14.vc1" "file79.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file80.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file80.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file80.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file80.ws";
+connectAttr "place2dTexture14.o" "file80.uv";
+connectAttr "place2dTexture14.ofs" "file80.fs";
+connectAttr "place2dTexture14.c" "file80.c";
+connectAttr "place2dTexture14.tf" "file80.tf";
+connectAttr "place2dTexture14.rf" "file80.rf";
+connectAttr "place2dTexture14.mu" "file80.mu";
+connectAttr "place2dTexture14.mv" "file80.mv";
+connectAttr "place2dTexture14.s" "file80.s";
+connectAttr "place2dTexture14.wu" "file80.wu";
+connectAttr "place2dTexture14.wv" "file80.wv";
+connectAttr "place2dTexture14.re" "file80.re";
+connectAttr "place2dTexture14.of" "file80.of";
+connectAttr "place2dTexture14.r" "file80.ro";
+connectAttr "place2dTexture14.n" "file80.n";
+connectAttr "place2dTexture14.vt1" "file80.vt1";
+connectAttr "place2dTexture14.vt2" "file80.vt2";
+connectAttr "place2dTexture14.vt3" "file80.vt3";
+connectAttr "place2dTexture14.vc1" "file80.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file81.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file81.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file81.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file81.ws";
+connectAttr "place2dTexture14.o" "file81.uv";
+connectAttr "place2dTexture14.ofs" "file81.fs";
+connectAttr "place2dTexture14.c" "file81.c";
+connectAttr "place2dTexture14.tf" "file81.tf";
+connectAttr "place2dTexture14.rf" "file81.rf";
+connectAttr "place2dTexture14.mu" "file81.mu";
+connectAttr "place2dTexture14.mv" "file81.mv";
+connectAttr "place2dTexture14.s" "file81.s";
+connectAttr "place2dTexture14.wu" "file81.wu";
+connectAttr "place2dTexture14.wv" "file81.wv";
+connectAttr "place2dTexture14.re" "file81.re";
+connectAttr "place2dTexture14.of" "file81.of";
+connectAttr "place2dTexture14.r" "file81.ro";
+connectAttr "place2dTexture14.n" "file81.n";
+connectAttr "place2dTexture14.vt1" "file81.vt1";
+connectAttr "place2dTexture14.vt2" "file81.vt2";
+connectAttr "place2dTexture14.vt3" "file81.vt3";
+connectAttr "place2dTexture14.vc1" "file81.vc1";
+connectAttr "file76.oc" "multiplyDivide12.i1";
+connectAttr "multiplyDivide12.o" "aiStandardSurface14.base_color";
+connectAttr "file77.oc" "aiStandardSurface14.emission_color";
+connectAttr "file79.oa" "aiStandardSurface14.metalness";
+connectAttr "bump2d13.o" "aiStandardSurface14.n";
+connectAttr "file81.oa" "aiStandardSurface14.specular_roughness";
+connectAttr "aiStandardSurface14.out" "set14.ss";
+connectAttr "displacementShader14.d" "set14.ds";
+connectAttr "set14.msg" "materialInfo20.sg";
+connectAttr "aiStandardSurface14.msg" "materialInfo20.m";
+connectAttr "aiStandardSurface14.msg" "materialInfo20.t" -na;
+connectAttr "file78.oa" "displacementShader14.d";
+connectAttr "file80.oa" "bump2d13.bv";
+connectAttr ":defaultColorMgtGlobals.cme" "file82.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file82.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file82.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file82.ws";
+connectAttr "place2dTexture15.o" "file82.uv";
+connectAttr "place2dTexture15.ofs" "file82.fs";
+connectAttr "place2dTexture15.c" "file82.c";
+connectAttr "place2dTexture15.tf" "file82.tf";
+connectAttr "place2dTexture15.rf" "file82.rf";
+connectAttr "place2dTexture15.mu" "file82.mu";
+connectAttr "place2dTexture15.mv" "file82.mv";
+connectAttr "place2dTexture15.s" "file82.s";
+connectAttr "place2dTexture15.wu" "file82.wu";
+connectAttr "place2dTexture15.wv" "file82.wv";
+connectAttr "place2dTexture15.re" "file82.re";
+connectAttr "place2dTexture15.of" "file82.of";
+connectAttr "place2dTexture15.r" "file82.ro";
+connectAttr "place2dTexture15.n" "file82.n";
+connectAttr "place2dTexture15.vt1" "file82.vt1";
+connectAttr "place2dTexture15.vt2" "file82.vt2";
+connectAttr "place2dTexture15.vt3" "file82.vt3";
+connectAttr "place2dTexture15.vc1" "file82.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file83.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file83.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file83.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file83.ws";
+connectAttr "place2dTexture15.o" "file83.uv";
+connectAttr "place2dTexture15.ofs" "file83.fs";
+connectAttr "place2dTexture15.c" "file83.c";
+connectAttr "place2dTexture15.tf" "file83.tf";
+connectAttr "place2dTexture15.rf" "file83.rf";
+connectAttr "place2dTexture15.mu" "file83.mu";
+connectAttr "place2dTexture15.mv" "file83.mv";
+connectAttr "place2dTexture15.s" "file83.s";
+connectAttr "place2dTexture15.wu" "file83.wu";
+connectAttr "place2dTexture15.wv" "file83.wv";
+connectAttr "place2dTexture15.re" "file83.re";
+connectAttr "place2dTexture15.of" "file83.of";
+connectAttr "place2dTexture15.r" "file83.ro";
+connectAttr "place2dTexture15.n" "file83.n";
+connectAttr "place2dTexture15.vt1" "file83.vt1";
+connectAttr "place2dTexture15.vt2" "file83.vt2";
+connectAttr "place2dTexture15.vt3" "file83.vt3";
+connectAttr "place2dTexture15.vc1" "file83.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file84.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file84.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file84.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file84.ws";
+connectAttr "place2dTexture15.o" "file84.uv";
+connectAttr "place2dTexture15.ofs" "file84.fs";
+connectAttr "place2dTexture15.c" "file84.c";
+connectAttr "place2dTexture15.tf" "file84.tf";
+connectAttr "place2dTexture15.rf" "file84.rf";
+connectAttr "place2dTexture15.mu" "file84.mu";
+connectAttr "place2dTexture15.mv" "file84.mv";
+connectAttr "place2dTexture15.s" "file84.s";
+connectAttr "place2dTexture15.wu" "file84.wu";
+connectAttr "place2dTexture15.wv" "file84.wv";
+connectAttr "place2dTexture15.re" "file84.re";
+connectAttr "place2dTexture15.of" "file84.of";
+connectAttr "place2dTexture15.r" "file84.ro";
+connectAttr "place2dTexture15.n" "file84.n";
+connectAttr "place2dTexture15.vt1" "file84.vt1";
+connectAttr "place2dTexture15.vt2" "file84.vt2";
+connectAttr "place2dTexture15.vt3" "file84.vt3";
+connectAttr "place2dTexture15.vc1" "file84.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file85.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file85.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file85.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file85.ws";
+connectAttr "place2dTexture15.o" "file85.uv";
+connectAttr "place2dTexture15.ofs" "file85.fs";
+connectAttr "place2dTexture15.c" "file85.c";
+connectAttr "place2dTexture15.tf" "file85.tf";
+connectAttr "place2dTexture15.rf" "file85.rf";
+connectAttr "place2dTexture15.mu" "file85.mu";
+connectAttr "place2dTexture15.mv" "file85.mv";
+connectAttr "place2dTexture15.s" "file85.s";
+connectAttr "place2dTexture15.wu" "file85.wu";
+connectAttr "place2dTexture15.wv" "file85.wv";
+connectAttr "place2dTexture15.re" "file85.re";
+connectAttr "place2dTexture15.of" "file85.of";
+connectAttr "place2dTexture15.r" "file85.ro";
+connectAttr "place2dTexture15.n" "file85.n";
+connectAttr "place2dTexture15.vt1" "file85.vt1";
+connectAttr "place2dTexture15.vt2" "file85.vt2";
+connectAttr "place2dTexture15.vt3" "file85.vt3";
+connectAttr "place2dTexture15.vc1" "file85.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file86.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file86.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file86.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file86.ws";
+connectAttr "place2dTexture15.o" "file86.uv";
+connectAttr "place2dTexture15.ofs" "file86.fs";
+connectAttr "place2dTexture15.c" "file86.c";
+connectAttr "place2dTexture15.tf" "file86.tf";
+connectAttr "place2dTexture15.rf" "file86.rf";
+connectAttr "place2dTexture15.mu" "file86.mu";
+connectAttr "place2dTexture15.mv" "file86.mv";
+connectAttr "place2dTexture15.s" "file86.s";
+connectAttr "place2dTexture15.wu" "file86.wu";
+connectAttr "place2dTexture15.wv" "file86.wv";
+connectAttr "place2dTexture15.re" "file86.re";
+connectAttr "place2dTexture15.of" "file86.of";
+connectAttr "place2dTexture15.r" "file86.ro";
+connectAttr "place2dTexture15.n" "file86.n";
+connectAttr "place2dTexture15.vt1" "file86.vt1";
+connectAttr "place2dTexture15.vt2" "file86.vt2";
+connectAttr "place2dTexture15.vt3" "file86.vt3";
+connectAttr "place2dTexture15.vc1" "file86.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file87.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file87.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file87.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file87.ws";
+connectAttr "place2dTexture15.o" "file87.uv";
+connectAttr "place2dTexture15.ofs" "file87.fs";
+connectAttr "place2dTexture15.c" "file87.c";
+connectAttr "place2dTexture15.tf" "file87.tf";
+connectAttr "place2dTexture15.rf" "file87.rf";
+connectAttr "place2dTexture15.mu" "file87.mu";
+connectAttr "place2dTexture15.mv" "file87.mv";
+connectAttr "place2dTexture15.s" "file87.s";
+connectAttr "place2dTexture15.wu" "file87.wu";
+connectAttr "place2dTexture15.wv" "file87.wv";
+connectAttr "place2dTexture15.re" "file87.re";
+connectAttr "place2dTexture15.of" "file87.of";
+connectAttr "place2dTexture15.r" "file87.ro";
+connectAttr "place2dTexture15.n" "file87.n";
+connectAttr "place2dTexture15.vt1" "file87.vt1";
+connectAttr "place2dTexture15.vt2" "file87.vt2";
+connectAttr "place2dTexture15.vt3" "file87.vt3";
+connectAttr "place2dTexture15.vc1" "file87.vc1";
+connectAttr "file82.oc" "multiplyDivide13.i1";
+connectAttr "multiplyDivide13.o" "upCig.base_color";
+connectAttr "file83.oc" "upCig.emission_color";
+connectAttr "file85.oa" "upCig.metalness";
+connectAttr "bump2d14.o" "upCig.n";
+connectAttr "file87.oa" "upCig.specular_roughness";
+connectAttr "pCylinder25Shape.iog" "set15.dsm" -na;
+connectAttr "upCig.out" "set15.ss";
+connectAttr "displacementShader15.d" "set15.ds";
+connectAttr "set15.msg" "materialInfo21.sg";
+connectAttr "upCig.msg" "materialInfo21.m";
+connectAttr "upCig.msg" "materialInfo21.t" -na;
+connectAttr "file84.oa" "displacementShader15.d";
+connectAttr "file86.oa" "bump2d14.bv";
+connectAttr "standardSurface5.oc" "standardSurface5SG.ss";
+connectAttr "polySurface2Shape.iog" "standardSurface5SG.dsm" -na;
+connectAttr "pCubeShape1.iog" "standardSurface5SG.dsm" -na;
+connectAttr "standardSurface5SG.msg" "materialInfo22.sg";
+connectAttr "standardSurface5.msg" "materialInfo22.m";
+connectAttr ":defaultColorMgtGlobals.cme" "file88.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file88.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file88.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file88.ws";
+connectAttr "place2dTexture16.o" "file88.uv";
+connectAttr "place2dTexture16.ofs" "file88.fs";
+connectAttr "place2dTexture16.c" "file88.c";
+connectAttr "place2dTexture16.tf" "file88.tf";
+connectAttr "place2dTexture16.rf" "file88.rf";
+connectAttr "place2dTexture16.mu" "file88.mu";
+connectAttr "place2dTexture16.mv" "file88.mv";
+connectAttr "place2dTexture16.s" "file88.s";
+connectAttr "place2dTexture16.wu" "file88.wu";
+connectAttr "place2dTexture16.wv" "file88.wv";
+connectAttr "place2dTexture16.re" "file88.re";
+connectAttr "place2dTexture16.of" "file88.of";
+connectAttr "place2dTexture16.r" "file88.ro";
+connectAttr "place2dTexture16.n" "file88.n";
+connectAttr "place2dTexture16.vt1" "file88.vt1";
+connectAttr "place2dTexture16.vt2" "file88.vt2";
+connectAttr "place2dTexture16.vt3" "file88.vt3";
+connectAttr "place2dTexture16.vc1" "file88.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file89.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file89.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file89.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file89.ws";
+connectAttr "place2dTexture16.o" "file89.uv";
+connectAttr "place2dTexture16.ofs" "file89.fs";
+connectAttr "place2dTexture16.c" "file89.c";
+connectAttr "place2dTexture16.tf" "file89.tf";
+connectAttr "place2dTexture16.rf" "file89.rf";
+connectAttr "place2dTexture16.mu" "file89.mu";
+connectAttr "place2dTexture16.mv" "file89.mv";
+connectAttr "place2dTexture16.s" "file89.s";
+connectAttr "place2dTexture16.wu" "file89.wu";
+connectAttr "place2dTexture16.wv" "file89.wv";
+connectAttr "place2dTexture16.re" "file89.re";
+connectAttr "place2dTexture16.of" "file89.of";
+connectAttr "place2dTexture16.r" "file89.ro";
+connectAttr "place2dTexture16.n" "file89.n";
+connectAttr "place2dTexture16.vt1" "file89.vt1";
+connectAttr "place2dTexture16.vt2" "file89.vt2";
+connectAttr "place2dTexture16.vt3" "file89.vt3";
+connectAttr "place2dTexture16.vc1" "file89.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file90.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file90.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file90.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file90.ws";
+connectAttr "place2dTexture16.o" "file90.uv";
+connectAttr "place2dTexture16.ofs" "file90.fs";
+connectAttr "place2dTexture16.c" "file90.c";
+connectAttr "place2dTexture16.tf" "file90.tf";
+connectAttr "place2dTexture16.rf" "file90.rf";
+connectAttr "place2dTexture16.mu" "file90.mu";
+connectAttr "place2dTexture16.mv" "file90.mv";
+connectAttr "place2dTexture16.s" "file90.s";
+connectAttr "place2dTexture16.wu" "file90.wu";
+connectAttr "place2dTexture16.wv" "file90.wv";
+connectAttr "place2dTexture16.re" "file90.re";
+connectAttr "place2dTexture16.of" "file90.of";
+connectAttr "place2dTexture16.r" "file90.ro";
+connectAttr "place2dTexture16.n" "file90.n";
+connectAttr "place2dTexture16.vt1" "file90.vt1";
+connectAttr "place2dTexture16.vt2" "file90.vt2";
+connectAttr "place2dTexture16.vt3" "file90.vt3";
+connectAttr "place2dTexture16.vc1" "file90.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file91.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file91.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file91.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file91.ws";
+connectAttr "place2dTexture16.o" "file91.uv";
+connectAttr "place2dTexture16.ofs" "file91.fs";
+connectAttr "place2dTexture16.c" "file91.c";
+connectAttr "place2dTexture16.tf" "file91.tf";
+connectAttr "place2dTexture16.rf" "file91.rf";
+connectAttr "place2dTexture16.mu" "file91.mu";
+connectAttr "place2dTexture16.mv" "file91.mv";
+connectAttr "place2dTexture16.s" "file91.s";
+connectAttr "place2dTexture16.wu" "file91.wu";
+connectAttr "place2dTexture16.wv" "file91.wv";
+connectAttr "place2dTexture16.re" "file91.re";
+connectAttr "place2dTexture16.of" "file91.of";
+connectAttr "place2dTexture16.r" "file91.ro";
+connectAttr "place2dTexture16.n" "file91.n";
+connectAttr "place2dTexture16.vt1" "file91.vt1";
+connectAttr "place2dTexture16.vt2" "file91.vt2";
+connectAttr "place2dTexture16.vt3" "file91.vt3";
+connectAttr "place2dTexture16.vc1" "file91.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file92.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file92.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file92.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file92.ws";
+connectAttr "place2dTexture16.o" "file92.uv";
+connectAttr "place2dTexture16.ofs" "file92.fs";
+connectAttr "place2dTexture16.c" "file92.c";
+connectAttr "place2dTexture16.tf" "file92.tf";
+connectAttr "place2dTexture16.rf" "file92.rf";
+connectAttr "place2dTexture16.mu" "file92.mu";
+connectAttr "place2dTexture16.mv" "file92.mv";
+connectAttr "place2dTexture16.s" "file92.s";
+connectAttr "place2dTexture16.wu" "file92.wu";
+connectAttr "place2dTexture16.wv" "file92.wv";
+connectAttr "place2dTexture16.re" "file92.re";
+connectAttr "place2dTexture16.of" "file92.of";
+connectAttr "place2dTexture16.r" "file92.ro";
+connectAttr "place2dTexture16.n" "file92.n";
+connectAttr "place2dTexture16.vt1" "file92.vt1";
+connectAttr "place2dTexture16.vt2" "file92.vt2";
+connectAttr "place2dTexture16.vt3" "file92.vt3";
+connectAttr "place2dTexture16.vc1" "file92.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file93.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file93.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file93.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file93.ws";
+connectAttr "place2dTexture16.o" "file93.uv";
+connectAttr "place2dTexture16.ofs" "file93.fs";
+connectAttr "place2dTexture16.c" "file93.c";
+connectAttr "place2dTexture16.tf" "file93.tf";
+connectAttr "place2dTexture16.rf" "file93.rf";
+connectAttr "place2dTexture16.mu" "file93.mu";
+connectAttr "place2dTexture16.mv" "file93.mv";
+connectAttr "place2dTexture16.s" "file93.s";
+connectAttr "place2dTexture16.wu" "file93.wu";
+connectAttr "place2dTexture16.wv" "file93.wv";
+connectAttr "place2dTexture16.re" "file93.re";
+connectAttr "place2dTexture16.of" "file93.of";
+connectAttr "place2dTexture16.r" "file93.ro";
+connectAttr "place2dTexture16.n" "file93.n";
+connectAttr "place2dTexture16.vt1" "file93.vt1";
+connectAttr "place2dTexture16.vt2" "file93.vt2";
+connectAttr "place2dTexture16.vt3" "file93.vt3";
+connectAttr "place2dTexture16.vc1" "file93.vc1";
+connectAttr "file88.oc" "multiplyDivide14.i1";
+connectAttr "multiplyDivide14.o" "ashTray1.base_color";
+connectAttr "file89.oc" "ashTray1.emission_color";
+connectAttr "file91.oa" "ashTray1.metalness";
+connectAttr "bump2d15.o" "ashTray1.n";
+connectAttr "file93.oa" "ashTray1.specular_roughness";
+connectAttr "ashTray1.out" "set16.ss";
+connectAttr "displacementShader16.d" "set16.ds";
+connectAttr "set16.msg" "materialInfo23.sg";
+connectAttr "ashTray1.msg" "materialInfo23.m";
+connectAttr "ashTray1.msg" "materialInfo23.t" -na;
+connectAttr "file90.oa" "displacementShader16.d";
+connectAttr "file92.oa" "bump2d15.bv";
+connectAttr "standardSurface6.oc" "standardSurface6SG.ss";
+connectAttr "standardSurface6SG.msg" "materialInfo24.sg";
+connectAttr "standardSurface6.msg" "materialInfo24.m";
+connectAttr ":defaultColorMgtGlobals.cme" "file94.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file94.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file94.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file94.ws";
+connectAttr "place2dTexture17.o" "file94.uv";
+connectAttr "place2dTexture17.ofs" "file94.fs";
+connectAttr "place2dTexture17.c" "file94.c";
+connectAttr "place2dTexture17.tf" "file94.tf";
+connectAttr "place2dTexture17.rf" "file94.rf";
+connectAttr "place2dTexture17.mu" "file94.mu";
+connectAttr "place2dTexture17.mv" "file94.mv";
+connectAttr "place2dTexture17.s" "file94.s";
+connectAttr "place2dTexture17.wu" "file94.wu";
+connectAttr "place2dTexture17.wv" "file94.wv";
+connectAttr "place2dTexture17.re" "file94.re";
+connectAttr "place2dTexture17.of" "file94.of";
+connectAttr "place2dTexture17.r" "file94.ro";
+connectAttr "place2dTexture17.n" "file94.n";
+connectAttr "place2dTexture17.vt1" "file94.vt1";
+connectAttr "place2dTexture17.vt2" "file94.vt2";
+connectAttr "place2dTexture17.vt3" "file94.vt3";
+connectAttr "place2dTexture17.vc1" "file94.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file95.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file95.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file95.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file95.ws";
+connectAttr "place2dTexture17.o" "file95.uv";
+connectAttr "place2dTexture17.ofs" "file95.fs";
+connectAttr "place2dTexture17.c" "file95.c";
+connectAttr "place2dTexture17.tf" "file95.tf";
+connectAttr "place2dTexture17.rf" "file95.rf";
+connectAttr "place2dTexture17.mu" "file95.mu";
+connectAttr "place2dTexture17.mv" "file95.mv";
+connectAttr "place2dTexture17.s" "file95.s";
+connectAttr "place2dTexture17.wu" "file95.wu";
+connectAttr "place2dTexture17.wv" "file95.wv";
+connectAttr "place2dTexture17.re" "file95.re";
+connectAttr "place2dTexture17.of" "file95.of";
+connectAttr "place2dTexture17.r" "file95.ro";
+connectAttr "place2dTexture17.n" "file95.n";
+connectAttr "place2dTexture17.vt1" "file95.vt1";
+connectAttr "place2dTexture17.vt2" "file95.vt2";
+connectAttr "place2dTexture17.vt3" "file95.vt3";
+connectAttr "place2dTexture17.vc1" "file95.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file96.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file96.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file96.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file96.ws";
+connectAttr "place2dTexture17.o" "file96.uv";
+connectAttr "place2dTexture17.ofs" "file96.fs";
+connectAttr "place2dTexture17.c" "file96.c";
+connectAttr "place2dTexture17.tf" "file96.tf";
+connectAttr "place2dTexture17.rf" "file96.rf";
+connectAttr "place2dTexture17.mu" "file96.mu";
+connectAttr "place2dTexture17.mv" "file96.mv";
+connectAttr "place2dTexture17.s" "file96.s";
+connectAttr "place2dTexture17.wu" "file96.wu";
+connectAttr "place2dTexture17.wv" "file96.wv";
+connectAttr "place2dTexture17.re" "file96.re";
+connectAttr "place2dTexture17.of" "file96.of";
+connectAttr "place2dTexture17.r" "file96.ro";
+connectAttr "place2dTexture17.n" "file96.n";
+connectAttr "place2dTexture17.vt1" "file96.vt1";
+connectAttr "place2dTexture17.vt2" "file96.vt2";
+connectAttr "place2dTexture17.vt3" "file96.vt3";
+connectAttr "place2dTexture17.vc1" "file96.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file97.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file97.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file97.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file97.ws";
+connectAttr "place2dTexture17.o" "file97.uv";
+connectAttr "place2dTexture17.ofs" "file97.fs";
+connectAttr "place2dTexture17.c" "file97.c";
+connectAttr "place2dTexture17.tf" "file97.tf";
+connectAttr "place2dTexture17.rf" "file97.rf";
+connectAttr "place2dTexture17.mu" "file97.mu";
+connectAttr "place2dTexture17.mv" "file97.mv";
+connectAttr "place2dTexture17.s" "file97.s";
+connectAttr "place2dTexture17.wu" "file97.wu";
+connectAttr "place2dTexture17.wv" "file97.wv";
+connectAttr "place2dTexture17.re" "file97.re";
+connectAttr "place2dTexture17.of" "file97.of";
+connectAttr "place2dTexture17.r" "file97.ro";
+connectAttr "place2dTexture17.n" "file97.n";
+connectAttr "place2dTexture17.vt1" "file97.vt1";
+connectAttr "place2dTexture17.vt2" "file97.vt2";
+connectAttr "place2dTexture17.vt3" "file97.vt3";
+connectAttr "place2dTexture17.vc1" "file97.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file98.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file98.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file98.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file98.ws";
+connectAttr "place2dTexture17.o" "file98.uv";
+connectAttr "place2dTexture17.ofs" "file98.fs";
+connectAttr "place2dTexture17.c" "file98.c";
+connectAttr "place2dTexture17.tf" "file98.tf";
+connectAttr "place2dTexture17.rf" "file98.rf";
+connectAttr "place2dTexture17.mu" "file98.mu";
+connectAttr "place2dTexture17.mv" "file98.mv";
+connectAttr "place2dTexture17.s" "file98.s";
+connectAttr "place2dTexture17.wu" "file98.wu";
+connectAttr "place2dTexture17.wv" "file98.wv";
+connectAttr "place2dTexture17.re" "file98.re";
+connectAttr "place2dTexture17.of" "file98.of";
+connectAttr "place2dTexture17.r" "file98.ro";
+connectAttr "place2dTexture17.n" "file98.n";
+connectAttr "place2dTexture17.vt1" "file98.vt1";
+connectAttr "place2dTexture17.vt2" "file98.vt2";
+connectAttr "place2dTexture17.vt3" "file98.vt3";
+connectAttr "place2dTexture17.vc1" "file98.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file99.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file99.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file99.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file99.ws";
+connectAttr "place2dTexture17.o" "file99.uv";
+connectAttr "place2dTexture17.ofs" "file99.fs";
+connectAttr "place2dTexture17.c" "file99.c";
+connectAttr "place2dTexture17.tf" "file99.tf";
+connectAttr "place2dTexture17.rf" "file99.rf";
+connectAttr "place2dTexture17.mu" "file99.mu";
+connectAttr "place2dTexture17.mv" "file99.mv";
+connectAttr "place2dTexture17.s" "file99.s";
+connectAttr "place2dTexture17.wu" "file99.wu";
+connectAttr "place2dTexture17.wv" "file99.wv";
+connectAttr "place2dTexture17.re" "file99.re";
+connectAttr "place2dTexture17.of" "file99.of";
+connectAttr "place2dTexture17.r" "file99.ro";
+connectAttr "place2dTexture17.n" "file99.n";
+connectAttr "place2dTexture17.vt1" "file99.vt1";
+connectAttr "place2dTexture17.vt2" "file99.vt2";
+connectAttr "place2dTexture17.vt3" "file99.vt3";
+connectAttr "place2dTexture17.vc1" "file99.vc1";
+connectAttr "file94.oc" "multiplyDivide15.i1";
+connectAttr "multiplyDivide15.o" "DownCig.base_color";
+connectAttr "file95.oc" "DownCig.emission_color";
+connectAttr "file97.oa" "DownCig.metalness";
+connectAttr "bump2d16.o" "DownCig.n";
+connectAttr "file99.oa" "DownCig.specular_roughness";
+connectAttr "DownCig.out" "set17.ss";
+connectAttr "displacementShader17.d" "set17.ds";
+connectAttr "set17.msg" "materialInfo25.sg";
+connectAttr "DownCig.msg" "materialInfo25.m";
+connectAttr "DownCig.msg" "materialInfo25.t" -na;
+connectAttr "file96.oa" "displacementShader17.d";
+connectAttr "file98.oa" "bump2d16.bv";
+connectAttr "standardSurface7.oc" "standardSurface7SG.ss";
+connectAttr "standardSurface7SG.msg" "materialInfo26.sg";
+connectAttr "standardSurface7.msg" "materialInfo26.m";
+connectAttr ":defaultColorMgtGlobals.cme" "file100.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file100.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file100.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file100.ws";
+connectAttr "place2dTexture18.o" "file100.uv";
+connectAttr "place2dTexture18.ofs" "file100.fs";
+connectAttr "place2dTexture18.c" "file100.c";
+connectAttr "place2dTexture18.tf" "file100.tf";
+connectAttr "place2dTexture18.rf" "file100.rf";
+connectAttr "place2dTexture18.mu" "file100.mu";
+connectAttr "place2dTexture18.mv" "file100.mv";
+connectAttr "place2dTexture18.s" "file100.s";
+connectAttr "place2dTexture18.wu" "file100.wu";
+connectAttr "place2dTexture18.wv" "file100.wv";
+connectAttr "place2dTexture18.re" "file100.re";
+connectAttr "place2dTexture18.of" "file100.of";
+connectAttr "place2dTexture18.r" "file100.ro";
+connectAttr "place2dTexture18.n" "file100.n";
+connectAttr "place2dTexture18.vt1" "file100.vt1";
+connectAttr "place2dTexture18.vt2" "file100.vt2";
+connectAttr "place2dTexture18.vt3" "file100.vt3";
+connectAttr "place2dTexture18.vc1" "file100.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file101.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file101.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file101.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file101.ws";
+connectAttr "place2dTexture18.o" "file101.uv";
+connectAttr "place2dTexture18.ofs" "file101.fs";
+connectAttr "place2dTexture18.c" "file101.c";
+connectAttr "place2dTexture18.tf" "file101.tf";
+connectAttr "place2dTexture18.rf" "file101.rf";
+connectAttr "place2dTexture18.mu" "file101.mu";
+connectAttr "place2dTexture18.mv" "file101.mv";
+connectAttr "place2dTexture18.s" "file101.s";
+connectAttr "place2dTexture18.wu" "file101.wu";
+connectAttr "place2dTexture18.wv" "file101.wv";
+connectAttr "place2dTexture18.re" "file101.re";
+connectAttr "place2dTexture18.of" "file101.of";
+connectAttr "place2dTexture18.r" "file101.ro";
+connectAttr "place2dTexture18.n" "file101.n";
+connectAttr "place2dTexture18.vt1" "file101.vt1";
+connectAttr "place2dTexture18.vt2" "file101.vt2";
+connectAttr "place2dTexture18.vt3" "file101.vt3";
+connectAttr "place2dTexture18.vc1" "file101.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file102.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file102.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file102.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file102.ws";
+connectAttr "place2dTexture18.o" "file102.uv";
+connectAttr "place2dTexture18.ofs" "file102.fs";
+connectAttr "place2dTexture18.c" "file102.c";
+connectAttr "place2dTexture18.tf" "file102.tf";
+connectAttr "place2dTexture18.rf" "file102.rf";
+connectAttr "place2dTexture18.mu" "file102.mu";
+connectAttr "place2dTexture18.mv" "file102.mv";
+connectAttr "place2dTexture18.s" "file102.s";
+connectAttr "place2dTexture18.wu" "file102.wu";
+connectAttr "place2dTexture18.wv" "file102.wv";
+connectAttr "place2dTexture18.re" "file102.re";
+connectAttr "place2dTexture18.of" "file102.of";
+connectAttr "place2dTexture18.r" "file102.ro";
+connectAttr "place2dTexture18.n" "file102.n";
+connectAttr "place2dTexture18.vt1" "file102.vt1";
+connectAttr "place2dTexture18.vt2" "file102.vt2";
+connectAttr "place2dTexture18.vt3" "file102.vt3";
+connectAttr "place2dTexture18.vc1" "file102.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file103.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file103.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file103.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file103.ws";
+connectAttr "place2dTexture18.o" "file103.uv";
+connectAttr "place2dTexture18.ofs" "file103.fs";
+connectAttr "place2dTexture18.c" "file103.c";
+connectAttr "place2dTexture18.tf" "file103.tf";
+connectAttr "place2dTexture18.rf" "file103.rf";
+connectAttr "place2dTexture18.mu" "file103.mu";
+connectAttr "place2dTexture18.mv" "file103.mv";
+connectAttr "place2dTexture18.s" "file103.s";
+connectAttr "place2dTexture18.wu" "file103.wu";
+connectAttr "place2dTexture18.wv" "file103.wv";
+connectAttr "place2dTexture18.re" "file103.re";
+connectAttr "place2dTexture18.of" "file103.of";
+connectAttr "place2dTexture18.r" "file103.ro";
+connectAttr "place2dTexture18.n" "file103.n";
+connectAttr "place2dTexture18.vt1" "file103.vt1";
+connectAttr "place2dTexture18.vt2" "file103.vt2";
+connectAttr "place2dTexture18.vt3" "file103.vt3";
+connectAttr "place2dTexture18.vc1" "file103.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file104.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file104.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file104.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file104.ws";
+connectAttr "place2dTexture18.o" "file104.uv";
+connectAttr "place2dTexture18.ofs" "file104.fs";
+connectAttr "place2dTexture18.c" "file104.c";
+connectAttr "place2dTexture18.tf" "file104.tf";
+connectAttr "place2dTexture18.rf" "file104.rf";
+connectAttr "place2dTexture18.mu" "file104.mu";
+connectAttr "place2dTexture18.mv" "file104.mv";
+connectAttr "place2dTexture18.s" "file104.s";
+connectAttr "place2dTexture18.wu" "file104.wu";
+connectAttr "place2dTexture18.wv" "file104.wv";
+connectAttr "place2dTexture18.re" "file104.re";
+connectAttr "place2dTexture18.of" "file104.of";
+connectAttr "place2dTexture18.r" "file104.ro";
+connectAttr "place2dTexture18.n" "file104.n";
+connectAttr "place2dTexture18.vt1" "file104.vt1";
+connectAttr "place2dTexture18.vt2" "file104.vt2";
+connectAttr "place2dTexture18.vt3" "file104.vt3";
+connectAttr "place2dTexture18.vc1" "file104.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file105.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file105.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file105.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file105.ws";
+connectAttr "place2dTexture18.o" "file105.uv";
+connectAttr "place2dTexture18.ofs" "file105.fs";
+connectAttr "place2dTexture18.c" "file105.c";
+connectAttr "place2dTexture18.tf" "file105.tf";
+connectAttr "place2dTexture18.rf" "file105.rf";
+connectAttr "place2dTexture18.mu" "file105.mu";
+connectAttr "place2dTexture18.mv" "file105.mv";
+connectAttr "place2dTexture18.s" "file105.s";
+connectAttr "place2dTexture18.wu" "file105.wu";
+connectAttr "place2dTexture18.wv" "file105.wv";
+connectAttr "place2dTexture18.re" "file105.re";
+connectAttr "place2dTexture18.of" "file105.of";
+connectAttr "place2dTexture18.r" "file105.ro";
+connectAttr "place2dTexture18.n" "file105.n";
+connectAttr "place2dTexture18.vt1" "file105.vt1";
+connectAttr "place2dTexture18.vt2" "file105.vt2";
+connectAttr "place2dTexture18.vt3" "file105.vt3";
+connectAttr "place2dTexture18.vc1" "file105.vc1";
+connectAttr "file100.oc" "multiplyDivide16.i1";
+connectAttr "multiplyDivide16.o" "stoolCushion.base_color";
+connectAttr "file101.oc" "stoolCushion.emission_color";
+connectAttr "file103.oa" "stoolCushion.metalness";
+connectAttr "bump2d17.o" "stoolCushion.n";
+connectAttr "file105.oa" "stoolCushion.specular_roughness";
+connectAttr "stoolCushion.out" "set18.ss";
+connectAttr "displacementShader18.d" "set18.ds";
+connectAttr "set18.msg" "materialInfo27.sg";
+connectAttr "stoolCushion.msg" "materialInfo27.m";
+connectAttr "stoolCushion.msg" "materialInfo27.t" -na;
+connectAttr "file102.oa" "displacementShader18.d";
+connectAttr "file104.oa" "bump2d17.bv";
+connectAttr "standardSurface8.oc" "standardSurface8SG.ss";
+connectAttr "standardSurface8SG.msg" "materialInfo28.sg";
+connectAttr "standardSurface8.msg" "materialInfo28.m";
+connectAttr ":defaultColorMgtGlobals.cme" "file106.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file106.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file106.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file106.ws";
+connectAttr "place2dTexture19.o" "file106.uv";
+connectAttr "place2dTexture19.ofs" "file106.fs";
+connectAttr "place2dTexture19.c" "file106.c";
+connectAttr "place2dTexture19.tf" "file106.tf";
+connectAttr "place2dTexture19.rf" "file106.rf";
+connectAttr "place2dTexture19.mu" "file106.mu";
+connectAttr "place2dTexture19.mv" "file106.mv";
+connectAttr "place2dTexture19.s" "file106.s";
+connectAttr "place2dTexture19.wu" "file106.wu";
+connectAttr "place2dTexture19.wv" "file106.wv";
+connectAttr "place2dTexture19.re" "file106.re";
+connectAttr "place2dTexture19.of" "file106.of";
+connectAttr "place2dTexture19.r" "file106.ro";
+connectAttr "place2dTexture19.n" "file106.n";
+connectAttr "place2dTexture19.vt1" "file106.vt1";
+connectAttr "place2dTexture19.vt2" "file106.vt2";
+connectAttr "place2dTexture19.vt3" "file106.vt3";
+connectAttr "place2dTexture19.vc1" "file106.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file107.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file107.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file107.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file107.ws";
+connectAttr "place2dTexture19.o" "file107.uv";
+connectAttr "place2dTexture19.ofs" "file107.fs";
+connectAttr "place2dTexture19.c" "file107.c";
+connectAttr "place2dTexture19.tf" "file107.tf";
+connectAttr "place2dTexture19.rf" "file107.rf";
+connectAttr "place2dTexture19.mu" "file107.mu";
+connectAttr "place2dTexture19.mv" "file107.mv";
+connectAttr "place2dTexture19.s" "file107.s";
+connectAttr "place2dTexture19.wu" "file107.wu";
+connectAttr "place2dTexture19.wv" "file107.wv";
+connectAttr "place2dTexture19.re" "file107.re";
+connectAttr "place2dTexture19.of" "file107.of";
+connectAttr "place2dTexture19.r" "file107.ro";
+connectAttr "place2dTexture19.n" "file107.n";
+connectAttr "place2dTexture19.vt1" "file107.vt1";
+connectAttr "place2dTexture19.vt2" "file107.vt2";
+connectAttr "place2dTexture19.vt3" "file107.vt3";
+connectAttr "place2dTexture19.vc1" "file107.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file108.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file108.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file108.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file108.ws";
+connectAttr "place2dTexture19.o" "file108.uv";
+connectAttr "place2dTexture19.ofs" "file108.fs";
+connectAttr "place2dTexture19.c" "file108.c";
+connectAttr "place2dTexture19.tf" "file108.tf";
+connectAttr "place2dTexture19.rf" "file108.rf";
+connectAttr "place2dTexture19.mu" "file108.mu";
+connectAttr "place2dTexture19.mv" "file108.mv";
+connectAttr "place2dTexture19.s" "file108.s";
+connectAttr "place2dTexture19.wu" "file108.wu";
+connectAttr "place2dTexture19.wv" "file108.wv";
+connectAttr "place2dTexture19.re" "file108.re";
+connectAttr "place2dTexture19.of" "file108.of";
+connectAttr "place2dTexture19.r" "file108.ro";
+connectAttr "place2dTexture19.n" "file108.n";
+connectAttr "place2dTexture19.vt1" "file108.vt1";
+connectAttr "place2dTexture19.vt2" "file108.vt2";
+connectAttr "place2dTexture19.vt3" "file108.vt3";
+connectAttr "place2dTexture19.vc1" "file108.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file109.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file109.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file109.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file109.ws";
+connectAttr "place2dTexture19.o" "file109.uv";
+connectAttr "place2dTexture19.ofs" "file109.fs";
+connectAttr "place2dTexture19.c" "file109.c";
+connectAttr "place2dTexture19.tf" "file109.tf";
+connectAttr "place2dTexture19.rf" "file109.rf";
+connectAttr "place2dTexture19.mu" "file109.mu";
+connectAttr "place2dTexture19.mv" "file109.mv";
+connectAttr "place2dTexture19.s" "file109.s";
+connectAttr "place2dTexture19.wu" "file109.wu";
+connectAttr "place2dTexture19.wv" "file109.wv";
+connectAttr "place2dTexture19.re" "file109.re";
+connectAttr "place2dTexture19.of" "file109.of";
+connectAttr "place2dTexture19.r" "file109.ro";
+connectAttr "place2dTexture19.n" "file109.n";
+connectAttr "place2dTexture19.vt1" "file109.vt1";
+connectAttr "place2dTexture19.vt2" "file109.vt2";
+connectAttr "place2dTexture19.vt3" "file109.vt3";
+connectAttr "place2dTexture19.vc1" "file109.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file110.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file110.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file110.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file110.ws";
+connectAttr "place2dTexture19.o" "file110.uv";
+connectAttr "place2dTexture19.ofs" "file110.fs";
+connectAttr "place2dTexture19.c" "file110.c";
+connectAttr "place2dTexture19.tf" "file110.tf";
+connectAttr "place2dTexture19.rf" "file110.rf";
+connectAttr "place2dTexture19.mu" "file110.mu";
+connectAttr "place2dTexture19.mv" "file110.mv";
+connectAttr "place2dTexture19.s" "file110.s";
+connectAttr "place2dTexture19.wu" "file110.wu";
+connectAttr "place2dTexture19.wv" "file110.wv";
+connectAttr "place2dTexture19.re" "file110.re";
+connectAttr "place2dTexture19.of" "file110.of";
+connectAttr "place2dTexture19.r" "file110.ro";
+connectAttr "place2dTexture19.n" "file110.n";
+connectAttr "place2dTexture19.vt1" "file110.vt1";
+connectAttr "place2dTexture19.vt2" "file110.vt2";
+connectAttr "place2dTexture19.vt3" "file110.vt3";
+connectAttr "place2dTexture19.vc1" "file110.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "RingStool.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "RingStool.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "RingStool.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "RingStool.ws";
+connectAttr "place2dTexture19.o" "RingStool.uv";
+connectAttr "place2dTexture19.ofs" "RingStool.fs";
+connectAttr "place2dTexture19.c" "RingStool.c";
+connectAttr "place2dTexture19.tf" "RingStool.tf";
+connectAttr "place2dTexture19.rf" "RingStool.rf";
+connectAttr "place2dTexture19.mu" "RingStool.mu";
+connectAttr "place2dTexture19.mv" "RingStool.mv";
+connectAttr "place2dTexture19.s" "RingStool.s";
+connectAttr "place2dTexture19.wu" "RingStool.wu";
+connectAttr "place2dTexture19.wv" "RingStool.wv";
+connectAttr "place2dTexture19.re" "RingStool.re";
+connectAttr "place2dTexture19.of" "RingStool.of";
+connectAttr "place2dTexture19.r" "RingStool.ro";
+connectAttr "place2dTexture19.n" "RingStool.n";
+connectAttr "place2dTexture19.vt1" "RingStool.vt1";
+connectAttr "place2dTexture19.vt2" "RingStool.vt2";
+connectAttr "place2dTexture19.vt3" "RingStool.vt3";
+connectAttr "place2dTexture19.vc1" "RingStool.vc1";
+connectAttr "file106.oc" "multiplyDivide17.i1";
+connectAttr "multiplyDivide17.o" "Ring.base_color";
+connectAttr "file107.oc" "Ring.emission_color";
+connectAttr "file109.oa" "Ring.metalness";
+connectAttr "bump2d18.o" "Ring.n";
+connectAttr "RingStool.oa" "Ring.specular_roughness";
+connectAttr "Ring.out" "set19.ss";
+connectAttr "displacementShader19.d" "set19.ds";
+connectAttr "set19.msg" "materialInfo29.sg";
+connectAttr "Ring.msg" "materialInfo29.m";
+connectAttr "Ring.msg" "materialInfo29.t" -na;
+connectAttr "file108.oa" "displacementShader19.d";
+connectAttr "file110.oa" "bump2d18.bv";
+connectAttr "standardSurface9.oc" "standardSurface9SG.ss";
+connectAttr "standardSurface9SG.msg" "materialInfo30.sg";
+connectAttr "standardSurface9.msg" "materialInfo30.m";
+connectAttr ":defaultColorMgtGlobals.cme" "file111.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file111.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file111.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file111.ws";
+connectAttr "place2dTexture20.o" "file111.uv";
+connectAttr "place2dTexture20.ofs" "file111.fs";
+connectAttr "place2dTexture20.c" "file111.c";
+connectAttr "place2dTexture20.tf" "file111.tf";
+connectAttr "place2dTexture20.rf" "file111.rf";
+connectAttr "place2dTexture20.mu" "file111.mu";
+connectAttr "place2dTexture20.mv" "file111.mv";
+connectAttr "place2dTexture20.s" "file111.s";
+connectAttr "place2dTexture20.wu" "file111.wu";
+connectAttr "place2dTexture20.wv" "file111.wv";
+connectAttr "place2dTexture20.re" "file111.re";
+connectAttr "place2dTexture20.of" "file111.of";
+connectAttr "place2dTexture20.r" "file111.ro";
+connectAttr "place2dTexture20.n" "file111.n";
+connectAttr "place2dTexture20.vt1" "file111.vt1";
+connectAttr "place2dTexture20.vt2" "file111.vt2";
+connectAttr "place2dTexture20.vt3" "file111.vt3";
+connectAttr "place2dTexture20.vc1" "file111.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file112.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file112.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file112.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file112.ws";
+connectAttr "place2dTexture20.o" "file112.uv";
+connectAttr "place2dTexture20.ofs" "file112.fs";
+connectAttr "place2dTexture20.c" "file112.c";
+connectAttr "place2dTexture20.tf" "file112.tf";
+connectAttr "place2dTexture20.rf" "file112.rf";
+connectAttr "place2dTexture20.mu" "file112.mu";
+connectAttr "place2dTexture20.mv" "file112.mv";
+connectAttr "place2dTexture20.s" "file112.s";
+connectAttr "place2dTexture20.wu" "file112.wu";
+connectAttr "place2dTexture20.wv" "file112.wv";
+connectAttr "place2dTexture20.re" "file112.re";
+connectAttr "place2dTexture20.of" "file112.of";
+connectAttr "place2dTexture20.r" "file112.ro";
+connectAttr "place2dTexture20.n" "file112.n";
+connectAttr "place2dTexture20.vt1" "file112.vt1";
+connectAttr "place2dTexture20.vt2" "file112.vt2";
+connectAttr "place2dTexture20.vt3" "file112.vt3";
+connectAttr "place2dTexture20.vc1" "file112.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file113.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file113.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file113.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file113.ws";
+connectAttr "place2dTexture20.o" "file113.uv";
+connectAttr "place2dTexture20.ofs" "file113.fs";
+connectAttr "place2dTexture20.c" "file113.c";
+connectAttr "place2dTexture20.tf" "file113.tf";
+connectAttr "place2dTexture20.rf" "file113.rf";
+connectAttr "place2dTexture20.mu" "file113.mu";
+connectAttr "place2dTexture20.mv" "file113.mv";
+connectAttr "place2dTexture20.s" "file113.s";
+connectAttr "place2dTexture20.wu" "file113.wu";
+connectAttr "place2dTexture20.wv" "file113.wv";
+connectAttr "place2dTexture20.re" "file113.re";
+connectAttr "place2dTexture20.of" "file113.of";
+connectAttr "place2dTexture20.r" "file113.ro";
+connectAttr "place2dTexture20.n" "file113.n";
+connectAttr "place2dTexture20.vt1" "file113.vt1";
+connectAttr "place2dTexture20.vt2" "file113.vt2";
+connectAttr "place2dTexture20.vt3" "file113.vt3";
+connectAttr "place2dTexture20.vc1" "file113.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file114.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file114.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file114.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file114.ws";
+connectAttr "place2dTexture20.o" "file114.uv";
+connectAttr "place2dTexture20.ofs" "file114.fs";
+connectAttr "place2dTexture20.c" "file114.c";
+connectAttr "place2dTexture20.tf" "file114.tf";
+connectAttr "place2dTexture20.rf" "file114.rf";
+connectAttr "place2dTexture20.mu" "file114.mu";
+connectAttr "place2dTexture20.mv" "file114.mv";
+connectAttr "place2dTexture20.s" "file114.s";
+connectAttr "place2dTexture20.wu" "file114.wu";
+connectAttr "place2dTexture20.wv" "file114.wv";
+connectAttr "place2dTexture20.re" "file114.re";
+connectAttr "place2dTexture20.of" "file114.of";
+connectAttr "place2dTexture20.r" "file114.ro";
+connectAttr "place2dTexture20.n" "file114.n";
+connectAttr "place2dTexture20.vt1" "file114.vt1";
+connectAttr "place2dTexture20.vt2" "file114.vt2";
+connectAttr "place2dTexture20.vt3" "file114.vt3";
+connectAttr "place2dTexture20.vc1" "file114.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file115.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file115.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file115.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file115.ws";
+connectAttr "place2dTexture20.o" "file115.uv";
+connectAttr "place2dTexture20.ofs" "file115.fs";
+connectAttr "place2dTexture20.c" "file115.c";
+connectAttr "place2dTexture20.tf" "file115.tf";
+connectAttr "place2dTexture20.rf" "file115.rf";
+connectAttr "place2dTexture20.mu" "file115.mu";
+connectAttr "place2dTexture20.mv" "file115.mv";
+connectAttr "place2dTexture20.s" "file115.s";
+connectAttr "place2dTexture20.wu" "file115.wu";
+connectAttr "place2dTexture20.wv" "file115.wv";
+connectAttr "place2dTexture20.re" "file115.re";
+connectAttr "place2dTexture20.of" "file115.of";
+connectAttr "place2dTexture20.r" "file115.ro";
+connectAttr "place2dTexture20.n" "file115.n";
+connectAttr "place2dTexture20.vt1" "file115.vt1";
+connectAttr "place2dTexture20.vt2" "file115.vt2";
+connectAttr "place2dTexture20.vt3" "file115.vt3";
+connectAttr "place2dTexture20.vc1" "file115.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file116.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file116.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file116.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file116.ws";
+connectAttr "place2dTexture20.o" "file116.uv";
+connectAttr "place2dTexture20.ofs" "file116.fs";
+connectAttr "place2dTexture20.c" "file116.c";
+connectAttr "place2dTexture20.tf" "file116.tf";
+connectAttr "place2dTexture20.rf" "file116.rf";
+connectAttr "place2dTexture20.mu" "file116.mu";
+connectAttr "place2dTexture20.mv" "file116.mv";
+connectAttr "place2dTexture20.s" "file116.s";
+connectAttr "place2dTexture20.wu" "file116.wu";
+connectAttr "place2dTexture20.wv" "file116.wv";
+connectAttr "place2dTexture20.re" "file116.re";
+connectAttr "place2dTexture20.of" "file116.of";
+connectAttr "place2dTexture20.r" "file116.ro";
+connectAttr "place2dTexture20.n" "file116.n";
+connectAttr "place2dTexture20.vt1" "file116.vt1";
+connectAttr "place2dTexture20.vt2" "file116.vt2";
+connectAttr "place2dTexture20.vt3" "file116.vt3";
+connectAttr "place2dTexture20.vc1" "file116.vc1";
+connectAttr "file111.oc" "multiplyDivide18.i1";
+connectAttr "multiplyDivide18.o" "aiStandardSurface15.base_color";
+connectAttr "file112.oc" "aiStandardSurface15.emission_color";
+connectAttr "file114.oa" "aiStandardSurface15.metalness";
+connectAttr "bump2d19.o" "aiStandardSurface15.n";
+connectAttr "file116.oa" "aiStandardSurface15.specular_roughness";
+connectAttr "aiStandardSurface15.out" "set20.ss";
+connectAttr "displacementShader20.d" "set20.ds";
+connectAttr "set20.msg" "materialInfo31.sg";
+connectAttr "aiStandardSurface15.msg" "materialInfo31.m";
+connectAttr "aiStandardSurface15.msg" "materialInfo31.t" -na;
+connectAttr "file113.oa" "displacementShader20.d";
+connectAttr "file115.oa" "bump2d19.bv";
+connectAttr "stoolLegs_.oc" "standardSurface10SG.ss";
+connectAttr "standardSurface10SG.msg" "materialInfo32.sg";
+connectAttr "stoolLegs_.msg" "materialInfo32.m";
+connectAttr "standardSurface11.oc" "standardSurface11SG.ss";
+connectAttr "standardSurface11SG.msg" "materialInfo33.sg";
+connectAttr "standardSurface11.msg" "materialInfo33.m";
+connectAttr ":defaultColorMgtGlobals.cme" "file117.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file117.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file117.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file117.ws";
+connectAttr "place2dTexture21.o" "file117.uv";
+connectAttr "place2dTexture21.ofs" "file117.fs";
+connectAttr "place2dTexture21.c" "file117.c";
+connectAttr "place2dTexture21.tf" "file117.tf";
+connectAttr "place2dTexture21.rf" "file117.rf";
+connectAttr "place2dTexture21.mu" "file117.mu";
+connectAttr "place2dTexture21.mv" "file117.mv";
+connectAttr "place2dTexture21.s" "file117.s";
+connectAttr "place2dTexture21.wu" "file117.wu";
+connectAttr "place2dTexture21.wv" "file117.wv";
+connectAttr "place2dTexture21.re" "file117.re";
+connectAttr "place2dTexture21.of" "file117.of";
+connectAttr "place2dTexture21.r" "file117.ro";
+connectAttr "place2dTexture21.n" "file117.n";
+connectAttr "place2dTexture21.vt1" "file117.vt1";
+connectAttr "place2dTexture21.vt2" "file117.vt2";
+connectAttr "place2dTexture21.vt3" "file117.vt3";
+connectAttr "place2dTexture21.vc1" "file117.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file118.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file118.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file118.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file118.ws";
+connectAttr "place2dTexture21.o" "file118.uv";
+connectAttr "place2dTexture21.ofs" "file118.fs";
+connectAttr "place2dTexture21.c" "file118.c";
+connectAttr "place2dTexture21.tf" "file118.tf";
+connectAttr "place2dTexture21.rf" "file118.rf";
+connectAttr "place2dTexture21.mu" "file118.mu";
+connectAttr "place2dTexture21.mv" "file118.mv";
+connectAttr "place2dTexture21.s" "file118.s";
+connectAttr "place2dTexture21.wu" "file118.wu";
+connectAttr "place2dTexture21.wv" "file118.wv";
+connectAttr "place2dTexture21.re" "file118.re";
+connectAttr "place2dTexture21.of" "file118.of";
+connectAttr "place2dTexture21.r" "file118.ro";
+connectAttr "place2dTexture21.n" "file118.n";
+connectAttr "place2dTexture21.vt1" "file118.vt1";
+connectAttr "place2dTexture21.vt2" "file118.vt2";
+connectAttr "place2dTexture21.vt3" "file118.vt3";
+connectAttr "place2dTexture21.vc1" "file118.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file119.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file119.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file119.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file119.ws";
+connectAttr "place2dTexture21.o" "file119.uv";
+connectAttr "place2dTexture21.ofs" "file119.fs";
+connectAttr "place2dTexture21.c" "file119.c";
+connectAttr "place2dTexture21.tf" "file119.tf";
+connectAttr "place2dTexture21.rf" "file119.rf";
+connectAttr "place2dTexture21.mu" "file119.mu";
+connectAttr "place2dTexture21.mv" "file119.mv";
+connectAttr "place2dTexture21.s" "file119.s";
+connectAttr "place2dTexture21.wu" "file119.wu";
+connectAttr "place2dTexture21.wv" "file119.wv";
+connectAttr "place2dTexture21.re" "file119.re";
+connectAttr "place2dTexture21.of" "file119.of";
+connectAttr "place2dTexture21.r" "file119.ro";
+connectAttr "place2dTexture21.n" "file119.n";
+connectAttr "place2dTexture21.vt1" "file119.vt1";
+connectAttr "place2dTexture21.vt2" "file119.vt2";
+connectAttr "place2dTexture21.vt3" "file119.vt3";
+connectAttr "place2dTexture21.vc1" "file119.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file120.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file120.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file120.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file120.ws";
+connectAttr "place2dTexture21.o" "file120.uv";
+connectAttr "place2dTexture21.ofs" "file120.fs";
+connectAttr "place2dTexture21.c" "file120.c";
+connectAttr "place2dTexture21.tf" "file120.tf";
+connectAttr "place2dTexture21.rf" "file120.rf";
+connectAttr "place2dTexture21.mu" "file120.mu";
+connectAttr "place2dTexture21.mv" "file120.mv";
+connectAttr "place2dTexture21.s" "file120.s";
+connectAttr "place2dTexture21.wu" "file120.wu";
+connectAttr "place2dTexture21.wv" "file120.wv";
+connectAttr "place2dTexture21.re" "file120.re";
+connectAttr "place2dTexture21.of" "file120.of";
+connectAttr "place2dTexture21.r" "file120.ro";
+connectAttr "place2dTexture21.n" "file120.n";
+connectAttr "place2dTexture21.vt1" "file120.vt1";
+connectAttr "place2dTexture21.vt2" "file120.vt2";
+connectAttr "place2dTexture21.vt3" "file120.vt3";
+connectAttr "place2dTexture21.vc1" "file120.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file121.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file121.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file121.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file121.ws";
+connectAttr "place2dTexture21.o" "file121.uv";
+connectAttr "place2dTexture21.ofs" "file121.fs";
+connectAttr "place2dTexture21.c" "file121.c";
+connectAttr "place2dTexture21.tf" "file121.tf";
+connectAttr "place2dTexture21.rf" "file121.rf";
+connectAttr "place2dTexture21.mu" "file121.mu";
+connectAttr "place2dTexture21.mv" "file121.mv";
+connectAttr "place2dTexture21.s" "file121.s";
+connectAttr "place2dTexture21.wu" "file121.wu";
+connectAttr "place2dTexture21.wv" "file121.wv";
+connectAttr "place2dTexture21.re" "file121.re";
+connectAttr "place2dTexture21.of" "file121.of";
+connectAttr "place2dTexture21.r" "file121.ro";
+connectAttr "place2dTexture21.n" "file121.n";
+connectAttr "place2dTexture21.vt1" "file121.vt1";
+connectAttr "place2dTexture21.vt2" "file121.vt2";
+connectAttr "place2dTexture21.vt3" "file121.vt3";
+connectAttr "place2dTexture21.vc1" "file121.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file122.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file122.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file122.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file122.ws";
+connectAttr "place2dTexture21.o" "file122.uv";
+connectAttr "place2dTexture21.ofs" "file122.fs";
+connectAttr "place2dTexture21.c" "file122.c";
+connectAttr "place2dTexture21.tf" "file122.tf";
+connectAttr "place2dTexture21.rf" "file122.rf";
+connectAttr "place2dTexture21.mu" "file122.mu";
+connectAttr "place2dTexture21.mv" "file122.mv";
+connectAttr "place2dTexture21.s" "file122.s";
+connectAttr "place2dTexture21.wu" "file122.wu";
+connectAttr "place2dTexture21.wv" "file122.wv";
+connectAttr "place2dTexture21.re" "file122.re";
+connectAttr "place2dTexture21.of" "file122.of";
+connectAttr "place2dTexture21.r" "file122.ro";
+connectAttr "place2dTexture21.n" "file122.n";
+connectAttr "place2dTexture21.vt1" "file122.vt1";
+connectAttr "place2dTexture21.vt2" "file122.vt2";
+connectAttr "place2dTexture21.vt3" "file122.vt3";
+connectAttr "place2dTexture21.vc1" "file122.vc1";
+connectAttr "file117.oc" "multiplyDivide19.i1";
+connectAttr "multiplyDivide19.o" "Wall.base_color";
+connectAttr "file118.oc" "Wall.emission_color";
+connectAttr "file120.oa" "Wall.metalness";
+connectAttr "bump2d20.o" "Wall.n";
+connectAttr "file122.oa" "Wall.specular_roughness";
+connectAttr "Wall.out" "set21.ss";
+connectAttr "displacementShader21.d" "set21.ds";
+connectAttr "pCubeShape5.iog" "set21.dsm" -na;
+connectAttr "set21.msg" "materialInfo34.sg";
+connectAttr "Wall.msg" "materialInfo34.m";
+connectAttr "Wall.msg" "materialInfo34.t" -na;
+connectAttr "file119.oa" "displacementShader21.d";
+connectAttr "file121.oa" "bump2d20.bv";
+connectAttr "sharedReferenceNode.sr" "Grateful_Dead_uvsRN.sr";
+connectAttr "sharedReferenceNode.sr" "GDEADRN.sr";
+connectAttr "pCubeShape52.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[0].dn";
+connectAttr "pCylinder11.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[1].dn";
+connectAttr "pCylinderShape6.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[2].dn";
+connectAttr "pCube52.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[3].dn";
+connectAttr "polySurfaceShape5.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[4].dn"
+		;
+connectAttr "standardSurface12.oc" "standardSurface12SG.ss";
+connectAttr "standardSurface12SG.msg" "materialInfo35.sg";
+connectAttr "standardSurface12.msg" "materialInfo35.m";
+connectAttr ":defaultColorMgtGlobals.cme" "file123.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file123.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file123.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file123.ws";
+connectAttr "place2dTexture22.o" "file123.uv";
+connectAttr "place2dTexture22.ofs" "file123.fs";
+connectAttr "place2dTexture22.c" "file123.c";
+connectAttr "place2dTexture22.tf" "file123.tf";
+connectAttr "place2dTexture22.rf" "file123.rf";
+connectAttr "place2dTexture22.mu" "file123.mu";
+connectAttr "place2dTexture22.mv" "file123.mv";
+connectAttr "place2dTexture22.s" "file123.s";
+connectAttr "place2dTexture22.wu" "file123.wu";
+connectAttr "place2dTexture22.wv" "file123.wv";
+connectAttr "place2dTexture22.re" "file123.re";
+connectAttr "place2dTexture22.of" "file123.of";
+connectAttr "place2dTexture22.r" "file123.ro";
+connectAttr "place2dTexture22.n" "file123.n";
+connectAttr "place2dTexture22.vt1" "file123.vt1";
+connectAttr "place2dTexture22.vt2" "file123.vt2";
+connectAttr "place2dTexture22.vt3" "file123.vt3";
+connectAttr "place2dTexture22.vc1" "file123.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file124.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file124.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file124.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file124.ws";
+connectAttr "place2dTexture22.o" "file124.uv";
+connectAttr "place2dTexture22.ofs" "file124.fs";
+connectAttr "place2dTexture22.c" "file124.c";
+connectAttr "place2dTexture22.tf" "file124.tf";
+connectAttr "place2dTexture22.rf" "file124.rf";
+connectAttr "place2dTexture22.mu" "file124.mu";
+connectAttr "place2dTexture22.mv" "file124.mv";
+connectAttr "place2dTexture22.s" "file124.s";
+connectAttr "place2dTexture22.wu" "file124.wu";
+connectAttr "place2dTexture22.wv" "file124.wv";
+connectAttr "place2dTexture22.re" "file124.re";
+connectAttr "place2dTexture22.of" "file124.of";
+connectAttr "place2dTexture22.r" "file124.ro";
+connectAttr "place2dTexture22.n" "file124.n";
+connectAttr "place2dTexture22.vt1" "file124.vt1";
+connectAttr "place2dTexture22.vt2" "file124.vt2";
+connectAttr "place2dTexture22.vt3" "file124.vt3";
+connectAttr "place2dTexture22.vc1" "file124.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file125.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file125.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file125.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file125.ws";
+connectAttr "place2dTexture22.o" "file125.uv";
+connectAttr "place2dTexture22.ofs" "file125.fs";
+connectAttr "place2dTexture22.c" "file125.c";
+connectAttr "place2dTexture22.tf" "file125.tf";
+connectAttr "place2dTexture22.rf" "file125.rf";
+connectAttr "place2dTexture22.mu" "file125.mu";
+connectAttr "place2dTexture22.mv" "file125.mv";
+connectAttr "place2dTexture22.s" "file125.s";
+connectAttr "place2dTexture22.wu" "file125.wu";
+connectAttr "place2dTexture22.wv" "file125.wv";
+connectAttr "place2dTexture22.re" "file125.re";
+connectAttr "place2dTexture22.of" "file125.of";
+connectAttr "place2dTexture22.r" "file125.ro";
+connectAttr "place2dTexture22.n" "file125.n";
+connectAttr "place2dTexture22.vt1" "file125.vt1";
+connectAttr "place2dTexture22.vt2" "file125.vt2";
+connectAttr "place2dTexture22.vt3" "file125.vt3";
+connectAttr "place2dTexture22.vc1" "file125.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file126.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file126.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file126.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file126.ws";
+connectAttr "place2dTexture22.o" "file126.uv";
+connectAttr "place2dTexture22.ofs" "file126.fs";
+connectAttr "place2dTexture22.c" "file126.c";
+connectAttr "place2dTexture22.tf" "file126.tf";
+connectAttr "place2dTexture22.rf" "file126.rf";
+connectAttr "place2dTexture22.mu" "file126.mu";
+connectAttr "place2dTexture22.mv" "file126.mv";
+connectAttr "place2dTexture22.s" "file126.s";
+connectAttr "place2dTexture22.wu" "file126.wu";
+connectAttr "place2dTexture22.wv" "file126.wv";
+connectAttr "place2dTexture22.re" "file126.re";
+connectAttr "place2dTexture22.of" "file126.of";
+connectAttr "place2dTexture22.r" "file126.ro";
+connectAttr "place2dTexture22.n" "file126.n";
+connectAttr "place2dTexture22.vt1" "file126.vt1";
+connectAttr "place2dTexture22.vt2" "file126.vt2";
+connectAttr "place2dTexture22.vt3" "file126.vt3";
+connectAttr "place2dTexture22.vc1" "file126.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file127.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file127.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file127.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file127.ws";
+connectAttr "place2dTexture22.o" "file127.uv";
+connectAttr "place2dTexture22.ofs" "file127.fs";
+connectAttr "place2dTexture22.c" "file127.c";
+connectAttr "place2dTexture22.tf" "file127.tf";
+connectAttr "place2dTexture22.rf" "file127.rf";
+connectAttr "place2dTexture22.mu" "file127.mu";
+connectAttr "place2dTexture22.mv" "file127.mv";
+connectAttr "place2dTexture22.s" "file127.s";
+connectAttr "place2dTexture22.wu" "file127.wu";
+connectAttr "place2dTexture22.wv" "file127.wv";
+connectAttr "place2dTexture22.re" "file127.re";
+connectAttr "place2dTexture22.of" "file127.of";
+connectAttr "place2dTexture22.r" "file127.ro";
+connectAttr "place2dTexture22.n" "file127.n";
+connectAttr "place2dTexture22.vt1" "file127.vt1";
+connectAttr "place2dTexture22.vt2" "file127.vt2";
+connectAttr "place2dTexture22.vt3" "file127.vt3";
+connectAttr "place2dTexture22.vc1" "file127.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file128.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file128.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file128.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file128.ws";
+connectAttr "place2dTexture22.o" "file128.uv";
+connectAttr "place2dTexture22.ofs" "file128.fs";
+connectAttr "place2dTexture22.c" "file128.c";
+connectAttr "place2dTexture22.tf" "file128.tf";
+connectAttr "place2dTexture22.rf" "file128.rf";
+connectAttr "place2dTexture22.mu" "file128.mu";
+connectAttr "place2dTexture22.mv" "file128.mv";
+connectAttr "place2dTexture22.s" "file128.s";
+connectAttr "place2dTexture22.wu" "file128.wu";
+connectAttr "place2dTexture22.wv" "file128.wv";
+connectAttr "place2dTexture22.re" "file128.re";
+connectAttr "place2dTexture22.of" "file128.of";
+connectAttr "place2dTexture22.r" "file128.ro";
+connectAttr "place2dTexture22.n" "file128.n";
+connectAttr "place2dTexture22.vt1" "file128.vt1";
+connectAttr "place2dTexture22.vt2" "file128.vt2";
+connectAttr "place2dTexture22.vt3" "file128.vt3";
+connectAttr "place2dTexture22.vc1" "file128.vc1";
+connectAttr "file123.oc" "multiplyDivide20.i1";
+connectAttr "multiplyDivide20.o" "aiStandardSurface16.base_color";
+connectAttr "file124.oc" "aiStandardSurface16.emission_color";
+connectAttr "file126.oa" "aiStandardSurface16.metalness";
+connectAttr "bump2d21.o" "aiStandardSurface16.n";
+connectAttr "file128.oa" "aiStandardSurface16.specular_roughness";
+connectAttr "aiStandardSurface16.out" "set22.ss";
+connectAttr "displacementShader22.d" "set22.ds";
+connectAttr "set22.msg" "materialInfo36.sg";
+connectAttr "aiStandardSurface16.msg" "materialInfo36.m";
+connectAttr "aiStandardSurface16.msg" "materialInfo36.t" -na;
+connectAttr "file125.oa" "displacementShader22.d";
+connectAttr "file127.oa" "bump2d21.bv";
+connectAttr "lambert4.oc" "lambert4SG.ss";
+connectAttr "lambert4SG.msg" "materialInfo37.sg";
+connectAttr "lambert4.msg" "materialInfo37.m";
+connectAttr ":defaultColorMgtGlobals.cme" "file129.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file129.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file129.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file129.ws";
+connectAttr "place2dTexture23.o" "file129.uv";
+connectAttr "place2dTexture23.ofs" "file129.fs";
+connectAttr "place2dTexture23.c" "file129.c";
+connectAttr "place2dTexture23.tf" "file129.tf";
+connectAttr "place2dTexture23.rf" "file129.rf";
+connectAttr "place2dTexture23.mu" "file129.mu";
+connectAttr "place2dTexture23.mv" "file129.mv";
+connectAttr "place2dTexture23.s" "file129.s";
+connectAttr "place2dTexture23.wu" "file129.wu";
+connectAttr "place2dTexture23.wv" "file129.wv";
+connectAttr "place2dTexture23.re" "file129.re";
+connectAttr "place2dTexture23.of" "file129.of";
+connectAttr "place2dTexture23.r" "file129.ro";
+connectAttr "place2dTexture23.n" "file129.n";
+connectAttr "place2dTexture23.vt1" "file129.vt1";
+connectAttr "place2dTexture23.vt2" "file129.vt2";
+connectAttr "place2dTexture23.vt3" "file129.vt3";
+connectAttr "place2dTexture23.vc1" "file129.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file130.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file130.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file130.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file130.ws";
+connectAttr "place2dTexture23.o" "file130.uv";
+connectAttr "place2dTexture23.ofs" "file130.fs";
+connectAttr "place2dTexture23.c" "file130.c";
+connectAttr "place2dTexture23.tf" "file130.tf";
+connectAttr "place2dTexture23.rf" "file130.rf";
+connectAttr "place2dTexture23.mu" "file130.mu";
+connectAttr "place2dTexture23.mv" "file130.mv";
+connectAttr "place2dTexture23.s" "file130.s";
+connectAttr "place2dTexture23.wu" "file130.wu";
+connectAttr "place2dTexture23.wv" "file130.wv";
+connectAttr "place2dTexture23.re" "file130.re";
+connectAttr "place2dTexture23.of" "file130.of";
+connectAttr "place2dTexture23.r" "file130.ro";
+connectAttr "place2dTexture23.n" "file130.n";
+connectAttr "place2dTexture23.vt1" "file130.vt1";
+connectAttr "place2dTexture23.vt2" "file130.vt2";
+connectAttr "place2dTexture23.vt3" "file130.vt3";
+connectAttr "place2dTexture23.vc1" "file130.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file131.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file131.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file131.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file131.ws";
+connectAttr "place2dTexture23.o" "file131.uv";
+connectAttr "place2dTexture23.ofs" "file131.fs";
+connectAttr "place2dTexture23.c" "file131.c";
+connectAttr "place2dTexture23.tf" "file131.tf";
+connectAttr "place2dTexture23.rf" "file131.rf";
+connectAttr "place2dTexture23.mu" "file131.mu";
+connectAttr "place2dTexture23.mv" "file131.mv";
+connectAttr "place2dTexture23.s" "file131.s";
+connectAttr "place2dTexture23.wu" "file131.wu";
+connectAttr "place2dTexture23.wv" "file131.wv";
+connectAttr "place2dTexture23.re" "file131.re";
+connectAttr "place2dTexture23.of" "file131.of";
+connectAttr "place2dTexture23.r" "file131.ro";
+connectAttr "place2dTexture23.n" "file131.n";
+connectAttr "place2dTexture23.vt1" "file131.vt1";
+connectAttr "place2dTexture23.vt2" "file131.vt2";
+connectAttr "place2dTexture23.vt3" "file131.vt3";
+connectAttr "place2dTexture23.vc1" "file131.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file132.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file132.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file132.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file132.ws";
+connectAttr "place2dTexture23.o" "file132.uv";
+connectAttr "place2dTexture23.ofs" "file132.fs";
+connectAttr "place2dTexture23.c" "file132.c";
+connectAttr "place2dTexture23.tf" "file132.tf";
+connectAttr "place2dTexture23.rf" "file132.rf";
+connectAttr "place2dTexture23.mu" "file132.mu";
+connectAttr "place2dTexture23.mv" "file132.mv";
+connectAttr "place2dTexture23.s" "file132.s";
+connectAttr "place2dTexture23.wu" "file132.wu";
+connectAttr "place2dTexture23.wv" "file132.wv";
+connectAttr "place2dTexture23.re" "file132.re";
+connectAttr "place2dTexture23.of" "file132.of";
+connectAttr "place2dTexture23.r" "file132.ro";
+connectAttr "place2dTexture23.n" "file132.n";
+connectAttr "place2dTexture23.vt1" "file132.vt1";
+connectAttr "place2dTexture23.vt2" "file132.vt2";
+connectAttr "place2dTexture23.vt3" "file132.vt3";
+connectAttr "place2dTexture23.vc1" "file132.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file133.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file133.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file133.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file133.ws";
+connectAttr "place2dTexture23.o" "file133.uv";
+connectAttr "place2dTexture23.ofs" "file133.fs";
+connectAttr "place2dTexture23.c" "file133.c";
+connectAttr "place2dTexture23.tf" "file133.tf";
+connectAttr "place2dTexture23.rf" "file133.rf";
+connectAttr "place2dTexture23.mu" "file133.mu";
+connectAttr "place2dTexture23.mv" "file133.mv";
+connectAttr "place2dTexture23.s" "file133.s";
+connectAttr "place2dTexture23.wu" "file133.wu";
+connectAttr "place2dTexture23.wv" "file133.wv";
+connectAttr "place2dTexture23.re" "file133.re";
+connectAttr "place2dTexture23.of" "file133.of";
+connectAttr "place2dTexture23.r" "file133.ro";
+connectAttr "place2dTexture23.n" "file133.n";
+connectAttr "place2dTexture23.vt1" "file133.vt1";
+connectAttr "place2dTexture23.vt2" "file133.vt2";
+connectAttr "place2dTexture23.vt3" "file133.vt3";
+connectAttr "place2dTexture23.vc1" "file133.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file134.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file134.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file134.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file134.ws";
+connectAttr "place2dTexture23.o" "file134.uv";
+connectAttr "place2dTexture23.ofs" "file134.fs";
+connectAttr "place2dTexture23.c" "file134.c";
+connectAttr "place2dTexture23.tf" "file134.tf";
+connectAttr "place2dTexture23.rf" "file134.rf";
+connectAttr "place2dTexture23.mu" "file134.mu";
+connectAttr "place2dTexture23.mv" "file134.mv";
+connectAttr "place2dTexture23.s" "file134.s";
+connectAttr "place2dTexture23.wu" "file134.wu";
+connectAttr "place2dTexture23.wv" "file134.wv";
+connectAttr "place2dTexture23.re" "file134.re";
+connectAttr "place2dTexture23.of" "file134.of";
+connectAttr "place2dTexture23.r" "file134.ro";
+connectAttr "place2dTexture23.n" "file134.n";
+connectAttr "place2dTexture23.vt1" "file134.vt1";
+connectAttr "place2dTexture23.vt2" "file134.vt2";
+connectAttr "place2dTexture23.vt3" "file134.vt3";
+connectAttr "place2dTexture23.vc1" "file134.vc1";
+connectAttr "file129.oc" "multiplyDivide21.i1";
+connectAttr "multiplyDivide21.o" "aiStandardSurface17.base_color";
+connectAttr "file130.oc" "aiStandardSurface17.emission_color";
+connectAttr "file132.oa" "aiStandardSurface17.metalness";
+connectAttr "bump2d22.o" "aiStandardSurface17.n";
+connectAttr "file134.oa" "aiStandardSurface17.specular_roughness";
+connectAttr "aiStandardSurface17.out" "set23.ss";
+connectAttr "displacementShader23.d" "set23.ds";
+connectAttr "set23.msg" "materialInfo38.sg";
+connectAttr "aiStandardSurface17.msg" "materialInfo38.m";
+connectAttr "aiStandardSurface17.msg" "materialInfo38.t" -na;
+connectAttr "file131.oa" "displacementShader23.d";
+connectAttr "file133.oa" "bump2d22.bv";
+connectAttr "standardSurface13.oc" "standardSurface13SG.ss";
+connectAttr "standardSurface13SG.msg" "materialInfo39.sg";
+connectAttr "standardSurface13.msg" "materialInfo39.m";
+connectAttr ":defaultColorMgtGlobals.cme" "file135.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file135.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file135.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file135.ws";
+connectAttr "place2dTexture24.o" "file135.uv";
+connectAttr "place2dTexture24.ofs" "file135.fs";
+connectAttr "place2dTexture24.c" "file135.c";
+connectAttr "place2dTexture24.tf" "file135.tf";
+connectAttr "place2dTexture24.rf" "file135.rf";
+connectAttr "place2dTexture24.mu" "file135.mu";
+connectAttr "place2dTexture24.mv" "file135.mv";
+connectAttr "place2dTexture24.s" "file135.s";
+connectAttr "place2dTexture24.wu" "file135.wu";
+connectAttr "place2dTexture24.wv" "file135.wv";
+connectAttr "place2dTexture24.re" "file135.re";
+connectAttr "place2dTexture24.of" "file135.of";
+connectAttr "place2dTexture24.r" "file135.ro";
+connectAttr "place2dTexture24.n" "file135.n";
+connectAttr "place2dTexture24.vt1" "file135.vt1";
+connectAttr "place2dTexture24.vt2" "file135.vt2";
+connectAttr "place2dTexture24.vt3" "file135.vt3";
+connectAttr "place2dTexture24.vc1" "file135.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file136.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file136.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file136.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file136.ws";
+connectAttr "place2dTexture24.o" "file136.uv";
+connectAttr "place2dTexture24.ofs" "file136.fs";
+connectAttr "place2dTexture24.c" "file136.c";
+connectAttr "place2dTexture24.tf" "file136.tf";
+connectAttr "place2dTexture24.rf" "file136.rf";
+connectAttr "place2dTexture24.mu" "file136.mu";
+connectAttr "place2dTexture24.mv" "file136.mv";
+connectAttr "place2dTexture24.s" "file136.s";
+connectAttr "place2dTexture24.wu" "file136.wu";
+connectAttr "place2dTexture24.wv" "file136.wv";
+connectAttr "place2dTexture24.re" "file136.re";
+connectAttr "place2dTexture24.of" "file136.of";
+connectAttr "place2dTexture24.r" "file136.ro";
+connectAttr "place2dTexture24.n" "file136.n";
+connectAttr "place2dTexture24.vt1" "file136.vt1";
+connectAttr "place2dTexture24.vt2" "file136.vt2";
+connectAttr "place2dTexture24.vt3" "file136.vt3";
+connectAttr "place2dTexture24.vc1" "file136.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file137.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file137.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file137.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file137.ws";
+connectAttr "place2dTexture24.o" "file137.uv";
+connectAttr "place2dTexture24.ofs" "file137.fs";
+connectAttr "place2dTexture24.c" "file137.c";
+connectAttr "place2dTexture24.tf" "file137.tf";
+connectAttr "place2dTexture24.rf" "file137.rf";
+connectAttr "place2dTexture24.mu" "file137.mu";
+connectAttr "place2dTexture24.mv" "file137.mv";
+connectAttr "place2dTexture24.s" "file137.s";
+connectAttr "place2dTexture24.wu" "file137.wu";
+connectAttr "place2dTexture24.wv" "file137.wv";
+connectAttr "place2dTexture24.re" "file137.re";
+connectAttr "place2dTexture24.of" "file137.of";
+connectAttr "place2dTexture24.r" "file137.ro";
+connectAttr "place2dTexture24.n" "file137.n";
+connectAttr "place2dTexture24.vt1" "file137.vt1";
+connectAttr "place2dTexture24.vt2" "file137.vt2";
+connectAttr "place2dTexture24.vt3" "file137.vt3";
+connectAttr "place2dTexture24.vc1" "file137.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file138.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file138.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file138.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file138.ws";
+connectAttr "place2dTexture24.o" "file138.uv";
+connectAttr "place2dTexture24.ofs" "file138.fs";
+connectAttr "place2dTexture24.c" "file138.c";
+connectAttr "place2dTexture24.tf" "file138.tf";
+connectAttr "place2dTexture24.rf" "file138.rf";
+connectAttr "place2dTexture24.mu" "file138.mu";
+connectAttr "place2dTexture24.mv" "file138.mv";
+connectAttr "place2dTexture24.s" "file138.s";
+connectAttr "place2dTexture24.wu" "file138.wu";
+connectAttr "place2dTexture24.wv" "file138.wv";
+connectAttr "place2dTexture24.re" "file138.re";
+connectAttr "place2dTexture24.of" "file138.of";
+connectAttr "place2dTexture24.r" "file138.ro";
+connectAttr "place2dTexture24.n" "file138.n";
+connectAttr "place2dTexture24.vt1" "file138.vt1";
+connectAttr "place2dTexture24.vt2" "file138.vt2";
+connectAttr "place2dTexture24.vt3" "file138.vt3";
+connectAttr "place2dTexture24.vc1" "file138.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file139.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file139.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file139.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file139.ws";
+connectAttr "place2dTexture24.o" "file139.uv";
+connectAttr "place2dTexture24.ofs" "file139.fs";
+connectAttr "place2dTexture24.c" "file139.c";
+connectAttr "place2dTexture24.tf" "file139.tf";
+connectAttr "place2dTexture24.rf" "file139.rf";
+connectAttr "place2dTexture24.mu" "file139.mu";
+connectAttr "place2dTexture24.mv" "file139.mv";
+connectAttr "place2dTexture24.s" "file139.s";
+connectAttr "place2dTexture24.wu" "file139.wu";
+connectAttr "place2dTexture24.wv" "file139.wv";
+connectAttr "place2dTexture24.re" "file139.re";
+connectAttr "place2dTexture24.of" "file139.of";
+connectAttr "place2dTexture24.r" "file139.ro";
+connectAttr "place2dTexture24.n" "file139.n";
+connectAttr "place2dTexture24.vt1" "file139.vt1";
+connectAttr "place2dTexture24.vt2" "file139.vt2";
+connectAttr "place2dTexture24.vt3" "file139.vt3";
+connectAttr "place2dTexture24.vc1" "file139.vc1";
+connectAttr ":defaultColorMgtGlobals.cme" "file140.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file140.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file140.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file140.ws";
+connectAttr "place2dTexture24.o" "file140.uv";
+connectAttr "place2dTexture24.ofs" "file140.fs";
+connectAttr "place2dTexture24.c" "file140.c";
+connectAttr "place2dTexture24.tf" "file140.tf";
+connectAttr "place2dTexture24.rf" "file140.rf";
+connectAttr "place2dTexture24.mu" "file140.mu";
+connectAttr "place2dTexture24.mv" "file140.mv";
+connectAttr "place2dTexture24.s" "file140.s";
+connectAttr "place2dTexture24.wu" "file140.wu";
+connectAttr "place2dTexture24.wv" "file140.wv";
+connectAttr "place2dTexture24.re" "file140.re";
+connectAttr "place2dTexture24.of" "file140.of";
+connectAttr "place2dTexture24.r" "file140.ro";
+connectAttr "place2dTexture24.n" "file140.n";
+connectAttr "place2dTexture24.vt1" "file140.vt1";
+connectAttr "place2dTexture24.vt2" "file140.vt2";
+connectAttr "place2dTexture24.vt3" "file140.vt3";
+connectAttr "place2dTexture24.vc1" "file140.vc1";
+connectAttr "file135.oc" "multiplyDivide22.i1";
+connectAttr "multiplyDivide22.o" "aiStandardSurface18.base_color";
+connectAttr "file136.oc" "aiStandardSurface18.emission_color";
+connectAttr "file138.oa" "aiStandardSurface18.metalness";
+connectAttr "bump2d23.o" "aiStandardSurface18.n";
+connectAttr "file140.oa" "aiStandardSurface18.specular_roughness";
+connectAttr "aiStandardSurface18.out" "set24.ss";
+connectAttr "displacementShader24.d" "set24.ds";
+connectAttr "set24.msg" "materialInfo40.sg";
+connectAttr "aiStandardSurface18.msg" "materialInfo40.m";
+connectAttr "aiStandardSurface18.msg" "materialInfo40.t" -na;
+connectAttr "file137.oa" "displacementShader24.d";
+connectAttr "file139.oa" "bump2d23.bv";
 connectAttr "set1.pa" ":renderPartition.st" -na;
 connectAttr "lambert2SG.pa" ":renderPartition.st" -na;
 connectAttr "set2.pa" ":renderPartition.st" -na;
@@ -33637,6 +37620,32 @@ connectAttr "set8.pa" ":renderPartition.st" -na;
 connectAttr "set9.pa" ":renderPartition.st" -na;
 connectAttr "set10.pa" ":renderPartition.st" -na;
 connectAttr "set11.pa" ":renderPartition.st" -na;
+connectAttr "standardSurface2SG.pa" ":renderPartition.st" -na;
+connectAttr "set12.pa" ":renderPartition.st" -na;
+connectAttr "standardSurface3SG.pa" ":renderPartition.st" -na;
+connectAttr "set13.pa" ":renderPartition.st" -na;
+connectAttr "standardSurface4SG.pa" ":renderPartition.st" -na;
+connectAttr "set14.pa" ":renderPartition.st" -na;
+connectAttr "set15.pa" ":renderPartition.st" -na;
+connectAttr "standardSurface5SG.pa" ":renderPartition.st" -na;
+connectAttr "set16.pa" ":renderPartition.st" -na;
+connectAttr "standardSurface6SG.pa" ":renderPartition.st" -na;
+connectAttr "set17.pa" ":renderPartition.st" -na;
+connectAttr "standardSurface7SG.pa" ":renderPartition.st" -na;
+connectAttr "set18.pa" ":renderPartition.st" -na;
+connectAttr "standardSurface8SG.pa" ":renderPartition.st" -na;
+connectAttr "set19.pa" ":renderPartition.st" -na;
+connectAttr "standardSurface9SG.pa" ":renderPartition.st" -na;
+connectAttr "set20.pa" ":renderPartition.st" -na;
+connectAttr "standardSurface10SG.pa" ":renderPartition.st" -na;
+connectAttr "standardSurface11SG.pa" ":renderPartition.st" -na;
+connectAttr "set21.pa" ":renderPartition.st" -na;
+connectAttr "standardSurface12SG.pa" ":renderPartition.st" -na;
+connectAttr "set22.pa" ":renderPartition.st" -na;
+connectAttr "lambert4SG.pa" ":renderPartition.st" -na;
+connectAttr "set23.pa" ":renderPartition.st" -na;
+connectAttr "standardSurface13SG.pa" ":renderPartition.st" -na;
+connectAttr "set24.pa" ":renderPartition.st" -na;
 connectAttr "aiStandardSurface1.msg" ":defaultShaderList1.s" -na;
 connectAttr "displacementShader1.msg" ":defaultShaderList1.s" -na;
 connectAttr "lambert2.msg" ":defaultShaderList1.s" -na;
@@ -33661,6 +37670,45 @@ connectAttr "aiStandardSurface10.msg" ":defaultShaderList1.s" -na;
 connectAttr "displacementShader10.msg" ":defaultShaderList1.s" -na;
 connectAttr "aiStandardSurface11.msg" ":defaultShaderList1.s" -na;
 connectAttr "displacementShader11.msg" ":defaultShaderList1.s" -na;
+connectAttr "Table.msg" ":defaultShaderList1.s" -na;
+connectAttr "tableColor.msg" ":defaultShaderList1.s" -na;
+connectAttr "displacementShader12.msg" ":defaultShaderList1.s" -na;
+connectAttr "standardSurface3.msg" ":defaultShaderList1.s" -na;
+connectAttr "aiStandardSurface13.msg" ":defaultShaderList1.s" -na;
+connectAttr "displacementShader13.msg" ":defaultShaderList1.s" -na;
+connectAttr "standardSurface4.msg" ":defaultShaderList1.s" -na;
+connectAttr "aiStandardSurface14.msg" ":defaultShaderList1.s" -na;
+connectAttr "displacementShader14.msg" ":defaultShaderList1.s" -na;
+connectAttr "upCig.msg" ":defaultShaderList1.s" -na;
+connectAttr "displacementShader15.msg" ":defaultShaderList1.s" -na;
+connectAttr "standardSurface5.msg" ":defaultShaderList1.s" -na;
+connectAttr "ashTray1.msg" ":defaultShaderList1.s" -na;
+connectAttr "displacementShader16.msg" ":defaultShaderList1.s" -na;
+connectAttr "standardSurface6.msg" ":defaultShaderList1.s" -na;
+connectAttr "DownCig.msg" ":defaultShaderList1.s" -na;
+connectAttr "displacementShader17.msg" ":defaultShaderList1.s" -na;
+connectAttr "standardSurface7.msg" ":defaultShaderList1.s" -na;
+connectAttr "stoolCushion.msg" ":defaultShaderList1.s" -na;
+connectAttr "displacementShader18.msg" ":defaultShaderList1.s" -na;
+connectAttr "standardSurface8.msg" ":defaultShaderList1.s" -na;
+connectAttr "Ring.msg" ":defaultShaderList1.s" -na;
+connectAttr "displacementShader19.msg" ":defaultShaderList1.s" -na;
+connectAttr "standardSurface9.msg" ":defaultShaderList1.s" -na;
+connectAttr "aiStandardSurface15.msg" ":defaultShaderList1.s" -na;
+connectAttr "displacementShader20.msg" ":defaultShaderList1.s" -na;
+connectAttr "stoolLegs_.msg" ":defaultShaderList1.s" -na;
+connectAttr "standardSurface11.msg" ":defaultShaderList1.s" -na;
+connectAttr "Wall.msg" ":defaultShaderList1.s" -na;
+connectAttr "displacementShader21.msg" ":defaultShaderList1.s" -na;
+connectAttr "standardSurface12.msg" ":defaultShaderList1.s" -na;
+connectAttr "aiStandardSurface16.msg" ":defaultShaderList1.s" -na;
+connectAttr "displacementShader22.msg" ":defaultShaderList1.s" -na;
+connectAttr "lambert4.msg" ":defaultShaderList1.s" -na;
+connectAttr "aiStandardSurface17.msg" ":defaultShaderList1.s" -na;
+connectAttr "displacementShader23.msg" ":defaultShaderList1.s" -na;
+connectAttr "standardSurface13.msg" ":defaultShaderList1.s" -na;
+connectAttr "aiStandardSurface18.msg" ":defaultShaderList1.s" -na;
+connectAttr "displacementShader24.msg" ":defaultShaderList1.s" -na;
 connectAttr "place2dTexture1.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "bump2d1.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "place2dTexture2.msg" ":defaultRenderUtilityList1.u" -na;
@@ -33683,6 +37731,32 @@ connectAttr "place2dTexture10.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "bump2d9.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "place2dTexture11.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "bump2d10.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "place2dTexture12.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "bump2d11.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "place2dTexture13.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "bump2d12.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "place2dTexture14.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "bump2d13.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "place2dTexture15.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "bump2d14.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "place2dTexture16.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "bump2d15.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "place2dTexture17.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "bump2d16.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "place2dTexture18.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "bump2d17.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "place2dTexture19.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "bump2d18.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "place2dTexture20.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "bump2d19.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "place2dTexture21.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "bump2d20.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "place2dTexture22.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "bump2d21.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "place2dTexture23.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "bump2d22.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "place2dTexture24.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "bump2d23.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "directionalLightShape1.ltd" ":lightList1.l" -na;
 connectAttr "file1.msg" ":defaultTextureList1.tx" -na;
@@ -33750,6 +37824,82 @@ connectAttr "file62.msg" ":defaultTextureList1.tx" -na;
 connectAttr "file63.msg" ":defaultTextureList1.tx" -na;
 connectAttr "file64.msg" ":defaultTextureList1.tx" -na;
 connectAttr "file65.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file66.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file67.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file68.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file69.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file70.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file71.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file72.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file73.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file74.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file75.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file76.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file77.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file78.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file79.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file80.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file81.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file82.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file83.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file84.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file85.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file86.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file87.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file88.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file89.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file90.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file91.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file92.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file93.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file94.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file95.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file96.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file97.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file98.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file99.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file100.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file101.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file102.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file103.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file104.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file105.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file106.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file107.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file108.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file109.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file110.msg" ":defaultTextureList1.tx" -na;
+connectAttr "RingStool.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file111.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file112.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file113.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file114.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file115.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file116.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file117.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file118.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file119.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file120.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file121.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file122.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file123.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file124.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file125.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file126.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file127.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file128.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file129.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file130.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file131.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file132.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file133.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file134.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file135.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file136.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file137.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file138.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file139.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file140.msg" ":defaultTextureList1.tx" -na;
 connectAttr "pCubeShape2.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCylinderShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape3.iog" ":initialShadingGroup.dsm" -na;
@@ -33835,8 +37985,6 @@ connectAttr "pCubeShape63.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCylinderShape20.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCylinderShape21.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCylinderShape22.iog" ":initialShadingGroup.dsm" -na;
-connectAttr "pCylinder26Shape.iog.og[0]" ":initialShadingGroup.dsm" -na;
-connectAttr "pCylinder26Shape.ciog.cog[3]" ":initialShadingGroup.dsm" -na;
 connectAttr "pCylinderShape23.iog.og[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "pCylinderShape23.ciog.cog[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "polySurfaceShape6.iog.og[0]" ":initialShadingGroup.dsm" -na;
@@ -33868,8 +38016,6 @@ connectAttr "groupId13.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId14.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId15.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId16.msg" ":initialShadingGroup.gn" -na;
-connectAttr "groupId19.msg" ":initialShadingGroup.gn" -na;
-connectAttr "groupId20.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId21.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId22.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId23.msg" ":initialShadingGroup.gn" -na;
