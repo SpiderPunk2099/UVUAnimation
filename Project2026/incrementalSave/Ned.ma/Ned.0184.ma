@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: Ned.ma
-//Last modified: Wed, Sep 09, 2026 06:45:29 PM
+//Last modified: Wed, Sep 09, 2026 06:30:57 PM
 //Codeset: UTF-8
 requires maya "2026";
 currentUnit -l meter -a degree -t film;
@@ -9,10 +9,10 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 14.5";
-fileInfo "UUID" "57512A82-4D41-F7CD-D9A8-17BE2488E140";
+fileInfo "UUID" "92FFD856-AD40-1456-EE4D-B7ACD5F56E16";
 createNode transform -s -n "persp";
 	rename -uid "907FA988-934A-CACF-1A0F-DD8BB43176AE";
-	setAttr ".t" -type "double3" -0.015798149018864081 9.5765792465053909 15.308851304247248 ;
+	setAttr ".t" -type "double3" 0.28464786771701717 6.327844406926781 4.5527176719596625 ;
 	setAttr ".r" -type "double3" -16.800000000000111 358.39999999994888 -4.9715550243168997e-17 ;
 	setAttr ".rp" -type "double3" 7.105427357601002e-17 0 0 ;
 	setAttr ".rpt" -type "double3" 8.4930168705221901e-17 -3.333566483679512e-15 8.8396768648878836e-17 ;
@@ -24,7 +24,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".ncp" 0.01;
 	setAttr ".fcp" 100;
 	setAttr ".fd" 0.05;
-	setAttr ".coi" 16.697497452669278;
+	setAttr ".coi" 5.4574371066349885;
 	setAttr ".ow" 0.1;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
@@ -74273,6 +74273,8 @@ createNode transform -n "COG_Ctrl_Grp" -p "Controls";
 	addAttr -ci true -sn "FollowTranslate" -ln "FollowTranslate" -dv 1 -min 0 -max 
 		1 -at "double";
 	addAttr -ci true -sn "FollowRotate" -ln "FollowRotate" -min 0 -max 1 -at "double";
+	setAttr ".t" -type "double3" 1.2969970703125e-05 4.4288311767578126 0.026273384094238281 ;
+	setAttr -av ".tx";
 	setAttr -k on ".FollowTranslate";
 	setAttr -k on ".FollowRotate";
 createNode transform -n "COG_Ctrl" -p "COG_Ctrl_Grp";
@@ -74720,6 +74722,8 @@ createNode transform -n "Spine_Ctrl_Grp" -p "Controls";
 	rename -uid "66629CA2-B447-2807-36B9-FEB39A68F6AF";
 createNode transform -n "spine_01_FK_Ctrl_Grp" -p "Spine_Ctrl_Grp";
 	rename -uid "ADE3D938-5B41-4A21-FB85-C88182D4944A";
+	setAttr ".t" -type "double3" 1.2969970703764493e-05 4.4288311767578117 0.026273384094238281 ;
+	setAttr -av ".tx";
 createNode transform -n "spine_01_FK_Ctrl" -p "spine_01_FK_Ctrl_Grp";
 	rename -uid "593F9C68-5D4E-23C4-FE2C-DFBD1A81B406";
 	addAttr -ci true -sn "FollowTranslate" -ln "FollowTranslate" -min 0 -max 1 -at "double";
